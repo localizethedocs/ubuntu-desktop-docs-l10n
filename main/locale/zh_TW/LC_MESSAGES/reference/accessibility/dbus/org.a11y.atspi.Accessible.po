@@ -37,11 +37,11 @@ msgstr ""
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Accessible.md:10
 msgid "Properties"
-msgstr ""
+msgstr "屬性"
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Accessible.md:12
 msgid "org.a11y.atspi.Accessible:Name"
-msgstr ""
+msgstr "org.a11y.atspi.Accessible:Name"
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Accessible.md:14
 msgid "Name readable s\n"
@@ -231,6 +231,9 @@ msgid ""
 "  OUT unnamed_arg0 a(so)\n"
 ")\n"
 msgstr ""
+"GetChildren (\n"
+"  OUT unnamed_arg0 a(so)\n"
+")\n"
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Accessible.md:147
 msgid "Returns a list of the object\\'s accessible children."
@@ -250,7 +253,7 @@ msgstr ""
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Accessible.md:156
 msgid "org.a11y.atspi.Accessible.GetIndexInParent"
-msgstr ""
+msgstr "org.a11y.atspi.Accessible.GetIndexInParent"
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Accessible.md:160
 msgid ""
@@ -258,6 +261,9 @@ msgid ""
 "  OUT unnamed_arg0 i\n"
 ")\n"
 msgstr ""
+"GetIndexInParent (\n"
+"  OUT unnamed_arg0 i\n"
+")\n"
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Accessible.md:166
 msgid ""
@@ -554,7 +560,7 @@ msgstr ""
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Accessible.md:334
 msgid "org.a11y.atspi.Accessible.GetRole"
-msgstr ""
+msgstr "org.a11y.atspi.Accessible.GetRole"
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Accessible.md:338
 msgid ""
@@ -562,6 +568,9 @@ msgid ""
 "  OUT unnamed_arg0 u\n"
 ")\n"
 msgstr ""
+"GetRole (\n"
+"  OUT unnamed_arg0 u\n"
+")\n"
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Accessible.md:344
 msgid ""

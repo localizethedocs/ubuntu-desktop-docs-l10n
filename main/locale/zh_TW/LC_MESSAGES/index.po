@@ -150,7 +150,7 @@ msgstr ""
 
 #: ../../../index.md:54
 msgid "Project and community"
-msgstr ""
+msgstr "專案與社群"
 
 #: ../../../index.md:56
 msgid ""
@@ -188,10 +188,12 @@ msgid ""
 "[Contribute to this documentation](https://github.com/ubuntu/ubuntu-desktop-"
 "documentation/blob/main/CONTRIBUTING.md)"
 msgstr ""
+"[貢獻本文件](https://github.com/ubuntu/ubuntu-desktop-documentation/blob/"
+"main/CONTRIBUTING.md)"
 
 #: ../../../index.md:67
 msgid "Releases"
-msgstr ""
+msgstr "發行版"
 
 #: ../../../index.md:69
 msgid ""
@@ -210,6 +212,7 @@ msgid ""
 "{external:ref}`Release notes for Ubuntu 24.04 LTS <ubuntu-24.04-lts-release-"
 "notes>`"
 msgstr ""
+"{external:ref}`Ubuntu 24.04 LTS 的發行備註 <ubuntu-24.04-lts-release-notes>`"
 
 #: ../../../index.md:73
 msgid "Governance and policies"

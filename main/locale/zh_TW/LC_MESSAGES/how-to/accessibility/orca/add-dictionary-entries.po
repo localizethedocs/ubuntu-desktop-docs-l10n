@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/add-dictionary-entries.md:7
 msgid "Topics: Accessibility"
-msgstr ""
+msgstr "話題：無障礙功能"
 
 #: ../../../how-to/accessibility/orca/add-dictionary-entries.md:11
 msgid "Add, edit, or remove dictionary entries"
@@ -70,7 +70,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/add-dictionary-entries.md:23
 msgid "Edit an existing entry"
-msgstr ""
+msgstr "編輯一個現有的條目"
 
 #: ../../../how-to/accessibility/orca/add-dictionary-entries.md:25
 msgid "Select the desired entry"
@@ -86,11 +86,11 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/add-dictionary-entries.md:29
 msgid "Delete an entry"
-msgstr ""
+msgstr "刪除一個條目"
 
 #: ../../../how-to/accessibility/orca/add-dictionary-entries.md:31
 msgid "Select the entry"
-msgstr ""
+msgstr "選取一個條目"
 
 #: ../../../how-to/accessibility/orca/add-dictionary-entries.md:32
 msgid "Press the {guilabel}`Delete` button or {kbd}`Alt+D`"

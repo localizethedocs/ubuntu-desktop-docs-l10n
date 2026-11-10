@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:14
 msgid "Properties"
-msgstr ""
+msgstr "屬性"
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:16
 msgid "org.a11y.atspi.Action:NActions"

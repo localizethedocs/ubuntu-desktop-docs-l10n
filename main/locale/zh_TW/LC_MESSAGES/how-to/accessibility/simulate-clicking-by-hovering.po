@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:7
 msgid "Topics: Accessibility"
-msgstr ""
+msgstr "話題：無障礙功能"
 
 #: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:11
 msgid "Simulate clicking by hovering"

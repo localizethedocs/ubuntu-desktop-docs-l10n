@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:5
 msgid "Properties"
-msgstr ""
+msgstr "屬性"
 
 #: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:7
 msgid "org.a11y.atspi.Value:MinimumValue {#org.a11y.atspi.Value:MinimumValue}"

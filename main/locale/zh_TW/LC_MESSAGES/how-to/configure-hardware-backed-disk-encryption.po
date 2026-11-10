@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../../how-to/configure-hardware-backed-disk-encryption.md:0
 msgid "Graphical interface"
-msgstr ""
+msgstr "圖形化介面"
 
 #: ../../../how-to/configure-hardware-backed-disk-encryption.md:27
 msgid "Open the Security Center app."
@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../../../how-to/configure-hardware-backed-disk-encryption.md:0
 msgid "Command line"
-msgstr ""
+msgstr "命令行"
 
 #: ../../../how-to/configure-hardware-backed-disk-encryption.md:35
 #: ../../../how-to/configure-hardware-backed-disk-encryption.md:99

@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../reference/accessibility/dbus/index.md:7
 msgid "Topics: Accessibility"
-msgstr ""
+msgstr "話題：無障礙功能"
 
 #: ../../../reference/accessibility/dbus/index.md:11
 msgid "AT-SPI DBus XML interfaces"

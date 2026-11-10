@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../../how-to/access-a-remote-desktop.md:34
 msgid "Install Remmina"
-msgstr ""
+msgstr "安裝 Remmina"
 
 #: ../../../how-to/access-a-remote-desktop.md:36
 msgid "Remmina is part of the extended Ubuntu installation."
@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../../../how-to/access-a-remote-desktop.md:0
 msgid "Graphical interface"
-msgstr ""
+msgstr "圖形化介面"
 
 #: ../../../how-to/access-a-remote-desktop.md:45
 msgid "Search for Remmina in the App Center and install it there."
@@ -104,7 +104,7 @@ msgstr ""
 
 #: ../../../how-to/access-a-remote-desktop.md:0
 msgid "Command line"
-msgstr ""
+msgstr "命令行"
 
 #: ../../../how-to/access-a-remote-desktop.md:51
 msgid "Install Remmina as a Snap:"
@@ -160,7 +160,7 @@ msgstr ""
 
 #: ../../../how-to/access-a-remote-desktop.md:88
 msgid "Username"
-msgstr ""
+msgstr "使用者名稱"
 
 #: ../../../how-to/access-a-remote-desktop.md:89
 msgid ""
@@ -233,7 +233,7 @@ msgstr ""
 
 #: ../../../how-to/access-a-remote-desktop.md:112
 msgid "Confirm"
-msgstr ""
+msgstr "確認"
 
 #: ../../../how-to/access-a-remote-desktop.md:114
 msgid ""

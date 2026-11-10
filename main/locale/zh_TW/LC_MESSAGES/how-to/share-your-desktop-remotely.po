@@ -189,7 +189,7 @@ msgstr ""
 
 #: ../../../how-to/share-your-desktop-remotely.md:0
 msgid "Graphical interface"
-msgstr ""
+msgstr "圖形化介面"
 
 #: ../../../how-to/share-your-desktop-remotely.md:72
 msgid ""
@@ -205,7 +205,7 @@ msgstr ""
 
 #: ../../../how-to/share-your-desktop-remotely.md:0
 msgid "Command line"
-msgstr ""
+msgstr "命令行"
 
 #: ../../../how-to/share-your-desktop-remotely.md:-1
 msgid ""

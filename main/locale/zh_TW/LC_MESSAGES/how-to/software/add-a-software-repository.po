@@ -85,7 +85,7 @@ msgstr ""
 
 #: ../../../how-to/software/add-a-software-repository.md:0
 msgid "Graphical interface"
-msgstr ""
+msgstr "圖形化介面"
 
 #: ../../../how-to/software/add-a-software-repository.md:42
 #: ../../../how-to/software/add-a-software-repository.md:59
@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../../how-to/software/add-a-software-repository.md:0
 msgid "Command line"
-msgstr ""
+msgstr "命令行"
 
 #: ../../../how-to/software/add-a-software-repository.md:61
 msgid "Enable the PPA using the `add-apt-repository` tool:"

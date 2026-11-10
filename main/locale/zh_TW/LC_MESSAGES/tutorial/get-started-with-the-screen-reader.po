@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:8
 msgid "Topics: Accessibility"
-msgstr ""
+msgstr "話題：無障礙功能"
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:12
 msgid "Get started with the screen reader"

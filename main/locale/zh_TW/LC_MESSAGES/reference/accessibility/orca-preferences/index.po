@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../reference/accessibility/orca-preferences/index.md:7
 msgid "Topics: Accessibility"
-msgstr ""
+msgstr "話題：無障礙功能"
 
 #: ../../../reference/accessibility/orca-preferences/index.md:11
 msgid "Screen reader preferences"
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../../reference/accessibility/orca-preferences/index.md:0
 msgid "Laptop layout"
-msgstr ""
+msgstr "筆記型電腦配置"
 
 #: ../../../reference/accessibility/orca-preferences/index.md:24
 msgid "{kbd}`CapsLock+Space`"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../../reference/accessibility/orca-preferences/index.md:0
 msgid "Desktop layout"
-msgstr ""
+msgstr "桌上型電腦配置"
 
 #: ../../../reference/accessibility/orca-preferences/index.md:34
 msgid "{kbd}`Insert+Space`"

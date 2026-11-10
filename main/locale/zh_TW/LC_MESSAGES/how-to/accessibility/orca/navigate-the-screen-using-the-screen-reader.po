@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:7
 msgid "Topics: Accessibility"
-msgstr ""
+msgstr "話題：無障礙功能"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:11
 msgid "Navigate the screen using the screen reader"
@@ -62,7 +62,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:23
 msgid "Window information"
-msgstr ""
+msgstr "視窗資訊"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:25
 msgid "Find out which window is active."
@@ -74,15 +74,15 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:0
 msgid "Laptop layout"
-msgstr ""
+msgstr "筆記型電腦配置"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:34
 msgid "{kbd}`CapsLock+/`"
-msgstr ""
+msgstr "{kbd}`CapsLock+/`"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:0
 msgid "Desktop layout"
-msgstr ""
+msgstr "桌上型電腦配置"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:40
 msgid "{kbd}`Insert+Enter` on the numeric keypad"
@@ -124,11 +124,11 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:72
 msgid "{kbd}`CapsLock+Enter`"
-msgstr ""
+msgstr "{kbd}`CapsLock+Enter`"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:78
 msgid "{kbd}`Insert+Enter`"
-msgstr ""
+msgstr "{kbd}`Insert+Enter`"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:81
 msgid "Detailed information"
@@ -214,7 +214,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:138
 msgid "{kbd}`CapsLock+Ctrl+K`"
-msgstr ""
+msgstr "{kbd}`CapsLock+Ctrl+K`"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:144
 msgid "{kbd}`Insert+5` on the numeric keypad"
@@ -242,7 +242,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:173
 msgid "{kbd}`CapsLock+Ctrl+U`"
-msgstr ""
+msgstr "{kbd}`CapsLock+Ctrl+U`"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:179
 msgid "{kbd}`Insert+7` on the numeric keypad"
@@ -254,7 +254,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:189
 msgid "{kbd}`CapsLock+U`"
-msgstr ""
+msgstr "{kbd}`CapsLock+U`"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:195
 msgid "{kbd}`7` on the numeric keypad"
@@ -330,7 +330,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:287
 msgid "{kbd}`CapsLock+Ctrl+J`"
-msgstr ""
+msgstr "{kbd}`CapsLock+Ctrl+J`"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:293
 msgid "{kbd}`Insert+4` on the numeric keypad"
@@ -466,7 +466,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:465
 msgid "{kbd}`CapsLock+.`"
-msgstr ""
+msgstr "{kbd}`CapsLock+.`"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:471
 msgid "{kbd}`3` on the numeric keypad"
@@ -478,7 +478,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:481
 msgid "{kbd}`CapsLock+Ctrl+M`"
-msgstr ""
+msgstr "{kbd}`CapsLock+Ctrl+M`"
 
 #: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:487
 msgid "{kbd}`Insert+1` on the numeric keypad"

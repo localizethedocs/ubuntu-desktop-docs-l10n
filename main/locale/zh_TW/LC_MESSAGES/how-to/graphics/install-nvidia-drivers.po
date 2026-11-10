@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../../how-to/graphics/install-nvidia-drivers.md:0
 msgid "Graphical interface"
-msgstr ""
+msgstr "圖形化介面"
 
 #: ../../../how-to/graphics/install-nvidia-drivers.md:55
 #: ../../../how-to/graphics/install-nvidia-drivers.md:144
@@ -160,7 +160,7 @@ msgstr ""
 
 #: ../../../how-to/graphics/install-nvidia-drivers.md:0
 msgid "Command line"
-msgstr ""
+msgstr "命令行"
 
 #: ../../../how-to/graphics/install-nvidia-drivers.md:75
 msgid ""

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../topics.md:5
 msgid "Topics"
-msgstr ""
+msgstr "話題"
 
 #: ../../../topics.md:7
 msgid "You can browse this documentation using the following tags."

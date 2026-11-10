@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "Topics: Accessibility"
-msgstr ""
+msgstr "話題：無障礙功能"
 
 #: ../../../explanation/accessibility-stack.md:11
 msgid "Accessibility stack"
@@ -187,15 +187,15 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "[Gtk.Accessible](https://docs.gtk.org/gtk4/iface.Accessible.html)"
-msgstr ""
+msgstr "[Gtk.Accessible](https://docs.gtk.org/gtk4/iface.Accessible.html)"
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "Login and Lock screens"
-msgstr ""
+msgstr "登入與鎖定螢幕"
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "GTK3"
-msgstr ""
+msgstr "GTK3"
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "[ATK](https://docs.gtk.org/atk/)"
@@ -203,7 +203,7 @@ msgstr "[ATK](https://docs.gtk.org/atk/)"
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "System Settings app"
-msgstr ""
+msgstr "系統設定應用"
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "App Center"
@@ -217,7 +217,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "Software and Updates"
-msgstr ""
+msgstr "軟體與更新"
 
 #: ../../../explanation/accessibility-stack.md:65
 msgid "Screen reader and speech synthesis"

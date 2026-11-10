@@ -137,7 +137,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:51
 msgid "Press {kbd}`Super+Tab`."
-msgstr ""
+msgstr "按下 {kbd}`Super+Tab`。"
 
 #: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:53
 msgid "Orca announces the currently selected application."
