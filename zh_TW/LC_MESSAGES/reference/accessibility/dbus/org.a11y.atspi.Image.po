@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:1
+msgid "org.a11y.atspi.Image"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:5
+msgid "Properties"
+msgstr "屬性"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:7
+msgid "org.a11y.atspi.Image:ImageDescription"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:11
+msgid "ImageDescription readable s\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:13
+msgid "org.a11y.atspi.Image:ImageLocale"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:17
+msgid "ImageLocale readable s\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:19
+msgid "Methods {#org.a11y.atspi.Image Methods}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:21
+msgid "org.a11y.atspi.Image.GetImageExtents"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:25
+msgid ""
+"GetImageExtents (\n"
+"  IN coordType u,\n"
+"  OUT unnamed_arg1 (iiii)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:30
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:44
+msgid "coordType"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:32
+msgid "unnamed_arg1"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:34
+msgid "org.a11y.atspi.Image.GetImagePosition"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:38
+msgid ""
+"GetImagePosition (\n"
+"  IN coordType u,\n"
+"  OUT x i,\n"
+"  OUT y i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:46
+msgid "x"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:48
+msgid "y"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:50
+msgid "org.a11y.atspi.Image.GetImageSize"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:54
+msgid ""
+"GetImageSize (\n"
+"  OUT width i,\n"
+"  OUT height i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:59
+msgid "width"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Image.md:61
+msgid "height"
+msgstr ""

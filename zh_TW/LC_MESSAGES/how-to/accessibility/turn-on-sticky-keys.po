@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:0
+msgid ""
+"Turn on sticky keys to enter keyboard shortcuts one key at a time instead of "
+"holding several keys at once."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:7
+msgid "Topics: Accessibility"
+msgstr "話題：無障礙功能"
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:11
+msgid "Turn on sticky keys"
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:13
+msgid ""
+"*Sticky keys* allows you to type keyboard shortcuts one key at a time rather "
+"than having to hold down all of the keys at once. For example, the {kbd}"
+"`Super+Tab` shortcut switches between windows. Without sticky keys turned "
+"on, you would have to hold down both keys at the same time; with sticky keys "
+"turned on, you would press {kbd}`Super` and then {kbd}`Tab` to do the same."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:15
+msgid ""
+"You might want to turn on sticky keys if you find it difficult to hold down "
+"several keys at once."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:17
+msgid "Open the Activities overview and start typing **accessibility**."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:18
+msgid "Click {guilabel}`Accessibility` to open the panel."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:19
+msgid "Open the {guilabel}`Typing` section."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:20
+msgid ""
+"In the {guilabel}`Typing Assist` section, enable the {guilabel}`Sticky Keys` "
+"option."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:23
+msgid ""
+"Select the {guilabel}`Enable by Keyboard` option to turn sticky keys on and "
+"off from the keyboard. When this option is selected, you can press {kbd}"
+"`Shift` five times in a row to enable or disable sticky keys."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:25
+msgid ""
+"You can also turn sticky keys on and off by clicking the {ref}`accessibility "
+"icon <find-the-accessibility-menu>` on the top bar and selecting {guilabel}"
+"`Sticky Keys`. The accessibility icon is visible when one or more settings "
+"have been enabled from the {guilabel}`Accessibility` panel."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:28
+msgid ""
+"If you press two keys at once, you can have sticky keys turn itself off "
+"temporarily to let you enter a keyboard shortcut in the normal way."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:30
+msgid ""
+"For example, if you have sticky keys turned on but press {kbd}`Super` and "
+"{kbd}`Tab` simultaneously, sticky keys would not wait for you to press "
+"another key if you had this option turned on. It *would* wait if you only "
+"pressed one key, however. This is useful if you are able to press some "
+"keyboard shortcuts simultaneously (for example, keys that are close "
+"together), but not others."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:32
+msgid ""
+"Select {guilabel}`Disable if two keys are pressed together` to enable this "
+"behavior."
+msgstr ""
+
+#: ../../../how-to/accessibility/turn-on-sticky-keys.md:34
+msgid ""
+"You can have the computer make a “beep” sound when you start typing a "
+"keyboard shortcut with sticky keys turned on. This is useful if you want to "
+"know that sticky keys is expecting a keyboard shortcut to be typed, so the "
+"next key press will be interpreted as part of a shortcut. Select {guilabel}"
+"`Beep when a modifier key is pressed` to enable this."
+msgstr ""

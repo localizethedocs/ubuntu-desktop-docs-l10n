@@ -1,0 +1,1141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:0
+msgid ""
+"Turn a USB stick into Ubuntu installation media from Ubuntu, Windows or "
+"macOS so you can try or install Ubuntu."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:7
+msgid "Topics: Installation Windows macOS"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:11
+msgid "Create a bootable USB stick"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:13
+msgid ""
+"You can convert your USB stick (USB flash drive) into Ubuntu installation "
+"media. This is different from copying a file to the USB stick. Instead, use "
+"a specialized application to rewrite your USB stick with Ubuntu. Select an "
+"application depending on the system that you're currently using."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:15
+msgid "With a bootable Ubuntu USB stick, you can:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:17
+msgid "Install or upgrade Ubuntu."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:18
+msgid ""
+"Test out the Ubuntu Desktop experience without touching your PC "
+"configuration."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:19
+msgid "Boot into Ubuntu on a borrowed machine."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:20
+msgid "Use tools from the USB stick to repair or fix a broken configuration."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:22
+msgid "You need:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:24
+msgid "An 8GB USB stick or larger."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:27
+msgid ""
+"Back up your files on the USB stick. This process will overwrite and destroy "
+"all data stored there."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:30
+msgid ""
+"An Ubuntu image file. See [Download Ubuntu Desktop](https://ubuntu.com/"
+"download/desktop)."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:32
+msgid ""
+"Take note of where your browser saves the downloaded file. This is normally "
+"a directory called *Downloads*. Don't download the ISO image directly to the "
+"USB stick."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:34
+msgid "Proceed only when the download has successfully finished."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:37
+msgid "On Ubuntu and other Linux distributions"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:39
+msgid ""
+"Ubuntu Desktop comes with the Disks application by default, which you can "
+"use to write the image. Other Linux distributions provide a wide range of "
+"different image writer applications. Choose the first one that's available "
+"on your system."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:41
+msgid "Using Disks"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:43
+msgid ""
+"The Disks application is installed by default on Ubuntu Desktop and on most "
+"Linux distributions that use the GNOME desktop environment. We recommend "
+"choosing it if it's available on your system."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:45
+msgid ""
+"Disks can also write images of any other operating system, including Linux "
+"distributions or Microsoft Windows."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:47
+msgid ""
+"<!--\n"
+"The docs/reuse/usb-using-gnome-disks.txt file is reused between the live "
+"system tutorial, the installation tutorial and the bootable USB how-to "
+"guide.\n"
+"-->\n"
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:2
+msgid ""
+"Open the Disks application. You can find it in the applications menu or by "
+"searching for \"Disks\"."
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:4
+msgid "Insert your USB stick. It appears in the sidebar. Select it there."
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:7
+msgid ""
+"Make sure to select the USB stick and **not** the disk with your running "
+"system. Both are listed."
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:10
+msgid "![A USB stick selected in Disks](/images/usb-in-gnome-disks.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:10
+msgid "A USB stick selected in Disks"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:73
+#: ../../../how-to/create-a-bootable-usb-stick.md:119
+#: ../../../reuse/usb-using-gnome-disks.txt:12
+msgid ""
+"Close all applications that access files or folders on the USB stick, "
+"including the file browser."
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:14
+msgid ""
+"In the Disks window header, click {guilabel}`Drive Options` ({guilabel}`⋮`) "
+"and select {guilabel}`Restore Disk Image…`"
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:16
+msgid "![Restore Disk Image in the menu](/images/restore-disk-image-menu.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:16
+msgid "Restore Disk Image in the menu"
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:18
+msgid ""
+"Next to {guilabel}`Image to Restore`, select the downloaded Ubuntu image "
+"file."
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:20
+msgid ""
+"Click {guilabel}`Start Restoring…` and confirm. The application asks for "
+"your password."
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:22
+msgid "![The Restore Disk Image dialog](/images/restore-disk-image-dialog.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:22
+msgid "The Restore Disk Image dialog"
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:24
+msgid "A progress bar appears while Disks is writing the image."
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:26
+msgid ""
+"![Disks writing the image to USB](/images/gnome-disks-restoring-image.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:26
+msgid "Disks writing the image to USB"
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:28
+msgid ""
+"When the progress bar finishes, click {guilabel}`Eject this disk` ({guilabel}"
+"`⏏`)."
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:30
+msgid ""
+"![Writing finished. Partitions are listed on the USB](/images/gnome-disks-"
+"finished-writing.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-gnome-disks.txt:30
+msgid "Writing finished. Partitions are listed on the USB"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:53
+msgid "Using Startup Disk Creator"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:55
+msgid ""
+"<!--\n"
+"Originally a Tutorial: https://discourse.ubuntu.com/t/create-a-bootable-usb-"
+"stick-on-ubuntu/14011/\n"
+"| Summary | Use your Ubuntu desktop to create a bootable USB stick that can "
+"be used to run and install Ubuntu on any USB-equipped PC. |\n"
+"| Author | Canonical Web Team <webteam@canonical.com> |\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:61
+msgid ""
+"The Startup Disk Creator application is part of the extended Ubuntu Desktop "
+"installation. You can use it to write an Ubuntu image to a USB stick."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:64
+msgid ""
+"Startup Disk Creator is intended for Ubuntu images and images of other "
+"distributions based on Ubuntu, such as flavors like Kubuntu or Xubuntu, or "
+"derived distributions. It might not work correctly with other Linux "
+"distributions and different operating systems."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:67
+#: ../../../how-to/create-a-bootable-usb-stick.md:151
+#: ../../../how-to/create-a-bootable-usb-stick.md:344
+msgid "Insert your USB stick."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:69
+msgid ""
+" <!--\n"
+" If Ubuntu asks you what to do with it, select {guilabel}`Do nothing`.\n"
+" -->\n"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:75
+msgid "Search your applications for *Startup Disk Creator*."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:77
+msgid "![Launch Startup Disk Creator](/images/launch-startup-disk-creator.png)"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:77
+msgid "Launch Startup Disk Creator"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:79
+msgid "If the application isn't available, install it in the App Center."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:81
+msgid "Alternatively, you can install it on the command line:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:91
+msgid "Open Startup Disk Creator."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:93
+msgid ""
+"Check the {guilabel}`Source disc image` and {guilabel}`Disk to use` fields."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:95
+msgid ""
+"It's likely that your Ubuntu image and the correct USB device have been "
+"detected. If not, use the {guilabel}`Other` button to locate your image file "
+"and select the USB device that you want to use from the list of devices."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:97
+msgid ""
+"![The Make Startup Disk window with Ubuntu 24.04 and a USB drive](/images/"
+"startup-disk-creator.png)"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:97
+msgid "The Make Startup Disk window with Ubuntu 24.04 and a USB drive"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:99
+msgid ""
+"Click {guilabel}`Make Startup Disk` and confirm that this is the correct USB "
+"device."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:101
+msgid "Any data currently stored on this device will be **destroyed**."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:103
+msgid "The write process starts and a progress bar appears."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:105
+msgid "When finished, the application announces \"Installation Complete\"."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:107
+msgid "Using KDE ISO Image Writer"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:109
+msgid ""
+"KDE ISO Image Writer is part of the KDE Plasma desktop environment. You can "
+"use it on distributions like Kubuntu. It's available for Ubuntu and Kubuntu "
+"26.04 LTS and later."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:111
+msgid ""
+"Go to the [releases.ubuntu.com](https://releases.ubuntu.com/) website and "
+"find the Ubuntu release that you're writing on your USB stick, such as "
+"[Ubuntu 26.04 LTS (Resolute Raccoon)](https://releases.ubuntu.com/resolute/)."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:113
+msgid ""
+"Download the `SHA256SUMS` and `SHA256SUMS.gpg` checksum files. In the file "
+"selector, make sure not to attach the `.txt` suffix to the `SHA256SUMS` "
+"file. Place the files in the same directory as the Ubuntu image."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:115
+msgid "KDE ISO Image Writer uses these files to verify the Ubuntu image."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:117
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:34
+msgid "Insert the USB stick."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:121
+msgid ""
+"Install KDE ISO Image Writer in the Discover app store or on the command "
+"line:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:131
+msgid "Open KDE ISO Image Writer."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:133
+msgid ""
+"In the {guilabel}`ISO image` field, select the downloaded Ubuntu image. KDE "
+"ISO Image Writer starts verifying the image according to the checksum files."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:135
+msgid ""
+"In the {guilabel}`USB drive` field, make sure that the correct USB stick is "
+"selected."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:137
+msgid ""
+"![KDE ISO Image Writer with a selected USB drive and a verified ISO image. "
+"It says \"The ISO image is valid\"](/images/kde-iso-image-writer.png)"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:137
+msgid ""
+"KDE ISO Image Writer with a selected USB drive and a verified ISO image. It "
+"says \"The ISO image is valid\""
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:139
+msgid ""
+"Click {guilabel}`Create` to start writing the Ubuntu image to USB. Confirm "
+"with your password."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:141
+msgid "When KDE ISO Image Writer finishes writing, click {guilabel}`Close`."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:143
+msgid "Using the Linux command line"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:145
+msgid ""
+"The `dd` image writer is available on all Linux systems. You can use it even "
+"on minimal systems without any graphical environment."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:148
+#: ../../../how-to/create-a-bootable-usb-stick.md:310
+msgid ""
+"The `dd` tool is designed for advanced users. If you specify the wrong "
+"options, disk or file names, you might destroy your running system."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:153
+#: ../../../how-to/create-a-bootable-usb-stick.md:363
+msgid ""
+"Make sure that the USB stick is large enough for the Ubuntu image. If it's "
+"too small, the image writer might silently fail."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:155
+msgid "List storage devices on your system:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:-1
+msgid ""
+"NAME\n"
+"    HCTL       TYPE VENDOR   MODEL          REV SERIAL               TRAN\n"
+"sda 0:0:0:0    disk SanDisk  Ultra USB 3.0 1.00 4C530000010118116183 usb"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:169
+msgid ""
+"In this example, one USB stick is connected. Note down its device name at "
+"the start of the line, such as `sda` here."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:171
+msgid "Unmount all file systems on the USB stick:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:181
+msgid "Replace `sda` with the USB device name."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:183
+#: ../../../how-to/create-a-bootable-usb-stick.md:379
+msgid "Write the Ubuntu image to the USB stick:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:193
+#: ../../../how-to/create-a-bootable-usb-stick.md:393
+msgid "Double-check the file paths in this command:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:195
+#: ../../../how-to/create-a-bootable-usb-stick.md:395
+msgid ""
+"The `if` argument specifies the \"input file\", or the path to the **Ubuntu "
+"image**."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:197
+#: ../../../how-to/create-a-bootable-usb-stick.md:397
+msgid ""
+"The `of` argument specifies the \"output file\", or the path to the **USB "
+"device**. Make sure that this is the correct device."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:199
+msgid ""
+"The remaining arguments are optional: `bs=4M` increases the write "
+"performance, `conv=fsync` ensures that all data is written when the command "
+"finishes, and `status=progress` shows progress information."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:201
+msgid "The `dd` tool reports when the writing is finished:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:-1
+msgid ""
+"6337593344 bytes (6.3 GB, 5.9 GiB) copied, 143 s, 44.3 MB/s6345887744 bytes "
+"(6.3 GB, 5.9 GiB) copied, 143.302 s, 44.3 MB/s\n"
+"\n"
+"1512+1 records in\n"
+"1512+1 records out\n"
+"6345887744 bytes (6.3 GB, 5.9 GiB) copied, 286.923 s, 22.1 MB/s"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:217
+msgid ""
+"Inform your running system of the changes on the USB stick if you want to "
+"examine the Ubuntu media:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:228
+msgid "On Windows"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:230
+msgid ""
+"On Microsoft Windows, you have to install a third-party application for "
+"writing images to USB sticks."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:232
+msgid ""
+"<!--\n"
+"Note: The built-in Disc Image Burner tool can only burn images to optical "
+"discs. It can't write to USB sticks.\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:236
+msgid "Using Rufus"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:238
+msgid ""
+"You can create a bootable USB stick using [Rufus](https://rufus.ie/), a free "
+"and open source USB stick writing tool."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:240
+msgid ""
+"<!--\n"
+"The docs/reuse/usb-using-rufus.txt file is reused between the live system "
+"tutorial, the installation tutorial and the bootable USB how-to guide.\n"
+"-->\n"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:2
+msgid ""
+"<!--\n"
+"Originally a Tutorial: https://discourse.ubuntu.com/t/create-a-bootable-usb-"
+"stick-with-rufus-on-windows/14020\n"
+"| Summary | How to write a USB stick with Windows. |\n"
+"| Author |  <oliversmith@canonical.com> |\n"
+"-->\n"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:8
+msgid ""
+"Download and install the latest version of Rufus from the [rufus.ie](https://"
+"rufus.ie/) website."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:10
+msgid ""
+"If you're using Windows 7, install [version 3.22](https://github.com/pbatard/"
+"rufus/releases/download/v3.22/rufus-3.22.exe) of Rufus. On Windows XP or "
+"Vista, install [version 2.18](https://github.com/pbatard/rufus/releases/"
+"download/v2.18/rufus-2.18.exe)."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:12
+msgid "Launch Rufus. If prompted, allow online updates."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:15
+msgid ""
+"Rufus presents many options in its interface. It's safe to leave most of "
+"them with their default values."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:18
+msgid "Insert your USB stick. It appears in the {guilabel}`Device` field."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:20
+msgid ""
+"If {guilabel}`Device` shows the wrong USB device, select the correct one "
+"from the drop-down menu."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:22
+msgid "![Selected a USB drive in Rufus](/images/rufus/rufus-detects-usb.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:22
+msgid "Selected a USB drive in Rufus"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:24
+msgid ""
+"Click {guilabel}`SELECT` next to {guilabel}`Boot selection`. Choose the "
+"Ubuntu image file that you've downloaded and confirm by clicking {guilabel}"
+"`Open`."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:26
+msgid ""
+"If the button reads {guilabel}`DOWNLOAD` instead, click the dropdown and "
+"change it to {guilabel}`SELECT` first."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:28
+msgid "![Selected the ISO file in Rufus](/images/rufus/rufus-iso-selected.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:28
+msgid "Selected the ISO file in Rufus"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:30
+msgid ""
+"If you've already tried Rufus and the USB stick failed to boot on your "
+"system, change {guilabel}`Partitioning scheme` to {guilabel}`GPT` and check "
+"that {guilabel}`Target system` is set to {guilabel}`UEFI (non CSM)`. This "
+"works on modern systems that disable legacy compatibility."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:32
+msgid "Click {guilabel}`START` to write the image to USB."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:34
+msgid ""
+"Rufus tells you that the Ubuntu image is an *ISOHybrid image*. This means "
+"that the same image file can be used as the source for both a USB stick and "
+"a DVD."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:36
+msgid "Confirm the *Write in ISO Image mode* option."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:38
+msgid ""
+"![\"ISOHybrid image detected\" dialog](/images/rufus/rufus-isohybrid-"
+"image.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:38
+msgid "\"ISOHybrid image detected\" dialog"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:40
+msgid ""
+"If Rufus asks to download additional files to complete writing the image, "
+"select {guilabel}`Yes` to continue."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:42
+msgid ""
+"Rufus warns you that all data on the USB device is about to be destroyed. "
+"Double-check that you've selected the correct device and confirm by clicking "
+"{guilabel}`OK`."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:44
+msgid ""
+"![Rufus warning you about data loss](/images/rufus/rufus-data-warning.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:44
+msgid "Rufus warning you about data loss"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:46
+msgid ""
+"Rufus is now writing the image to USB. This usually takes around 10 minutes."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:48
+msgid "![Rufus copying ISO files](/images/rufus/rufus-copying-iso-files.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:48
+msgid "Rufus copying ISO files"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:50
+msgid ""
+"When Rufus has finished writing to the USB device, the Status bar says "
+"{guilabel}`READY`."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:52
+msgid "Click {guilabel}`CLOSE` to complete the write process."
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:54
+msgid ""
+"![Rufus finished writing the ISO](/images/rufus/rufus-finished-writing.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-rufus.txt:54
+msgid "Rufus finished writing the ISO"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:247
+msgid "On macOS"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:249
+msgid ""
+"On macOS, you have to install a third-party application for writing images "
+"to USB sticks. Alternatively, you can use the built-in `dd` tool on the "
+"command line."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:251
+msgid ""
+"The USB stick will work on **PC (Windows) hardware** and older Apple "
+"hardware based on **Intel CPUs**."
+msgstr ""
+
+#: ../../../reuse/apple-silicon-disclaimer.txt:2
+msgid ""
+"If you want to run Ubuntu on **Apple Silicon** hardware, such as recent Macs "
+"using M1 CPUs or later, refer instead to the [Ubuntu Asahi](https://"
+"ubuntuasahi.org/) community project, which isn't supported by Canonical. The "
+"hardware support might be limited and depends on your specific machine. For "
+"example, Ubuntu Asahi 25.10 only runs on systems with M1 and M2 CPUs."
+msgstr ""
+
+#: ../../../reuse/apple-silicon-disclaimer.txt:4
+msgid ""
+"You can also install Ubuntu in a virtual machine on top of your current "
+"system using [Multipass](https://documentation.ubuntu.com/multipass/)."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:256
+msgid ""
+"<!--\n"
+"Unfortunately, Disk Utility doesn't seem to be able to write arbitrary "
+"images, only macOS disk images. Saving for future reference and "
+"reevaluation.\n"
+"\n"
+"### Using the Disk Utility\n"
+"\n"
+"The Disk Utility is preinstalled on macOS and you can use it to write any "
+"image to your USB stick.\n"
+"\n"
+"1. Launch the *Disk Utility* app from {menuselection}`Applications -> "
+"Utilities` or from the Spotlight search.\n"
+"\n"
+"1. Insert your USB stick. It appears in the sidebar. Select it there.\n"
+"\n"
+"    You might need to enable the {menuselection}`View -> Show All Devices` "
+"option.\n"
+"\n"
+"    :::{warning}\n"
+"    Make sure to select the USB stick and **not** your internal macOS disk. "
+"Both are listed.\n"
+"    :::\n"
+"\n"
+"1. To ensure compatibility with Apple hardware, reformat the USB stick with "
+"the GUID partition table:\n"
+"\n"
+"    Select {guilabel}`Erase` from the toolbar.\n"
+"\n"
+"    Set the format to *MS-DOS (FAT)* and the scheme to *GUID Partition "
+"Map*.\n"
+"\n"
+"    Check that you've chosen the correct device and click {guilabel}"
+"`Erase`.\n"
+"\n"
+"1. Click {guilabel}`Restore` ({guilabel}`↺`) in the toolbar.\n"
+"\n"
+"1. Click {guilabel}`Image…` and select the Ubuntu image file.\n"
+"\n"
+"1. Click {guilabel}`Restore`.\n"
+"\n"
+"1. Wait for the writing to finish.\n"
+"\n"
+"1. After the write process has completed, macOS might inform you that \"The "
+"disk you inserted was not readable by this computer\".\n"
+"\n"
+"    Select {guilabel}`Eject` and remove the USB device. Don't select "
+"{guilabel}`Initialize`.\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:294
+msgid "Using balenaEtcher"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:296
+msgid ""
+"You can create a bootable USB stick using [balenaEtcher](https://"
+"etcher.balena.io/), a free and open source USB stick writing tool."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:298
+msgid ""
+"<!--\n"
+"The docs/reuse/usb-using-balena-etcher-on-macos.txt file is reused between "
+"the live system tutorial, the installation tutorial and the bootable USB how-"
+"to guide.\n"
+"-->\n"
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:2
+msgid ""
+"<!--\n"
+"Originally a Tutorial: https://discourse.ubuntu.com/t/create-a-bootable-usb-"
+"stick-on-macos/14016\n"
+"| Summary | How to write a USB stick with macOS. |\n"
+"| Author | Canonical Web Team <webteam@canonical.com> |\n"
+"-->\n"
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:8
+msgid ""
+"<!--\n"
+"This part no longer applies because the Scheme option no longer exists in "
+"recent macOS (since 2020).\n"
+"\n"
+"To ensure compatibility with Apple hardware, reformat the USB stick with the "
+"GUID partition table. You can skip this part if you intend to use the USB "
+"stick only with PC hardware:\n"
+"\n"
+"1. Launch the *Disk Utility* app from {menuselection}`Applications -> "
+"Utilities` or from the Spotlight search.\n"
+"\n"
+"1. Insert your USB stick. It appears in the sidebar. Select it there.\n"
+"\n"
+"    You might need to enable the {menuselection}`View -> Show All Devices` "
+"option.\n"
+"\n"
+"    :::{warning}\n"
+"    Make sure to select the USB stick and **not** your internal macOS disk. "
+"Both are listed.\n"
+"    :::\n"
+"\n"
+"1. Select {guilabel}`Erase` from the toolbar.\n"
+"\n"
+"1. Set the format to *MS-DOS (FAT)* and the scheme to *GUID Partition Map*.\n"
+"\n"
+"1. Check that you've chosen the correct device and click {guilabel}`Erase`.\n"
+"\n"
+"1. Close the Disk Utility.\n"
+"\n"
+"Write the Ubuntu image to the USB stick:\n"
+"-->\n"
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:36
+msgid ""
+"At the [balenaEtcher website](https://etcher.balena.io/), download **Etcher "
+"for macOS (arm64)** if you're using an Apple Silicon machine, or download "
+"**Etcher for macOS** if you're using an Intel Mac."
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:38
+msgid "![The Download Etcher page](/images/download-etcher.png)"
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:38
+msgid "The Download Etcher page"
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:40
+msgid "Install and open balenaEtcher."
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:42
+msgid ""
+"Click {guilabel}`Flash from file` and select the downloaded Ubuntu image."
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:44
+msgid "By default, the image file will be in your Downloads folder."
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:46
+msgid "Click {guilabel}`Select target` and choose your USB stick."
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:48
+msgid ""
+"![The Select target step in Etcher](/images/macos-usb-etcher-config.jpg)"
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:48
+msgid "The Select target step in Etcher"
+msgstr ""
+
+#: ../../../reuse/usb-using-balena-etcher-on-macos.txt:50
+msgid "Click {guilabel}`Flash!` to write the image to USB."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:305
+msgid "Using the macOS command line"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:307
+msgid ""
+"If you feel confident using the macOS command line, you can follow a more "
+"manual approach using the `dd` tool."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:313
+msgid ""
+"<!--\n"
+"Migrated from a page in the Community Help Wiki:\n"
+"https://help.ubuntu.com/community/"
+"How%20to%20install%20Ubuntu%20on%20MacBook%20using%20USB%20Stick\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:318
+msgid "Open the Terminal app."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:320
+msgid ""
+"<!--\n"
+"This is no longer necessary, and in fact it produces an unusable image:\n"
+"\n"
+"1. Convert the downloaded ISO image file to the UDRW format:\n"
+"\n"
+"    ```{terminal}\n"
+"    :copy:\n"
+"    :user:\n"
+"    :host:\n"
+"    :dir:\n"
+"    hdiutil convert Downloads/ubuntu-26.04-desktop-amd64.iso -format UDRW -o "
+"ubuntu.dmg\n"
+"    ```\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:334
+msgid "List the current devices:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:346
+msgid ""
+"List the current devices again. Determine the device name assigned to your "
+"USB stick, such as `/dev/disk2`:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:-1
+msgid ""
+"  /dev/disk0 (internal, physical):\n"
+"   […]\n"
+"  /dev/disk2\n"
+"   #: TYPE NAME SIZE IDENTIFY\n"
+"   0: FDisk_partition_scheme *4.0 GB disk2\n"
+"   1: DOS_FAT_32 USB CLE 4.0 GB disk2s1"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:365
+#: ../../../how-to/create-a-bootable-usb-stick.md:411
+msgid "Unmount the USB stick:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:375
+msgid "Replace `<N>` with the disk number from the last command, such as `2`."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:377
+msgid ""
+"You might see this error: \"Unmount of disk<N> failed: at least one volume "
+"could not be unmounted\". Open the Disk Utility and unmount the volume "
+"(don't eject)."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:377
+msgid "<N>"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:390
+msgid ""
+"Drag and drop the image file from Finder to Terminal to paste the full path. "
+"This way, you prevent potential errors when typing the path."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:399
+msgid ""
+"We're using the `/dev/rdisk<N>` device here rather than `/dev/disk<N>`. This "
+"refers to a \"raw device\" interface to the same disk, which is faster."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:401
+msgid "The `bs=4m` option increases the write performance and it's optional."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:403
+msgid "You might encounter these errors:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:405
+msgid "`dd: Invalid number '4m'`"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:406
+msgid ""
+"You're using GNU `dd`. Use the same command but replace `bs=4m` with `bs=4M`."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:408
+msgid "`dd: /dev/disk<N>: Resource busy`"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:409
+msgid ""
+"Make sure that the disk is not in use. Open the Disk Utility and unmount the "
+"volume (don't eject)."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:421
+msgid "Remove the USB stick when the previous command completes."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:424
+msgid "On multiple platforms"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:426
+msgid ""
+"If the previous applications didn't work or you have a special use case, we "
+"also suggest the following multi-platform image writers."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:429
+msgid "Ventoy"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:431
+msgid ""
+"[Ventoy](https://www.ventoy.net/) is an open-source tool that you install on "
+"your USB. You can then copy image files to the USB storage using your normal "
+"file browser. When you boot the system with the USB stick inserted, Ventoy "
+"lets you choose among all the image files stored on the USB."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:433
+msgid ""
+"For instructions, see the Ventoy documentation: [Start to use Ventoy]"
+"(https://www.ventoy.net/en/doc_start.html)."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:435
+msgid "Ventoy is available for Linux and Microsoft Windows."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:438
+msgid ""
+"Ventoy 1.1.11 (released Apr 2026) has a [known issue](https://github.com/"
+"ventoy/Ventoy/issues/3567) that prevents Ubuntu from installing correctly. "
+"We recommend using a different Ventoy release or another USB creation tool."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:442
+msgid "balenaEtcher"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:444
+msgid ""
+"[balenaEtcher](https://etcher.balena.io/) is a simple open-source USB stick "
+"writing tool. It's available for Windows, macOS and Linux."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:446
+msgid ""
+"See the documentation at [etcher-docs.balena.io](https://etcher-"
+"docs.balena.io/)."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:449
+msgid "WonderISO"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:451
+msgid ""
+"[WonderISO](https://www.sysgeeker.com/iso-burner.html) is a versatile and "
+"easy-to-use tool that can write images to USB. WonderISO is available for "
+"Microsoft Windows and macOS as a proprietary (closed-source) application."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:453
+msgid ""
+"For instructions, see the [WonderISO product manual](https://"
+"www.sysgeeker.com/online-help/wonderiso.html)."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:456
+msgid "Next steps"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:458
+msgid ""
+"Congratulations! You now have Ubuntu on a USB stick, bootable and ready to "
+"go."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:460
+msgid ""
+"To use it you need to insert the stick into your target PC or laptop and "
+"reboot the device. It should recognize the installation media automatically "
+"during startup but you may need to hold down a specific key (usually {kbd}"
+"`F12`) to bring up the boot menu and choose to boot from USB."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:462
+msgid ""
+"For a full walkthrough of installing Ubuntu, take a look at our {ref}"
+"`install-ubuntu-desktop` tutorial."
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:465
+msgid "Finding help"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:467
+msgid "If you get stuck, help is always at hand:"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:469
+msgid "[Get support](https://ubuntu.com/support/community-support)"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:470
+msgid ""
+"[Join our Discourse forum](https://discourse.ubuntu.com/c/project/desktop/)"
+msgstr ""
+
+#: ../../../how-to/create-a-bootable-usb-stick.md:471
+msgid ""
+"[Join our online chat on Matrix](https://matrix.to/#/#desktop-dev:ubuntu.com)"
+msgstr ""

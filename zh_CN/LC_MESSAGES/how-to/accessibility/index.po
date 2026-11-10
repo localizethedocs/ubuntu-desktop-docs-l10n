@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/index.md:0
+msgid ""
+"Set up Ubuntu Desktop accessibility features for visual, hearing and "
+"mobility impairments, including the Orca screen reader and keyboard options."
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:7
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:11
+msgid "Accessibility"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:13
+msgid ""
+"Ubuntu aims at making the operating system, and its derivatives, usable by "
+"as many people as possible across ages, languages and physical abilities. "
+"This includes providing an accessible platform with high quality assistive "
+"tools, and ensuring that other applications work well with these. The system "
+"includes assistive technologies to support users with various impairments "
+"and special needs, and to interact with common assistive devices."
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:22
+msgid "Visual impairments"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:24
+msgid "Blindness"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:26
+msgid ""
+"Orca is screen reading software suitable for vision impaired and blind users."
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:28
+msgid ""
+"Orca is an assistive technology for people with visual impairments. Using "
+"various combinations of speech synthesis and Braille, Orca helps provide "
+"access to applications and toolkits that support the assistive technology "
+"service provider interface (AT-SPI), e.g. the GNOME desktop."
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:36
+msgid "Low vision"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:48
+msgid "Hearing impairments"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:58
+msgid "Mobility impairments"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:60
+msgid "Mouse movement"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:69
+msgid "Clicking and dragging"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:79
+msgid "Keyboard use"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:92
+msgid "Additional resources"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:94
+msgid "{ref}`what-is-the-menu-key`"
+msgstr ""
+
+#: ../../../how-to/accessibility/index.md:95
+msgid "{ref}`accessibility-stack`"
+msgstr ""

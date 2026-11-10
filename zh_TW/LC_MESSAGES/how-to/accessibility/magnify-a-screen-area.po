@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:0
+msgid ""
+"Turn on the zoom feature to magnify part of the screen in Ubuntu Desktop, "
+"and adjust magnification, mouse tracking, crosshairs and colors."
+msgstr ""
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:7
+msgid "Topics: Accessibility"
+msgstr "話題：無障礙功能"
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:11
+msgid "Magnify a screen area"
+msgstr ""
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:13
+msgid ""
+"Magnifying the screen is different than just enlarging the {ref}`text size "
+"<change-text-size-on-the-screen>`. This feature is like having a magnifying "
+"glass, allowing you to move around by zooming in on parts of the screen."
+msgstr ""
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:15
+msgid "Open the Activities overview and start typing **accessibility**."
+msgstr ""
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:16
+msgid "Click {guilabel}`Accessibility` to open the panel."
+msgstr ""
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:17
+msgid "Open the {guilabel}`Zoom` section."
+msgstr ""
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:18
+msgid "Enable the {guilabel}`Desktop Zoom` option."
+msgstr ""
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:20
+msgid ""
+"You can now move around the screen area. By moving your mouse to the edges "
+"of the screen, you will move the magnified area in different directions, "
+"allowing you to view your area of choice."
+msgstr ""
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:23
+msgid ""
+"You can quickly turn zoom on and off by clicking the {ref}`accessibility "
+"icon <find-the-accessibility-menu>` on the top bar and selecting {guilabel}"
+"`Zoom`."
+msgstr ""
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:26
+msgid ""
+"You can change the magnification factor, the mouse tracking, and the "
+"position of the magnified view on the screen. Adjust these in the {guilabel}"
+"`Magnifier` section."
+msgstr ""
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:28
+msgid ""
+"You can activate crosshairs to help you find the mouse or touchpad pointer. "
+"Switch them on and adjust their length, color, and thickness in the "
+"{guilabel}`Crosshairs` section."
+msgstr ""
+
+#: ../../../how-to/accessibility/magnify-a-screen-area.md:30
+msgid ""
+"You can switch to inverted colors video, and adjust brightness, contrast and "
+"color options for the magnifier in the {guilabel}`Color Filters` section. "
+"The combination of these options is useful for people with low-vision, any "
+"degree of photophobia, or just for using the computer under adverse lighting "
+"conditions."
+msgstr ""

@@ -1,0 +1,949 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/log-in-using-a-smart-card.md:0
+msgid ""
+"Configure smart card login on Ubuntu Desktop with SSSD, GDM and GNOME "
+"Settings Daemon, map certificates to users and troubleshoot."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:7
+msgid "Topics: Security"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:11
+msgid "Log in using a smart card"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:13
+msgid ""
+"<!--\n"
+"Author: Marco Trevisan <marco.trevisan@canonical.com>\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:17
+msgid ""
+"Learn how to configure smart card authentication in Ubuntu desktop using "
+"SSSD as security service daemon"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:19
+msgid "Overview"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:22
+msgid ""
+"If you have a smart card, you can configure the Ubuntu desktop to accept "
+"your  smart card instead of a password for user authentication. You can then "
+"log in with your smart card."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:24
+msgid ""
+"You'll learn how to configure smart card authentication in the SSSD "
+"authentication daemon, the GDM login screen, the GNOME Settings Daemon and "
+"components that are common to headless setups."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:26
+msgid "If you want to use your smart card in a different way:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:28
+msgid ""
+"To enable smart cards on a **server**, see {external:ref}`smart-card-"
+"authentication` in the Ubuntu Server documentation."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:29
+msgid ""
+"To sign content in the **web browser** with your smart card, see {ref}"
+"`enable-smart-cards-in-snapped-browsers`."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:31
+msgid "What you'll learn"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:33
+msgid ""
+"How to get smart card certificates and how they are used for authentication"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:34
+msgid "How to enable GDM smart card authentication for local users"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:35
+msgid "How to debug configuration issues"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:37
+msgid "What you'll need"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:39
+msgid "Ubuntu 20.04 or newer"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:40
+msgid ""
+"A smart card and a smart card reader (sometimes the reader is embedded in "
+"the card itself as for YubiKey)"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:41
+msgid ""
+"Smart card module supported by [`p11-kit`](https://p11-glue.github.io/p11-"
+"glue/p11-kit.html), in this guide we use cards supported by [OpenSC](https://"
+"github.com/OpenSC/OpenSC/wiki)."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:42
+msgid ""
+"The smart card certificate's certificate authority certificate in PEM format"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:43
+msgid ""
+"The `libpam-sss` package installed (it is already the case in versions newer "
+"than Ubuntu 20.04)."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:45
+msgid "Prerequisites"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:47
+msgid ""
+"The smart card in use is expected to contain one or more X.509 certificates "
+"and the corresponding private keys to be used for authentication."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:49
+msgid ""
+"Smart card-based authentication is based on the principle that such "
+"certificate is associated to an user and unlocking the card gives the user "
+"access to the system."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:51
+msgid ""
+"This guide assumes having a smart card reader supported by [OpenSC](https://"
+"github.com/OpenSC/OpenSC/wiki), but setup for other libraries supported by "
+"[`p11-kit`](https://p11-glue.github.io/p11-glue/p11-kit.html) should not "
+"differ substantially."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:53
+msgid ""
+"The SSSD PAM module, needed for authentication, already installed after "
+"20.04:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:63
+msgid ""
+"The smart card module: replace this with the PKCS#11 driver supporting your "
+"device:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:73
+msgid ""
+"This is needed to expose the smart card reader, already installed after "
+"20.04:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:83
+msgid "Smart card PKCS#11 modules"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:85
+msgid ""
+"While `opensc-pkcs11` supports a wide number of smart cards, some of them "
+"may require specific PKCS#11 modules that should be provided by the card "
+"manufacturer, and you must refer to your vendor to install the proper one."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:87
+msgid ""
+"All the modules supported by [`p11-kit`](https://p11-glue.github.io/p11-glue/"
+"p11-kit.html) can be used."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:89
+msgid ""
+"In case that custom PKCS#11 modules are used, you need to ensure that `p11-"
+"kit` is properly [configured](https://p11-glue.github.io/p11-glue/p11-kit/"
+"manual/config.html) so that it can find them."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:91
+msgid ""
+"In any case, `p11-kit` command will provide information regarding all the "
+"configured modules (with relative tokens if they're inserted and readable) "
+"that can be used for authentication:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:-1
+msgid ""
+"p11-kit-trust: p11-kit-trust.so\n"
+"    library-description: PKCS#11 Kit Trust Module\n"
+"    library-manufacturer: PKCS#11 Kit\n"
+"    library-version: 0.23\n"
+"    token: System Trust\n"
+"        manufacturer: PKCS#11 Kit\n"
+"        model: p11-kit-trust\n"
+"        serial-number: 1\n"
+"        hardware-version: 0.23\n"
+"        flags:\n"
+"               write-protected\n"
+"               token-initialized\n"
+"opensc-pkcs11: opensc-pkcs11.so\n"
+"    library-description: OpenSC smartcard framework\n"
+"    library-manufacturer: OpenSC Project\n"
+"    library-version: 0.20\n"
+"    token: MARCO TREVISAN (PIN CNS0)\n"
+"        manufacturer: IC: STMicroelectronics; mask:...\n"
+"        model: PKCS#15 emulated\n"
+"        serial-number: 6090010669298009\n"
+"        flags:\n"
+"               login-required\n"
+"               user-pin-initialized\n"
+"               token-initialized\n"
+"               user-pin-locked"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:127
+msgid "Extracting smart card X.509 Certificate"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:129
+msgid ""
+"While the card certificate itself is not required, it's useful to save it in "
+"a `card-cert.pem` file to be used for debugging during this guide."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:131
+msgid ""
+"The procedures to extract a certificate are explained in the [Ubuntu Server "
+"smart card authentication guide](https://documentation.ubuntu.com/server/how-"
+"to/security/smart-card-authentication/index.html#x-509-smart-card-"
+"certificates) and we won't duplicate it here, but we'll just assume that the "
+"card certificate is saved in a file called `card-cert.pem` from now on."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:133
+msgid "Once the authentication is working this file can be safely removed."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:135
+msgid "Certificate Authority verification"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:137
+msgid ""
+"The card certificate must be allowed by a Certificate Authority, and the CA "
+"certificate file should be available in PEM format (we assume is called `CA-"
+"Auth-cert.pem` here)."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:139
+msgid "You can check this:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:141
+msgid "List certificates:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:-1
+msgid ""
+"Using reader with a card: Alcor Micro AU9560 00 00\n"
+"X.509 Certificate [CNS1]\n"
+"\tObject Flags   : [0x00]\n"
+"\tAuthority      : no\n"
+"\tPath           : 3f00140090012002\n"
+"\tID             : 02\n"
+"\tEncoded serial : 02 10 0357B1EC0EB725BA67BD2D838DDF93D5"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:167
+msgid "See the certificate contents:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:177
+msgid "Verify it is valid for the given CA:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:187
+msgid "Configure SSSD"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:189
+msgid "Disclaimer"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:191
+msgid ""
+"SSSD is the default authentication daemon in Ubuntu it and supports various "
+"identity managers. Configuring them (such as FreeIPA, LDAP, Kerberos and "
+"others) is out the scope of this guide, but you can refer to {manpage}"
+"`sssd.conf(5)` and [SSSD official documentation](https://sssd.io/docs/"
+"introduction.html) for further reference on the topic."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:193
+msgid ""
+"For the purpose of this guide, we're going to show how SSSD should be "
+"configured for local user access, that is still something useful to enhance "
+"the security of a desktop computer, so that the user login is protected by a "
+"stronger authentication mechanism."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:195
+msgid ""
+"In the next steps we'll mention to change `sssd.conf` file by that we intend "
+"that the file in `/etc/sssd/sssd.conf` must be changed, note that these are "
+"just examples and this can be done using:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:206
+msgid ""
+"The `sssd.conf` file **must** be owned by `root` and have permissions set to "
+"`600`."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:208
+msgid "If this is not the case, the file won't be loaded by SSSD."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:212
+msgid "SSSD **must** be restarted after each configuration change."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:214
+msgid "This can be done with `systemctl restart sssd`."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:216
+msgid ""
+"It's possible to check if configuration is correct, temporary launching the "
+"daemon with `sudo sssd -d9 -i`."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:219
+msgid "Include the CA certificates in the SSSD CA database"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:221
+msgid ""
+"Since SSSD using OpenSSL under the hood, we need to add the certificate to "
+"the SSSD well known certificate path (if not changed via "
+"`sssd.certificate_verification` option) as PEM format, so copying the CA "
+"certificates (can be a chain of certificates) to `/etc/sssd/pki/"
+"sssd_auth_ca_db.pem` should be enough:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:239
+msgid "CA Certificate verification options"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:241
+msgid ""
+"The smart card certificate verification against its Certificate Authority "
+"certificate can be tuned using various `sssd.conf` options."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:243
+msgid "For example:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:245
+msgid ""
+"[sssd]\n"
+"# To validate a certificate against an incomplete CA chain\n"
+"certificate_verification = partial_chain\n"
+"\n"
+"[pam]\n"
+"# To define a custom ca-certificates path\n"
+"pam_cert_db_path = /etc/ssl/certs/ca-certificates.crt\n"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:255
+#: ../../../how-to/log-in-using-a-smart-card.md:356
+#: ../../../how-to/log-in-using-a-smart-card.md:565
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:257
+msgid ""
+"Card certificate verification can be simulated using SSSD tools directly, by "
+"using the command SSSD's `p11_child`:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:259
+msgid "In Ubuntu 20.04:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:269
+msgid "In Ubuntu 22.04 and later versions:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:279
+msgid ""
+"If the certificate verification succeeds, the tool should output the card "
+"certificate name, its ID and the certificate itself in base64 format (other "
+"than debug data):"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:-1
+msgid ""
+"(Mon Sep 11 16:33:32:129558 2023) [p11_child[1965]] [do_card] (0x4000): "
+"Found certificate has key id [02].\n"
+"MARCO TREVISAN (PIN CNS1)\n"
+"/usr/lib/x86_64-linux-gnu/pkcs11/opensc-pkcs11.so\n"
+"02\n"
+"CNS1\n"
+"MIIHXDCCBUSgAwIBAgIQA1ex7...."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:291
+msgid ""
+"For checking if the smart card works, without doing any verification check "
+"(and so for debugging purposes the option) `--verify=no_ocsp` can also be "
+"used, while `--verify=partial_chain` can be used to do incomplete CA "
+"verification."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:293
+msgid "Enable PAM service"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:295
+msgid ""
+"SSSD is a coordinator of various services, in order to support PAM we need "
+"to explicitly enable it in `sssd.conf`:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:297
+msgid ""
+"[sssd]\n"
+"services = pam # This line can contain a list of other services\n"
+"\n"
+"[pam]\n"
+"pam_cert_auth = True\n"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:305
+msgid "Certificates Mapping"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:307
+msgid ""
+"As explained, in order to make an user safely access to the system via a "
+"smart card, we need to associate one of the X.509 certificates that is "
+"present in the card to a system user."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:309
+msgid ""
+"The way of doing this changes slightly depending on the authentication "
+"provider in use, but as said, we're going to show the case for local users, "
+"that should not differ much from what can be done in more complex setups."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:311
+msgid ""
+"Mapping for more complex configurations can be done following the official "
+"[SSSD documentation](https://sssd.io/design-pages/"
+"matching_and_mapping_certificates.html) depending on [providers](https://"
+"sssd.io/design-pages/certmaps_for_LDAP_AD_file.html)."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:313
+msgid "For local users"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:316
+msgid "This is just **an example**."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:318
+msgid "Configuration shown here must be adapted to match specific cases."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:321
+msgid ""
+"When using only local users, SSSD can be configured to define a `local` "
+"domain that maps all the local users."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:323
+msgid ""
+"Certificates can be associated to users using the card certificate subject, "
+"so in our example:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:-1
+msgid ""
+"subject=C=IT,O=Some Organization,OU=REGIONE "
+"TOSCANA,SN=TREVISAN,GN=MARCO,CN=TRVMRC[...data-removed...]/"
+"6090033068507002.UyMnHxfF3gkAeBYHhxa6V1Edazs="
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:335
+msgid "The `sssd.conf` configuration for the user `foo` would be:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:337
+msgid ""
+"[sssd]\n"
+"services = pam\n"
+"domains = local\n"
+"\n"
+"[certmap/local/foo]\n"
+"matchrule = <SUBJECT>.*CN=TRVMRC[A-Z0-9]+/"
+"6090033068507002\\.UyMnHxfF3gkAeBYHhxa6V1Edazs=.*\n"
+"\n"
+"[domain/local]\n"
+"id_provider = proxy\n"
+"proxy_lib_name = files\n"
+"local_auth_policy = only\n"
+"\n"
+"[pam]\n"
+"pam_cert_auth = True\n"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:354
+msgid ""
+"Note that the section where the `matchrule` regex is, should be in the form "
+"`[certmap/$PROVIDER/$USER_ID]`."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:358
+msgid ""
+"User mapping can be tested working in versions newer than Ubuntu 20.04 with:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:372
+msgid "That should return the object path containing the expected user ID:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:-1
+msgid ""
+"method return time=1605127192.698667 sender=:1.1628 -> destination=:1.1629 "
+"serial=6 reply_serial=2\n"
+"   array [\n"
+"      object path \"/org/freedesktop/sssd/infopipe/Users/implicit_5ffiles/"
+"1000\"\n"
+"   ]"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:382
+msgid "Example of SSSD configuration"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:384
+msgid ""
+"The SSSD configuration for accessing to the system is out of the scope of "
+"this document, however for smart card login it should contain at least such "
+"values:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:386
+msgid ""
+"[sssd]\n"
+"# Comma separated list of domains\n"
+";domains = your-domain1, your-domain2\n"
+"\n"
+"# comma-separated list of SSSD services\n"
+"# pam might be implicitly loaded already, so the line is optional\n"
+"services = pam\n"
+"\n"
+"# You can enable debug of the SSSD daemon\n"
+"# Logs will be in /var/log/sssd/sssd.log\n"
+";debug_level = 10\n"
+"\n"
+"# A mapping between the Smart Card certificate and users\n"
+";[certmap/your-domain1/<username1>]\n"
+";matchrule = <SUBJECT>.*CN=<REGEX MATCHING CARD1 CN>.*\n"
+"\n"
+";[certmap/your-domain2/<username2>]\n"
+";matchrule = <SUBJECT>.*CN=<REGEX MATCHING CARD2 CN>.*\n"
+"\n"
+"[pam]\n"
+"pam_cert_auth = True\n"
+"\n"
+"# The Certificate DB to be used:\n"
+"# - Needs to be an openSSL CA certificates list\n"
+";pam_cert_db_path = /etc/ssl/certs/ca-certificates.crt\n"
+"\n"
+"# You can enable debug infos for the PAM module\n"
+"# Logs will be in /var/log/sssd/sssd_pam.log\n"
+"# p11 child logs are in /var/log/sssd/p11_child.log\n"
+"# standard auth logs are in /var/log/auth.log\n"
+";pam_verbosity = 10\n"
+";debug_level = 10\n"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:421
+msgid ""
+"In general what's in the configuration file will affect the way SSSD will "
+"call the `p11_child` tool (that is the one in charge for the actual "
+"authentication). Check {manpage}`sssd.conf(5)` for details."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:424
+msgid ""
+"Every time the configuration is changed SSSD should be restarted (`systemctl "
+"restart sssd`)."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:426
+msgid "Configure GDM"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:428
+msgid ""
+"GDM is the default desktop manager in GNOME and Ubuntu. You can configure "
+"whether GDM requires password authentication or smart card authentication, "
+"or if it lets you choose the authentication method at login."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:430
+msgid "The configuration is saved in the `/etc/pam.d/gdm-smartcard` PAM file."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:433
+msgid ""
+"Starting with Ubuntu 26.10, the login screen features a menu button where "
+"you can select between all the enabled authentication methods."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:436
+msgid "Require smart card authentication"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:438
+msgid "With this PAM configuration, users need a smart card to log in."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:440
+msgid "This is the default configuration, but we document it for completeness:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:450
+msgid "Enable smart card access with password fallback"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:452
+msgid ""
+"Using this PAM configuration smart card access will tried first, if no smart "
+"card is available or the smart card verification fails, the password "
+"authentication will be used instead:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:469
+msgid "Disable password access in GDM settings"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:471
+msgid ""
+"This can be done to prevent the `gdm-password` PAM configuration to be "
+"loaded. It's not normally required as we already have profiles to avoid "
+"this, but it could be useful in some scenarios:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:481
+msgid "Disable smart card access in GDM settings"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:483
+msgid ""
+"Smart card authentication is always used when a token is inserted in the "
+"reader. There are cases where this is not the wanted behavior, so it can be "
+"disabled."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:486
+msgid ""
+"Starting with Ubuntu 26.10, you can select a different authentication method "
+"using a menu on the login screen even when a smart cards is inserted."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:497
+msgid "Lock GDM settings for users"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:499
+msgid ""
+"You can prevent users from changing the authentication settings. This is "
+"done by locking certain GSettings values."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:501
+msgid ""
+"For example, you can configure that smart cards are required for login but "
+"they're disabled for unlock. Or, you can prevent users from disabling smart "
+"card authentication for unlocking."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:503
+msgid ""
+"Without applying this lock, users could set up their own configuration that "
+"overrides the system-wide authentication settings."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:505
+msgid ""
+"In the following example, smart card login is enabled, password login is "
+"disabled, and these settings are locked:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:507
+msgid ""
+"If the `/etc/dconf/profile/user` file doesn't exist yet, create it with the "
+"following content:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:509
+msgid "`/etc/dconf/profile/user`"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:509
+msgid ""
+"user-db:user\n"
+"system-db:local"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:516
+#: ../../../how-to/log-in-using-a-smart-card.md:703
+msgid "Create the `locks` directory:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:526
+msgid ""
+"To disable password authentication, create the `/etc/dconf/db/local.d/00_gdm-"
+"password-disable` file with the following content:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:528
+msgid "`/etc/dconf/db/local.d/00_gdm-password-disable`"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:528
+msgid ""
+"[org/gnome/login-screen]\n"
+"enable-password-authentication=false"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:535
+msgid ""
+"To enable smart card authentication, create the `/etc/dconf/db/local.d/"
+"00_gdm-smartcard-enable` file with the following content:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:537
+msgid "`/etc/dconf/db/local.d/00_gdm-smartcard-enable`"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:537
+msgid ""
+"[org/gnome/login-screen]\n"
+"enable-smartcard-authentication=true"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:544
+msgid ""
+"To lock the settings for users, create the `/etc/dconf/db/local.d/locks/"
+"00_gdm-smartcard-locks` file with the following content:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:546
+msgid "`/etc/dconf/db/local.d/locks/00_gdm-smartcard-locks`"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:546
+msgid ""
+"/org/gnome/login-screen/enable-password-authentication\n"
+"/org/gnome/login-screen/enable-smartcard-authentication"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:553
+msgid "Update the system database:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:563
+msgid ""
+"For more information on the GNOME `dconf` locking system, refer to {manpage}"
+"`dconf(7)` or the [GNOME documentation](https://help.gnome.org/admin/system-"
+"admin-guide/stable/dconf-lockdown.html.en)."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:567
+msgid ""
+"Given the amount of components in play, getting a working configuration may "
+"be tricky, so while lower levels of the stack can be tested independently "
+"it's also possible to simulate what GDM does using `pamtester`."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:569
+msgid ""
+"To get better debug logging, also enable it changing `/etc/sssd/sssd.conf` "
+"so that it has:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:571
+msgid ""
+"[pam]\n"
+"pam_verbosity = 10\n"
+"debug_level = 10\n"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:577
+msgid "And `/etc/gdm3/custom.conf` with:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:578
+msgid ""
+"[debug]\n"
+"Enable=true\n"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:583
+msgid ""
+"You can use it to check your configuration without having to login/logout "
+"for real:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:585
+msgid "Install it:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:595
+msgid "Run the authentication service as standalone:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:605
+msgid "Run the authentication service to get user from cert:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:615
+msgid "You can check what happened in the logs, reading:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:658
+msgid "Configure GNOME Settings Daemon"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:660
+msgid ""
+"GNOME Settings daemon is in charge of monitoring the smart card state in "
+"GNOME, notifying when the token is added or removed. This allows to control "
+"some actions."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:662
+msgid "Set action on card removal"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:664
+msgid ""
+"When a smart card token that has been used for logging-in is removed from "
+"the system, GNOME can react automatically, by locking the screen or even "
+"logging out the user."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:666
+msgid "User setting"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:668
+msgid ""
+"This can be configured at user level for each user by just changing this "
+"GSettings key:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:678
+msgid "Valid values are `none`, `lock-screen` or `force-logout`."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:680
+msgid "Global settings"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:682
+msgid "This value can be locked down at user level by system administrators"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:685
+msgid ""
+"This is done through the GNOME `dconf` locking system. You can read more "
+"about this at {manpage}`dconf(7)` or in the [GNOME documentation](https://"
+"help.gnome.org/admin/system-admin-guide/stable/dconf-lockdown.html.en)."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:688
+msgid "In particular an example could be:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:690
+msgid ""
+"Create the `dconf` profile. This may not be required if a such file is "
+"already present:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:713
+msgid "Lock the screen on smart card removal:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:726
+msgid "Valid options are `lock-screen`, `force-logout` or `none`."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:728
+msgid "Make action non-user configurable:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:740
+msgid "Update system database:"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:750
+msgid ""
+"These files can be safely removed to disable the lockdown (including the "
+"`profile/user` one, if no other override/lock is set)."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:753
+msgid "Testing the configuration"
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:755
+msgid ""
+"Now that all the pieces have been configured, just inserting a smart card "
+"should be enough to be required using it for GDM login and unlock."
+msgstr ""
+
+#: ../../../how-to/log-in-using-a-smart-card.md:757
+msgid ""
+"If this is not the case, go through the various *Troubleshooting* sections "
+"of this guide to see what's not working, reading the logs output should be "
+"enough to figure out what needs to be fixed."
+msgstr ""

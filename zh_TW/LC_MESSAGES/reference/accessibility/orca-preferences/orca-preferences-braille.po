@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:0
+msgid ""
+"Configure Orca Braille preferences, including BRLTTY support, word wrap, "
+"contracted Braille with liblouis and abbreviated role names."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:7
+msgid "Braille preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:9
+msgid "Enable braille support"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:11
+msgid ""
+"Toggles braille display integration. Orca handles BrlTTY absence gracefully."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:13
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:23
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:29
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:35
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:41
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:87
+msgid "**Default value:** Not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:16
+msgid "You must restart Orca after configuring BrlTTY."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:19
+msgid "Enable word wrap"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:21
+msgid "Wraps only full words on the braille display."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:25
+msgid "Enable contracted braille"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:27
+msgid "Enable support via `liblouis`.  Choose the desired translation table."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:31
+msgid "Abbreviated role names"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:33
+msgid "For example, \"slider\" equals to `sldr`."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:37
+msgid "Disable end of line symbol"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:39
+msgid "Disables presentation of `$l` at the end of lines."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:43
+msgid "Verbosity"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:45
+msgid "Controls how much info is shown in braille:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:47
+msgid "**Verbose**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:48
+msgid "includes role names and keyboard shortcuts"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:50
+msgid "**Brief**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:51
+msgid "omits tole names and keyboard shortcuts"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:53
+msgid "**Default value:** Verbose"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:55
+msgid "Selection and hyperlink indicators"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:57
+msgid "Indicate selected text and links with:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:59
+msgid "**Dots 7 and 8** (default)"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:60
+msgid "**Dot 7**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:61
+msgid "**Dot 8**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:62
+msgid "**None**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:64
+msgid "Text attribute indicators"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:66
+msgid "Enabled and configured on the **Text Attributes** page."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:68
+msgid "Flash message settings"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:70
+msgid "Temporary messages displayed in braille."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:72
+msgid "Enable flash messages"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:74
+msgid "Toggle display of braille flash messages.   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:15
+msgid "<br />\n"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:15
+msgid "\\\\\n"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:77
+msgid "Messages are detailed"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:79
+msgid "Enable longer messages, for example, \"Key echo set to word.\""
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:81
+msgid "**Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:83
+msgid "Messages are persistent"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:85
+msgid "Keeps messages on screen until overwritten."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:89
+msgid "Duration (secs)"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:91
+msgid "Sets time before message disappears. Ignored if persistence is enabled."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-braille.md:93
+msgid "**Default value:** 5"
+msgstr ""

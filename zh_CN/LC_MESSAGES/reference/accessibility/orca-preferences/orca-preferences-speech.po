@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:0
+msgid ""
+"Configure Orca speech preferences, including enabling speech, verbosity, "
+"punctuation level and spoken context."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:8
+msgid "Speech preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:10
+msgid "Enable speech"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:12
+msgid "Controls whether Orca uses a speech synthesizer."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:14
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:98
+msgid "**Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:16
+msgid "Verbosity"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:18
+msgid "Determines how much information Orca speaks in different contexts."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:20
+msgid "**Default value:** Verbose"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:22
+msgid "Punctuation level"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:24
+msgid "Controls how much punctuation is spoken:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:26
+msgid "**None**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:27
+msgid "no punctuation (except symbols like bullets, Unicode fractions)"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:29
+msgid "**Some**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:30
+msgid "adds math and currency symbols, `^`, `@`, `/`, `&`, `#`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:32
+msgid "**Most**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:33
+msgid "adds nearly all punctuation except `!`, `'`, `,`, `.`, `?`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:35
+msgid "**All**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:36
+msgid "every known punctuation symbol"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:38
+msgid "**Default value:** Most"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:40
+msgid "Spoken Context"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:42
+msgid "Provides system-level info about the focused item via the System voice."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:44
+msgid "**Only speak displayed text**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:45
+msgid "restricts speech to visible on-screen text"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:47
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:117
+msgid "**Default value:** Not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:49
+msgid "Enabling \"Only speak displayed text\" disables the following options:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:51
+msgid "**Speak blank lines**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:52
+msgid "says \"blank\" for empty lines   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:0
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:100
+msgid "<br />\n"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:0
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:100
+msgid "\\\\\n"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:55
+msgid "**Speak indentation and justification**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:56
+msgid "useful when working with code   **Default value:** Not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:59
+msgid "**Speak misspelled-word indicator**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:60
+msgid "announces \"misspelled\" when relevant   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:63
+msgid "**Speak object mnemonics**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:64
+msgid ""
+"announces shortcut keys (e.g., Alt+O for OK)   **Default value:** Not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:67
+msgid "**Speak child position**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:68
+msgid ""
+"announces item position in menus/lists/trees (e.g., \"9 of 16\")   **Default "
+"value:** Not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:71
+msgid "**Speak tutorial messages**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:72
+msgid ""
+"provides interaction tips for focused items   **Default value:** Not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:75
+msgid "**Speak description**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:76
+msgid ""
+"includes accessible description along with name   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:79
+msgid "**System messages are detailed**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:80
+msgid "enables verbose system messages   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:83
+msgid "**Speak colors as names**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:84
+msgid ""
+"says names like \"midnight blue\" instead of RGB values   **Default value:** "
+"Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:87
+msgid "Announce contextual information during navigation"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:89
+msgid "Orca will notify you when navigating into/out of containers."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:91
+msgid "Announce blockquotes"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:92
+msgid "Announce forms"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:93
+msgid "Announce landmarks"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:94
+msgid "Announce lists"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:95
+msgid "Announce panels"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:96
+msgid "Announce tables"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:101
+msgid "These are independent of **Say All** settings."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:104
+msgid "Speak full row settings"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:106
+msgid "Orca will speak the full row rather than just the focused cell in:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:108
+msgid "**GUI tables**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:109
+msgid "e.g., as email list   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:112
+msgid "**Document tables**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:113
+msgid "e.g., in Writer or web   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-speech.md:116
+msgid "**Spreadsheets**"
+msgstr ""

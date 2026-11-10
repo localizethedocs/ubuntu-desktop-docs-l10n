@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:0
+msgid ""
+"Configure how Orca behaves in instant messaging and IRC chat clients, such "
+"as announcing chatroom names and typing status."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:7
+msgid "Chat preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:9
+msgid ""
+"The following options allow you to customize how Orca behaves when providing "
+"access to instant messaging and internet relay chat clients."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:11
+msgid "Speak chatroom name"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:13
+msgid ""
+"If this checkbox is checked, Orca will prefix incoming messages with the "
+"name of the room or buddy they came from, unless they came from the "
+"currently-focused conversation."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:15
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:21
+msgid "**Default value:** not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:17
+msgid "Announce when your buddies are typing"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:19
+msgid ""
+"If this checkbox is checked, and if Orca has sufficient information "
+"identifying that your buddy is typing, Orca will announce changes in typing "
+"status."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:23
+msgid "Provide chat room specific message histories"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:25
+msgid ""
+"If this checkbox is checked, Orca's commands for reviewing recent messages "
+"will only apply to the currently-focused conversation. Otherwise, the "
+"history will contain the most recent messages regardless of which "
+"conversation they came from."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:27
+msgid "**Default value**: not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:29
+msgid "Speak messages from"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:31
+msgid ""
+"This group of radio buttons allows you to control under what circumstances "
+"Orca will present an incoming message to you. Your choices are:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:33
+msgid "All channels"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:35
+msgid "A channel only if its window is active"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:37
+msgid "All channels when any chat window is active"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-chat.md:39
+msgid "**Default value:** all channels"
+msgstr ""

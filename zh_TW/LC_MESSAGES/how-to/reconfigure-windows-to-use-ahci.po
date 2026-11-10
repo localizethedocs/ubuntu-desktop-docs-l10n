@@ -1,0 +1,544 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:0
+msgid ""
+"Switch Windows from Intel RST to AHCI so Ubuntu can install alongside it, "
+"and repair Windows boot problems afterward."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:8
+msgid "Topics: Installation Windows"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:12
+msgid "Reconfigure Windows to use AHCI"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:14
+msgid ""
+"If the Ubuntu installer detects RST, and Windows is installed on your "
+"system, these steps enable Ubuntu to install side by side with Windows, "
+"without any loss of data and functionality."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:16
+msgid ""
+"To learn more about RST and its behavior with Ubuntu, see {ref}`intel-rst-"
+"during-ubuntu-installation`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:19
+msgid "Back up your data"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:21
+msgid ""
+"Any hard drive structure or configuration change, or installation of new "
+"operating systems on a hard drive that already contains data might "
+"potentially lead to a data loss."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:23
+msgid ""
+"Make sure that your personal data is safe. Even simply copying the important "
+"files to an external drive minimizes the risk of data loss."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:26
+msgid "Find the current controller mode"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:28
+msgid "Open the Device Manager."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:30
+msgid ""
+"Under {guilabel}`IDE ATA/ATAPI controllers`, verify which controller mode is "
+"in use in Windows."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:32
+msgid ""
+"If the controller mode is set to anything other than {guilabel}`Standard "
+"SATA AHCI Controller`, you need to make a change that allows Windows to boot "
+"safely in AHCI mode. This can be done using the Registry Editor."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:35
+msgid "Change the controller mode"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:37
+msgid ""
+"Use the following steps to switch your Windows storage controller to AHCI."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:39
+msgid "Change registry keys"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:41
+msgid "Start Registry Editor, and navigate to the following path:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:43
+msgid "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\iaStorV\\\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:47
+msgid "![Regedit](/images/windows-ahci/Regedit.png)"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:47
+msgid "Regedit"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:49
+msgid ""
+"In the right column, double-click the `Start` key, and change its value to "
+"`0`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:51
+msgid ""
+"Double-click the `iaStorV` entry in the left column to expand it and select "
+"the `StartOverride` entry."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:53
+msgid "In the right column, change the value of the key `0` to `0`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:55
+msgid "![Regedit override](/images/windows-ahci/Regedit-override-dword.png)"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:55
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:97
+msgid "Regedit override"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:57
+msgid ""
+"Repeat these changes for the following path in the Registry Editor, if the "
+"path exists on your system:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:59
+msgid "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\storahci\\\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:63
+msgid "Disable additional storage features"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:65
+msgid ""
+"If your system uses BitLocker, disable it. See {ref}`turn-off-bitlocker-in-"
+"windows`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:67
+msgid ""
+"If your system uses Intel Optane Memory, disable it. See [How to Disable "
+"System Acceleration with Intel® Optane™ Memory](https://www.intel.com/"
+"content/www/us/en/support/articles/000024626/memory-and-storage/intel-optane-"
+"memory.html)."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:69
+msgid "Switch to safe boot mode"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:71
+msgid ""
+"Open the System Configuration app. You can find it by entering `msconfig` in "
+"the Windows search menu."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:73
+msgid ""
+"On the {guilabel}`Boot` tab, enable {guilabel}`Safe boot` in the {guilabel}"
+"`Boot options` frame. Confirm by clicking {guilabel}`OK`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:75
+msgid "Change firmware settings"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:77
+msgid "Reboot the system and start your computer’s firmware (BIOS or UEFI)."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:79
+msgid ""
+"Usually, you can access the firmware by pressing the {kbd}`F2` or {kbd}`Del` "
+"key during the early boot sequence."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:81
+msgid "In the firmware menu, change the disk controller type to AHCI."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:83
+msgid ""
+"The exact terminology and steps to manage the controller type in the "
+"firmware depend on the implementation by the platform vendor."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:85
+msgid "Finish and verify the changes"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:87
+msgid "Exit the firmware and let the system boot."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:89
+msgid ""
+"Windows enters safe mode and sets up the hardware using the temporarily "
+"enabled drivers."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:91
+msgid ""
+"After Windows starts, open the System Configuration app again and disable "
+"{guilabel}`Safe boot`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:93
+msgid "Check the controller mode in the Device Manager."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:95
+msgid "It should read: {guilabel}`Standard SATA AHCI Controller`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:97
+msgid "![Regedit override](/images/windows-ahci/Regedit-override.png)"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:99
+msgid "Reboot. Windows starts normally."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:101
+msgid "Troubleshooting boot problems"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:103
+msgid ""
+"After making the necessary changes to enable Ubuntu to install side by side "
+"with Windows, Windows might no longer boot. For instance, this might happen "
+"if you made the firmware change without making the registry changes in "
+"Windows. In this case, you need to recover your Windows installation."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:105
+msgid ""
+"![The INACCESSIBLE BOOT DEVICE error screen](/images/windows-ahci/"
+"INACCESSIBLE-BOOT-DEVICE.png)"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:105
+msgid "The INACCESSIBLE BOOT DEVICE error screen"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:107
+msgid ""
+"You will most likely see a blue screen with a Stop code: `INACCESSIBLE BOOT "
+"DEVICE`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:109
+msgid ""
+"Windows attempts to restart and automatically diagnose and repair the boot-"
+"related problems, but it will probably fail to complete the task itself. You "
+"need to manually launch the command prompt from the recovery screen and fix "
+"the issue."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:111
+msgid "Open the command prompt"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:113
+msgid ""
+"On the screen that gives you the result of the Automatic Repair, click "
+"{guilabel}`Advanced options`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:115
+msgid ""
+"![The Automatic Repair screen](/images/windows-ahci/Automatic-repair.png)"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:115
+msgid "The Automatic Repair screen"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:117
+msgid ""
+"From the {guilabel}`Choose an option` screen, go to {menuselection}"
+"`Troubleshoot --> Advanced options --> Command Prompt`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:119
+msgid ""
+"![Automatic repair did not work](/images/windows-ahci/Automatic-repair-did-"
+"not-work.png)"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:119
+msgid "Automatic repair did not work"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:121
+msgid "Diagnose the problem"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:123
+msgid ""
+"The Windows command prompt opens. Here, you can run commands to diagnose and "
+"repair problems, including boot-related issues."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:125
+msgid "![The command prompt](/images/windows-ahci/Windows-command-prompt.png)"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:125
+msgid "The command prompt"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:127
+msgid ""
+"From the command prompt, run the disk partition tool to see and understand "
+"the disk layout:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:129
+msgid "diskpart\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:133
+msgid "Display the list of volumes:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:135
+msgid "list volume\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:139
+msgid ""
+"Make sure the volume that contains Windows is correctly assigned the letter "
+"`C:`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:141
+msgid ""
+"If the Windows volume isn't `C:`, you need to change this using the "
+"following commands:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:143
+msgid "select volume [number]\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:147
+msgid "assign letter=[letter]\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:151
+msgid ""
+"For example, a \"wrong\" volume might be assigned the letter `C:`. Select it "
+"first, assign it a different letter (e.g. `F:` or `H:`), select the volume "
+"that contains Windows, and then assign it the letter `C:`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:153
+msgid ""
+"![Disk partitioning example](/images/windows-ahci/windows-10-diskpart.png)"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:153
+msgid "Disk partitioning example"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:155
+msgid "Exit the `diskpart` utility:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:157
+msgid "exit\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:161
+msgid "Repair the problem"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:163
+msgid "Run the `bcdedit repair` command:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:165
+msgid "bcdedit /deletevalue {default} safeboot\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:169
+msgid "If the previous command does not work, try alternative commands:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:171
+msgid "bcdedit /deletevalue {current} safeboot\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:175
+msgid "bcdedit /deletevalue safeboot\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:179
+msgid ""
+"If the previous command completes successfully, exit the command prompt, the "
+"Windows recovery console will restart, and Windows should load normally, "
+"with the controller mode set to AHCI."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:181
+msgid ""
+"If Windows does not start correctly, you can then manually recreate the boot "
+"loader file."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:183
+msgid "Recreating the boot loader file"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:185
+msgid ""
+"To this end, you need to access either the System partition or the EFI "
+"partition on your computer. The Windows disk layout typically includes one "
+"of these two configurations:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:187
+msgid ""
+"A volume that contains Windows (`C:`) and a small hidden partition, usually "
+"100MB in size called System partition, formatted as NTFS. It contains the "
+"files needed to start (boot) Windows, as well as recovery tools to help you "
+"diagnose and repair your system when it does not start correctly."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:189
+msgid ""
+"On UEFI-based computers, a volume that contains Windows (`C:`) and a boot "
+"partition (also called EFI), typically 256-512MB in size, formatted as "
+"FAT32. This partition contains the files needed to start (boot) Windows."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:191
+msgid "You need to access the partition to make the necessary changes."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:193
+msgid ""
+"If you have already run the `diskpart` utility, you do not need to do "
+"anything at this point, you only need to check the letter that is assigned "
+"to this partition (e.g. letter `F:`)."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:195
+msgid ""
+"Assuming letter `F:` for the boot partition, use the following commands:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:197
+msgid "Switch to the boot partition:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:199
+msgid "F:\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:203
+msgid "cd boot\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:207
+msgid "Move the existing boot file aside:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:209
+msgid "ren BCD BCD.bak\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:213
+msgid "Create a new one:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:215
+msgid "bcdboot c:\\windows /l en-us /s f: /f ALL\n"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:219
+msgid ""
+"The `bcdboot` command initializes the system partition by using BCD files "
+"from the `C:\\Windows` folder."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:221
+msgid "The options used in the command:"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:223
+msgid "`/l en-us`"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:224
+msgid "Use the `en-us` locale."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:226
+msgid "`/s f:`"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:227
+msgid "Target the system partition assigned letter `F:`."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:229
+msgid "`/f ALL`"
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:230
+msgid "Create boot files both for UEFI and BIOS."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:232
+msgid ""
+"Once the previous command completes, reboot. Windows should start normally."
+msgstr ""
+
+#: ../../../how-to/reconfigure-windows-to-use-ahci.md:234
+msgid ""
+"You can now re-launch the Ubuntu installer and finish the side-by-side setup "
+"of the two operating systems."
+msgstr ""

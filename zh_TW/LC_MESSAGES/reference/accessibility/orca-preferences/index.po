@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/index.md:0
+msgid ""
+"Reference for Orca preferences that customize screen reader behavior in all "
+"applications, such as key echo, speech, Braille and voices."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:7
+msgid "Topics: Accessibility"
+msgstr "話題：無障礙功能"
+
+#: ../../../reference/accessibility/orca-preferences/index.md:11
+msgid "Screen reader preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:13
+msgid ""
+"Orca preferences allow you to customize functionality in Orca which applies "
+"to all applications. An example of an Orca preference is key echo because "
+"key echo is something that applies to all applications."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:15
+msgid ""
+"Orca preferences can be configured globally or on the application level. "
+"Application-level preferences allow you to customize Orca functionality that "
+"only applies in certain environments, such as on web pages or in chat "
+"applications. As a result, you will only find these options available in the "
+"application-specific preferences dialogs and only for those applications to "
+"which these options apply."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:17
+msgid "Keyboard shortcuts to open preferences dialogs"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:0
+msgid "Laptop layout"
+msgstr "筆記型電腦配置"
+
+#: ../../../reference/accessibility/orca-preferences/index.md:24
+msgid "{kbd}`CapsLock+Space`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:25
+#: ../../../reference/accessibility/orca-preferences/index.md:35
+msgid "Open Orca's Preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:27
+msgid "{kbd}`Ctrl+CapsLock+Space`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:28
+#: ../../../reference/accessibility/orca-preferences/index.md:38
+msgid "Open Orca's Preferences for the current application"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:0
+msgid "Desktop layout"
+msgstr "桌上型電腦配置"
+
+#: ../../../reference/accessibility/orca-preferences/index.md:34
+msgid "{kbd}`Insert+Space`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:37
+msgid "{kbd}`Ctrl+Insert+Space`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:44
+msgid "General preferences and profiles"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:53
+msgid "Key bindings"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:55
+msgid "Orca's keyboard shortcuts."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:63
+msgid "Voice and speech"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:65
+msgid ""
+"Configure the voice used by Orca, what gets spoken, and what gets spoken as "
+"you type."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:75
+msgid "See also {ref}`add-dictionary-entries`."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:77
+msgid "Braille"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:79
+msgid "Configure Orca's braille display support."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:87
+msgid "Text and documents processing"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:98
+msgid "Chat clients"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/index.md:100
+msgid ""
+"Configure how Orca behaves when providing access to instant messaging and "
+"internet relay chat clients."
+msgstr ""

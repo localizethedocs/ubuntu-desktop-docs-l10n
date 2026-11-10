@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/index.md:0
+msgid ""
+"Reference for the AT-SPI D-Bus XML interfaces that assistive technologies "
+"use to inspect and control UI elements on Ubuntu Desktop."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/index.md:7
+msgid "Topics: Accessibility"
+msgstr "話題：無障礙功能"
+
+#: ../../../reference/accessibility/dbus/index.md:11
+msgid "AT-SPI DBus XML interfaces"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/index.md:13
+msgid ""
+"AT-SPI (Assistive Technology Service Provider Interface) is the core of an "
+"accessibility stack for Ubuntu Desktop."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/index.md:15
+msgid ""
+"It provides a list of methods, signals, and properties provided by a D-Bus "
+"service, in an XML format. These methods define what operations an assistive "
+"technology can perform or request on UI elements."
+msgstr ""

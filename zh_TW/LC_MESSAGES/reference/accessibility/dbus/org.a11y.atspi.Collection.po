@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:1
+msgid "org.a11y.atspi.Collection"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:5
+msgid ""
+"An ordered list of accessible objects, used to avoid iteration or client-"
+"side search of the object tree."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:7
+msgid "Methods"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:9
+msgid "org.a11y.atspi.Collection.GetMatches"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:11
+msgid "Gets all objects from the collection matching a given `rule`."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:15
+msgid ""
+"GetMatches (\n"
+"  IN rule (aiia{ss}iaiiasib),\n"
+"  IN sortby u,\n"
+"  IN count i,\n"
+"  IN traverse b,\n"
+"  OUT unnamed_arg4 a(so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:23
+msgid "org.a11y.atspi.Collection.GetMatchesTo"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:25
+msgid ""
+"Gets all objects from the collection, after `current_object`, matching a "
+"given `rule`."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:29
+msgid ""
+"GetMatchesTo (\n"
+"  IN current_object o,\n"
+"  IN rule (aiia{ss}iaiiasib),\n"
+"  IN sortby u,\n"
+"  IN tree u,\n"
+"  IN limit_scope b,\n"
+"  IN count i,\n"
+"  IN traverse b,\n"
+"  OUT unnamed_arg7 a(so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:40
+msgid "org.a11y.atspi.Collection.GetMatchesFrom"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:42
+msgid ""
+"Gets all objects from the collection, before `current_object`, matching a "
+"given `rule`."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:46
+msgid ""
+"GetMatchesFrom (\n"
+"  IN current_object o,\n"
+"  IN rule (aiia{ss}iaiiasib),\n"
+"  IN sortby u,\n"
+"  IN tree u,\n"
+"  IN count i,\n"
+"  IN traverse b,\n"
+"  OUT unnamed_arg6 a(so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:56
+msgid "org.a11y.atspi.Collection.GetActiveDescendant"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:58
+msgid "Get an active descendant of the given object."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Collection.md:62
+msgid ""
+"GetActiveDescendant (\n"
+"  OUT unnamed_arg0 (so)\n"
+")\n"
+msgstr ""
