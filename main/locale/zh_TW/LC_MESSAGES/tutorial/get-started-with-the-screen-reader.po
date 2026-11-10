@@ -25,11 +25,11 @@ msgstr ""
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:8
 msgid "Topics: Accessibility"
-msgstr "話題：無障礙功能"
+msgstr ""
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:12
 msgid "Get started with the screen reader"
-msgstr ""
+msgstr "開始使用螢幕讀取器"
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:14
 msgid ""
@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:19
 msgid "Enable the screen reader"
-msgstr ""
+msgstr "啟用螢幕讀取器"
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:21
 msgid ""
@@ -177,11 +177,11 @@ msgstr ""
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:72
 msgid "Ask for the time and date"
-msgstr ""
+msgstr "詢問日期與時間"
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:74
 msgid "Let's try an Orca command now."
-msgstr ""
+msgstr "現在來試用 Orca 命令。"
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:76
 msgid ""
@@ -209,7 +209,7 @@ msgstr ""
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:85
 msgid "Check your internet connection"
-msgstr ""
+msgstr "檢查您的網際網路連線"
 
 #: ../../../tutorial/get-started-with-the-screen-reader.md:87
 msgid ""

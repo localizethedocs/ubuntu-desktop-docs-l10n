@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../tutorial/try-ubuntu-desktop.md:12
 msgid "Try Ubuntu Desktop"
-msgstr ""
+msgstr "試用 Ubuntu Desktop"
 
 #: ../../../tutorial/try-ubuntu-desktop.md:14
 msgid ""
@@ -643,11 +643,11 @@ msgstr ""
 
 #: ../../../tutorial/try-ubuntu-desktop.md:57
 msgid "The Keyboard layout page"
-msgstr ""
+msgstr "鍵盤配置頁面"
 
 #: ../../../tutorial/try-ubuntu-desktop.md:59
 msgid "Connect to your network."
-msgstr ""
+msgstr "連接您的網路。"
 
 #: ../../../tutorial/try-ubuntu-desktop.md:61
 msgid ""
@@ -692,7 +692,7 @@ msgstr ""
 
 #: ../../../tutorial/try-ubuntu-desktop.md:73
 msgid "The Try or install Ubuntu page"
-msgstr ""
+msgstr "試用或安裝 Ubuntu 頁面"
 
 #: ../../../tutorial/try-ubuntu-desktop.md:76
 msgid "Test the Ubuntu preview"

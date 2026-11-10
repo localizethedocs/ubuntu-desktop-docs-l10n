@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/change-text-size-on-the-screen.md:7
 msgid "Topics: Accessibility"
-msgstr "話題：無障礙功能"
+msgstr ""
 
 #: ../../../how-to/accessibility/change-text-size-on-the-screen.md:11
 msgid "Change text size on the screen"

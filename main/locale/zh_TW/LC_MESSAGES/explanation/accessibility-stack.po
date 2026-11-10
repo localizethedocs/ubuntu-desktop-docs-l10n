@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "Topics: Accessibility"
-msgstr "話題：無障礙功能"
+msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:11
 msgid "Accessibility stack"

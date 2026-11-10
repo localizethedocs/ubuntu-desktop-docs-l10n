@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../tutorial/install-ubuntu-desktop.md:12
 msgid "Install Ubuntu Desktop"
-msgstr ""
+msgstr "安裝 Ubuntu Desktop"
 
 #: ../../../tutorial/install-ubuntu-desktop.md:14
 msgid ""
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../../tutorial/install-ubuntu-desktop.md:43
 msgid "Back up your data"
-msgstr ""
+msgstr "備份您的資料"
 
 #: ../../../tutorial/install-ubuntu-desktop.md:45
 msgid ""
@@ -689,11 +689,11 @@ msgstr ""
 
 #: ../../../tutorial/install-ubuntu-desktop.md:75
 msgid "The Keyboard layout page"
-msgstr ""
+msgstr "鍵盤配置頁面"
 
 #: ../../../tutorial/install-ubuntu-desktop.md:77
 msgid "Connect to your network."
-msgstr ""
+msgstr "連接您的網路。"
 
 #: ../../../tutorial/install-ubuntu-desktop.md:79
 msgid ""
@@ -736,7 +736,7 @@ msgstr ""
 
 #: ../../../tutorial/install-ubuntu-desktop.md:89
 msgid "The Try or install Ubuntu page"
-msgstr ""
+msgstr "試用或安裝 Ubuntu 頁面"
 
 #: ../../../tutorial/install-ubuntu-desktop.md:91
 msgid "To proceed, click {guilabel}`Install Ubuntu`."
@@ -849,7 +849,7 @@ msgstr ""
 
 #: ../../../tutorial/install-ubuntu-desktop.md:129
 msgid "Disk setup"
-msgstr ""
+msgstr "磁碟設定"
 
 #: ../../../tutorial/install-ubuntu-desktop.md:131
 msgid "Select how Ubuntu should be installed on the disk:"
@@ -877,7 +877,7 @@ msgstr ""
 
 #: ../../../tutorial/install-ubuntu-desktop.md:139
 msgid "The Disk setup page"
-msgstr ""
+msgstr "磁碟設定頁面"
 
 #: ../../../tutorial/install-ubuntu-desktop.md:141
 msgid "Let’s take a moment to review all of the above options in detail."
@@ -885,7 +885,7 @@ msgstr ""
 
 #: ../../../tutorial/install-ubuntu-desktop.md:143
 msgid "Erase disk and install Ubuntu"
-msgstr ""
+msgstr "抹除磁碟並安裝 Ubuntu"
 
 #: ../../../tutorial/install-ubuntu-desktop.md:145
 msgid ""
@@ -1086,7 +1086,7 @@ msgstr ""
 
 #: ../../../tutorial/install-ubuntu-desktop.md:217
 msgid "User and password"
-msgstr ""
+msgstr "使用者與密碼"
 
 #: ../../../tutorial/install-ubuntu-desktop.md:219
 msgid ""
@@ -1108,11 +1108,11 @@ msgstr ""
 
 #: ../../../tutorial/install-ubuntu-desktop.md:223
 msgid "The Create your account page"
-msgstr ""
+msgstr "創建您的帳號頁面"
 
 #: ../../../tutorial/install-ubuntu-desktop.md:226
 msgid "Select your timezone"
-msgstr ""
+msgstr "選取您的時區"
 
 #: ../../../tutorial/install-ubuntu-desktop.md:228
 msgid ""

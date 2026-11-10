@@ -235,7 +235,7 @@ msgstr ""
 
 #: ../../../explanation/snap-and-deb-packages.md:75
 msgid "Deb packages"
-msgstr ""
+msgstr "Deb 軟體包"
 
 #: ../../../explanation/snap-and-deb-packages.md:77
 msgid ""

@@ -164,7 +164,7 @@ msgstr ""
 
 #: ../../../how-to/upgrade-ubuntu-desktop.md:84
 msgid "Install updates:"
-msgstr ""
+msgstr "安裝更新："
 
 #: ../../../how-to/upgrade-ubuntu-desktop.md:94
 msgid "Restart your computer if prompted:"

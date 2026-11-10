@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/read-screen-aloud.md:7
 msgid "Topics: Accessibility"
-msgstr "話題：無障礙功能"
+msgstr ""
 
 #: ../../../how-to/accessibility/orca/read-screen-aloud.md:11
 msgid "Read the screen aloud"

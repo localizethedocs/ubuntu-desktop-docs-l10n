@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/index.md:1
 msgid "Topics: Accessibility"
-msgstr "話題：無障礙功能"
+msgstr ""
 
 #: ../../../how-to/accessibility/orca/index.md:4
 msgid "Screen reader"
