@@ -19,19 +19,19 @@ msgstr ""
 
 #: ../../../index.md:11
 msgid "Tutorials"
-msgstr ""
+msgstr "教學課程"
 
 #: ../../../index.md:11
 msgid "How-to guides"
-msgstr ""
+msgstr "操作指南"
 
 #: ../../../index.md:11
 msgid "Reference"
-msgstr ""
+msgstr "參考資料"
 
 #: ../../../index.md:11
 msgid "Explanation"
-msgstr ""
+msgstr "解釋說明"
 
 #: ../../../index.md:0
 msgid ""
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../../index.md:7
 msgid "Ubuntu Desktop documentation"
-msgstr ""
+msgstr "Ubuntu Desktop 文件"
 
 #: ../../../index.md:9
 msgid ""
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../../index.md:60
 msgid "Get involved"
-msgstr ""
+msgstr "參與其中"
 
 #: ../../../index.md:62
 msgid "Get [community support](https://ubuntu.com/support/community-support)"
@@ -196,13 +196,14 @@ msgstr ""
 #: ../../../index.md:69
 msgid ""
 "{external:ref}`Release notes for Ubuntu 26.10 <ubuntu-26.10-release-notes>`"
-msgstr ""
+msgstr "{external:ref}`Ubuntu 26.10 的發行備註 <ubuntu-26.10-release-notes>`"
 
 #: ../../../index.md:70
 msgid ""
 "{external:ref}`Release notes for Ubuntu 26.04 LTS <ubuntu-26.04-lts-release-"
 "notes>`"
 msgstr ""
+"{external:ref}`Ubuntu 26.04 LTS 的發行備註 <ubuntu-26.04-lts-release-notes>`"
 
 #: ../../../index.md:71
 msgid ""
@@ -212,15 +213,15 @@ msgstr ""
 
 #: ../../../index.md:73
 msgid "Governance and policies"
-msgstr ""
+msgstr "治理與方針"
 
 #: ../../../index.md:75
 msgid "[Code of conduct](https://ubuntu.com/community/code-of-conduct)"
-msgstr ""
+msgstr "[行為守則](https://ubuntu.com/community/code-of-conduct)"
 
 #: ../../../index.md:77
 msgid "Commercial support"
-msgstr ""
+msgstr "商業支援"
 
 #: ../../../index.md:79
 msgid ""
@@ -242,7 +243,7 @@ msgstr ""
 msgid ""
 "The [GNOME User Documentation](https://gitlab.gnome.org/GNOME/gnome-user-"
 "docs) project"
-msgstr ""
+msgstr "[GNOME 使用者文件](https://gitlab.gnome.org/GNOME/gnome-user-docs)專案"
 
 #: ../../../index.md:87
 msgid ""
@@ -254,3 +255,4 @@ msgid ""
 "The [Ubuntu Desktop Guide](https://launchpad.net/ubuntu/+source/ubuntu-docs) "
 "project"
 msgstr ""
+"[Ubuntu Desktop 指南](https://launchpad.net/ubuntu/+source/ubuntu-docs)專案"

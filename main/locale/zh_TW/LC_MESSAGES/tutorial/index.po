@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../tutorial/index.md:8
 msgid "Tutorials"
-msgstr ""
+msgstr "教學課程"
 
 #: ../../../tutorial/index.md:10
 msgid "A hands-on introduction to Ubuntu Desktop for new users."
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../../tutorial/index.md:42
 msgid "Command line"
-msgstr ""
+msgstr "命令行"
 
 #: ../../../tutorial/index.md:44
 msgid ""

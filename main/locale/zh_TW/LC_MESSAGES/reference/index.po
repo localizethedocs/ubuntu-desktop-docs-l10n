@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../reference/index.md:2
 msgid "Reference"
-msgstr ""
+msgstr "參考資料"
 
 #: ../../../reference/index.md:4
 msgid ""

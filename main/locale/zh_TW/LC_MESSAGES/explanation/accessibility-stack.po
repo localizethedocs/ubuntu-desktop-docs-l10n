@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "[ATK](https://docs.gtk.org/atk/)"
-msgstr ""
+msgstr "[ATK](https://docs.gtk.org/atk/)"
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "System Settings app"
