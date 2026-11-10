@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/start-an-application-at-login.md:0
+msgid ""
+"Set an application to start automatically when you log in to Ubuntu Desktop."
+msgstr ""
+
+#: ../../../how-to/start-an-application-at-login.md:7
+msgid "Topics: Customization"
+msgstr ""
+
+#: ../../../how-to/start-an-application-at-login.md:11
+msgid "Start an application at login"
+msgstr ""
+
+#: ../../../how-to/start-an-application-at-login.md:13
+msgid "You can set any application to start automatically at login."
+msgstr ""
+
+#: ../../../how-to/start-an-application-at-login.md:15
+msgid "Go to {menuselection}`Settings --> Apps`."
+msgstr ""
+
+#: ../../../how-to/start-an-application-at-login.md:17
+msgid "Select the application that you want to start automatically."
+msgstr ""
+
+#: ../../../how-to/start-an-application-at-login.md:19
+msgid "Enable {guilabel}`Autostart`."
+msgstr ""

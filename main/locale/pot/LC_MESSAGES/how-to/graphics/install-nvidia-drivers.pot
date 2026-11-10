@@ -1,0 +1,505 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:0
+msgid ""
+"Install NVIDIA drivers on Ubuntu using the ubuntu-drivers tool for UDA "
+"desktop drivers or ERD server drivers with Fabric Manager."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:9
+msgid "Topics: How-to guide Graphics"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:13
+msgid "Install NVIDIA drivers"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:15
+msgid ""
+"If you have an NVIDIA GPU, you can install official NVIDIA drivers to "
+"improve desktop and gaming performance or support computing tasks."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:18
+msgid ""
+"NVIDIA drivers installed from sources outside of those listed in this guide "
+"might potentially overwrite those provided by Ubuntu and might break Secure "
+"Boot."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:20
+msgid ""
+"We recommend installing the drivers provided by Ubuntu packages rather than "
+"downloading drivers from NVIDIA. The Ubuntu packages ensure that you install "
+"libraries compatible with your Ubuntu release."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:24
+msgid "Driver management tools"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:26
+msgid ""
+"We recommend using the `ubuntu-drivers` tool or the Additional Drivers app "
+"to manage drivers. They share the same logic. By default, these tools only "
+"install the pre-built, signed drivers, which are known to work with **Secure "
+"Boot**."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:28
+msgid ""
+"You can also install NVIDIA drivers as deb packages using the APT tool. This "
+"is useful in certain cases:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:30
+msgid ""
+"You're provisioning Ubuntu on multiple machines and you want to ensure the "
+"same driver configuration on all of them."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:31
+msgid "You want to learn how the drivers work on a lower level."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:33
+msgid ""
+"In some scenarios, you have to {ref}`install the DKMS driver package <build-"
+"your-own-nvidia-modules-using-the-dkms-package>`, which builds the NVIDIA "
+"driver for the exact kernel that you're running. For example:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:35
+msgid "You're running a custom kernel."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:36
+msgid "The NVIDIA driver for your kernel version isn't available yet."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:39
+msgid "Driver versions and branches"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:41
+msgid ""
+"NVIDIA drivers come with several different support life cycles, also known "
+"as branches."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:43
+msgid ""
+"Generally, we recommend that you install the **Production Branch** (PB) "
+"drivers. These drivers are supported for one year and provide a good balance "
+"of performance, latest features and stability."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:44
+msgid ""
+"If you need the latest driver, such as to support a newly released game or "
+"the latest CUDA APIs, you can opt for the **New Feature Branch** (NFB) "
+"drivers."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:45
+msgid ""
+"In a regulated enterprise environment, you might prefer the **Long Term "
+"Support Branch** (LTSB) drivers, which are supported for three years."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:47
+msgid "Check your driver version"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:49
+msgid "To check the version of your currently running driver:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:0
+msgid "Graphical interface"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:55
+#: ../../../how-to/graphics/install-nvidia-drivers.md:144
+msgid "Open the Additional Drivers app."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:57
+#: ../../../how-to/graphics/install-nvidia-drivers.md:146
+msgid ""
+"If you can't find the app on your system, you can install it from the "
+"`software-properties-gtk` package."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:59
+msgid "See which driver is selected under \"NVIDIA Corporation\"."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:61
+msgid ""
+"[*Nouveau*](https://nouveau.freedesktop.org/) is usually pre-selected as the "
+"default, open-source driver."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:0
+msgid "Command line"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:75
+msgid ""
+"If you currently have a version of the NVIDIA drivers installed that "
+"conflicts with those being installed, `ubuntu-drivers` will uninstall your "
+"original drivers before installing the new drivers."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:77
+msgid "Check a driver's support branch"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:79
+msgid ""
+"You can use the following command to check which branch a driver belongs to:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:90
+msgid "The output shows the acronym of the branch. For example:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:-1
+msgid "Support: PB"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:103
+msgid "Transitional packages to new driver branches"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:105
+msgid ""
+"When NVIDIA stops support on a driver branch, Ubuntu will transition you to "
+"the next supported driver branch automatically if you try to install that "
+"driver branch."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:107
+msgid ""
+"See NVIDIA's [current support matrix](https://docs.nvidia.com/datacenter/"
+"tesla/drivers/index.html) in their documentation."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:110
+msgid "Update your system and kernel"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:112
+msgid "Apply all updates."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:118
+msgid "Open the Software Updater app and install all available updates."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:133
+msgid "After the update is complete, reboot your system."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:136
+msgid "Install the drivers for desktop and gaming use"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:138
+msgid ""
+"For the generic desktop use and gaming, we package the **Unified Driver "
+"Architecture (UDA)** drivers. These drivers also support computing use cases "
+"such as AI and machine learning. You can also find them [on the NVIDIA "
+"website](https://www.nvidia.com/en-us/drivers/unix/)."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:148
+msgid "Under \"NVIDIA Corporation\", choose your preferred driver version."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:150
+msgid ""
+"We recommend the most recent NVIDIA driver with the \"proprietary, tested\" "
+"label. Avoid the \"Server\" drivers."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:152
+msgid ""
+"For example, you might select {guilabel}`Using NVIDIA driver (open kernel) "
+"metapackage from nvidia-driver-525 (proprietary, tested)`."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:155
+msgid ""
+"The \"open kernel\" driver is a new, open-source implementation of the "
+"NVIDIA kernel driver for recent GPUs. It depends on proprietary GPU firmware "
+"and proprietary user-space libraries."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:158
+msgid "Click {guilabel}`Apply changes` and enter your password."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:160
+#: ../../../how-to/graphics/install-nvidia-drivers.md:255
+msgid ""
+"When the installation is complete, restart your system for the changes to "
+"take effect."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:0
+msgid "Using `ubuntu-drivers`"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:165
+msgid "Check the available drivers for your hardware:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:175
+msgid "Install the drivers."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:177
+msgid ""
+"You can rely on automatic detection, which will install the driver that is "
+"considered the best match for your hardware:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:187
+msgid ""
+"Alternatively, you can specify which driver you want. You have to type the "
+"driver version (such as `535`) that you saw when you used the `ubuntu-"
+"drivers list` command."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:189
+msgid "Let's assume we want to install the `535` driver:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:0
+msgid "Selecting packages manually"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:202
+msgid ""
+"Install the metapackage for your kernel flavor (e.g. `generic`, "
+"`lowlatency`, etc.), which is specific to the driver branch (e.g. `535`) "
+"that you want to install:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:212
+msgid "For example, install `linux-modules-nvidia-535-generic`."
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:214
+msgid ""
+"Check that the modules for your specific kernel/{term}`ABI` were installed "
+"by the metapackage:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:224
+#: ../../../how-to/graphics/install-nvidia-drivers.md:244
+msgid "For example:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:234
+msgid ""
+"If the modules were not installed for your current running kernel, upgrade "
+"to the latest kernel or install them by specifying the running kernel "
+"version:"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:257
+msgid ""
+"<!--\n"
+"This section is disabled for the Ubuntu Desktop guide.\n"
+"It'll be re-enabled in the unified Desktop+Server documentation for Ubuntu "
+"OS.\n"
+"\n"
+"## Install the drivers on servers or for computing purposes\n"
+"\n"
+"For servers and computing tasks, Ubuntu provides the **Enterprise Ready "
+"Drivers ({term}`ERD`)** drivers. These drivers come from an NVIDIA release "
+"branch that's qualified and supported for longer on data center GPUs. They "
+"omit certain desktop-oriented features. Their packages can be recognized by "
+"the `-server` suffix. You can read more about these drivers [in the NVIDIA "
+"documentation](https://docs.nvidia.com/datacenter/tesla/index.html).\n"
+"\n"
+"Additionally, Ubuntu provides the **NVIDIA Fabric Manager** and the "
+"**NVSwitch Configuration and Query (NSCQ) library**, which you will only "
+"need if you have NVSwitch hardware. The Fabric Manager and NSCQ library are "
+"only available with the ERDs or `-server` driver versions.\n"
+"\n"
+"::::{tab-set}\n"
+":::{tab-item} Using `ubuntu-drivers`\n"
+":sync: terminal\n"
+"1. Check the available drivers for your hardware:\n"
+"\n"
+"    ```{terminal}\n"
+"    :copy:\n"
+"    :user:\n"
+"    :host:\n"
+"    :dir:\n"
+"    sudo ubuntu-drivers list --gpgpu\n"
+"    \n"
+"    nvidia-driver-470\n"
+"    nvidia-driver-470-server\n"
+"    nvidia-driver-535\n"
+"    nvidia-driver-535-open\n"
+"    nvidia-driver-535-server\n"
+"    nvidia-driver-535-server-open\n"
+"    nvidia-driver-550\n"
+"    nvidia-driver-550-open\n"
+"    nvidia-driver-550-server\n"
+"    nvidia-driver-550-server-open\n"
+"    ```\n"
+"\n"
+"1. Install the driver.\n"
+"\n"
+"    You can rely on automatic detection, which installs the driver that is "
+"considered the best match for your hardware:\n"
+"    \n"
+"    ```{terminal}\n"
+"    :copy:\n"
+"    :user:\n"
+"    :host:\n"
+"    :dir:\n"
+"    sudo ubuntu-drivers install --gpgpu\n"
+"    ```\n"
+"    \n"
+"    Alternatively, you can specify which driver you want. You have to type "
+"the driver version (such as `535`) and the `-server` suffix that you saw "
+"when you used the `ubuntu-drivers list --gpgpu` command.\n"
+"\n"
+"    Let's assume we want to install the `535-server` driver (listed as "
+"`nvidia-driver-535-server`):\n"
+"    \n"
+"    ```{terminal}\n"
+"    :copy:\n"
+"    :user:\n"
+"    :host:\n"
+"    :dir:\n"
+"    sudo ubuntu-drivers install --gpgpu nvidia:535-server\n"
+"    ```\n"
+":::\n"
+"\n"
+":::{tab-item} Selecting packages manually\n"
+":sync: nvidia-drivers-manual\n"
+"1. Install the metapackage for your kernel flavor (e.g. `generic`, "
+"`lowlatency`, etc.), which is specific to the driver branch (e.g. `535`) "
+"that you want to install:\n"
+"\n"
+"    ```{terminal}\n"
+"    :copy:\n"
+"    :user:\n"
+"    :host:\n"
+"    :dir:\n"
+"    sudo apt install linux-modules-nvidia-${DRIVER_BRANCH}-server-$"
+"{LINUX_FLAVOUR}\n"
+"    ```\n"
+"    \n"
+"    For example, install `linux-modules-nvidia-535-server-generic`.\n"
+"\n"
+"1. Check that the modules for your specific kernel/{term}`ABI` were "
+"installed by the metapackage:\n"
+"\n"
+"    ```{terminal}\n"
+"    :copy:\n"
+"    :user:\n"
+"    :host:\n"
+"    :dir:\n"
+"    sudo apt-cache policy linux-modules-nvidia-${DRIVER_BRANCH}-server-$"
+"(uname -r)\n"
+"    ```\n"
+"    \n"
+"    For example:\n"
+"    \n"
+"    ```{terminal}\n"
+"    :copy:\n"
+"    :user:\n"
+"    :host:\n"
+"    :dir:\n"
+"    sudo apt-cache policy linux-modules-nvidia-535-server-$(uname -r)\n"
+"    ```\n"
+"\n"
+"1. If the modules were not installed for your current running kernel, "
+"upgrade to the latest kernel or install them by specifying the running "
+"kernel version:\n"
+"\n"
+"    ```{terminal}\n"
+"    :copy:\n"
+"    :user:\n"
+"    :host:\n"
+"    :dir:\n"
+"    sudo apt install linux-modules-nvidia-${DRIVER_BRANCH}-server-$(uname "
+"-r)\n"
+"    ```\n"
+"    \n"
+"    For example:\n"
+"\n"
+"    ```{terminal}\n"
+"    :copy:\n"
+"    :user:\n"
+"    :host:\n"
+"    :dir:\n"
+"    sudo apt install linux-modules-nvidia-535-server-$(uname -r)\n"
+"    ```\n"
+":::\n"
+"::::\n"
+"\n"
+"::::{dropdown} (Optional) Install Fabric Manager and the NSCQ library\n"
+"If your system comes with NVSwitch hardware, then you will want to install "
+"Fabric Manager and the NVSwitch Configuration and Query library:\n"
+"    \n"
+"```{terminal}\n"
+":copy:\n"
+":user:\n"
+":host:\n"
+":dir:\n"
+"sudo apt install nvidia-fabricmanager-535 libnvidia-nscq-535\n"
+"```\n"
+"\n"
+"Replace `535` with your selected driver version.\n"
+"\n"
+":::{note}\n"
+"While `nvidia-fabricmanager` and `libnvidia-nscq` do not have the same `-"
+"server` label in their name, they are really meant to match the `-server` "
+"drivers in the Ubuntu archive. For example, `nvidia-fabricmanager-535` "
+"matches the `nvidia-driver-535-server` package version (not the `nvidia-"
+"driver-535` package).\n"
+":::\n"
+"::::\n"
+"\n"
+"When the installation is complete, restart your system for the changes to "
+"take effect.\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:394
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:396
+msgid "{ref}`build-your-own-nvidia-modules-using-the-dkms-package`"
+msgstr ""
+
+#: ../../../how-to/graphics/install-nvidia-drivers.md:397
+msgid "{ref}`troubleshoot-your-nvidia-gpu-and-drivers`"
+msgstr ""

@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:0
+msgid ""
+"Turn on Hover Click to click or drag by holding the pointer over a control, "
+"and adjust the delay and motion threshold."
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:7
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:11
+msgid "Simulate clicking by hovering"
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:13
+msgid ""
+"You can click or drag simply by hovering your mouse pointer over a control "
+"or object on the screen. This is useful if you find it difficult to move the "
+"mouse and click at the same time. This feature is called **Hover Click** or "
+"**Dwell Click**."
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:15
+msgid ""
+"When Hover Click is enabled, you can move your mouse pointer over a control, "
+"let go of the mouse, and then wait for a while before the button will be "
+"clicked for you."
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:17
+msgid "Open the Activities overview and start typing **accessibility**."
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:18
+msgid "Click {guilabel}`Accessibility` to open the panel."
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:19
+msgid "Open the {guilabel}`Pointing & Clicking` section."
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:20
+msgid ""
+"In the {guilabel}`Click Assist` section, enable the {guilabel}`Hover Click` "
+"option."
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:22
+msgid ""
+"The {guilabel}`Hover Click` window will open, and will stay above all of "
+"your other windows. You can use this to choose what sort of click should "
+"happen when you hover. For example, if you select {guilabel}`Secondary "
+"Click`, you will right-click when you hover. After you double-click, right-"
+"click, or drag, you will be automatically returned to clicking."
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:24
+msgid ""
+"When you hover your mouse pointer over a button and do not move it, it will "
+"gradually change color. When it has fully changed color, the button will be "
+"clicked."
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:26
+msgid ""
+"Adjust the {guilabel}`Delay` setting to change how long you have to hold the "
+"mouse pointer still before clicking."
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:28
+msgid ""
+"You do not need to hold the mouse perfectly still when hovering to click. "
+"The pointer is allowed to move a little bit and will still click after a "
+"while. If it moves too much, however, the click will not happen."
+msgstr ""
+
+#: ../../../how-to/accessibility/simulate-clicking-by-hovering.md:30
+msgid ""
+"Adjust the {guilabel}`Motion Threshold` setting to change how much the "
+"pointer can move and still be considered to be hovering."
+msgstr ""

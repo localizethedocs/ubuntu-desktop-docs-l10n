@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/software/add-a-software-repository.md:0
+msgid ""
+"Add a PPA or other third-party software repository to Ubuntu Desktop, and "
+"understand the security risks of untrusted sources."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:8
+msgid ""
+"<!--\n"
+"Previously linked: https://help.ubuntu.com/community/Repositories/Ubuntu, "
+"https://help.ubuntu.com/community/Repositories/CommandLine\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:12
+msgid "Topics: Software"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:16
+msgid "Add a software repository"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:18
+msgid ""
+"In addition to official Ubuntu sources, software is also available from "
+"third-party, community-maintained sources. If you want to install software "
+"from a third-party software repository, you must add it to Ubuntu's list of "
+"available repositories."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:21
+msgid "Only add software repositories from **sources that you trust**."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:23
+msgid ""
+"Third-party software repositories are **not checked for security or "
+"reliability** by Ubuntu members, and may contain software which is harmful "
+"to your computer. By enabling the repository, you're giving access to your "
+"system to the repository owners."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:25
+msgid ""
+"If possible, install {ref}`snap packages <snap-and-deb-packages>` instead. "
+"These are confined for security."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:29
+msgid "Add a PPA"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:31
+msgid ""
+"Personal Package Archives (PPAs) are software repositories designed for "
+"Ubuntu users and are easier to install than other third-party repositories. "
+"PPAs are often used to distribute pre-release software so that it can be "
+"tested."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:34
+msgid ""
+"For other use cases, we recommend that you install confined {ref}`snap "
+"packages <snap-and-deb-packages>` instead."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:0
+msgid "Graphical interface"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:42
+#: ../../../how-to/software/add-a-software-repository.md:59
+msgid ""
+"On the PPA's overview page, look for the {guilabel}`Adding this PPA to your "
+"system` heading. Copy the PPA's location, which should look similar to: "
+"`ppa:mozillateam/firefox-next`."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:44
+#: ../../../how-to/software/add-a-software-repository.md:99
+msgid ""
+"Install the `software-properties-gtk` package, which provides the Software & "
+"Updates application."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:46
+#: ../../../how-to/software/add-a-software-repository.md:101
+msgid "Open the Software & Updates application."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:48
+#: ../../../how-to/software/add-a-software-repository.md:103
+msgid "Switch to the Other Software tab."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:50
+msgid ""
+"Click {guilabel}`Add` and enter the PPA's location that you copied earlier."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:52
+#: ../../../how-to/software/add-a-software-repository.md:111
+msgid "Click {guilabel}`Add Source`. Enter your password."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:54
+msgid ""
+"Close the Software & Updates window. App Center will then check your "
+"software sources for new software, including the PPA that you've just added."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:0
+msgid "Command line"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:61
+msgid "Enable the PPA using the `add-apt-repository` tool:"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:63
+msgid ""
+" <!--\n"
+" Should be installed by default. On older or minimal Ubuntu releases, you "
+"may have to install software-properties-common and/or python-software-"
+"properties first:\n"
+" sudo apt-get install python-software-properties\n"
+" -->\n"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:76
+msgid ""
+"Replace `ppa:<user>/<repo-name>` with the PPA's location that you copied "
+"earlier."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:78
+msgid ""
+"Check your software sources for new software, including the PPA that you've "
+"just added:"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:89
+msgid "You can now install software from the PPA."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:91
+msgid "Add a third-party repository other than PPA"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:93
+msgid ""
+"You can find many software repositories for Ubuntu outside of the PPA "
+"platform. These are managed using standard Debian tools, and they require "
+"more manual steps."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:96
+msgid ""
+"Before you enable a third-party repository, we recommend that you check if "
+"the software is available as a confined {ref}`snap packages <snap-and-deb-"
+"packages>` instead."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:105
+msgid ""
+"Click {guilabel}`Add` and enter the APT line for the repository. This should "
+"be available from the website of the repository, and should look similar to:"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:107
+msgid "deb http://archive.ubuntu.com/ubuntu/ questing main\n"
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:113
+msgid ""
+"Close the Software & Updates window. App Center will then check your "
+"software sources for new software."
+msgstr ""
+
+#: ../../../how-to/software/add-a-software-repository.md:115
+msgid ""
+"Check if the repository provides a signing key (GPG key) to be able to "
+"verify downloaded packages. Follow possible instructions on how to download "
+"and install the signing key."
+msgstr ""

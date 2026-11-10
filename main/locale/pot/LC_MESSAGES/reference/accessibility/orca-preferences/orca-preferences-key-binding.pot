@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:0
+msgid ""
+"Configure Orca key bindings, including the Orca Modifier keys, the key "
+"bindings table and unbound commands."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:7
+msgid "Key bindings preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:9
+msgid "Orca Modifier Keys"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:11
+msgid ""
+"The Screen Reader Modifier Key(s) combo box allows you to select which key "
+"or keys will serve as the Orca Modifier. The available options are:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:13
+msgid "KP_Insert (the same key as the {kbd}`0` on the numeric keypad)"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:15
+msgid "Insert"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:17
+msgid "Insert, KP_Insert"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:19
+msgid "Caps_Lock"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:21
+msgid "Key bindings table"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:23
+msgid ""
+"The key bindings table provides a list of Orca operations and the keys that "
+"are bound to them."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:25
+msgid ""
+"The **Command** column contains a description of the Orca command to be "
+"performed."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:27
+msgid ""
+"The **Key Binding** column contains the keyboard shortcut currently assigned "
+"to the Orca command. You can modify the value of this column by pressing "
+"{kbd}`Return`, pressing the keys for the new binding, and pressing {kbd}"
+"`Return` again."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:29
+msgid ""
+"The **Modified** column serves both as an indicator to what has been changed "
+"and as a way to restore the default bindings associated with that command."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:31
+msgid "Unbound commands"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-binding.md:33
+msgid ""
+"Beneath the list of Orca keybindings, you will find a group of unbound "
+"commands. These are commands can be useful for some users but are unassigned "
+"by default.  Braille bindings are listed at the bottom of unbound commands "
+"list."
+msgstr ""

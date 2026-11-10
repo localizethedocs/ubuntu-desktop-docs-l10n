@@ -1,0 +1,768 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:0
+msgid ""
+"Use Orca commands to identify windows, review text with Flat Review, find "
+"objects, set bookmarks and read the time or chat messages."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:7
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:11
+msgid "Navigate the screen using the screen reader"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:13
+msgid ""
+"You can use the following screen reader commands to identify windows, "
+"interact with interface elements and read text in applications."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:15
+msgid ""
+"To start the screen reader and learn its basic control, go to {ref}`get-"
+"started-with-the-screen-reader`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:19
+msgid ""
+"Ubuntu Desktop might present some challenges when using the screen reader. "
+"If you experience difficulty, refer to {ref}`improve-screen-reader-"
+"usability`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:19
+msgid "Where am I?"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:21
+msgid ""
+"Orca provides context-sensitive commands that describe the active window and "
+"the active object on the screen."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:23
+msgid "Window information"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:25
+msgid "Find out which window is active."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:27
+msgid "Present the title bar:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:0
+msgid "Laptop layout"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:34
+msgid "{kbd}`CapsLock+/`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:0
+msgid "Desktop layout"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:40
+msgid "{kbd}`Insert+Enter` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:43
+msgid "Present the status bar:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:50
+msgid "{kbd}`CapsLock` + double-press {kbd}`/`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:56
+msgid "{kbd}`Insert` + double-press {kbd}`Enter` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:59
+msgid "Basic information"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:61
+msgid ""
+"You can ask Orca for the _basic Where Am I_ with any object on the screen. "
+"For most widgets, Orca at least tells you the label or name, the type or "
+"role of the widget, and the mnemonic or accelerator key if they exist."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:63
+msgid ""
+"For example, in tables, basic Where Am I gives you details about the table "
+"cell that you are in. In text, it presents the current line along with any "
+"text which is selected."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:65
+msgid "Perform basic Where Am I:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:72
+msgid "{kbd}`CapsLock+Enter`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:78
+msgid "{kbd}`Insert+Enter`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:81
+msgid "Detailed information"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:83
+msgid ""
+"Only certain objects provide the _detailed Where Am I_ information. These "
+"objects contain a lot of information that you may wish to know, but only on "
+"demand."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:85
+msgid ""
+"For example, if you are in the spell checker of an application where Orca "
+"provides enhanced support, the basic Where Am I repeats the spelling error. "
+"The detailed Where Am I presents the full details of the error. The detailed "
+"Where Am I also tells you the position in a progress bar, the status of "
+"check boxes and radio buttons, the children in a tree object, the type of a "
+"link or the cell coordinates in a table."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:87
+msgid "Perform detailed Where Am I:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:94
+msgid "{kbd}`CapsLock` + double-press {kbd}`Enter`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:100
+msgid "{kbd}`Insert` + double-press {kbd}`Enter`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:105
+msgid "Examine a window"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:107
+msgid ""
+"With the **Flat Review** feature, you can review the text and widgets of the "
+"active window. In this mode, Orca treats the window as a two-dimensional "
+"sheet of text. It browses the objects in the foreground, ignoring widget "
+"hierarchy or other logical grouping within the window. It can't access "
+"window elements that are currently off-screen."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:109
+msgid ""
+"You can navigate the \"flattened\" content by line, by word, by character, "
+"and by object."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:111
+msgid ""
+"When you enter Flat Review mode, it captures the state of the window at that "
+"moment. If the content of the window changes, Flat Review doesn't update "
+"automatically. You can refresh the Flat Review context by toggling Flat "
+"Review off and back on."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:113
+msgid ""
+"If you use the application's navigation commands to move the caret or to "
+"give focus to another object, you automatically leave Flat Review."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:115
+msgid "Toggle Flat Review (refreshes the window content):"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:122
+msgid "{kbd}`CapsLock+P`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:128
+msgid "{kbd}`Insert+-` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:131
+msgid "Review the current item or widget:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:138
+msgid "{kbd}`CapsLock+Ctrl+K`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:144
+msgid "{kbd}`Insert+5` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:147
+msgid "Use Say All to review the current dialog or window:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:154
+msgid "{kbd}`CapsLock` + double-press {kbd}`;`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:160
+msgid "Double-press {kbd}`+` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:164
+msgid "Review the window by line"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:166
+msgid "First line (the \"home\" position):"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:173
+msgid "{kbd}`CapsLock+Ctrl+U`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:179
+msgid "{kbd}`Insert+7` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:182
+msgid "Previous line:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:189
+msgid "{kbd}`CapsLock+U`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:195
+msgid "{kbd}`7` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:198
+msgid "Current line:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:205
+msgid "{kbd}`CapsLock+I`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:211
+msgid "{kbd}`8` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:214
+msgid "Spell current line:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:221
+msgid "{kbd}`CapsLock` + double-press {kbd}`I`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:227
+msgid "Double-press {kbd}`8` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:230
+msgid "Phonetically spell current line:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:237
+msgid "{kbd}`CapsLock` + triple-press {kbd}`I`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:243
+msgid "Triple-press {kbd}`8` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:246
+msgid "Next line:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:253
+msgid "{kbd}`CapsLock+O`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:259
+msgid "{kbd}`9` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:262
+msgid "Last line (the \"end\" position):"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:269
+msgid "{kbd}`CapsLock+Ctrl+O`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:275
+msgid "{kbd}`Insert+9` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:278
+msgid "Review the window by word"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:280
+msgid "Word above:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:287
+msgid "{kbd}`CapsLock+Ctrl+J`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:293
+msgid "{kbd}`Insert+4` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:296
+msgid "Previous word:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:303
+msgid "{kbd}`CapsLock+J`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:309
+msgid "{kbd}`4` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:312
+msgid "Current word:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:319
+msgid "{kbd}`CapsLock+K`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:325
+msgid "{kbd}`5` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:328
+msgid "Spell current word:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:335
+msgid "{kbd}`CapsLock` + double-press {kbd}`K`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:341
+msgid "Double-press {kbd}`5` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:344
+msgid "Phonetically spell current word:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:351
+msgid "{kbd}`CapsLock` + triple-press {kbd}`K`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:357
+msgid "Triple-press {kbd}`5` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:360
+msgid "Next word:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:367
+msgid "{kbd}`CapsLock+L`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:373
+msgid "{kbd}`6` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:376
+msgid "Word below:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:383
+msgid "{kbd}`CapsLock+Ctrl+L`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:389
+msgid "{kbd}`Insert+6` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:392
+msgid "Review the window by character"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:394
+msgid "Previous character:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:401
+msgid "{kbd}`CapsLock+M`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:407
+msgid "{kbd}`1` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:410
+msgid "Current character:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:417
+msgid "{kbd}`CapsLock+,`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:423
+msgid "{kbd}`2` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:426
+msgid "Phonetically speak current character:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:433
+msgid "{kbd}`CapsLock` + double-press {kbd}`,`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:439
+msgid "Double-press {kbd}`2` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:442
+msgid "Speak the Unicode value of the current character:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:449
+msgid "{kbd}`CapsLock` + triple-press {kbd}`,`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:455
+msgid "Triple-press {kbd}`2` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:458
+msgid "Next character:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:465
+msgid "{kbd}`CapsLock+.`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:471
+msgid "{kbd}`3` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:474
+msgid "Last character on the current line:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:481
+msgid "{kbd}`CapsLock+Ctrl+M`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:487
+msgid "{kbd}`Insert+1` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:491
+msgid "Find objects in a window"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:493
+msgid ""
+"You can use Orca's Find feature to quickly locate objects that are visible "
+"on-screen within the current window."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:495
+msgid ""
+"Orca Find is based on the {ref}`Flat Review <orca-examine-a-window>` feature."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:497
+msgid "Open the Orca Find dialog:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:504
+msgid "{kbd}`CapsLock+[`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:510
+msgid "{kbd}`Delete` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:513
+msgid "A dialog box opens. Enter the search term."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:515
+msgid ""
+"You can specify several options such as case sensitivity, where the search "
+"starts or whether it wraps around the end of the document back to the start."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:517
+msgid ""
+"When the search finds a match, Flat Review automatically activates and the "
+"matching item or text becomes the current review item."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:519
+msgid ""
+"Note that the search doesn't modify the focus within the application and it "
+"doesn't reposition the caret. If you need to accomplish either, please see "
+"Orca's Mouse/Pointer-Related Commands."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:521
+msgid "You can quickly search for the next or previous match:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:523
+msgid "Move flat review to the next instance of a string:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:530
+msgid "{kbd}`CapsLock+]`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:536
+msgid "{kbd}`Insert+Delete` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:539
+msgid "Move flat review to the previous instance of a string:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:546
+msgid "{kbd}`CapsLock+Ctrl+]`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:552
+msgid "{kbd}`Insert+Shift+Delete` on the numeric keypad"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:556
+msgid ""
+"<!--\n"
+"This feature doesn't work at all and leaves Orca in a stuck, unusable state. "
+"Commenting out for now.\n"
+"\n"
+"Mouse commands don't work either but at least they don't permanently disable "
+"Orca:\n"
+"https://help.gnome.org/users/orca/stable/commands_mouse.html.en\n"
+"\n"
+"(orca-mouse-review)=\n"
+"## What's under the mouse cursor?\n"
+"\n"
+"With the Mouse Review feature, Orca identifies the object that's visually "
+"under the cursor as you move the mouse. If you move the cursor over an "
+"accessible object with information to present, Orca presents that object and "
+"its information to you. Mouse Review isn't limited to the active window.\n"
+"\n"
+"Mouse Review is disabled by default because it processes all the changes in "
+"the position of the cursor.\n"
+"\n"
+"* You can enable it permanently:\n"
+"\n"
+"    Enable the {guilabel}`Speak object under mouse` checkbox on the "
+"{guilabel}`General` page of Orca's Preferences dialog.\n"
+"\n"
+"* You can also set a keyboard shortcut to enable Mouse Review for a short "
+"time:\n"
+"\n"
+"    On the {guilabel}`Key Bindings` page of Orca Preferences, bind the "
+"command named {guilabel}`Toggle mouse review mode` to a keyboard shortcut. "
+"Then you can enable and disable Mouse Review on an as-needed basis.\n"
+"\n"
+":::{note}\n"
+"You can choose to have Mouse Review always enabled or not and still toggle "
+"it on and off by binding and using the Toggle mouse review mode command. It "
+"is not necessary to enable it in order to toggle it because settings and "
+"keybindings are independent of one another.\n"
+":::\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:583
+msgid "Bookmark an object for later"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:585
+msgid ""
+"You can indicate that an object on the screen is of interest and return to "
+"it later."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:587
+msgid ""
+"Orca provides several commands which can be used to \"bookmark\" a given "
+"object for the purpose of navigating back to it later."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:589
+msgid "Save a bookmark"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:591
+msgid ""
+"You can set up to six bookmarks per environment. These can be objects such "
+"as widgets within an application or objects on a web page. You can also save "
+"bookmarks so that they persist between Orca sessions."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:593
+msgid "Save a bookmark to the numbered slot:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:600
+msgid "{kbd}`CapsLock+Alt` + a number from {kbd}`1` to {kbd}`6`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:606
+msgid "{kbd}`Insert+Alt` + a number from {kbd}`1` to {kbd}`6`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:609
+msgid "Save the defined bookmarks for the application or page:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:616
+msgid "{kbd}`CapsLock+Alt+B`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:622
+msgid "{kbd}`Insert+Alt+B`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:625
+msgid "Return to a bookmark"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:627
+msgid ""
+"You can navigate to the bookmark later, even if you haven't permanently "
+"saved the bookmarks associated with your current environment. You can find "
+"the bookmark based on its number, or you can browse the saved bookmarks just "
+"like Structural Navigation objects."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:629
+msgid ""
+"When you select a bookmark, the exact behavior depends on the current "
+"environment. If you are in web content, the caret moves to the bookmark so "
+"that you can continue reading. Otherwise, Flat Review activates and the "
+"bookmark becomes the current review item."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:631
+msgid "Go to a specific, numbered bookmark:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:638
+msgid "{kbd}`CapsLock` + a number from {kbd}`1` to {kbd}`6`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:644
+msgid "{kbd}`Insert` + a number from {kbd}`1` to {kbd}`6`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:647
+msgid "Go to the previous bookmark for the application or page:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:654
+msgid "{kbd}`CapsLock+Shift+B`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:660
+msgid "{kbd}`Insert+Shift+B`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:663
+msgid "Go to the next bookmark for the application or page:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:670
+msgid "{kbd}`CapsLock+B`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:676
+msgid "{kbd}`Insert+B`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:679
+msgid "Obtain the time and date"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:681
+msgid "Say the current time:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:688
+msgid "{kbd}`CapsLock+T`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:694
+msgid "{kbd}`Insert+T`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:697
+msgid "Say today's date:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:704
+msgid "{kbd}`CapsLock` + double-press {kbd}`T`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:710
+msgid "{kbd}`Insert` + double-press {kbd}`T`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:714
+msgid "Read chat room messages"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:716
+msgid ""
+"In IRC (Internet Relay Chat) clients and other supported chat applications, "
+"you can browse the latest messages:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:723
+msgid "{kbd}`CapsLock` + {kbd}`F1` through {kbd}`F9`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:729
+msgid "{kbd}`Insert` + {kbd}`F1` through {kbd}`F9`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:733
+msgid "Keyboard navigation shortcuts"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md:735
+msgid ""
+"For keyboard shortcuts that launch applications, switch between desktop "
+"elements and navigate desktop menus, refer to {ref}`navigate-the-interface-"
+"using-the-keyboard`."
+msgstr ""

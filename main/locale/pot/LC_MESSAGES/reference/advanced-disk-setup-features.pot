@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/advanced-disk-setup-features.md:0
+msgid ""
+"Reference for advanced disk setup options in the Ubuntu Desktop installer, "
+"including LVM, ZFS and passphrase encryption with ZFS."
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:7
+msgid "Topics: Installation"
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:11
+msgid "Advanced disk setup features"
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:13
+msgid ""
+"When installing Ubuntu Desktop, the installer offers several disk setup "
+"options. The recommended ones are as follows:"
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:15
+msgid "No encryption"
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:16
+msgid "Use regular disk partitioning with no extra features."
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:18
+msgid "Encrypt with a passphrase"
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:19
+msgid ""
+"Enable Logical Volume Management (LVM) with disk encryption. This is the "
+"recommended option to encrypt your data."
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:21
+msgid "Use hardware-backed disk encryption"
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:22
+msgid ""
+"This is a new encryption method that can unlock your disk automatically "
+"without a password. For details, see {ref}`hardware-backed-disk-encryption`."
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:24
+msgid "The following advanced features are available:"
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:26
+msgid "Use LVM without encryption"
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:27
+msgid ""
+"LVM makes it easier to create and manage partitions after the installation. "
+"For details, see {external:ref}`about-lvm`."
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:29
+msgid "Use ZFS without encryption"
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:30
+msgid ""
+"This advanced file system allows you to create pooled storage volumes that "
+"span multiple drives. It supports snapshots and data repair features. It is "
+"a powerful option for advanced users."
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:32
+msgid "Encrypt with a passphrase using ZFS"
+msgstr ""
+
+#: ../../../reference/advanced-disk-setup-features.md:33
+msgid "Use ZFS and enable its data encryption feature."
+msgstr ""

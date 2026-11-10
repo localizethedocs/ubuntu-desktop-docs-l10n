@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:0
+msgid ""
+"Turn off Windows BitLocker disk encryption so that Ubuntu can access your "
+"data and be installed alongside Windows."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:7
+msgid "Topics: Installation Security Windows"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:11
+msgid "Turn off BitLocker in Windows"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:13
+msgid ""
+"You can disable the BitLocker disk encryption used by Windows so that Ubuntu "
+"can access the data. This might be necessary to install Ubuntu alongside "
+"Windows."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:15
+msgid ""
+"To learn more about BitLocker and its implications for Ubuntu, see {ref}"
+"`bitlocker-during-ubuntu-installation`."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:18
+msgid ""
+"Certain versions of Windows will no longer allow you to re-enable BitLocker "
+"after disabling it."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:20
+msgid ""
+"If you wish to re-encrypt your Windows partition after installing Ubuntu "
+"alongside it, check that your version of Windows supports this."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:23
+msgid "Back up your data:"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:25
+msgid ""
+"Any encryption procedure, hard drive structure change or installation of new "
+"operating systems on a hard drive that already contains data can potentially "
+"lead to a data loss. Make sure that your personal data is safe. Even simply "
+"copying the important files to an external drive minimizes the risk of data "
+"loss."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:27
+msgid "Disable encryption:"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:0
+msgid "On Windows 11"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:32
+msgid ""
+"Open the Settings app and go to {menuselection}`Privacy & Security --> "
+"Device Encryption`."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:34
+msgid "Toggle it off."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:0
+msgid "On earlier Windows releases"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:38
+msgid ""
+"Go to {menuselection}`Control Panel --> System and Security --> BitLocker "
+"Drive Encryption`."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:41
+msgid ""
+"If the status is \"BitLocker waiting for activation\", it means that "
+"BitLocker is enabled but your data isn't encrypted yet. Enable BitLocker "
+"first by clicking {guilabel}`Turn on BitLocker`."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:44
+msgid "Click {guilabel}`Turn off BitLocker` to disable encryption."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:46
+msgid ""
+"![The BitLocker Drive Encryption settings in Windows](/images/bitlocker-"
+"drive-encryption.png)"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:46
+msgid "The BitLocker Drive Encryption settings in Windows"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:49
+msgid "Windows informs you that it is going to decrypt the data."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:51
+msgid "![The Turn off BitLocker dialog](/images/turn-off-bitlocker.png)"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:51
+msgid "The Turn off BitLocker dialog"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:53
+msgid "Wait until it's done."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:55
+msgid ""
+"![The BitLocker decryption progress dialog](/images/bitlocker-decryption-"
+"progres.png)"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:55
+msgid "The BitLocker decryption progress dialog"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:57
+msgid ""
+"![The BitLocker decryption notice](/images/bitlocker-decryption-complete.png)"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:57
+msgid "The BitLocker decryption notice"
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:59
+msgid "Once the decryption is complete, reboot the computer."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:61
+msgid ""
+"Log into Windows. Make sure everything works correctly and that all your "
+"data is intact."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:63
+msgid "The Windows data is now accessible to Ubuntu."
+msgstr ""
+
+#: ../../../how-to/turn-off-bitlocker-in-windows.md:65
+msgid ""
+"If you're installing Ubuntu, you can now reboot your computer and launch the "
+"Ubuntu installer. The hard disk configuration step can proceed."
+msgstr ""

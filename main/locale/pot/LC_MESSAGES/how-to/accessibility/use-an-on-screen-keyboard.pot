@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:0
+msgid ""
+"Turn on the on-screen keyboard in Ubuntu Desktop to type without a physical "
+"keyboard, and enter symbols or change input sources."
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:7
+msgid "Topics: Accessibility Keyboard"
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:11
+msgid "Use an on-screen keyboard"
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:13
+msgid ""
+"If you do not have a keyboard attached to your computer or prefer not to use "
+"it, you can turn on the *on-screen keyboard* to enter text."
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:16
+msgid ""
+"The on-screen keyboard is automatically enabled if you use a touchscreen"
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:19
+msgid "Open the Activities overview and start typing **accessibility**."
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:20
+msgid "Click {guilabel}`Accessibility` to open the panel."
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:21
+msgid "Open the {guilabel}`Typing` section."
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:22
+msgid "Enable the {guilabel}`Screen Keyboard` option."
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:24
+msgid ""
+"When you next have the opportunity to type, the on-screen keyboard will open "
+"at the bottom of the screen."
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:26
+msgid ""
+"Press the {guilabel}`?123` button to enter numbers and symbols. More symbols "
+"are available if you then press the {guilabel}`=/<` button. To return to the "
+"alphabet keyboard, press the {guilabel}`ABC` button."
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:28
+msgid ""
+"You can press the {guilabel}`⏷⌨` button to hide the keyboard temporarily. "
+"The keyboard will show again automatically when you next press on something "
+"where you can use it. On a touchscreen, you can also pull up the keyboard by "
+"dragging up from the bottom edge."
+msgstr ""
+
+#: ../../../how-to/accessibility/use-an-on-screen-keyboard.md:30
+msgid ""
+"Press the {guilabel}`⛭` button to change your settings for Language or Input "
+"Sources."
+msgstr ""

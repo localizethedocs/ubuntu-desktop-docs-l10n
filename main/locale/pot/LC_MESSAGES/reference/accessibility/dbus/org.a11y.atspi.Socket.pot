@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:1
+msgid "org.a11y.atspi.Socket"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:5
+msgid "Interface to register an application on the registry."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:7
+msgid "Methods"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:9
+msgid "org.a11y.atspi.Socket.Embed"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:13
+msgid ""
+"Embed (\n"
+"  IN plug (so),\n"
+"  OUT socket (so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:18
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:66
+msgid "for the application\\'s\\' root object."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:20
+msgid ""
+"This is the entry point for an application that wants to register itself "
+"against the accessibility registry. The application\\'s root object, which "
+"it passes in `plug`, must support the org.a11y.atspi.Application interface."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:25
+msgid ""
+"When an application calls this method on the registry, the following "
+"handshake happens:"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:28
+msgid "Application calls this method on the registry to identify itself."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:29
+msgid ""
+"The registry sets the \\\"Id\\\" property on the org.a11y.atspi.Application "
+"interface on the `plug` object."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:31
+msgid ""
+"The Embed method returns with the bus name and object path for the "
+"registry\\'s root object."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:34
+msgid "Returns: the bus name and object path of the registry\\'s root object."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:36
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:72
+msgid "plug"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:38
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:74
+msgid ""
+"a string for the unique bus name of the application, and an object   path"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:41
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:91
+msgid "socket"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:43
+msgid "org.a11y.atspi.Socket.Embedded"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:47
+msgid ""
+"Embedded (\n"
+"  IN path s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:51
+msgid ""
+"This method is called by a socket to inform the plug that it is being "
+"embedded. The plug should register the embedding socket as its parent."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:54
+msgid "path"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:56
+msgid "the object path of the socket."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:58
+msgid "org.a11y.atspi.Socket.Unembed"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:62
+msgid ""
+"Unembed (\n"
+"  IN plug (so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:68
+msgid ""
+"Unregisters an application from the accessibility registry. It is not "
+"necessary to call this method; the accessibility registry detects when an "
+"application disconnects from the bus."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:77
+msgid "Signals {#org.a11y.atspi.Socket Signals}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:79
+msgid "org.a11y.atspi.Socket::Available"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:83
+msgid ""
+"Available (\n"
+"  socket (so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:87
+msgid ""
+"The accessibility registry emits this signal early during startup, when it "
+"has registered with the D-Bus daemon and is available for calls from "
+"applications."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Socket.md:93
+msgid "application and object path for the registry\\'s root object."
+msgstr ""
