@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:0
+msgid ""
+"Manage multiple Orca configurations with profiles, and choose how progress "
+"bar updates are spoken, shown in Braille or beeped."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:7
+msgid "Profiles"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:9
+msgid "The **Profiles** section lets you manage multiple Orca configurations."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:11
+msgid "**Active Profile**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:12
+msgid "combo box to select the current profile."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:14
+msgid "**Load**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:15
+msgid "loads the selected profile."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:17
+msgid "**Save As**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:18
+msgid "saves current settings to a named profile."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:20
+msgid "**Start-up Profile**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:21
+msgid "combo box to set the default profile at Orca launch."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:23
+msgid "Progress bar updates"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:25
+msgid "Speak updates"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:27
+msgid "If enabled, Orca periodically speaks the status of progress bars."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:29
+msgid "**Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:31
+msgid "Braille updates"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:33
+msgid "If enabled, progress bar status is displayed on a braille display."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:35
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:41
+msgid "**Default value:** Not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:37
+msgid "Beep updates"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:39
+msgid ""
+"If enabled, Orca emits beeps that increase in pitch as the progress bar "
+"value increases."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:43
+msgid "Frequency (secs)"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:45
+msgid "Determines how often updates are presented."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:47
+msgid "**Default value:** 10"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:49
+msgid "Applies to"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:51
+msgid "Choose which progress bars to monitor."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:53
+msgid "**All**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:54
+msgid "all progress bars"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:56
+msgid "**Application**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:57
+msgid "progress bars in the active application"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:59
+msgid "**Window**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:60
+msgid "progress bars in the active window"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-profile.md:62
+msgid "**Default value:** Application"
+msgstr ""

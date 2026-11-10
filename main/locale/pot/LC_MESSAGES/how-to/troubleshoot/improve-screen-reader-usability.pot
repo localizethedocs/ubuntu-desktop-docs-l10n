@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/troubleshoot/improve-screen-reader-usability.md:0
+msgid ""
+"Fix common Orca screen reader issues on Ubuntu Desktop, such as keyboard "
+"layout mismatches and applications that start before Orca."
+msgstr ""
+
+#: ../../../how-to/troubleshoot/improve-screen-reader-usability.md:7
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../how-to/troubleshoot/improve-screen-reader-usability.md:11
+msgid "Improve screen reader usability"
+msgstr ""
+
+#: ../../../how-to/troubleshoot/improve-screen-reader-usability.md:13
+msgid ""
+"Ubuntu Desktop might present some challenges when using the screen reader. "
+"If you experience difficulty, the following tips can help enhance the screen "
+"reader experience."
+msgstr ""
+
+#: ../../../how-to/troubleshoot/improve-screen-reader-usability.md:16
+msgid ""
+"Many accessibility issues have been resolved with Ubuntu 26.04 LTS. If "
+"you're using Ubuntu 24.04 LTS, switch to the earlier version of this guide "
+"for additional tips."
+msgstr ""
+
+#: ../../../how-to/troubleshoot/improve-screen-reader-usability.md:19
+msgid "Try different keyboard layouts"
+msgstr ""
+
+#: ../../../how-to/troubleshoot/improve-screen-reader-usability.md:21
+msgid ""
+"If you use a mix of various user interface languages and localized keyboard "
+"layouts, the screen reader might be using a different keyboard layout for "
+"its commands than your active layout. For example, you might be using the "
+"French layout but the screen reader commands treat your keyboard as if it "
+"had the American English layout."
+msgstr ""
+
+#: ../../../how-to/troubleshoot/improve-screen-reader-usability.md:23
+msgid ""
+"If screen reader commands don't work, try pressing the key as if another "
+"relevant layout was active."
+msgstr ""
+
+#: ../../../how-to/troubleshoot/improve-screen-reader-usability.md:25
+msgid "Enable Orca before running applications"
+msgstr ""
+
+#: ../../../how-to/troubleshoot/improve-screen-reader-usability.md:27
+msgid ""
+"This issue affects Firefox and Chromium-based browsers in particular but can "
+"occur with other applications. If Orca is enabled and works in your desktop "
+"environment but does not work properly in the application, for example, it "
+"does not read web pages in your browser, try closing the application and "
+"restarting Orca *before* launching the application again."
+msgstr ""

@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:0
+msgid ""
+"Unlock and access the data on a disk protected by hardware-backed encryption "
+"using your recovery key."
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:7
+msgid "Topics: Security"
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:11
+msgid "Recover data from hardware-backed disk encryption"
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:13
+msgid ""
+"If you know your {ref}`recovery key <tpm-fde-recovery-key>`, you can access "
+"the data on your disk secured with {ref}`hardware-backed disk encryption "
+"<hardware-backed-disk-encryption>` (TPM/FDE) even from a different system. "
+"For example, you can unlock the disk while a live Linux session is running "
+"on your computer, or after you've connected the disk to another computer."
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:16
+msgid "What you'll need"
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:18
+msgid "You must know the recovery key to your disk."
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:19
+msgid ""
+"You must access the disk using a Linux system that can install snaps, such "
+"as using Ubuntu."
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:20
+msgid "The disk must not be corrupted."
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:23
+msgid "Unlock the disk"
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:25
+msgid ""
+"Check if the `snap` command is available on your system. If not, [install it]"
+"(https://snapcraft.io/docs/tutorials/install-the-daemon/#tutorials-install-"
+"the-daemon-index)."
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:27
+msgid ""
+"Install the `snap-tpmctl` tool. You can either use the App Center or the "
+"following command:"
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:37
+msgid ""
+"Examine the partitions on your encrypted disk. On Ubuntu Desktop, you can "
+"use the Disks application."
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:39
+msgid ""
+"Note down the device path of the partition that you want to recover, such as "
+"`/dev/nvme0n1p4`."
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:41
+msgid "Mount the encrypted partition:"
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:51
+msgid ""
+"Replace `/dev/nvme0n1p4` with your device path. Replace `/mnt` with the "
+"directory where you want to mount the partition."
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:53
+msgid "Enter your recovery key when prompted."
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:55
+msgid ""
+"In your file browser, open the mount point (such as `/mnt`) to access the "
+"data on the encrypted partition."
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:58
+msgid "Additional resources"
+msgstr ""
+
+#: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:60
+msgid "{ref}`configure-hardware-backed-disk-encryption`"
+msgstr ""

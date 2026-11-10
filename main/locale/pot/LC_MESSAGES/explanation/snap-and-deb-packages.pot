@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../explanation/snap-and-deb-packages.md:0
+msgid ""
+"Compare snap and deb packages on Ubuntu Desktop, how each is built, "
+"installed and updated, and when you might prefer one over the other."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:8
+msgid "Topics: Software"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:12
+msgid "Snap and deb packages"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:14
+msgid ""
+"When installing apps on Ubuntu, you'll come across two official, recommended "
+"package formats: snap and deb packages."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:16
+msgid ""
+"<!--\n"
+"This page reuses some content originally written for the Community Help "
+"Wiki:\n"
+"https://help.ubuntu.com/community/InstallingSoftware\n"
+"-->\n"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:21
+msgid "What a package is"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:23
+msgid ""
+"Software is a very broad term, and is generally taken to mean a program that "
+"you can run on your computer. However, such programs often need other "
+"resources to work. When you install software, thousands of files may be "
+"required just to let the program start. When you think that they all have to "
+"be put in exactly the right location, and some of those files might need to "
+"be changed depending on what type of computer you have, it can all get very "
+"complicated."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:25
+msgid ""
+"Ubuntu uses packages to store everything that a particular program needs to "
+"run. A *package*, then, is essentially a collection of files bundled into a "
+"single file, which can be handled much more easily. In addition to the files "
+"required for the program to run, there are often special files called "
+"installation scripts, which copy the files to where they are needed and "
+"configure them."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:28
+msgid "Source and binary"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:30
+msgid ""
+"**Source code** is written by programmers and is essentially a list of "
+"instructions to a computer which humans are able to read and write. "
+"Computers can only understand this code if it is interpreted for them into a "
+"form that they can use directly. One such way of interpreting source code "
+"for a computer is by translating or *compiling* it into **binary**, which "
+"computers can understand. This binary is then compressed into a *binary "
+"package* together with other resources."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:32
+msgid ""
+"Different computers use different types of binary, so if you make a binary "
+"package for one type (like an Intel PC), it won't work on another (like an "
+"ARM system). This is why you can find the same package, or even the whole "
+"Ubuntu installation image, available in several versions for different "
+"computer architectures."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:34
+msgid ""
+"Ubuntu chooses the correct binary packages for your system automatically, so "
+"you don't have to worry about picking the right ones."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:37
+#: ../../../explanation/snap-and-deb-packages.md:135
+msgid "Dependencies"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:39
+msgid ""
+"Programs often use some of the same files as each other. Rather than putting "
+"these files into each package, a separate package can be installed to "
+"provide them for all of the programs that need them. So, to install a "
+"program that needs one of these files, the package containing those files "
+"must also be installed. When a package depends on another in this way, it is "
+"known as a package dependency. By specifying dependencies, packages can be "
+"made smaller and simpler, and duplicates of files and programs are mostly "
+"removed."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:41
+msgid "Snap and deb packages have different solutions to package dependencies."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:44
+msgid "Snap packages"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:46
+msgid ""
+"The App Center on Ubuntu Desktop shows snaps by default, both in the search "
+"and on the category pages. Snap apps are usually *sandboxed*, which means "
+"that you can limit which system resources they can access."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:48
+#: ../../../explanation/snap-and-deb-packages.md:85
+#: ../../../explanation/snap-and-deb-packages.md:119
+msgid "App versions"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:49
+msgid ""
+"Snaps are released independently of your Ubuntu version. You always get the "
+"latest version of the app that the authors have published."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:51
+#: ../../../explanation/snap-and-deb-packages.md:88
+#: ../../../explanation/snap-and-deb-packages.md:123
+msgid "Updates"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:52
+msgid ""
+"All snaps are updated daily by default. You can update immediately on the "
+"{guilabel}`Manage` page of the App Center."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:54
+msgid ""
+"For advanced settings, refer to {external:ref}`how-to-guides-work-with-snaps-"
+"manage-updates`."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:56
+#: ../../../explanation/snap-and-deb-packages.md:95
+#: ../../../explanation/snap-and-deb-packages.md:127
+msgid "App permissions"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:57
+msgid ""
+"You can manage the permissions for sandboxed apps in {menuselection}"
+"`Settings --> Apps`."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:59
+msgid ""
+"For more granular control for files, camera and microphone, you can also try "
+"the experimental app permissions in the Security Center."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:61
+msgid ""
+"Some snaps, such as developer tools, use {external:ref}`classic confinement "
+"<explanation-security-snap-confinement>` and are not sandboxed. They have "
+"full access to your resources. The Snap Store team {external:ref}`reviews "
+"these apps manually <interfaces-reviewing-classic-confinement-snaps>`."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:63
+#: ../../../explanation/snap-and-deb-packages.md:98
+msgid "Package dependencies"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:64
+msgid ""
+"When you install a snap package, it makes sure that a base snap such as "
+"`core26` is installed for certain underlying resources. A base is a special "
+"kind of snap that provides a run-time environment with a minimal set of "
+"libraries that are common to most applications. A base snap is usually "
+"shared between many applications that need it."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:66
+msgid ""
+"See [Bases](https://documentation.ubuntu.com/snapcraft/stable/reference/"
+"bases/) for more details."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:68
+msgid ""
+"Resources that can't be found in the base snap are often included directly "
+"(*bundled*) in the app's snap package. For this reason, snaps often use more "
+"disk space than debs."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:70
+#: ../../../explanation/snap-and-deb-packages.md:103
+msgid "Package managers"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:71
+msgid ""
+"On Ubuntu Desktop, you can manage snaps using the App Center. See {ref}"
+"`install-or-remove-software`."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:73
+msgid ""
+"On the command line, you can use the `snap` tool. See [the tutorial](https://"
+"snapcraft.io/docs/tutorials/get-started/)."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:75
+msgid "Deb packages"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:77
+msgid ""
+"When you search for deb packages in the App Center, it lists applications "
+"from the {external:ref}`official Ubuntu repositories <package-archive>`."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:79
+msgid ""
+"You can also use the App Center to install debs that you've downloaded from "
+"third-party developers. These might add their own repositories and will have "
+"unrestricted access to your resources, so make sure that you trust the "
+"developer."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:82
+msgid ""
+"Using deb apps from third-party developers is discouraged. For details, "
+"refer to {external:ref}`third-party-repository-usage`."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:86
+msgid ""
+"Most debs are tied to your Ubuntu release. On an LTS version of Ubuntu, "
+"certain deb apps might be outdated."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:89
+msgid ""
+"Security updates for deb packages are installed automatically by default. "
+"You can apply other updates with the Software Updater."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:91
+msgid ""
+"For extended security updates, you can enable [Ubuntu Pro](https://"
+"ubuntu.com/pro) in the Security Center. Ubuntu Pro is free for personal use "
+"on up to 5 machines."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:93
+msgid "For advanced settings, refer to {external:ref}`automatic-updates`."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:96
+msgid ""
+"You can't change the permissions for apps installed from deb packages: they "
+"always have full access to your resources."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:99
+msgid ""
+"When you install a deb package, it often installs many other dependency "
+"packages. Applications packaged as debs tend to be broken up into many small "
+"packages that can be efficiently reused in different combinations. "
+"Sometimes, you'll notice that tens of packages are pulled in for your app, "
+"for example. However, many dependencies are already installed by default on "
+"Ubuntu."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:101
+msgid ""
+"Thanks to these granular dependencies, debs use up less disk space than "
+"snaps."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:104
+msgid ""
+"On Ubuntu Desktop, you can manage debs using the App Center. See {ref}"
+"`install-or-remove-software`."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:106
+msgid ""
+"On the command line, you can use the `apt` tool. See the "
+"{external+server:ref}`managing-software` tutorial."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:109
+msgid "Quick comparison"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:116
+msgid "Snaps"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:117
+msgid "Debs"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:120
+msgid "Usually up-to-date"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:121
+msgid "Tied to your Ubuntu release"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:124
+msgid "Fully automatic"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:125
+msgid "Automatic security updates"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:128
+msgid "Configurable, sandboxed"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:129
+msgid "Full access to your resources"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:131
+msgid "Third-party apps"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:132
+msgid "Protection from third parties"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:133
+msgid "Discouraged"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:136
+msgid "A base snap and bundling"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:137
+msgid "Many small packages"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:139
+msgid "Disk usage"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:140
+msgid "Usually larger"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:141
+msgid "Usually smaller"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:145
+msgid "Which one to install"
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:147
+msgid ""
+"If an app is available both as a snap and a deb, we generally recommend "
+"installing the snap version, especially if the app comes from a third-party "
+"developer."
+msgstr ""
+
+#: ../../../explanation/snap-and-deb-packages.md:149
+msgid ""
+"The snap usually provides a more recent version of the app and ensures "
+"stronger security."
+msgstr ""

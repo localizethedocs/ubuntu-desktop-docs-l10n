@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:1
+msgid "org.a11y.atspi.Value"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:5
+msgid "Properties"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:7
+msgid "org.a11y.atspi.Value:MinimumValue {#org.a11y.atspi.Value:MinimumValue}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:9
+msgid "MinimumValue readable d\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:11
+msgid "org.a11y.atspi.Value:MaximumValue {#org.a11y.atspi.Value:MaximumValue}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:13
+msgid "MaximumValue readable d\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:15
+msgid ""
+"org.a11y.atspi.Value:MinimumIncrement "
+"{#org.a11y.atspi.Value:MinimumIncrement}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:17
+msgid "MinimumIncrement readable d\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:19
+msgid "org.a11y.atspi.Value:CurrentValue {#org.a11y.atspi.Value:CurrentValue}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:21
+msgid "CurrentValue readwrite d\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:23
+msgid "org.a11y.atspi.Value:Text {#org.a11y.atspi.Value:Text}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Value.md:25
+msgid "Text readable s\n"
+msgstr ""

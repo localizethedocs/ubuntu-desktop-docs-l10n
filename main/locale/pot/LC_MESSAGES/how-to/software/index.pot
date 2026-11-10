@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/software/index.md:0
+msgid ""
+"Install, remove and add software on Ubuntu Desktop, including applications, "
+"language support and third-party repositories."
+msgstr ""
+
+#: ../../../how-to/software/index.md:8
+msgid "Install or remove software"
+msgstr ""
+
+#: ../../../how-to/software/index.md:10
+msgid ""
+"By default, many useful programs are already installed when you set up "
+"Ubuntu on your computer. However, you may need a particular piece of "
+"software for a purpose not served by the default applications."
+msgstr ""
+
+#: ../../../how-to/software/index.md:12
+msgid ""
+"You can install applications and other software that comes from Ubuntu or "
+"third-party sources. You can also update or uninstall software."
+msgstr ""
+
+#: ../../../how-to/software/index.md:14
+msgid ""
+"If you'd like to get some background information on what's happening when "
+"you install software, read {ref}`snap-and-deb-packages`."
+msgstr ""

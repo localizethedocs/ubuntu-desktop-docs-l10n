@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/adjust-the-double-click-speed.md:0
+msgid ""
+"Change how quickly you must press the mouse button twice to double-click on "
+"Ubuntu Desktop, and check for a faulty mouse."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-double-click-speed.md:7
+msgid "Topics: Accessibility Customization"
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-double-click-speed.md:11
+msgid "Adjust the double-click speed"
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-double-click-speed.md:13
+msgid ""
+"Double-clicking only happens when you press the mouse button twice quickly "
+"enough. If the second press is too long after the first, you’ll just get two "
+"separate clicks, not a double click. If you have difficulty pressing the "
+"mouse button quickly, you should increase the timeout."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-double-click-speed.md:15
+msgid "Open the Activities overview and start typing **accessibility**."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-double-click-speed.md:16
+msgid "Click {guilabel}`Accessibility` to open the panel."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-double-click-speed.md:17
+msgid "Open the {guilabel}`Pointing & Clicking` section."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-double-click-speed.md:18
+msgid ""
+"Adjust the {guilabel}`Double-Click Delay` slider to a value you find "
+"comfortable."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-double-click-speed.md:20
+msgid ""
+"If your mouse double-clicks when you want it to single-click even though you "
+"have increased the double-click timeout, your mouse may be faulty. Try "
+"plugging a different mouse into your computer and see if that works "
+"properly. Alternatively, plug your mouse into a different computer and see "
+"if it still has the same problem."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-double-click-speed.md:23
+msgid ""
+"This setting will affect both your mouse and touchpad, as well as any other "
+"pointing device."
+msgstr ""

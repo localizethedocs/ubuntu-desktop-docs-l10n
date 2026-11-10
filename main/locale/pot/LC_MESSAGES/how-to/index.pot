@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/index.md:2
+msgid "How-to guides"
+msgstr ""
+
+#: ../../../how-to/index.md:4
+msgid ""
+"These guides accompany you through the complete Ubuntu Desktop operations "
+"lifecycle."
+msgstr ""
+
+#: ../../../how-to/index.md:6
+msgid "Installation"
+msgstr ""
+
+#: ../../../how-to/index.md:8
+msgid ""
+"The Ubuntu installation presents many choices, such as disk layout and "
+"encryption. When dual-booting with Windows, special configuration is needed."
+msgstr ""
+
+#: ../../../how-to/index.md:10
+msgid ""
+"For the basic installation tutorial, refer to {ref}`install-ubuntu-desktop`."
+msgstr ""
+
+#: ../../../how-to/index.md:21
+msgid "Accessibility"
+msgstr ""
+
+#: ../../../how-to/index.md:23
+msgid ""
+"You can enable several accessibility features to help with different types "
+"of impairment."
+msgstr ""
+
+#: ../../../how-to/index.md:32
+msgid "{ref}`find-the-accessibility-menu`"
+msgstr ""
+
+#: ../../../how-to/index.md:33
+msgid "{ref}`accessibility-visual`"
+msgstr ""
+
+#: ../../../how-to/index.md:34
+msgid "{ref}`accessibility-hearing`"
+msgstr ""
+
+#: ../../../how-to/index.md:35
+msgid "{ref}`accessibility-mobility`"
+msgstr ""
+
+#: ../../../how-to/index.md:37
+msgid "Software"
+msgstr ""
+
+#: ../../../how-to/index.md:39
+msgid ""
+"You can install applications and other software that comes from Ubuntu or "
+"third-party sources. You can also update or uninstall software."
+msgstr ""
+
+#: ../../../how-to/index.md:48
+msgid "{ref}`install-an-application`"
+msgstr ""
+
+#: ../../../how-to/index.md:49
+msgid "{ref}`remove-an-application`"
+msgstr ""
+
+#: ../../../how-to/index.md:50
+msgid "{ref}`install-languages`"
+msgstr ""
+
+#: ../../../how-to/index.md:51
+msgid "{ref}`add-a-software-repository`"
+msgstr ""
+
+#: ../../../how-to/index.md:53
+msgid "Graphics"
+msgstr ""
+
+#: ../../../how-to/index.md:55
+msgid ""
+"You can configure your graphics card (GPU), install drivers and monitor your "
+"GPU's performance. You can also capture your screen."
+msgstr ""
+
+#: ../../../how-to/index.md:65
+msgid "{ref}`install-nvidia-drivers`"
+msgstr ""
+
+#: ../../../how-to/index.md:66
+msgid "{ref}`build-your-own-nvidia-modules-using-the-dkms-package`"
+msgstr ""
+
+#: ../../../how-to/index.md:67
+msgid "{ref}`troubleshoot-your-nvidia-gpu-and-drivers`"
+msgstr ""
+
+#: ../../../how-to/index.md:68
+msgid "{ref}`record-the-screen`"
+msgstr ""
+
+#: ../../../how-to/index.md:70
+msgid "Security"
+msgstr ""
+
+#: ../../../how-to/index.md:72
+msgid ""
+"You can configure user authentication, disk encryption and other security "
+"aspects of your system."
+msgstr ""
+
+#: ../../../how-to/index.md:83
+msgid "Screen sharing"
+msgstr ""
+
+#: ../../../how-to/index.md:85
+msgid ""
+"You can share your screen or connect to a screen shared from a different "
+"system."
+msgstr ""
+
+#: ../../../how-to/index.md:94
+msgid "Customization"
+msgstr ""
+
+#: ../../../how-to/index.md:96
+msgid "You can customize your user interface."
+msgstr ""
+
+#: ../../../how-to/index.md:105
+msgid "Updates and support"
+msgstr ""
+
+#: ../../../how-to/index.md:107
+msgid ""
+"You can update your system, upgrade it to a new release, or change its "
+"upgrade path."
+msgstr ""
+
+#: ../../../how-to/index.md:116
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../../how-to/index.md:118
+msgid "You can troubleshoot and fix common problems with Ubuntu Desktop."
+msgstr ""
+
+#: ../../../how-to/index.md:127
+msgid "{ref}`troubleshoot-bluetooth`"
+msgstr ""
+
+#: ../../../how-to/index.md:128
+msgid "{ref}`improve-screen-reader-usability`"
+msgstr ""

@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:0
+msgid ""
+"Configure which text attributes Orca speaks or shows in Braille, such as "
+"font, style and alignment, and reorder or reset them."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:7
+msgid "Text attributes preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:9
+msgid ""
+"Text attributes include font, style, alignment, and other formatting "
+"features."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:11
+msgid "Attributes Table"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:13
+msgid "Each row contains:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:15
+msgid "**Attribute Name:** name of the attribute"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:16
+msgid ""
+"**Speak:** whether Orca speaks it ({kbd}`CapsLock+F` or {kbd}`Insert+F`)"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:17
+msgid "**Mark in Braille:** whether to underline the attribute in braille"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:18
+msgid "**Present Unless:**  condition to suppress the attribute"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:20
+msgid ""
+"Example: To always announce underlined text, clear the **Present Unless** "
+"field and check **\"Speak**."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:22
+msgid "Undoing Changes"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:24
+msgid ""
+"Use the **Reset** button (`Alt+R`) to restore table values to initial state."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:26
+msgid "Rearranging Attribute Order"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:28
+msgid "**Move to Top** ({kbd}`Alt+T`)"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:29
+msgid "**Move Up** ({kbd}`Alt+U`)"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:30
+msgid "**Move Down** ({kbd}`Alt+D`)"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:31
+msgid "**Move to Bottom** ({kbd}`Alt+B`)"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:33
+msgid "Braille Underlining Options"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:35
+msgid "Select how to indicate formatting via dots:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:37
+msgid "**None** *(default)*"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:38
+msgid "**Dot 7**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:39
+msgid "**Dot 8**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-text-attributes.md:40
+msgid "**Dots 7 and 8**"
+msgstr ""

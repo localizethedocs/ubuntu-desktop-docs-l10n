@@ -1,0 +1,401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:0
+msgid ""
+"Reference of keyboard shortcuts for navigating user interfaces, the desktop "
+"and windows in Ubuntu Desktop without a mouse."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:7
+msgid "Topics: Keyboard"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:11
+msgid "Keyboard navigation shortcuts"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:13
+msgid ""
+"This page details keyboard navigation for people who cannot use a mouse or "
+"other pointing device, or who want to use a keyboard as much as possible."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:16
+msgid ""
+"If you cannot use a pointing device like a mouse, you can control the mouse "
+"pointer using the numeric keypad on your keyboard. See {ref}`click-and-move-"
+"the-mouse-pointer-using-the-keypad` for details."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:19
+msgid "Navigate user interfaces"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:25
+#: ../../../reference/keyboard-navigation-shortcuts.md:79
+#: ../../../reference/keyboard-navigation-shortcuts.md:118
+msgid "Keys"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:26
+#: ../../../reference/keyboard-navigation-shortcuts.md:80
+#: ../../../reference/keyboard-navigation-shortcuts.md:119
+msgid "Action"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:28
+msgid "{kbd}`Tab` and {kbd}`Ctrl+Tab`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:29
+msgid ""
+"Move keyboard focus between different controls. {kbd}`Ctrl+Tab` moves "
+"between groups of controls, such as from a sidebar to the main content. {kbd}"
+"`Ctrl+Tab` can also break out of a control that uses {kbd}`Tab` itself, such "
+"as a text area."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:31
+msgid "Hold down {kbd}`Shift` to move focus in reverse order."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:33
+msgid "Arrow keys"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:34
+msgid ""
+"Move selection between items in a single control, or among a set of related "
+"controls. Use the arrow keys to focus buttons in a toolbar, select items in "
+"a list or grid view, or select a radio button from a group."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:36
+msgid "{kbd}`Ctrl` + Arrow keys"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:37
+msgid ""
+"In a list or grid view, move the keyboard focus to another item without "
+"changing which item is selected."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:39
+msgid "{kbd}`Shift` + Arrow keys"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:40
+msgid ""
+"In a list or grid view, select all items from the currently selected item to "
+"the newly focused item."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:42
+msgid ""
+"In a tree view, items that have children can be expanded or collapsed, to "
+"show or hide their children: expand by pressing {kbd}`Shift+→`, and collapse "
+"by pressing {kbd}`Shift+←`."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:44
+msgid "{kbd}`Space`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:45
+msgid "Activate a focused item such as a button, check box, or list item."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:47
+msgid "{kbd}`Ctrl+Space`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:48
+msgid ""
+"In a list or grid view, select or deselect the focused item without "
+"deselecting other items."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:50
+msgid "{kbd}`Alt`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:51
+msgid ""
+"Hold down the {kbd}`Alt` key to reveal *accelerators*: underlined letters on "
+"menu items, buttons, and other controls. Press {kbd}`Alt` plus the "
+"underlined letter to activate a control, just as if you had clicked on it."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:53
+msgid "{kbd}`Esc`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:54
+msgid "Exit a menu, popup, switcher, or dialog window."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:56
+msgid "{kbd}`F10`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:57
+msgid ""
+"Open the first menu on the menu bar of a window. Use the arrow keys to "
+"navigate the menus."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:59
+msgid "{kbd}`Shift+F10` or {kbd}`Menu`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:60
+msgid ""
+"Pop up the context menu for the current selection, as if you had right-"
+"clicked."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:62
+msgid "{kbd}`Ctrl+F10`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:63
+msgid ""
+"In the file manager, pop up the context menu for the current folder, as if "
+"you had right-clicked on the background and not on any item."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:65
+msgid "{kbd}`Ctrl+PageUp` and\\ {kbd}`Ctrl+PageDown`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:67
+msgid "In a tabbed interface, switch to the tab to the left or right."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:69
+msgid "{kbd}`+` and {kbd}`-`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:70
+msgid ""
+"Expand or collapse a tree of items, such as the components list in Software "
+"Updater."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:73
+msgid "Navigate the desktop"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:82
+msgid "The {kbd}`Super` key"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:83
+msgid ""
+"Switch between the Activities overview and desktop. In the overview, start "
+"typing to instantly search your applications, contacts, and documents."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:85
+msgid "{kbd}`Super+Tab`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:86
+msgid ""
+"Quickly switch between windows. Hold down {kbd}`Shift` for reverse order."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:89
+msgid ":kbd:`Super+``"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:91
+msgid ""
+"Switch between windows from the same application, or from the selected "
+"application after {kbd}`Super+Tab`."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:93
+msgid ""
+"This shortcut uses **\\`** on US keyboards, where the **\\`** key is above "
+"{kbd}`Tab`. On all other keyboards, the shortcut is {kbd}`Super` plus the "
+"key above {kbd}`Tab`."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:95
+msgid "{kbd}`Ctrl+Alt+Tab`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:96
+msgid ""
+"Give keyboard focus to the top bar. In the Activities overview, switch "
+"keyboard focus between the top bar, dash, windows overview, applications "
+"list, and search field. Use the arrow keys to navigate."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:98
+msgid "{kbd}`Super+Page Up` and\\ {kbd}`Super+Page Down`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:100
+msgid "Switch between workspaces."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:102
+msgid "{kbd}`Alt+F6`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:103
+msgid ""
+"Cycle through windows in the same application. Hold down the {kbd}`Alt` key "
+"and press {kbd}`F6` until the window you want is highlighted, then release "
+"{kbd}`Alt`. This is similar to the {kbd}`Alt`+**\\`** feature."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:105
+msgid "{kbd}`Alt+Esc`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:106
+msgid "Cycle through all open windows on a workspace."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:108
+msgid "{kbd}`Super+V`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:109
+msgid "Open the notification list. Press {kbd}`Esc` to close."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:112
+msgid "Navigate windows"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:121
+msgid "{kbd}`Alt+F4`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:122
+msgid "Close the current window."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:124
+msgid "{kbd}`Alt+F5` or {kbd}`Super+↓`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:125
+msgid ""
+"Restore a maximized window to its original size. Use {kbd}`Alt+F10` to "
+"maximize. {kbd}`Alt+F10` both maximizes and restores."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:127
+msgid "{kbd}`Alt+F7`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:128
+msgid ""
+"Move the current window. Press {kbd}`Alt+F7`, then use the arrow keys to "
+"move the window. Press {kbd}`Enter` to finish moving the window, or {kbd}"
+"`Esc` to return it to its original place."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:130
+msgid "{kbd}`Alt+F8`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:131
+msgid ""
+"Resize the current window. Press {kbd}`Alt+F8`, then use the arrow keys to "
+"resize the window. Press {kbd}`Enter` to finish resizing the window, or {kbd}"
+"`Esc` to return it to its original size."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:133
+msgid "{kbd}`Shift+Super+Page Up` and\\ {kbd}`Shift+Super+Page Down`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:135
+msgid "Move the current window to a different workspace."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:137
+msgid "{kbd}`Shift+Super+←`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:138
+msgid "Move the current window one monitor to the left."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:140
+msgid "{kbd}`Shift+Super+→`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:141
+msgid "Move the current window one monitor to the right."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:143
+msgid "{kbd}`Alt+F10` or {kbd}`Super+↑`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:144
+msgid ""
+"Maximize a window. Press {kbd}`Alt+F10` or {kbd}`Super+↓` to restore a "
+"maximized window to its original size."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:146
+msgid "{kbd}`Super+H`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:147
+msgid "Minimize a window."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:149
+msgid "{kbd}`Super+←`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:150
+msgid ""
+"Maximize a window vertically along the left side of the screen. Press again "
+"to restore the window to its previous size. Press {kbd}`Super+→` to switch "
+"sides."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:152
+msgid "{kbd}`Super+→`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:153
+msgid ""
+"Maximize a window vertically along the right side of the screen. Press again "
+"to restore the window to its previous size. Press {kbd}`Super+←` to switch "
+"sides."
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:155
+msgid "{kbd}`Alt+Space`"
+msgstr ""
+
+#: ../../../reference/keyboard-navigation-shortcuts.md:156
+msgid "Pop up the window menu, as if you had right-clicked on the title bar."
+msgstr ""
