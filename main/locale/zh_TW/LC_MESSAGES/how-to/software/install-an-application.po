@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/software/install-an-application.md:0
+msgid ""
+"Install a graphical application on Ubuntu Desktop using App Center, as a "
+"snap or deb package."
+msgstr ""
+
+#: ../../../how-to/software/install-an-application.md:7
+msgid "Topics: Software"
+msgstr ""
+
+#: ../../../how-to/software/install-an-application.md:11
+msgid "Install an application"
+msgstr ""
+
+#: ../../../how-to/software/install-an-application.md:13
+msgid ""
+"An application is software that has a graphical user interface (GUI). The "
+"Ubuntu Desktop team has chosen a default set of applications that we think "
+"makes Ubuntu useful for most day-to-day tasks. However, you will want to "
+"install more applications to make Ubuntu more useful to you. To install an "
+"application, you can use *App Center*."
+msgstr ""
+
+#: ../../../how-to/software/install-an-application.md:15
+msgid ""
+"Applications are available in {ref}`two formats <snap-and-deb-packages>`: "
+"snap packages (\"snaps\") and Debian packages (\"debs\"). Some applications "
+"are available in both formats. In such a case, the snap will be listed first "
+"in App Center."
+msgstr ""
+
+#: ../../../how-to/software/install-an-application.md:18
+msgid ""
+"You can also use App Center to install software that doesn't have any GUI, "
+"too."
+msgstr ""
+
+#: ../../../how-to/software/install-an-application.md:21
+msgid "To install an application:"
+msgstr ""
+
+#: ../../../how-to/software/install-an-application.md:23
+msgid ""
+"Click the App Center icon in the Dock, or search for *Software* in the "
+"Activities search bar."
+msgstr ""
+
+#: ../../../how-to/software/install-an-application.md:25
+msgid ""
+"When App Center launches, search for an application, or select a category "
+"and find an application from the list."
+msgstr ""
+
+#: ../../../how-to/software/install-an-application.md:27
+msgid ""
+"Select the application that you want to install and click {guilabel}"
+"`Install`."
+msgstr ""
+
+#: ../../../how-to/software/install-an-application.md:29
+msgid ""
+"App Center asks you to enter your password. Once you've done that, the "
+"installation begins."
+msgstr ""
+
+#: ../../../how-to/software/install-an-application.md:31
+msgid ""
+"The installation usually finishes quickly, but it might take a while if you "
+"have a slow Internet connection."
+msgstr ""

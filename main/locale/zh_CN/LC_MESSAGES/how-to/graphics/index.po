@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/graphics/index.md:0
+msgid ""
+"Install NVIDIA GPU drivers, use DKMS packages when standard drivers are "
+"unavailable, and monitor and troubleshoot your GPU."
+msgstr ""
+
+#: ../../../how-to/graphics/index.md:8
+msgid "Graphics"
+msgstr ""
+
+#: ../../../how-to/graphics/index.md:10
+msgid ""
+"You can configure your graphics card (GPU), install drivers and monitor your "
+"GPU's performance."
+msgstr ""
+
+#: ../../../how-to/graphics/index.md:12
+msgid "NVIDIA GPUs"
+msgstr ""
+
+#: ../../../how-to/graphics/index.md:14
+msgid "Install the proprietary NVIDIA GPU driver:"
+msgstr ""
+
+#: ../../../how-to/graphics/index.md:22
+msgid "Install the DKMS packages if standards drivers are unavailable:"
+msgstr ""
+
+#: ../../../how-to/graphics/index.md:30
+msgid "Monitor your GPU and troubleshoot common issues:"
+msgstr ""

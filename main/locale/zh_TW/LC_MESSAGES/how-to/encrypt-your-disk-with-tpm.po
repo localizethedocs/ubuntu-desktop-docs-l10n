@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:0
+msgid ""
+"Enable TPM-backed full disk encryption when you install Ubuntu Desktop to "
+"protect your data with your computer's security chip."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:7
+msgid "Topics: Installation Security"
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:11
+msgid "Encrypt your disk with TPM"
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:13
+msgid ""
+"Hardware-backed disk encryption protects the data on your disk using the "
+"Trusted Platform Module (TPM) chip. It encrypts your Ubuntu installation and "
+"your whole disk. Compared to traditional encryption methods such as LUKS, "
+"hardware-backed disk encryption can provide more convenience or more "
+"security, depending on your configuration."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:15
+msgid ""
+"To learn how this encryption works, see {ref}`hardware-backed-disk-"
+"encryption`."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:19
+msgid "Enable the encryption during installation"
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:21
+msgid ""
+"You can enable hardware-backed encryption when you install Ubuntu Desktop. "
+"You cannot enable or disable it after installation."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:23
+msgid "To install Ubuntu with hardware-backed encryption:"
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:25
+msgid ""
+"Follow the instructions in {ref}`install-ubuntu-desktop` until {guilabel}"
+"`Disk setup`."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:27
+msgid ""
+"On the {guilabel}`Disk setup` screen, select {menuselection}`Erase disk and "
+"install Ubuntu --> Use hardware-backed disk encryption`."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:30
+msgid ""
+"**Back up your data.** In this setup, Ubuntu overwrites your whole disk. All "
+"files will be deleted on the device where you're installing Ubuntu."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:33
+msgid "Check if the installer reports any errors."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:35
+msgid ""
+"Your system might not support all the required security features. In that "
+"case, the installer doesn't allow you to proceed with TPM/FDE, or it "
+"requires that you set a PIN or a passphrase. For more information, refer to "
+"{ref}`hardware-backed-disk-encryption-requirements`."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:37
+msgid ""
+"In some cases, your system isn't configured for TPM/FDE but it's possible to "
+"reconfigure it. The Ubuntu installer suggests automated or manual actions to "
+"resolve this. Some actions might require you to reboot the system to apply "
+"the modifications in the firmware."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:39
+msgid ""
+"On the {guilabel}`Create your account` screen, set a secure password for all "
+"user accounts. Without an encryption passphrase, your data is only as safe "
+"as the weakest of the user passwords."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:41
+msgid ""
+"When the installation is done, the installer shows your recovery key for "
+"your encrypted disk."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:43
+msgid ""
+"You can save the recovery key as a text file on another USB stick. You can "
+"also load the QR code with your phone or take a photo of the screen showing "
+"the recovery key."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:45
+msgid "**Store it somewhere safe**, such as in a password manager."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:48
+msgid ""
+"If you lose your recovery key, you might lose access to your data in certain "
+"scenarios. While you're logged in, replace the existing recovery key as soon "
+"as possible. See {ref}`tpm-fde-get-a-new-recovery-key`."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:51
+msgid ""
+"After starting your new Ubuntu Desktop system, you can {ref}`configure a "
+"disk encryption PIN or passphrase <tpm-fde-set-passphrase>`."
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:53
+msgid "Configure the encryption after installation"
+msgstr ""
+
+#: ../../../how-to/encrypt-your-disk-with-tpm.md:55
+msgid "Refer to {ref}`configure-hardware-backed-disk-encryption`."
+msgstr ""

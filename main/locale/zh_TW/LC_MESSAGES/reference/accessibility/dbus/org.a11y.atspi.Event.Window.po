@@ -1,0 +1,428 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:1
+msgid "org.a11y.atspi.Event.Window"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:5
+msgid "Signals"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:7
+msgid "org.a11y.atspi.Event.Window::PropertyChange"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:11
+msgid ""
+"PropertyChange (\n"
+"  property s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:19
+msgid "property"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:21
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:43
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:65
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:87
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:109
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:131
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:153
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:175
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:197
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:219
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:241
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:263
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:285
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:307
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:329
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:351
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:373
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:395
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:417
+msgid "unnamed_arg1"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:23
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:45
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:67
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:89
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:111
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:133
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:155
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:177
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:199
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:221
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:243
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:265
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:287
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:309
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:331
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:353
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:375
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:397
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:419
+msgid "unnamed_arg2"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:25
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:47
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:69
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:91
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:113
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:135
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:157
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:179
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:201
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:223
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:245
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:267
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:289
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:311
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:333
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:355
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:377
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:399
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:421
+msgid "unnamed_arg3"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:27
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:49
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:71
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:93
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:115
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:137
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:159
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:181
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:203
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:225
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:247
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:269
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:291
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:313
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:335
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:357
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:379
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:401
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:423
+msgid "properties"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:29
+msgid "org.a11y.atspi.Event.Window::Minimize"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:33
+msgid ""
+"Minimize (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:41
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:63
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:85
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:107
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:129
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:151
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:173
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:195
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:217
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:239
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:261
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:283
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:305
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:327
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:349
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:371
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:393
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:415
+msgid "unnamed_arg0"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:51
+msgid "org.a11y.atspi.Event.Window::Maximize"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:55
+msgid ""
+"Maximize (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:73
+msgid "org.a11y.atspi.Event.Window::Restore"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:77
+msgid ""
+"Restore (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:95
+msgid "org.a11y.atspi.Event.Window::Close"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:99
+msgid ""
+"Close (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:117
+msgid "org.a11y.atspi.Event.Window::Create"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:121
+msgid ""
+"Create (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:139
+msgid "org.a11y.atspi.Event.Window::Reparent"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:143
+msgid ""
+"Reparent (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:161
+msgid "org.a11y.atspi.Event.Window::DesktopCreate"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:165
+msgid ""
+"DesktopCreate (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:183
+msgid "org.a11y.atspi.Event.Window::DesktopDestroy"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:187
+msgid ""
+"DesktopDestroy (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:205
+msgid "org.a11y.atspi.Event.Window::Destroy"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:209
+msgid ""
+"Destroy (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:227
+msgid "org.a11y.atspi.Event.Window::Activate"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:231
+msgid ""
+"Activate (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:249
+msgid "org.a11y.atspi.Event.Window::Deactivate"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:253
+msgid ""
+"Deactivate (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:271
+msgid "org.a11y.atspi.Event.Window::Raise"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:275
+msgid ""
+"Raise (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:293
+msgid "org.a11y.atspi.Event.Window::Lower"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:297
+msgid ""
+"Lower (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:315
+msgid "org.a11y.atspi.Event.Window::Move"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:319
+msgid ""
+"Move (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:337
+msgid "org.a11y.atspi.Event.Window::Resize"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:341
+msgid ""
+"Resize (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:359
+msgid "org.a11y.atspi.Event.Window::Shade"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:363
+msgid ""
+"Shade (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:381
+msgid "org.a11y.atspi.Event.Window::uUshade"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:385
+msgid ""
+"uUshade (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:403
+msgid "org.a11y.atspi.Event.Window::Restyle"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Window.md:407
+msgid ""
+"Restyle (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""

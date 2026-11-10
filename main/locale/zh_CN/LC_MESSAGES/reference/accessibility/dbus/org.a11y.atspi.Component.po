@@ -1,0 +1,584 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:1
+msgid "org.a11y.atspi.Component"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:5
+msgid ""
+"Interface that provides spatial and graphical information about the GUI "
+"component."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:7
+msgid "Methods"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:9
+msgid "org.a11y.atspi.Component.Contains"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:13
+msgid ""
+"Contains (\n"
+"  IN x i,\n"
+"  IN y i,\n"
+"  IN coord_type u,\n"
+"  OUT unnamed_arg3 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:22
+msgid "Component\\'s top level window; see the description."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:24
+msgid "Queries whether a point (x, y) is inside the component."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:26
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:66
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:106
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:136
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:289
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:334
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:443
+msgid "The `coord_type` values are as follows, and correspond to AtkCoordType:"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:30
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:68
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:108
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:138
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:291
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:336
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:445
+msgid ""
+"0 - Coordinates are relative to the screen. 1 - Coordinates are relative to "
+"the component\\'s toplevel window. 2 - Coordinates are relative to the "
+"component\\'s immediate parent."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:34
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:76
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:148
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:297
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:342
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:455
+msgid "x"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:36
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:78
+msgid "X coordinate of point."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:38
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:80
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:150
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:301
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:346
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:457
+msgid "y"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:40
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:82
+msgid "Y coordinate of point."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:42
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:84
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:115
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:144
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:313
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:350
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:451
+msgid "coord_type"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:44
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:86
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:117
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:146
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:315
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:352
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:453
+msgid "Whether the coordinates are relative to the screen or to the"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:46
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:88
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:354
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:459
+msgid "unnamed_arg3"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:48
+msgid "org.a11y.atspi.Component.GetAccessibleAtPoint"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:52
+msgid ""
+"GetAccessibleAtPoint (\n"
+"  IN x i,\n"
+"  IN y i,\n"
+"  IN coord_type u,\n"
+"  OUT unnamed_arg3 (so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:61
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:102
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:132
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:285
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:330
+msgid "component\\'s top level window; see the description."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:63
+msgid ""
+"Gets a reference to the accessible object that contains an (x, y) pair of "
+"coordinates."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:72
+msgid ""
+"Returns: A D-Bus name and object reference (so) for the sought object, or a "
+"null object reference \\\"/org/a11y/atspi/null\\\" if there is no object at "
+"the specified coordinates."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:90
+msgid "org.a11y.atspi.Component.GetExtents"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:95
+msgid ""
+"GetExtents (\n"
+"  IN coord_type u,\n"
+"  OUT unnamed_arg1 (iiii)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:104
+msgid "Queries the pixel extents of a component."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:112
+msgid ""
+"Returns: a tuple (x, y, width, height) corresponding to the rectangle for "
+"the component\\'s extents."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:119
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:423
+msgid "unnamed_arg1"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:121
+msgid "org.a11y.atspi.Component.GetPosition"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:126
+msgid ""
+"GetPosition (\n"
+"  IN coord_type u,\n"
+"  OUT x i,\n"
+"  OUT y i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:134
+msgid "Queries the upper-left position of a component."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:142
+msgid "Returns: (x, y) coordinates of the component\\'s upper-left corner."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:152
+msgid "org.a11y.atspi.Component.GetSize"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:157
+msgid ""
+"GetSize (\n"
+"  OUT width i,\n"
+"  OUT height i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:162
+msgid "Queries the pixel size of a component."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:164
+msgid "Returns: (width, height) of the component\\'s rectangular area."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:166
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:305
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:370
+msgid "width"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:168
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:309
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:374
+msgid "height"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:170
+msgid "org.a11y.atspi.Component.GetLayer"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:175
+msgid ""
+"GetLayer (\n"
+"  OUT unnamed_arg0 u\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:179
+msgid ""
+"Queries the UI layer at which a component is rendered, which can help in "
+"determining when components occlude one another."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:182
+msgid ""
+"The layer of a component indicates its relative stacking order with respect "
+"to the onscreen visual representation of the UI. The layer index, in "
+"combination with the component\\'s extents, can be used to compute the "
+"visibility of all or part of a component. This is important in programmatic "
+"determination of region-of-interest for magnification, and in flat screen "
+"review models of the screen, as well as for other uses. Objects residing in "
+"two of the Layer categories support further z-ordering information, with "
+"respect to their peers in the same layer: namely, WINDOW and MDI. Relative "
+"stacking order for other objects within the same layer is not available; the "
+"recommended heuristic is first child paints first. In other words, assume "
+"that the first siblings in the child list are subject to being overpainted "
+"by later siblings if their bounds intersect. The order of layers, from "
+"bottom to top, is as follows:"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:197
+msgid "0 - INVALID: Error condition."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:199
+msgid ""
+"1 - BACKGROUND: Reserved for the desktop background; this is the bottom-most "
+"layer, over which everything else is painted."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:202
+msgid ""
+"2 - CANVAS: The \\'background\\' layer for most content renderers and UI "
+"component containers."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:205
+msgid ""
+"3 - WIDGET: The layer in which the majority of ordinary \\'foreground\\' "
+"widgets reside."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:208
+msgid ""
+"4 - MDI: A special layer between CANVAS and WIDGET, in which the \\'pseudo-"
+"windows\\' (e.g. the Multiple-Document Interface frames) reside. See the "
+"GetMDIZOrder method."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:212
+msgid "5 - POPUP: Layer for popup window content, above WIDGET."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:214
+msgid "6 - OVERLAY: The topmost layer."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:216
+msgid ""
+"7 - WINDOW: The layer in which a toplevel window background usually resides."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:219
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:237
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:252
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:269
+msgid "unnamed_arg0"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:221
+msgid "org.a11y.atspi.Component.GetMDIZOrder"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:226
+msgid ""
+"GetMDIZOrder (\n"
+"  OUT unnamed_arg0 n\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:230
+msgid ""
+"Queries the Z stacking order of a component which is in the MDI or WINDOW "
+"layer, per the GetLayer method. Bigger z-order numbers are nearer the top."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:234
+msgid ""
+"Returns: The z order of the component, or -1 if it is not in the MDI layer."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:239
+msgid "org.a11y.atspi.Component.GrabFocus"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:244
+msgid ""
+"GrabFocus (\n"
+"  OUT unnamed_arg0 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:248
+msgid "Attempts to set the keyboard input focus to the component."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:250
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:295
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:340
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:368
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:416
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:449
+msgid "Returns: true if successful, or false otherwise."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:254
+msgid "org.a11y.atspi.Component.GetAlpha"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:259
+msgid ""
+"GetAlpha (\n"
+"  OUT unnamed_arg0 d\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:263
+msgid ""
+"Gets the opacity/alpha value of a component, if alpha blending is in use."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:266
+msgid ""
+"Returns: opacity value in the \\[0.0, 1.0\\] range. 0 is fully transparent "
+"and 1 is fully opaque."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:271
+msgid "org.a11y.atspi.Component.SetExtents"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:276
+msgid ""
+"SetExtents (\n"
+"  IN x i,\n"
+"  IN y i,\n"
+"  IN width i,\n"
+"  IN height i,\n"
+"  IN coord_type u,\n"
+"  OUT unnamed_arg5 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:287
+msgid "Moves and resizes the component."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:299
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:344
+msgid "the new horizontal position to which the component should be moved."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:303
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:348
+msgid "the new vertical position to which the component should be moved."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:307
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:372
+msgid "the width to which the component should be resized."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:311
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:376
+msgid "the height to which the component should be resized."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:317
+msgid "unnamed_arg5"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:319
+msgid "org.a11y.atspi.Component.SetPosition"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:323
+msgid ""
+"SetPosition (\n"
+"  IN x i,\n"
+"  IN y i,\n"
+"  IN coord_type u,\n"
+"  OUT unnamed_arg3 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:332
+msgid "Moves the component to the specified position."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:356
+msgid "org.a11y.atspi.Component.SetSize"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:360
+msgid ""
+"SetSize (\n"
+"  IN width i,\n"
+"  IN height i,\n"
+"  OUT unnamed_arg2 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:366
+msgid "Resizes the component to the given pixel dimensions."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:378
+msgid "unnamed_arg2"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:380
+msgid "org.a11y.atspi.Component.ScrollTo"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:384
+msgid ""
+"ScrollTo (\n"
+"  IN type u,\n"
+"  OUT unnamed_arg1 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:389
+msgid ""
+"Makes the component visible on the screen by scrolling all necessary parents."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:392
+msgid "The `type` corresponds to AtkScrollType:"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:394
+msgid ""
+"0 - TOP_LEFT: Scroll the object vertically and horizontally to bring its top "
+"left corner to the top left corner of the window."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:397
+msgid ""
+"1 - BOTTOM_RIGHT: Scroll the object vertically and horizontally to bring its "
+"bottom right corner to the bottom right corner of the window."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:400
+msgid ""
+"2 - TOP_EDGE: Scroll the object vertically to bring its top edge to the top "
+"edge of the window."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:403
+msgid ""
+"3 - BOTTOM_EDGE: Scroll the object vertically to bring its bottom edge to "
+"the bottom edge of the window."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:406
+msgid ""
+"4 - LEFT_EDGE: Scroll the object vertically and horizontally to bring its "
+"left edge to the left edge of the window."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:409
+msgid ""
+"5 - RIGHT_EDGE: Scroll the object vertically and horizontally to bring its "
+"right edge to the right edge of the window."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:412
+msgid ""
+"6 - ANYWHERE: Scroll the object vertically and horizontally so that as much "
+"as possible of the object becomes visible. The exact placement is determined "
+"by the application."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:418
+msgid "type"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:420
+msgid "How to position the component within its parent; see the   description."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:425
+msgid "org.a11y.atspi.Component.ScrollToPoint"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:429
+msgid ""
+"ScrollToPoint (\n"
+"  IN coord_type u,\n"
+"  IN x i,\n"
+"  IN y i,\n"
+"  OUT unnamed_arg3 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:436
+msgid ""
+"component\\'s top level window; see the description. `x`: X coordinate "
+"within the component to make visible. `y`: Y coordinate within the component "
+"to make visible."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Component.md:440
+msgid ""
+"Similar to the ScrollTo method, but makes a specific point from the "
+"component visible in its parent."
+msgstr ""

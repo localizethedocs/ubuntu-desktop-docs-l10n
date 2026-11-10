@@ -1,0 +1,615 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:0
+msgid ""
+"Learn to start the Orca screen reader, set its keyboard layout and modifier, "
+"and read web pages in Firefox with keyboard commands."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:8
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:12
+msgid "Get started with the screen reader"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:14
+msgid ""
+"Ubuntu Desktop comes with the Orca screen reader. Orca is an open-source "
+"tool that reads text on your screen and lets you navigate the user interface "
+"using keyboard commands."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:16
+msgid ""
+"Let's explore how to start the screen reader and use the Ubuntu Desktop "
+"interface without relying on vision."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:19
+msgid "Enable the screen reader"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:21
+msgid ""
+"First, close all windows. It's best to work on a clean desktop so that "
+"certain applications don't capture your keyboard commands."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:23
+msgid ""
+"To start the screen reader, press {kbd}`Super+Alt+S`. What we call the {kbd}"
+"`Super` key is the key with the Windows logo on PC keyboards, or the {kbd}"
+"`Cmd` key on Apple keyboards."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:25
+msgid "Orca immediately announces \"screen reader on\"."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:27
+msgid ""
+"You can later turn off the screen reader using the same keyboard shortcut. "
+"For now, keep it enabled."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:30
+msgid "Determine your keyboard layout"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:32
+msgid ""
+"Orca uses different keyboard commands depending on the size and layout of "
+"your keyboard. Before you learn about Orca commands, you need to find out "
+"which layout Orca is using."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:34
+msgid ""
+"Press {kbd}`Alt+F2`. The {guilabel}`Run a command` dialog opens and Orca "
+"announces it. If the dialog doesn't open, you might need to press the {kbd}"
+"`Fn` key with {kbd}`F2`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:36
+msgid "Type `orca --setup` into the dialog and press {kbd}`Enter`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:38
+msgid ""
+"The {guilabel}`Screen Reader Preferences` window opens. The {guilabel}"
+"`Profiles` tab is active."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:40
+msgid ""
+"Using the {kbd}`Arrow Down` key, navigate to the {guilabel}`Commands` tab."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:42
+msgid ""
+"Press {kbd}`Tab`. Focus moves to the first element in the window, which is a "
+"keyboard layout selector."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:44
+msgid "Orca announces what your layout is: laptop or desktop."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:46
+msgid ""
+"If you're using a laptop keyboard, make sure that the laptop layout is "
+"selected. You can switch using the arrow keys."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:49
+msgid ""
+"If you set the desktop layout with a laptop keyboard, you won't be able to "
+"enter Orca commands."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:52
+msgid "For now, close the preferences window using {kbd}`Alt+F4`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:54
+msgid ""
+"If you've changed your keyboard layout, the app asks you to save changes. "
+"Confirm by selecting {guilabel}`Save to Default and close`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:57
+msgid "The Orca modifier on your keyboard"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:59
+msgid ""
+"Most of the keyboard commands that control Orca start with the *Orca "
+"modifier*. It's a key that acts like {kbd}`Shift` or {kbd}`Ctrl`:"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:61
+msgid "With the laptop layout, you use {kbd}`CapsLock` as your Orca modifier."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:63
+msgid ""
+"You might encounter issues with the {kbd}`CapsLock` modifier. Sometimes, the "
+"system treats it as plain {kbd}`CapsLock` when it should act as the Orca "
+"modifier, or the other way around."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:65
+msgid ""
+"In that case, toggle {kbd}`CapsLock` by double-pressing it. Alternatively, "
+"press {kbd}`CapsLock+Backspace`, which tells Orca to ignore the next key, "
+"and then press {kbd}`CapsLock`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:67
+msgid "With the desktop layout, it's {kbd}`Insert`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:69
+msgid ""
+"Make sure to disable your {kbd}`NumLock`. Many commands on the desktop "
+"layout use keys on the numeric keypad, and they only work when {kbd}"
+"`NumLock` is disabled."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:72
+msgid "Ask for the time and date"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:74
+msgid "Let's try an Orca command now."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:76
+msgid ""
+"To let Orca tell you the current time, press Orca modifier + {kbd}`T`. "
+"That's {kbd}`CapsLock+T` if you have the laptop layout, or {kbd}`Insert+T` "
+"on the desktop layout."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:78
+msgid "Orca tells you the current hour, minute and second."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:80
+msgid ""
+"To find out today's date, double-press {kbd}`T` in the same keyboard "
+"shortcut. Use {kbd}`CapsLock+T+T` on the laptop layout, or {kbd}`Insert+T+T` "
+"on the desktop layout."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:82
+msgid ""
+"Orca says the date only as numbers. For example, if you hear \"zero seven "
+"thirty two thousand twenty five\", that represents July 30, 2025."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:85
+msgid "Check your internet connection"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:87
+msgid ""
+"In the following sections, we'll cover some basic Orca controls in a web "
+"browser. Before we launch the web browser, let's ensure that the internet "
+"connection is on. In the process, we're going to explore how to control the "
+"desktop interface from the keyboard."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:89
+msgid ""
+"Network settings are available in the top bar. Press {kbd}`Ctrl+Alt+Tab` to "
+"cycle through the areas of the user interface. Notice that you can also "
+"focus the Dash, which contains application launchers, and the desktop icons "
+"frame. Select \"Top Bar\" and release the keys."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:91
+msgid ""
+"Now, you can browse the elements in the top bar. Press {kbd}`Tab` until you "
+"hear \"System Menu\"."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:93
+msgid ""
+"Press {kbd}`Enter` to activate the menu and press {kbd}`Down` to descend "
+"into the quick settings menu."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:95
+msgid ""
+"Inside the menu, you can again use {kbd}`Tab` to cycle through the menu "
+"items. You'll hear items such as the battery percentage, a screenshot "
+"button, a settings button, a screen lock button and a power off button."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:97
+msgid ""
+"Eventually, you might arrive to the {guilabel}`Wired` toggle button. If Orca "
+"says that the button is \"pressed\", you're connected to wired network."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:99
+msgid ""
+"You might also encounter the {guilabel}`Wi-Fi` toggle button. If it's "
+"\"pressed\", it means that the wireless subsystem is enabled. However, you "
+"might not be connected to any wireless network. Let's find out:"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:101
+msgid "Press {kbd}`Tab` again and go to the \"Open Menu\" button."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:102
+msgid ""
+"Activate it and press {kbd}`Down` to descend into the list of wireless "
+"networks."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:103
+msgid ""
+"If you're connected to a wireless network, it's the first one on the list. "
+"Orca tells you the network name, security, the signal strength, and says "
+"\"checked\"."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:105
+msgid ""
+"If you're not connected to any wireless network, Orca doesn't say "
+"\"checked\". In that case, browse the network list using {kbd}`Up` and {kbd}"
+"`Down`. When you find your network, activate it, and if asked, enter the "
+"password."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:108
+msgid "Launch Firefox"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:110
+msgid ""
+"Let's try opening an application and learning where we are. In this example, "
+"we'll use the Firefox web browser."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:112
+msgid "Start Firefox:"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:114
+msgid "Press {kbd}`Super` to open the applications overview and search."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:116
+msgid ""
+"Start typing _Firefox_. Type slowly letter by letter and listen to what Orca "
+"says."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:118
+msgid ""
+"Orca announces which application currently matches the search term. When you "
+"type \"f\", Firefox might already be the current match."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:120
+msgid ""
+"When Firefox is the active search result, press {kbd}`Enter` to open Firefox."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:122
+msgid "When Firefox opens, Orca says: \"Mozilla Firefox frame\"."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:124
+msgid ""
+"In Firefox, open a new tab so that we're on the same page: press {kbd}"
+"`Ctrl+T`. Orca announces: \"New Tab page tab\"."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:126
+msgid "Let's explore where we are:"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:128
+msgid ""
+"Ask for the window title. With the laptop layout, press {kbd}`CapsLock+/`. "
+"With the desktop layout, press {kbd}`Insert+Enter` on the numeric keypad."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:130
+msgid "Orca announces: \"Mozilla Firefox\"."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:132
+msgid ""
+"Ask about the active element in the window. Press Orca modifier + {kbd}"
+"`Enter`. This is also called the *basic Where Am I*."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:134
+msgid ""
+"Right now, the active element should be the address bar in the new tab. Orca "
+"announces: \"Navigation toolbar\" and some additional details."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:137
+msgid ""
+"You might be using multiple keyboard layouts or a different keyboard layout "
+"than your interface language. In that case, Orca commands might follow a "
+"different keyboard layout than expected."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:139
+msgid ""
+"If some Orca commands work and others don't, try entering them as if another "
+"keyboard layout was active."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:142
+msgid "Read the application content"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:144
+msgid "Let's read some web pages. We'll start with a simple one."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:146
+msgid "Enter [`example.org`](https://example.org) in the Firefox address bar."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:148
+msgid ""
+"To read the entire page content, press Orca modifier + {kbd}`;`. The page "
+"contains one heading, two paragraphs and one link."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:150
+msgid ""
+"Let's compare that with another way to read the content of applications: "
+"Flat Review. To read the whole window, press Orca modifier and double-press "
+"{kbd}`;`. Orca starts reading the elements of the Firefox window first "
+"before it gets to the web page."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:152
+msgid ""
+"Another common way to read text is caret navigation. Press {kbd}`F7` and "
+"confirm using {kbd}`Alt+Y`. Use the arrow keys to move your text cursor "
+"(caret) on the web page:"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:154
+msgid "Pressing {kbd}`Left` and {kbd}`Right` reads the text by letter."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:155
+msgid "Pressing {kbd}`Ctrl+Left` and {kbd}`Ctrl+Right` reads the text by word."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:156
+msgid "Pressing {kbd}`Up` and {kbd}`Down` reads the text by line."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:158
+msgid ""
+"Try placing your cursor roughly to the middle of the document. When you "
+"press Orca modifier + {kbd}`;` to read the document, it starts reading from "
+"your current position to the end of the page."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:161
+msgid "Focus elements"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:163
+msgid ""
+"The [`example.org`](https://example.org) page contains one link. Press {kbd}"
+"`Tab` to switch focus to it."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:165
+msgid ""
+"As you press {kbd}`Tab` again, the focus moves through interactive elements "
+"in the Firefox interface until it cycles back to the link."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:167
+msgid ""
+"When you focus the link, Orca tells you where the link leads. To repeat the "
+"information, press Orca modifier + {kbd}`Enter`. The is the *basic Where Am "
+"I* command. To hear more information, press Orca modifier and double-press "
+"{kbd}`Enter`. This is the *detailed Where Am I* command."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:169
+msgid ""
+"Press {kbd}`Enter` to activate the focused element. In this case, follow the "
+"link."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:172
+msgid "Browsing the web using Structural Navigation"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:174
+msgid ""
+"We've opened a longer, more complex web page: [Example Domains](https://"
+"www.iana.org/help/example-domains)."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:176
+msgid ""
+"If you press Orca modifier + {kbd}`;` to hear the whole page, you'll notice "
+"that you might not be interested in every part. Press {kbd}`Escape` to stop "
+"reading."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:178
+msgid ""
+"With Structural Navigation, you can read the page by headings, links, lists "
+"and other elements:"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:180
+msgid "To get a list of **headings** on this page, press {kbd}`Alt+Shift+H`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:182
+msgid "Move through the headings using {kbd}`H` and {kbd}`Shift+H`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:184
+msgid "To get a list of **links** on this page, press {kbd}`Alt+Shift+K`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:186
+msgid "Move through the links using {kbd}`K` and {kbd}`Shift+K`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:188
+msgid "To get a list of **lists** on this page, press {kbd}`Alt+Shift+L`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:190
+msgid "Move through the lists using {kbd}`L` and {kbd}`Shift+L`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:192
+msgid "To get a list of **paragraphs** on this page, press {kbd}`Alt+Shift+P`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:194
+msgid "Move through the paragraphs using {kbd}`P` and {kbd}`Shift+P`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:196
+msgid ""
+"Orca supports many more Structural Navigation commands. You can find a "
+"complete reference at {ref}`orca-structural-navigation-commands`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:199
+msgid ""
+"If a form field or another kind of text entry is focused, Structural "
+"Navigation commands don't work because you're typing text. To re-enable "
+"Structural Navigation, press Orca modifier + {kbd}`Z`. Alternatively, leave "
+"the field using {kbd}`Tab`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:203
+msgid "Other applications"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:205
+msgid ""
+"In other applications, you can use most of the commands that we've covered:"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:207
+msgid "Usually, you want to use {kbd}`Tab` to browse the interactive elements."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:209
+msgid ""
+"In text editors, caret navigation works by default. In some other "
+"applications like document viewers, you can enable it using {kbd}`F7`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:211
+msgid ""
+"Try using the commands to read the document and read the window: Orca "
+"modifier + {kbd}`;` and Orca modifier + {kbd}`;+;`. In some applications, "
+"such as text editors and other text entries, the commands might not work."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:213
+msgid ""
+"Only a couple of application support Structural Navigation: Firefox, "
+"LibreOffice, Thunderbird and Pidgin. In LibreOffice, you can only use "
+"Structural navigation to browse tables in Writer. In editable documents, "
+"enable Structural navigation using Orca modifier + {kbd}`Z`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:215
+msgid ""
+"If you experience difficulty with some applications, you can find tips in "
+"{ref}`Improve screen reader usability <improve-screen-reader-usability>`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:218
+msgid "Learn more"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:220
+msgid ""
+"Orca has a learning mode where keys and commands only tell you what their "
+"function is."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:222
+msgid ""
+"To enter learning mode, press Orca modifier + {kbd}`H`. Try various Orca "
+"commands that you remember. Try pressing other keys with your Orca modifier. "
+"Each time, Orca tells you what the command does."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:224
+msgid ""
+"Press {kbd}`F2` to open a list of Orca keyboard commands. You can browse the "
+"list using {kbd}`Up` and {kbd}`Down`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:226
+msgid "To exit learning mode, press {kbd}`Escape`."
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:228
+msgid "For more guidance, go to the following pages:"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:230
+msgid "{ref}`navigate-the-screen-using-the-screen-reader`"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:231
+msgid "{ref}`read-documents-and-web-pages-using-the-screen-reader`"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:232
+msgid "{ref}`read-screen-in-braille`"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:233
+msgid "{ref}`navigate-the-interface-using-the-keyboard`"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:234
+msgid "{ref}`keyboard-navigation-shortcuts`"
+msgstr ""
+
+#: ../../../tutorial/get-started-with-the-screen-reader.md:235
+msgid "{ref}`improve-screen-reader-usability`"
+msgstr ""

@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:0
+msgid ""
+"Configure how Orca announces cell coordinates, spans and headers and skips "
+"blank cells when you navigate tables."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:7
+msgid "Table navigation preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:9
+msgid ""
+"The following options allow you to customize how Orca behaves when "
+"navigating within a table in applications that support Structural "
+"Navigation, see {ref}`orca-navigate-the-document-structure`."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:11
+msgid "Speak cell coordinates"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:13
+msgid ""
+"If checked, Orca announces the coordinates of each cell you navigate to."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:15
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:21
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:27
+msgid "**Default value**: checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:17
+msgid "Speak multiple cell spans"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:19
+msgid ""
+"If checked, Orca announces how many rows or columns a cell spans when it "
+"spans more than one."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:23
+msgid "Announce cell header"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:25
+msgid ""
+"If checked, Orca announces changes in the header if the headers for the "
+"current cell can be determined."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:29
+msgid "Skip blank cells"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:31
+msgid ""
+"If checked, Orca skips blank cells when you are using {ref}`orca-structural-"
+"navigation-commands` to access the table."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-table-navigation.md:33
+msgid "**Default value**: not checked"
+msgstr ""

@@ -1,0 +1,328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/share-your-desktop-remotely.md:0
+msgid ""
+"Share your desktop over RDP with Desktop Sharing or Remote Login, find the "
+"connection details and open the firewall ports."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:8
+msgid "Topics: Remote access"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:12
+msgid "Share your desktop remotely"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:14
+msgid ""
+"<!--\n"
+"Related test plan: <https://wiki.ubuntu.com/DesktopTeam/TestPlans/"
+"RemoteDesktop>\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:18
+msgid ""
+"You can enable remote desktop sharing on your system. This way, you or other "
+"people will be able to view or control your desktop from another computer in "
+"real time. The desktop sharing works over the Remote Desktop Protocol (RDP)."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:20
+msgid ""
+"We'll refer to the system that shares its desktop as the *server*. We'll "
+"call the system that accesses the shared desktop remotely the *client*."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:22
+msgid "What you'll need"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:25
+msgid "Ubuntu Desktop 24.04 LTS or later with GNOME on the server."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:26
+msgid ""
+"If you want to share your desktop outside of your local network, you need "
+"access to your router's configuration, the ability to configure a Virtual "
+"Private Network (VPN) or reach out to your network administrator."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:28
+msgid "Allow another person to view your screen"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:30
+msgid ""
+"With the **Desktop Sharing** feature, another person using a different "
+"computer can view your screen while you're using your computer. Optionally, "
+"you can allow the other person to control your environment. You must be "
+"logged in before the other person can connect."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:32
+msgid ""
+"The resolution of the shared screen is determined by your user session on "
+"the server. Therefore, the screen might look **too small, too large or "
+"blurry** due to scaling on the client."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:34
+msgid ""
+"To allow this access, go to {menuselection}`Settings --> System --> Remote "
+"Desktop --> Desktop Sharing`."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:36
+msgid ""
+"<!--\n"
+"The reason for this screenshot is that the host name, user name and password "
+"might be confusing to the reader or too abstract if not seen in context of "
+"the remote desktop configuration.\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:39
+msgid ""
+"![Desktop Sharing enabled in Settings](/images/gnome-remote-desktop.png)"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:39
+msgid "Desktop Sharing enabled in Settings"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:41
+msgid "Allow logging into your account from another computer"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:43
+msgid ""
+"With the **Remote Login** feature, you or another person can log into your "
+"account from another, remote computer. You must be logged out before the "
+"remote user can connect. If you are already logged in at the time, they get "
+"the option to terminate your running session and log in remotely instead. "
+"The connecting user has full control over your environment."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:45
+msgid ""
+"The resolution of the shared screen is determined by the window on the "
+"client. Therefore, the screen is always the **right size and looks sharp**."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:47
+msgid ""
+"To allow this access, go to {menuselection}`Settings --> System --> Remote "
+"Desktop --> Remote Login`."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:49
+msgid "Find the access credentials"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:51
+msgid ""
+"When you connect from a remote client, you have to know the remote desktop "
+"user name and password, the host name of the server and the port number that "
+"provides RDP access."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:53
+msgid "User name and password"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:55
+msgid ""
+"In {menuselection}`Settings --> System --> Remote Desktop`, note down the "
+"user name and password."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:57
+msgid ""
+"These are different from your regular user credentials, and they only work "
+"for the remote desktop sharing. You can change them here without affecting "
+"how you log in."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:59
+msgid "Host name on the local network"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:61
+msgid ""
+"To point the client to the location of your server, you need either the "
+"server host name or its IP address."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:63
+msgid ""
+"If the server and client are both on the **same network**, for example on "
+"**your home Wi-Fi**, you can use the host name that you find in "
+"{menuselection}`Settings --> System --> Remote Desktop`. You might need to "
+"add the `.local` suffix at the end when entering it on the client."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:65
+msgid ""
+"Alternatively, you can use the IPv4 address of the server. Display your "
+"local IPv4 address:"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:0
+msgid "Graphical interface"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:72
+msgid ""
+"If you're using wired network, go to {menuselection}`Settings --> Wired --> "
+"your connected network --> Network Options (gear icon) --> IPv4 Address`."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:74
+msgid ""
+"If you're on Wi-Fi, go to {menuselection}`Settings --> Wi-Fi --> your "
+"connected network --> Network Options (gear icon) --> IPv4 Address`."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:0
+msgid "Command line"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:-1
+msgid ""
+"[...]\n"
+"2: wlp0s20f3: <BROADCAST,MULTICAST,UP,LOWER_UP> [...]\n"
+"    inet 192.168.0.91/24 [...]\n"
+"[...]"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:93
+msgid "Here, your IPv4 address is 192.168.0.91."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:97
+msgid ""
+"The local IPv4 address might change when you reboot the server or reconnect "
+"to the network."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:100
+msgid "Host name on a public network"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:102
+msgid ""
+"If you're sharing the desktop between **different networks**, for example "
+"between **your office and your home Wi-Fi**, you need a public IPv4 or IPv6 "
+"address for the server."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:104
+msgid ""
+"You might have to configure port forwarding in your router's configuration, "
+"or set up access to the server through a VPN."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:107
+msgid ""
+"With port forwarding, you open up your system to the world. This is a "
+"security risk because attackers might try to break into your system."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:109
+msgid ""
+"If you only want to share the desktop with a private group of people, use "
+"the VPN instead."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:112
+msgid "Check with your internet provider or your network administrator."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:114
+msgid "Port number"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:116
+msgid ""
+"By default, Desktop Sharing and Remote Login both use the 3389 port on your "
+"system. However, if you enable them both at the same time, Desktop Sharing "
+"switches to port 3390, while Remote Login keeps port 3389. You can then "
+"choose the connection type to use at the remote client by setting the port "
+"number."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:118
+msgid "Open RDP ports in your firewall"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:120
+msgid "If the firewall is active, allow RDP connections to your system:"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:127
+msgid ""
+"If the Firewall (`gufw`) application is installed, open it and go to the "
+"Rules tab."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:129
+msgid ""
+"Click {guilabel}`Add a rule…` ({guilabel}`+`). Switch to the Simple tab. "
+"Enter the following configuration:"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:131
+msgid "**Policy:** Allow"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:133
+msgid "**Direction:** In"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:135
+msgid "**Protocol:** TCP"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:137
+msgid "**Port:** 3389:3390"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:139
+msgid "Click {guilabel}`Add` to confirm."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:161
+msgid "Connect from a client"
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:163
+msgid ""
+"To connect to this system from a remote client, use an application that "
+"supports RDP. Enter the credentials that you've noted down."
+msgstr ""
+
+#: ../../../how-to/share-your-desktop-remotely.md:165
+msgid ""
+"On Ubuntu, you can use the Remmina application. See {ref}`access-a-remote-"
+"desktop`."
+msgstr ""

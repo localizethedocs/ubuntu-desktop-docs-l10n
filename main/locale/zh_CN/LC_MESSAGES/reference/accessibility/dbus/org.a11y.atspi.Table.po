@@ -1,0 +1,426 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:1
+msgid "org.a11y.atspi.Table"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:5
+msgid "Properties"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:7
+msgid "org.a11y.atspi.Table:NRows"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:11
+msgid "NRows readable i\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:13
+msgid "org.a11y.atspi.Table:NColumns"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:17
+msgid "NColumns readable i\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:19
+msgid "org.a11y.atspi.Table:Caption"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:23
+msgid "Caption readable (so)\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:25
+msgid "org.a11y.atspi.Table:Summary"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:29
+msgid "Summary readable (so)\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:31
+msgid "org.a11y.atspi.Table:NSelectedRows"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:35
+msgid "NSelectedRows readable i\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:37
+msgid "org.a11y.atspi.Table:NSelectedColumns"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:41
+msgid "NSelectedColumns readable i\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:43
+msgid "Methods"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:45
+msgid "org.a11y.atspi.Table.GetAccessibleAt"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:49
+msgid ""
+"GetAccessibleAt (\n"
+"  IN row i,\n"
+"  IN column i,\n"
+"  OUT unnamed_arg2 (so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:55
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:71
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:112
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:139
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:153
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:166
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:204
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:227
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:240
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:262
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:293
+msgid "row"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:57
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:73
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:125
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:141
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:155
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:177
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:215
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:229
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:251
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:273
+msgid "column"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:59
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:75
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:143
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:157
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:231
+msgid "unnamed_arg2"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:61
+msgid "org.a11y.atspi.Table.GetIndexAt"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:65
+msgid ""
+"GetIndexAt (\n"
+"  IN row i,\n"
+"  IN column i,\n"
+"  OUT unnamed_arg2 i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:77
+msgid "org.a11y.atspi.Table.GetRowAtIndex"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:81
+msgid ""
+"GetRowAtIndex (\n"
+"  IN index i,\n"
+"  OUT unnamed_arg1 i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:86
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:99
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:289
+msgid "index"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:88
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:101
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:114
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:127
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:168
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:179
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:206
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:217
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:242
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:253
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:264
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:275
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:291
+msgid "unnamed_arg1"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:90
+msgid "org.a11y.atspi.Table.GetColumnAtIndex"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:94
+msgid ""
+"GetColumnAtIndex (\n"
+"  IN index i,\n"
+"  OUT unnamed_arg1 i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:103
+msgid "org.a11y.atspi.Table.GetRowDescription"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:107
+msgid ""
+"GetRowDescription (\n"
+"  IN row i,\n"
+"  OUT unnamed_arg1 s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:116
+msgid "org.a11y.atspi.Table.GetColumnDescription"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:120
+msgid ""
+"GetColumnDescription (\n"
+"  IN column i,\n"
+"  OUT unnamed_arg1 s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:129
+msgid "org.a11y.atspi.Table.GetRowExtentAt"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:133
+msgid ""
+"GetRowExtentAt (\n"
+"  IN row i,\n"
+"  IN column i,\n"
+"  OUT unnamed_arg2 i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:145
+msgid ""
+"org.a11y.atspi.Table.GetColumnExtentAt "
+"{#org.a11y.atspi.Table.GetColumnExtentAt}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:147
+msgid ""
+"GetColumnExtentAt (\n"
+"  IN row i,\n"
+"  IN column i,\n"
+"  OUT unnamed_arg2 i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:159
+msgid "org.a11y.atspi.Table.GetRowHeader {#org.a11y.atspi.Table.GetRowHeader}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:161
+msgid ""
+"GetRowHeader (\n"
+"  IN row i,\n"
+"  OUT unnamed_arg1 (so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:170
+msgid ""
+"org.a11y.atspi.Table.GetColumnHeader {#org.a11y.atspi.Table.GetColumnHeader}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:172
+msgid ""
+"GetColumnHeader (\n"
+"  IN column i,\n"
+"  OUT unnamed_arg1 (so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:181
+msgid ""
+"org.a11y.atspi.Table.GetSelectedRows {#org.a11y.atspi.Table.GetSelectedRows}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:183
+msgid ""
+"GetSelectedRows (\n"
+"  OUT unnamed_arg0 ai\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:187
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:195
+msgid "unnamed_arg0"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:189
+msgid ""
+"org.a11y.atspi.Table.GetSelectedColumns "
+"{#org.a11y.atspi.Table.GetSelectedColumns}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:191
+msgid ""
+"GetSelectedColumns (\n"
+"  OUT unnamed_arg0 ai\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:197
+msgid ""
+"org.a11y.atspi.Table.IsRowSelected {#org.a11y.atspi.Table.IsRowSelected}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:199
+msgid ""
+"IsRowSelected (\n"
+"  IN row i,\n"
+"  OUT unnamed_arg1 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:208
+msgid ""
+"org.a11y.atspi.Table.IsColumnSelected "
+"{#org.a11y.atspi.Table.IsColumnSelected}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:210
+msgid ""
+"IsColumnSelected (\n"
+"  IN column i,\n"
+"  OUT unnamed_arg1 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:219
+msgid "org.a11y.atspi.Table.IsSelected {#org.a11y.atspi.Table.IsSelected}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:221
+msgid ""
+"IsSelected (\n"
+"  IN row i,\n"
+"  IN column i,\n"
+"  OUT unnamed_arg2 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:233
+msgid ""
+"org.a11y.atspi.Table.AddRowSelection {#org.a11y.atspi.Table.AddRowSelection}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:235
+msgid ""
+"AddRowSelection (\n"
+"  IN row i,\n"
+"  OUT unnamed_arg1 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:244
+msgid ""
+"org.a11y.atspi.Table.AddColumnSelection "
+"{#org.a11y.atspi.Table.AddColumnSelection}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:246
+msgid ""
+"AddColumnSelection (\n"
+"  IN column i,\n"
+"  OUT unnamed_arg1 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:255
+msgid ""
+"org.a11y.atspi.Table.RemoveRowSelection "
+"{#org.a11y.atspi.Table.RemoveRowSelection}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:257
+msgid ""
+"RemoveRowSelection (\n"
+"  IN row i,\n"
+"  OUT unnamed_arg1 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:266
+msgid ""
+"org.a11y.atspi.Table.RemoveColumnSelection "
+"{#org.a11y.atspi.Table.RemoveColumnSelection}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:268
+msgid ""
+"RemoveColumnSelection (\n"
+"  IN column i,\n"
+"  OUT unnamed_arg1 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:277
+msgid ""
+"org.a11y.atspi.Table.GetRowColumnExtentsAtIndex "
+"{#org.a11y.atspi.Table.GetRowColumnExtentsAtIndex}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:279
+msgid ""
+"GetRowColumnExtentsAtIndex (\n"
+"  IN index i,\n"
+"  OUT unnamed_arg1 b,\n"
+"  OUT row i,\n"
+"  OUT col i,\n"
+"  OUT row_extents i,\n"
+"  OUT col_extents i,\n"
+"  OUT is_selected b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:295
+msgid "col"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:297
+msgid "row_extents"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:299
+msgid "col_extents"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Table.md:301
+msgid "is_selected"
+msgstr ""

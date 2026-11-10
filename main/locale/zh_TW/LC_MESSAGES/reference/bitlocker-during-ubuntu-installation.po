@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:0
+msgid ""
+"Understand why the Ubuntu installer asks you to deactivate BitLocker, and "
+"what you can do before installing Ubuntu alongside Windows."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:8
+msgid "Topics: Installation Security Windows"
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:12
+msgid "BitLocker during Ubuntu installation"
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:14
+msgid ""
+"During the installation type step, the Ubuntu installer might inform you "
+"that you can't proceed without first deactivating Windows BitLocker."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:16
+msgid ""
+"![The BitLocker is enabled page](/images/installer/bitlocker-is-enabled.png)"
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:16
+msgid "The BitLocker is enabled page"
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:19
+msgid "BitLocker"
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:21
+msgid ""
+"BitLocker Drive Encryption is a data protection feature that integrates with "
+"the Windows operating system. When activated, it will encrypt the contents "
+"of the hard drives in Windows, making the data inaccessible without the "
+"correct decryption key. It is designed to minimize the risk of data theft or "
+"exposure from lost or stolen computers."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:23
+msgid ""
+"When a user starts their computer and properly authenticates with the "
+"correct credentials, BitLocker decrypts the data and allows seamless usage "
+"of the hard drive and the data that it contains. Without the correct "
+"credentials, the encrypted hard drive data looks like random noise."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:25
+msgid "BitLocker and Ubuntu installation"
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:27
+msgid ""
+"If you plan to install Ubuntu side by side with Windows, you need to take "
+"into consideration the operational setup on your computer."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:29
+msgid ""
+"If you are not using BitLocker, Ubuntu can see the correct hard drive "
+"structure, including any partitions and data stored on it. The guided "
+"installer can correctly map the data and safely install Ubuntu alongside "
+"Windows."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:31
+msgid ""
+"If you are using BitLocker, the hard drive content isn't accessible, and it "
+"appears as random noise. The Ubuntu installer can't correctly map data, and "
+"can't install alongside Windows without data loss."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:33
+msgid ""
+"Additionally, some manufacturers ship systems with BitLocker enabled but the "
+"hard drive content not yet encrypted. In this case, the Ubuntu installer "
+"also can't correctly map data."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:35
+msgid "What you can do"
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:37
+msgid "Cancel the installation of Ubuntu and continue using Windows only."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:39
+msgid ""
+"Decide that the data stored in Windows is not important, and that you are "
+"willing to overwrite the data contents."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:41
+msgid ""
+"The Ubuntu installer can then erase the entire contents of the hard drive "
+"and create its own structure (partitions and data)."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:43
+msgid ""
+"This is a destructive operation, with no option to recover any Windows data."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:45
+msgid "Decide to turn BitLocker off."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:47
+msgid ""
+"This will turn off the encryption feature. The hard drive and its data will "
+"be visible and accessible from the Ubuntu installer, allowing it to safely "
+"set up a side-by-side configuration."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:49
+msgid "For details, see {ref}`turn-off-bitlocker-in-windows`."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:52
+msgid ""
+"Certain versions of Windows will no longer allow you to re-enable BitLocker "
+"after disabling it."
+msgstr ""
+
+#: ../../../reference/bitlocker-during-ubuntu-installation.md:54
+msgid ""
+"If you wish to re-encrypt your Windows partition after installing Ubuntu "
+"alongside it, check that your version of Windows supports this."
+msgstr ""

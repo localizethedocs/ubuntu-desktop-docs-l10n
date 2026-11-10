@@ -13,22 +13,22 @@
     },
     "zh_CN" : 
     {
-      "branch" : "",
+      "branch" : "main",
       "commit" : 
       {
-        "date" : "",
-        "hash" : "",
-        "title" : ""
+        "date" : "2026-10-16 12:56:01 +0200",
+        "hash" : "971a2aabc789c118b0c8936e9add9d159b9161e4",
+        "title" : "Merge pull request #198 from ubuntu/landing-pages"
       }
     },
     "zh_TW" : 
     {
-      "branch" : "",
+      "branch" : "main",
       "commit" : 
       {
-        "date" : "",
-        "hash" : "",
-        "title" : ""
+        "date" : "2026-10-16 12:56:01 +0200",
+        "hash" : "971a2aabc789c118b0c8936e9add9d159b9161e4",
+        "title" : "Merge pull request #198 from ubuntu/landing-pages"
       }
     }
   },

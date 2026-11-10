@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../explanation/about-ubuntu-desktop.md:0
+msgid ""
+"Learn what Ubuntu Desktop is, what it can do, how it differs from other "
+"operating systems and whether it's the right choice for you."
+msgstr ""
+
+#: ../../../explanation/about-ubuntu-desktop.md:8
+msgid "About Ubuntu Desktop"
+msgstr ""
+
+#: ../../../explanation/about-ubuntu-desktop.md:10
+msgid ""
+"Ubuntu Desktop is the most popular open-source operating system powering "
+"millions of PCs and laptops around the world."
+msgstr ""
+
+#: ../../../explanation/about-ubuntu-desktop.md:12
+msgid "What can it do?"
+msgstr ""
+
+#: ../../../explanation/about-ubuntu-desktop.md:14
+msgid ""
+"Ubuntu Desktop supports all your daily computing needs. It offers "
+"applications for web browsing, messaging, gaming and content creation, "
+"including Firefox, Chrome, Discord, Steam and OBS Studio. It's a primary "
+"platform for all major IDEs, game development tools and AI/ML software."
+msgstr ""
+
+#: ../../../explanation/about-ubuntu-desktop.md:16
+msgid "How is it different?"
+msgstr ""
+
+#: ../../../explanation/about-ubuntu-desktop.md:18
+msgid ""
+"Compared to other mainstream operating systems, Ubuntu Desktop prioritizes "
+"your privacy and security. It's free to download, use, modify and share. "
+"Compared to other Linux-based systems, Ubuntu Desktop aims to make open-"
+"source software easy and pleasant to use. Thanks to regular releases and "
+"commercial support, Ubuntu Desktop is a reliable and predictable platform."
+msgstr ""
+
+#: ../../../explanation/about-ubuntu-desktop.md:20
+msgid "Is it for me?"
+msgstr ""
+
+#: ../../../explanation/about-ubuntu-desktop.md:22
+msgid ""
+"Ubuntu Desktop is used by millions of users at home, for development and in "
+"enterprise. Anyone with a laptop or a PC is welcome to use Ubuntu Desktop."
+msgstr ""
+
+#: ../../../explanation/about-ubuntu-desktop.md:24
+msgid ""
+"If you aren't sure, you can try Ubuntu Desktop without making any permanent "
+"changes on your computer: {ref}`run it from a USB stick <try-ubuntu-"
+"desktop>`."
+msgstr ""

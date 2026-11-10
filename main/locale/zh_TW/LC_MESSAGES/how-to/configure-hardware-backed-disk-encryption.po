@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:0
+msgid ""
+"Set or change a disk encryption PIN or passphrase, replace the recovery key "
+"and manage recovery keys with snap-tpmctl on TPM/FDE systems."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:7
+msgid "Topics: Installation Security"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:11
+msgid "Configure hardware-backed disk encryption"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:13
+msgid ""
+"On an Ubuntu installation where the hardware-backed disk encryption (TPM/"
+"FDE) is enabled, you can configure certain security options. You can also "
+"recover access to your disk in certain scenarios."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:17
+msgid "Set a disk encryption PIN or passphrase"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:19
+msgid ""
+"For an additional layer of security, you can add an encryption PIN or "
+"passphrase. You enter them every time your computer starts up to unlock the "
+"disk. A PIN or passphrase is also required on systems that don't provide a "
+"hardware root of trust, though you can disable it afterward."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:21
+msgid ""
+"To learn when you might want to enable the PIN or passphrase, see {ref}`tpm-"
+"fde-encryption-passphrase`."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:0
+msgid "Graphical interface"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:27
+msgid "Open the Security Center app."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:28
+msgid "Go to the Disk Encryption tab."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:29
+msgid "Click {guilabel}`Add PIN` or {guilabel}`Add passphrase`."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:30
+msgid "Enter a numeric PIN or an alphanumeric passphrase and confirm."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:0
+msgid "Command line"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:35
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:99
+msgid "Make sure that the `snap-tpmctl` tool is installed:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:45
+msgid "Add a PIN or passphrase:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:47
+msgid "PIN:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:57
+msgid "Passphrase:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:67
+msgid ""
+"Later, you can change your PIN or passphrase using the `replace-pin` and "
+"`replace-passphrase` subcommands."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:70
+msgid ""
+"The next time you reboot, your system asks for your PIN or passphrase. "
+"Alternatively, you can also enter the disk recovery key if you forget your "
+"PIN or passphrase."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:74
+msgid "Get a new recovery key"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:76
+msgid ""
+"Ubuntu Desktop shows you your disk recovery key right after installation. If "
+"you lose your recovery key, replace it as soon as possible. Otherwise, you "
+"risk losing access to your data. You can't retrieve the existing recovery "
+"key but you can get a new one."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:78
+msgid ""
+"To get the recovery key, you must be logged into your Ubuntu user account."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:81
+msgid ""
+"If you can't log in, you have no way to get a new recovery key. In that "
+"case, follow {ref}`tpm-fde-no-recovery-key`."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:84
+msgid ""
+"You need to be an administrator on your system to replace the recovery key."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:91
+msgid "Go to the {menuselection}`Security Center --> Disk Encryption`."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:92
+msgid "Select {guilabel}`Replace recovery key…`."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:93
+msgid ""
+"The Security Center displays your new recovery key. The previous recovery "
+"key stops working as soon as you select {guilabel}`Replace`."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:94
+msgid ""
+"Store your new recovery key somewhere safe, such as in a password manager."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:109
+msgid "List the recovery keys on your system:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:-1
+msgid ""
+"Recovery Keys:\n"
+"* default-recovery"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:122
+msgid ""
+"Usually, only one recovery key is active, and it's called `default-"
+"recovery`. In an enterprise environment or a custom setup, you might find a "
+"secondary recovery key."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:124
+msgid "Replace the recovery key:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:134
+msgid "Replace `default-recovery` with the name of your recovery key."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:136
+msgid "The command displays your new recovery key."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:138
+msgid "Store it somewhere safe, such as in a password manager."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:142
+msgid "Manage recovery keys for an organization"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:144
+msgid ""
+"You can centrally manage the recovery keys for multiple systems encrypted "
+"with TPM/FDE. This is useful if you're the system administrator at an "
+"organization where you need centralized control over all encrypted systems "
+"(\"escrow\"). In this setup, TPM/FDE adds a secondary recovery key on each "
+"system. This secondary key is subject to central management."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:147
+msgid ""
+"If the local user of the managed system has root privileges, they can modify "
+"both recovery keys on their system using the `snap-tpmctl` tool. The "
+"Security Center only gives access to the primary, local recovery key."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:150
+msgid ""
+"Recovery key management is integrated into the **Landscape** systems "
+"administration tool. For details, refer to the [Landscape documentation]"
+"(https://documentation.ubuntu.com/landscape/)."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:152
+msgid ""
+"Alternatively, you can build a custom central management solution based on "
+"the interfaces provided by the `snap-tpmctl` tool:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:0
+msgid "Relevant commands"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:155
+msgid "List all recovery keys:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:165
+msgid "Add a secondary recovery key:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:175
+msgid "Replace `custom-key` with a name for your recovery key."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:177
+msgid "Replace a recovery key:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:187
+msgid "Replace `my-key-name` with the name of your selected recovery key."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:189
+msgid "For other options, refer to the `snap-tpmctl help` command."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:194
+msgid "What to do if you don’t have a recovery key"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:196
+msgid ""
+"Your computer might be asking for a recovery key but you don’t have one."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:198
+msgid ""
+"If you're logged into your Ubuntu user account, you can retrieve or reset "
+"your recovery key. See {ref}`tpm-fde-get-a-new-recovery-key`."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:200
+msgid ""
+"If your computer is asking for your recovery key during startup, try undoing "
+"any {ref}`recent changes <tpm-fde-when-ubuntu-asks-for-your-recovery-key>` "
+"to your computer. For example:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:202
+msgid "Remove any new hardware components."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:203
+msgid "Undo any changes to boot settings."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:204
+msgid "Reboot your computer."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:205
+msgid "Try to log in again."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:207
+msgid ""
+"You can also check if the recovery key was automatically stored in the cloud:"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:209
+msgid ""
+"If your system is managed via Landscape, contact your Landscape "
+"administrator for your recovery key."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:210
+msgid ""
+"Recovery keys for the Windows BitLocker encryption may be stored on your "
+"Microsoft Account or your organization account. See [Find your BitLocker "
+"recovery key](https://support.microsoft.com/en-us/windows/find-your-"
+"bitlocker-recovery-key-6b71ad27-0b89-ea08-f143-056f5ab347d6) in the "
+"Microsoft Windows documentation."
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:212
+msgid "Additional resources"
+msgstr ""
+
+#: ../../../how-to/configure-hardware-backed-disk-encryption.md:214
+msgid "{ref}`recover-data-from-hardware-backed-disk-encryption`"
+msgstr ""

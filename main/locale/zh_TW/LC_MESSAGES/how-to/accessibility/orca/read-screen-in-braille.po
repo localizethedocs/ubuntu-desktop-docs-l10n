@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:0
+msgid ""
+"Set up Orca with a Braille display through BRLTTY, use display commands, "
+"change the language table and fix detection problems."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:7
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:11
+msgid "Read the screen in Braille"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:13
+msgid ""
+"The Orca screen reader can display the user interface on a refreshable "
+"Braille display. It uses the BRLTTY service, which provides access to the "
+"Linux console for a blind person using a refreshable Braille display."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:15
+msgid ""
+"To learn the basic control of the screen reader, go to {ref}`get-started-"
+"with-the-screen-reader`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:19
+msgid ""
+"Ubuntu Desktop might present some challenges when using the screen reader. "
+"If you experience difficulty, refer to {ref}`improve-screen-reader-"
+"usability`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:20
+msgid "Start the Orca screen reader. If it's already enabled, restart it:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:0
+msgid "Keyboard shortcut"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:27
+msgid "{kbd}`Super+Alt+S`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:0
+msgid "Accessibility menu"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:33
+msgid ""
+"In the {ref}`accessibility menu <find-the-accessibility-menu>` in the top "
+"bar, select {guilabel}`Screen Reader`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:36
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:167
+msgid "Open Orca preferences:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:0
+msgid "Laptop layout"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:43
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:174
+msgid "{kbd}`CapsLock+Space`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:0
+msgid "Desktop layout"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:49
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:180
+msgid "{kbd}`Insert+Space`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:0
+msgid "Command"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:64
+msgid ""
+"Under the {guilabel}`Braille` tab, make sure that {guilabel}`Enable Braille "
+"support` is on."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:66
+msgid "Click {guilabel}`OK` to confirm."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:68
+msgid ""
+"Connect your Braille device to the system over USB, serial port or Bluetooth."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:70
+msgid ""
+"If you use Firefox, close it and reopen it. Orca can then read the browser "
+"content."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:73
+msgid "Disable speech"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:75
+msgid ""
+"The screen reader speaks at the same time as it presents text on your "
+"Braille device. You can disable speech:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:82
+msgid "{kbd}`CapsLock+S`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:88
+msgid "{kbd}`Insert+S`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:92
+msgid "Braille display commands"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:94
+msgid ""
+"You can control the screen reader from your Braille device. Use the "
+"following commands:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:99
+msgid "Action"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:100
+msgid "Key"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:102
+msgid "Pan Braille display to the left"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:103
+msgid "Line Left"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:105
+msgid "Pan Braille display to the right"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:106
+msgid "Line Right"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:108
+msgid "Toggle Flat Review mode"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:109
+msgid "Freeze"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:111
+msgid "Review the word above"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:112
+msgid "Line Up"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:114
+msgid "Review the word below"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:115
+msgid "Line Down"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:117
+msgid "Review bottom left"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:118
+msgid "Bottom Right"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:120
+msgid "Review the home position"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:121
+msgid "Top Left"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:123
+msgid "Contracted Braille"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:124
+msgid "Six Dots"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:126
+msgid "Mark the beginning of a text selection"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:127
+msgid "Cut Begin"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:129
+msgid "Mark the end of a text selection"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:130
+msgid "Cut Line"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:132
+msgid "Process a cursor routing key"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:133
+msgid "Cursor Routing"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:135
+msgid "Return to the object with keyboard focus"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:136
+msgid "Cursor Position"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:139
+msgid "Read a document in a different language"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:141
+msgid ""
+"If you're reading a document in a language different than your system "
+"language, set the language text table in BRLTTY."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:143
+msgid ""
+"Browse the available text tables. They're stored in the `/etc/brltty/Text/` "
+"directory:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:153
+msgid "Select the code of the language that you need for your document."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:155
+msgid ""
+"For example, if you want to read a document in Italian, the text table file "
+"is `/etc/brltty/Text/it.ttb` and the language code is `it`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:157
+msgid ""
+"In the `/etc/brltty.conf` file, set the language code in the `text-table` "
+"directive. For example, to set the Italian text table:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:159
+msgid "text-table\tit\n"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:163
+msgid "Configure the Braille screen reader"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:165
+msgid "You can configure how Orca presents information on the Braille display."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:195
+msgid "Go to the {guilabel}`Braille` tab."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:197
+msgid ""
+"For an explanation of the Orca Braille settings, see [Braille Preferences]"
+"(https://help.gnome.org/users/orca/stable/preferences_braille.html.en) in "
+"the Orca documentation."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:200
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:202
+msgid "Fix common issues with the Braille screen reader."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:204
+msgid "The screen reader isn't installed"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:206
+msgid ""
+"Orca and Braille support are installed by default on Ubuntu Desktop. If "
+"you're using a custom desktop or package set, they might not be installed."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:208
+msgid "Make sure that Orca is installed:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:218
+msgid "Make sure that the BRLTTY service is installed:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:228
+msgid "My Braille device isn't detected"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:230
+msgid ""
+"If your Braille devices isn't detected, make sure that the BRLTTY service is "
+"properly configured:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:232
+msgid ""
+"Add your user to the `brlapi` group to allow access to the Braille device:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:242
+msgid "Enable the BRLTTY service:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:252
+msgid "If that didn't help, configure the connection to your Braille device:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:254
+msgid "Manually set the driver for your Braille device:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:256
+msgid "In the `/etc/brltty.conf` file, find the `braille-driver` directive."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:258
+msgid "Uncomment the line that lists your Braille device driver."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:260
+msgid "Manually set the connection method:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:262
+msgid "In the `/etc/brltty.conf` file, find the `braille-device` directive."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:264
+msgid "Uncomment the line that matches your connection method."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:266
+msgid ""
+"For example, to connect to the first paired Bluetooth device that matches "
+"your Braille driver, use the following line:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-screen-in-braille.md:268
+msgid "braille-device bluetooth:\n"
+msgstr ""

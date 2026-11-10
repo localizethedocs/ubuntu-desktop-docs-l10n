@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:0
+msgid ""
+"Configure Orca general preferences, including the keyboard layout that sets "
+"the Orca Modifier and how tooltips are presented."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:7
+msgid "General preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:9
+msgid "Keyboard layout"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:11
+msgid ""
+"Specify if you are on a desktop keyboard with a numeric keypad or a laptop "
+"keyboard.   This setting determines the **Orca Modifier** and keyboard "
+"shortcuts used for Orca commands."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:0
+msgid "<br />\n"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:0
+msgid "\\\\\n"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:14
+msgid "**Default value:** Desktop"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:16
+msgid "Present tooltips"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:18
+msgid ""
+"Present information about tooltips on mouse hover.   This setting does not "
+"affect actions that explicitly request tooltips, such as pressing {kbd}"
+"`Ctrl+F1` when an object has focus."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:21
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:57
+msgid "**Default value:** Not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:24
+msgid ""
+"<!--\n"
+"This feature doesn't work at all and leaves Orca in a stuck, unusable state. "
+"Commenting out for now.\n"
+"\n"
+"Mouse commands don't work either but at least they don't permanently disable "
+"Orca:\n"
+"https://help.gnome.org/users/orca/stable/commands_mouse.html.en\n"
+"\n"
+"## Speak object under mouse\n"
+"\n"
+"Enable Orca to present information about the object under the mouse pointer "
+"when using the Mouse Review feature, see {ref}`orca-mouse-review`.  \n"
+"\n"
+"**Default value:** Not checked\n"
+"-->\n"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:37
+msgid "Time format and date format"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:39
+msgid ""
+"Select how Orca should speak and display the time and date using the combo "
+"boxes."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:41
+msgid "**Default value:** Use system locale formats"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:43
+msgid "Navigation in Say All"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:45
+msgid ""
+"Orca's **Say All** feature speaks document content from the current location "
+"to the end."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:47
+msgid "By default, pressing any key interrupts **Say All** ."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:49
+msgid ""
+"If **Enable rewind and fast forward in Say All** is checked, use `Up` and "
+"`Down` to move through the document."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:51
+msgid ""
+"If **Enable structural navigation in Say All** is checked, structural "
+"navigation commands such as the following can be used:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:53
+msgid "{kbd}`H` /  {kbd}`Shift+H`: next/previous heading"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:54
+msgid "{kbd}`P` /  {kbd}`Shift+P`: next/previous paragraph"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:55
+msgid "{kbd}`T` /  {kbd}`Shift+T`: next/previous table"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:59
+msgid "Announce contextual information in Say All"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:61
+msgid ""
+"Orca can announce contextual information during Say All (e.g., entering and "
+"leaving blockquotes, lists, tables).   The following options can be "
+"configured independently:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:64
+msgid "Announce blockquotes"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:65
+msgid "Announce forms"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:66
+msgid "Announce landmarks"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:67
+msgid "Announce lists"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:68
+msgid "Announce panels"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:69
+msgid "Announce tables"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:71
+msgid "**Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:74
+msgid ""
+"Similar checkboxes exist on the for {ref}`orca-speech-preferences` to "
+"control this behavior during navigation."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:77
+msgid "Say All By"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:79
+msgid ""
+"Choose whether Orca speaks a sentence or a line at a time during **Say "
+"All** ."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-general.md:81
+msgid "**Default value:** Sentence"
+msgstr ""

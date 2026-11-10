@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:0
+msgid ""
+"Configure Orca voice preferences, including voice types, the speech system "
+"and synthesizer, plus person, rate, pitch and volume."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:7
+msgid "Voice preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:9
+msgid "Voice type"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:11
+msgid "Use the **Voice Type** combo box to select distinct voices for:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:13
+msgid "Uppercase text"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:14
+msgid "Links"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:15
+msgid "On-screen vs Orca-injected text"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:17
+msgid "Multiple voices"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:19
+msgid "Select a voice in **Voice Type**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:20
+msgid "Adjust **Person**, **Rate**, **Pitch**, and **Volume**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:22
+msgid "Speech system"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:24
+msgid "Choose your installed speech backend, e.g., Speech Dispatcher."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:26
+msgid "Speech synthesizer"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:28
+msgid "Choose the synthesizer compatible with your selected speech system."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:30
+msgid "Person"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:32
+msgid ""
+"Select the voice persona (e.g., David, Alice).   Options vary by synthesizer."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:0
+msgid "<br />\n"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:0
+msgid "\\\\\n"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:35
+msgid "Capitalization style"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:37
+msgid "**Icon**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:38
+msgid "plays a tone"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:40
+msgid "**Spell**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:41
+msgid "speaks \"capital\""
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:43
+msgid "**None**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:44
+msgid "(default)"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:46
+msgid "This can be toggled dynamically via Orca commands."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:48
+msgid "Rate, pitch, volume"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:50
+msgid "Sliders to fine-tune the selected voice output."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:52
+msgid "Global Voice Settings"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:54
+msgid "**Break speech into chunks between pauses**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:55
+msgid ""
+"Adds short pauses between spoken attributes.   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:58
+msgid "**Speak multicase strings as words**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:59
+msgid ""
+"\"MultiCaseString\" becomes \"Multi Case String\"   **Default value:** Not "
+"checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:62
+msgid "**Speak numbers as digits**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:63
+msgid "\"123\" becomes \"1 2 3\"   **Default value:** Not checked"
+msgstr ""

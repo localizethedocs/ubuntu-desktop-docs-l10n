@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/adjust-the-contrast.md:0
+msgid ""
+"Turn on high contrast in Ubuntu Desktop to make windows and buttons easier "
+"to see without changing the screen brightness."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-contrast.md:7
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-contrast.md:11
+msgid "Adjust the contrast"
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-contrast.md:13
+msgid ""
+"You can adjust the contrast of windows and buttons so that they’re easier to "
+"see. This is not the same as changing the brightness of the whole screen; "
+"only parts of the user interface will change."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-contrast.md:15
+msgid "Open the Activities overview and start typing **accessibility**."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-contrast.md:16
+msgid "Click {guilabel}`Accessibility` to open the panel."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-contrast.md:17
+msgid "Open the {guilabel}`Seeing` section."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-contrast.md:18
+msgid "Enable the {guilabel}`High Contrast` option."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-contrast.md:21
+msgid ""
+"You can turn high contrast on and off by clicking the {ref}`accessibility "
+"icon <find-the-accessibility-menu>` on the top bar and selecting {guilabel}"
+"`High Contrast`."
+msgstr ""

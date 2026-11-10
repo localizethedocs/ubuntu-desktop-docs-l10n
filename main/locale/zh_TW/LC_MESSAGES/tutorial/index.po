@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../tutorial/index.md:0
+msgid ""
+"Tutorials that introduce Ubuntu Desktop to new users, covering how to try "
+"it, install it, use the screen reader and the command line."
+msgstr ""
+
+#: ../../../tutorial/index.md:8
+msgid "Tutorials"
+msgstr ""
+
+#: ../../../tutorial/index.md:10
+msgid "A hands-on introduction to Ubuntu Desktop for new users."
+msgstr ""
+
+#: ../../../tutorial/index.md:12
+msgid "Introduction to Ubuntu"
+msgstr ""
+
+#: ../../../tutorial/index.md:14
+msgid ""
+"You can try what Ubuntu is like even without installing it on your system."
+msgstr ""
+
+#: ../../../tutorial/index.md:22
+msgid "Installation"
+msgstr ""
+
+#: ../../../tutorial/index.md:24
+msgid ""
+"You can install Ubuntu on most PCs. The process varies depending on the "
+"operating system that you're currently using, such as Microsoft Windows, "
+"macOS or a Linux distribution."
+msgstr ""
+
+#: ../../../tutorial/index.md:32
+msgid "Accessibility"
+msgstr ""
+
+#: ../../../tutorial/index.md:34
+msgid ""
+"Ubuntu Desktop provides accessibility options for all users. Learn how to "
+"use the essential accessibility tools."
+msgstr ""
+
+#: ../../../tutorial/index.md:42
+msgid "Command line"
+msgstr ""
+
+#: ../../../tutorial/index.md:44
+msgid ""
+"Certain administrative actions on Ubuntu Desktop assume that you know how to "
+"use the Linux command line. You can learn the basics here."
+msgstr ""

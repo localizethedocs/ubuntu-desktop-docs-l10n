@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/software/install-languages.md:0
+msgid ""
+"Add further languages to Ubuntu Desktop, including translations, "
+"dictionaries and other language support components."
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:7
+msgid "Topics: Software Customization"
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:11
+msgid "Install languages"
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:13
+msgid ""
+"When you install Ubuntu, the language that you select in the installer gets "
+"installed, together with English. You can add further languages."
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:15
+msgid ""
+"In addition to the user interface translations, installing a new language "
+"also enables various language support components such as dictionaries for "
+"spell checking, fonts and input methods."
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:18
+msgid ""
+"Some translations may be incomplete, and certain applications may not "
+"support your language at all."
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:21
+msgid "Open the *Language Support* application."
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:23
+msgid "You can search for it in the Activities overview."
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:25
+msgid ""
+"You can also access the application from {menuselection}`Settings --> System "
+"--> Region & Language --> Manage Installed Languages`."
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:27
+msgid "Click {guilabel}`Install / Remove Languages…`."
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:29
+msgid ""
+"The Installed Languages window lists all the available languages, with the "
+"currently installed languages checked."
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:31
+msgid ""
+"Check the languages that you want to install, and uncheck those currently "
+"installed languages that you want to remove."
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:33
+msgid "Click {guilabel}`Apply`."
+msgstr ""
+
+#: ../../../how-to/software/install-languages.md:35
+msgid ""
+"Enter your password, or the password for the requested administrator account."
+msgstr ""

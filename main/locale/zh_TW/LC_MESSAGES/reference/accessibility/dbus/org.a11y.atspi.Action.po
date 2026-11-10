@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:1
+msgid "org.a11y.atspi.Action"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:5
+msgid ""
+"Allows exploring and invoking the actions of a user-actionable UI component."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:8
+msgid ""
+"For example, a button may expose a \\\"click\\\" action; a popup menu may "
+"expose an \\\"open\\\" action. Components which are not \\\"passive\\\" "
+"providers of UI information should implement this interface, unless there is "
+"a more specialized interface for interaction like org.a11y.atspi.Text or "
+"org.a11y.atspi.Value."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:14
+msgid "Properties"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:16
+msgid "org.a11y.atspi.Action:NActions"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:20
+msgid "NActions readable i\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:24
+msgid ""
+"returns the number of available actions. By convention, if there is more "
+"than one action available, the first one is considered the \\\"default\\\" "
+"action of the object."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:28
+msgid "Methods"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:30
+msgid "org.a11y.atspi.Action.GetDescription"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:34
+msgid ""
+"GetDescription (\n"
+"  IN index i,\n"
+"  OUT unnamed_arg1 s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:41
+msgid ""
+"Returns: The localized description for the action at the specified `index`. "
+"For example, a screen reader will read out this description when the user "
+"asks for extra detail on an action. For example, \\\"Clicks the button\\\" "
+"for the \\\"click\\\" action of a button."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:46
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:65
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:86
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:130
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:174
+msgid "index"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:48
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:67
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:88
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:132
+msgid "0-based index of the action to query."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:50
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:69
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:90
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:134
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:178
+msgid "unnamed_arg1"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:52
+msgid "org.a11y.atspi.Action.GetName"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:56
+msgid ""
+"GetName (\n"
+"  IN index i,\n"
+"  OUT unnamed_arg1 s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:63
+msgid "Returns: Machine-readable name for the action at the specified `index`."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:71
+msgid "org.a11y.atspi.Action.GetLocalizedName"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:75
+msgid ""
+"GetLocalizedName (\n"
+"  IN index i,\n"
+"  OUT unnamed_arg1 s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:82
+msgid ""
+"Returns: A short, localized name for the action at the specified `index`. "
+"This is what screen readers will read out during normal navigation. For "
+"example, \\\"Click\\\" for a button."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:92
+msgid "org.a11y.atspi.Action.GetKeyBinding"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:96
+msgid ""
+"GetKeyBinding (\n"
+"  IN index i,\n"
+"  OUT unnamed_arg1 s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:103
+msgid ""
+"Gets the keybinding which can be used to activate this action, if one "
+"exists. The string returned should contain localized, human-readable, key "
+"sequences as they would appear when displayed on screen. It must be in the "
+"format \\\"mnemonic;sequence;shortcut\\\"."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:108
+msgid ""
+"The mnemonic key activates the object if it is presently enabled onscreen. "
+"This typically corresponds to the underlined letter within the widget. "
+"Example: \\\"n\\\" in a traditional \\\"New\\...\\\" menu item or the \\\"a\\"
+"\" in \\\"Apply\\\" for a button."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:112
+msgid ""
+"The sequence is the full list of keys which invoke the action even if the "
+"relevant element is not currently shown on screen. For instance, for a menu "
+"item the sequence is the keybindings used to open the parent menus before "
+"invoking. The sequence string is colon-delimited. Example: \\\"Alt+F:N\\\" "
+"in a traditional \\\"New\\...\\\" menu item."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:118
+msgid ""
+"The shortcut, if it exists, will invoke the same action without showing the "
+"component or its enclosing menus or dialogs. Example: \\\"Ctrl+N\\\" in a "
+"traditional \\\"New\\...\\\" menu item."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:122
+msgid ""
+"Example: For a traditional \\\"New\\...\\\" menu item, the expected return "
+"value would be: \\\"N;Alt+F:N;Ctrl+N\\\" for the English locale and \\"
+"\"N;Alt+D:N;Strg+N\\\" for the German locale. If, hypothetically, this menu "
+"item lacked a mnemonic, it would be represented by \\\";;Ctrl+N\\\" and \\"
+"\";;Strg+N\\\" respectively."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:128
+msgid "If there is no key binding for this action, return \\\"\\\"."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:136
+msgid "org.a11y.atspi.Action.GetActions"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:140
+msgid ""
+"GetActions (\n"
+"  OUT unnamed_arg0 a(sss)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:146
+msgid ""
+"Returns: an array of (localized_name, localized description, keybinding) for "
+"the actions that an object supports. See the GetKeyBinding method for a "
+"description of that field\\'s syntax."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:150
+msgid ""
+"This is equivalent to using the methods GetLocalizedName, GetDescription, "
+"GetKeyBinding for each action, but with a single call and thus less D-Bus "
+"traffic."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:154
+msgid ""
+"By convention, if there is more than one action available, the first one is "
+"considered the \\\"default\\\" action of the object."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:157
+msgid "unnamed_arg0"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:159
+msgid "org.a11y.atspi.Action.DoAction"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:163
+msgid ""
+"DoAction (\n"
+"  IN index i,\n"
+"  OUT unnamed_arg1 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:170
+msgid "Performs the specified action on the object."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:172
+msgid "Returns: true on success, false otherwise."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Action.md:176
+msgid "0-based index of the action to perform."
+msgstr ""
