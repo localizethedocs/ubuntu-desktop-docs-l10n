@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../explanation/snap-and-deb-packages.md:8
 msgid "Topics: Software"
-msgstr ""
+msgstr "話題：軟體"
 
 #: ../../../explanation/snap-and-deb-packages.md:12
 msgid "Snap and deb packages"
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../../../explanation/snap-and-deb-packages.md:44
 msgid "Snap packages"
-msgstr ""
+msgstr "Snap 軟體包"
 
 #: ../../../explanation/snap-and-deb-packages.md:46
 msgid ""
@@ -137,7 +137,7 @@ msgstr ""
 #: ../../../explanation/snap-and-deb-packages.md:85
 #: ../../../explanation/snap-and-deb-packages.md:119
 msgid "App versions"
-msgstr ""
+msgstr "應用版本"
 
 #: ../../../explanation/snap-and-deb-packages.md:49
 msgid ""
@@ -149,7 +149,7 @@ msgstr ""
 #: ../../../explanation/snap-and-deb-packages.md:88
 #: ../../../explanation/snap-and-deb-packages.md:123
 msgid "Updates"
-msgstr ""
+msgstr "更新"
 
 #: ../../../explanation/snap-and-deb-packages.md:52
 msgid ""
@@ -167,7 +167,7 @@ msgstr ""
 #: ../../../explanation/snap-and-deb-packages.md:95
 #: ../../../explanation/snap-and-deb-packages.md:127
 msgid "App permissions"
-msgstr ""
+msgstr "應用權限"
 
 #: ../../../explanation/snap-and-deb-packages.md:57
 msgid ""
@@ -219,7 +219,7 @@ msgstr ""
 #: ../../../explanation/snap-and-deb-packages.md:70
 #: ../../../explanation/snap-and-deb-packages.md:103
 msgid "Package managers"
-msgstr ""
+msgstr "軟體包管理器"
 
 #: ../../../explanation/snap-and-deb-packages.md:71
 msgid ""

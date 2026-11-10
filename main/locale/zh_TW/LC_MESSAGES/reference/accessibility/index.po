@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../reference/accessibility/index.md:2
 msgid "Accessibility"
-msgstr ""
+msgstr "無障礙功能"
 
 #: ../../../reference/accessibility/index.md:4
 msgid ""

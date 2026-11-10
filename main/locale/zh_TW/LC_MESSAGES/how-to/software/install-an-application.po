@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../how-to/software/install-an-application.md:7
 msgid "Topics: Software"
-msgstr ""
+msgstr "話題：軟體"
 
 #: ../../../how-to/software/install-an-application.md:11
 msgid "Install an application"

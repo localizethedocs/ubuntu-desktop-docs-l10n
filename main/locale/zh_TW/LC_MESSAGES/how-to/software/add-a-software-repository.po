@@ -33,7 +33,7 @@ msgstr ""
 
 #: ../../../how-to/software/add-a-software-repository.md:12
 msgid "Topics: Software"
-msgstr ""
+msgstr "話題：軟體"
 
 #: ../../../how-to/software/add-a-software-repository.md:16
 msgid "Add a software repository"

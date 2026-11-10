@@ -49,6 +49,9 @@ msgid ""
 "PCs and laptops around the world. It supports daily user needs, as well as "
 "professional content creation, software development and AI/ML use cases."
 msgstr ""
+"Ubuntu Desktop 是一款開源作業系統，為全球數百萬台 PC 和筆記型電腦提供運作環"
+"境。它滿足了使用者的日常需求，也支援專業內容創作、軟體開發及 AI／ML 使用案"
+"例。"
 
 #: ../../../index.md:21
 msgid ""
@@ -65,7 +68,7 @@ msgstr ""
 
 #: ../../../index.md:32
 msgid "In this documentation"
-msgstr ""
+msgstr "本文件的內容"
 
 #: ../../../index.md:34
 msgid ""
@@ -101,28 +104,34 @@ msgid ""
 "**Software and versions**: {ref}`install-or-remove-software` • {ref}`upgrade-"
 "ubuntu-desktop` • {ref}`switch-between-an-lts-and-interim-release`"
 msgstr ""
+"**軟體與版本**：{ref}`install-or-remove-software` • {ref}`upgrade-ubuntu-"
+"desktop` • {ref}`switch-between-an-lts-and-interim-release`"
 
 #: ../../../index.md:39
 msgid ""
 "**Remote access**: {ref}`share-your-desktop-remotely` • {ref}`access-a-"
 "remote-desktop`"
 msgstr ""
+"**遠端存取**：{ref}`share-your-desktop-remotely` • {ref}`access-a-remote-"
+"desktop`"
 
 #: ../../../index.md:40
 msgid ""
 "**Customization**: {ref}`change-the-default-terminal` • {ref}`start-an-"
 "application-at-login`"
 msgstr ""
+"**客製化**：{ref}`change-the-default-terminal` • {ref}`start-an-application-"
+"at-login`"
 
 #: ../../../index.md:43
 msgid "How this documentation is organized"
-msgstr ""
+msgstr "本文件的組織結構"
 
 #: ../../../index.md:45
 msgid ""
 "This documentation uses the [Diátaxis documentation structure](https://"
 "diataxis.fr/)."
-msgstr ""
+msgstr "本文件使用 [Diátaxis 文件架構](https://diataxis.fr/)。"
 
 #: ../../../index.md:47
 msgid ""
@@ -158,12 +167,17 @@ msgid ""
 "alongside [Ubuntu Server](https://ubuntu.com/server), [Ubuntu on WSL]"
 "(https://ubuntu.com/wsl) and [Ubuntu Core](https://ubuntu.com/core)."
 msgstr ""
+"Ubuntu Desktop 是 Ubuntu 作業系統的主要版本之一，其他版本還包括 [Ubuntu "
+"Server](https://ubuntu.com/server)、[Ubuntu on WSL](https://ubuntu.com/wsl) "
+"及 [Ubuntu Core](https://ubuntu.com/core)。"
 
 #: ../../../index.md:58
 msgid ""
 "As an open source project, Ubuntu Desktop warmly welcomes community "
 "projects, contributions, suggestions, fixes and constructive feedback."
 msgstr ""
+"Ubuntu Desktop 是一個開源專案，熱烈歡迎社群專案、貢獻、建議、修正及具建設性的"
+"反饋。"
 
 #: ../../../index.md:60
 msgid "Get involved"
@@ -171,17 +185,20 @@ msgstr "參與其中"
 
 #: ../../../index.md:62
 msgid "Get [community support](https://ubuntu.com/support/community-support)"
-msgstr ""
+msgstr "取得[社群支援](https://ubuntu.com/support/community-support)"
 
 #: ../../../index.md:63
 msgid ""
 "Join our [Discourse forum](https://discourse.ubuntu.com/c/project/desktop/)"
 msgstr ""
+"加入我們的 [Discourse 論壇](https://discourse.ubuntu.com/c/project/desktop/)"
 
 #: ../../../index.md:64
 msgid ""
 "Join our [online chat on Matrix](https://matrix.to/#/#desktop-dev:ubuntu.com)"
 msgstr ""
+"加入我們[在 Matrix 上的線上聊天室](https://matrix.to/#/#desktop-"
+"dev:ubuntu.com)"
 
 #: ../../../index.md:65
 msgid ""
@@ -234,13 +251,15 @@ msgstr ""
 
 #: ../../../index.md:82
 msgid "Credits"
-msgstr ""
+msgstr "致謝"
 
 #: ../../../index.md:84
 msgid ""
 "Large parts of this guide are based on documentation written by open-source "
 "communities. We wish to thank them for their work:"
 msgstr ""
+"本指南有很大一部分內容是根據開源社群撰寫的文件而成。我們感謝他們所付出的心"
+"力："
 
 #: ../../../index.md:86
 msgid ""
@@ -251,7 +270,7 @@ msgstr "[GNOME 使用者文件](https://gitlab.gnome.org/GNOME/gnome-user-docs)�
 #: ../../../index.md:87
 msgid ""
 "The [Orca screen reader](https://gitlab.gnome.org/GNOME/orca) documentation"
-msgstr ""
+msgstr "[Orca 螢幕閱讀器](https://gitlab.gnome.org/GNOME/orca)文件"
 
 #: ../../../index.md:88
 msgid ""

@@ -29,7 +29,7 @@ msgstr "話題：無障礙功能"
 
 #: ../../../how-to/accessibility/index.md:11
 msgid "Accessibility"
-msgstr ""
+msgstr "無障礙功能"
 
 #: ../../../how-to/accessibility/index.md:13
 msgid ""

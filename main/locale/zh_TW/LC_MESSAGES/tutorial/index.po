@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../../tutorial/index.md:32
 msgid "Accessibility"
-msgstr ""
+msgstr "無障礙功能"
 
 #: ../../../tutorial/index.md:34
 msgid ""

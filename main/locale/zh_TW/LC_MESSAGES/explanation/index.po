@@ -30,7 +30,7 @@ msgstr ""
 
 #: ../../../explanation/index.md:6
 msgid "Introduction"
-msgstr ""
+msgstr "介紹"
 
 #: ../../../explanation/index.md:8
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../../explanation/index.md:16
 msgid "User interfaces"
-msgstr ""
+msgstr "使用者介面"
 
 #: ../../../explanation/index.md:18
 msgid ""
@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../../explanation/index.md:27
 msgid "Accessibility"
-msgstr ""
+msgstr "無障礙功能"
 
 #: ../../../explanation/index.md:29
 msgid "Learn how accessibility features work on Ubuntu Desktop."
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../../explanation/index.md:37
 msgid "Software and package management"
-msgstr ""
+msgstr "軟體與軟體包管理"
 
 #: ../../../explanation/index.md:39
 msgid ""

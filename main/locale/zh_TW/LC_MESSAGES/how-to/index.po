@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../../how-to/index.md:21
 msgid "Accessibility"
-msgstr ""
+msgstr "無障礙功能"
 
 #: ../../../how-to/index.md:23
 msgid ""
