@@ -75,6 +75,8 @@ msgid ""
 "**Introduction**: {ref}`about-ubuntu-desktop` • {ref}`try-ubuntu-desktop` • "
 "{ref}`the-linux-command-line-for-beginners`"
 msgstr ""
+"**介紹**：{ref}`about-ubuntu-desktop` • {ref}`try-ubuntu-desktop` • {ref}"
+"`the-linux-command-line-for-beginners`"
 
 #: ../../../index.md:35
 msgid ""
@@ -144,12 +146,14 @@ msgid ""
 "{ref}`how-to` assume you have basic familiarity with Ubuntu Desktop. They "
 "cover various common tasks and specialized use cases."
 msgstr ""
+"{ref}`how-to`假設您已具備 Ubuntu Desktop 的基本使用知識。這些指南涵蓋各種常見"
+"任務與特殊用途。"
 
 #: ../../../index.md:49
 msgid ""
 "{ref}`reference` provides cheat sheets, specifications and details on the "
 "Ubuntu Desktop architecture."
-msgstr ""
+msgstr "{ref}`reference`提供 Ubuntu Desktop 架構的速查表、規格和詳細資訊。"
 
 #: ../../../index.md:50
 msgid ""

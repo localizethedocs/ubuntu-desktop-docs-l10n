@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:58
 msgid "Additional resources"
-msgstr ""
+msgstr "其他資源"
 
 #: ../../../how-to/recover-data-from-hardware-backed-disk-encryption.md:60
 msgid "{ref}`configure-hardware-backed-disk-encryption`"

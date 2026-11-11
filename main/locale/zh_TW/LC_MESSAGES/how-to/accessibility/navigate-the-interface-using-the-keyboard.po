@@ -301,7 +301,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:118
 msgid "Additional resources"
-msgstr ""
+msgstr "其他資源"
 
 #: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:120
 msgid ""

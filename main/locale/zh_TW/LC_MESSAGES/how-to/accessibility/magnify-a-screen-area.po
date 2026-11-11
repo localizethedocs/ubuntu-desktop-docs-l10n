@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/magnify-a-screen-area.md:11
 msgid "Magnify a screen area"
-msgstr ""
+msgstr "放大螢幕區域"
 
 #: ../../../how-to/accessibility/magnify-a-screen-area.md:13
 msgid ""
@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/magnify-a-screen-area.md:16
 msgid "Click {guilabel}`Accessibility` to open the panel."
-msgstr ""
+msgstr "點擊{guilabel}`無障礙功能`開啟面板。"
 
 #: ../../../how-to/accessibility/magnify-a-screen-area.md:17
 msgid "Open the {guilabel}`Zoom` section."
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/magnify-a-screen-area.md:18
 msgid "Enable the {guilabel}`Desktop Zoom` option."
-msgstr ""
+msgstr "啟用\\ {guilabel}`桌面縮放 <Desktop Zoom>`\\ 選項。"
 
 #: ../../../how-to/accessibility/magnify-a-screen-area.md:20
 msgid ""

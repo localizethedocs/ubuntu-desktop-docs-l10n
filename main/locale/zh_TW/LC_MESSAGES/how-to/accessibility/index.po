@@ -76,19 +76,19 @@ msgstr ""
 
 #: ../../../how-to/accessibility/index.md:60
 msgid "Mouse movement"
-msgstr ""
+msgstr "滑鼠移動"
 
 #: ../../../how-to/accessibility/index.md:69
 msgid "Clicking and dragging"
-msgstr ""
+msgstr "單擊並拖曳"
 
 #: ../../../how-to/accessibility/index.md:79
 msgid "Keyboard use"
-msgstr ""
+msgstr "按鍵使用"
 
 #: ../../../how-to/accessibility/index.md:92
 msgid "Additional resources"
-msgstr ""
+msgstr "其他資源"
 
 #: ../../../how-to/accessibility/index.md:94
 msgid "{ref}`what-is-the-menu-key`"

@@ -310,7 +310,7 @@ msgstr ""
 
 #: ../../../how-to/enable-smart-cards-in-snapped-browsers.md:203
 msgid "Additional resources"
-msgstr ""
+msgstr "其他資源"
 
 #: ../../../how-to/enable-smart-cards-in-snapped-browsers.md:205
 msgid ""
