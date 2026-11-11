@@ -1,0 +1,143 @@
+# Ubuntu Desktop
+
+> This is the documentation for Ubuntu Desktop, an open-source operating system powering millions of PCs and laptops around the world.
+
+
+2026
+
+## Pages
+
+- [Topics](topics/index.html.md): You can browse this documentation using the following tags.
+- [Ubuntu Desktop documentation](index.html.md): Documentation for Ubuntu Desktop, with tutorials, how-to guides, reference and explanation for installing, using and configuring it.
+- [The Linux command line for beginners](tutorial/the-linux-command-line-for-beginners/index.html.md): Learn to navigate and manage files, chain commands with pipes, and use sudo safely in the Linux terminal through hands-on exercises.
+- [Tutorials](tutorial/index.html.md): Tutorials that introduce Ubuntu Desktop to new users, covering how to try it, install it, use the screen reader and the command line.
+- [Install Ubuntu Desktop](tutorial/install-ubuntu-desktop/index.html.md): Install Ubuntu Desktop 26.04 LTS on your laptop or PC from a USB stick using the graphical installer, including disk setup and encryption.
+- [Get started with the screen reader](tutorial/get-started-with-the-screen-reader/index.html.md): Learn to start the Orca screen reader, set its keyboard layout and modifier, and read web pages in Firefox with keyboard commands.
+- [Try Ubuntu Desktop](tutorial/try-ubuntu-desktop/index.html.md): Try Ubuntu Desktop 26.04 LTS from a USB stick on your computer without making any permanent changes.
+- [Topic: Keyboard](_tags/keyboard/index.html.md): * [What is the Menu key?](../explanation/what-is-the-menu-key.md)
+- [Topic: Remote access](_tags/remote-access/index.html.md): * [Access a remote desktop](../how-to/access-a-remote-desktop.md)
+- [Topic: Customization](_tags/customization/index.html.md): * [Adjust the double-click speed](../how-to/accessibility/adjust-the-double-click-speed.md)
+- [Topic: Installation](_tags/installation/index.html.md): * [Hardware-backed disk encryption](../explanation/hardware-backed-disk-encryption.md)
+- [Topic: Software](_tags/software/index.html.md): * [Snap and deb packages](../explanation/snap-and-deb-packages.md)
+- [Topic: Support](_tags/support/index.html.md): * [Switch between an LTS and interim release](../how-to/switch-between-an-lts-and-interim-release.md...
+- [Topic: Graphics](_tags/graphics/index.html.md): * [Build your own NVIDIA modules using the DKMS package](../how-to/graphics/build-your-own-nvidia-mo...
+- [Topic: Updates](_tags/updates/index.html.md): * [Switch between an LTS and interim release](../how-to/switch-between-an-lts-and-interim-release.md...
+- [Topic: How-to guide](_tags/how-to-guide/index.html.md): * [Build your own NVIDIA modules using the DKMS package](../how-to/graphics/build-your-own-nvidia-mo...
+- [Topic: Introduction](_tags/introduction/index.html.md): * [Try Ubuntu Desktop](../tutorial/try-ubuntu-desktop.md)
+- [Topic: macOS](_tags/macos/index.html.md): * [Access a remote desktop](../how-to/access-a-remote-desktop.md)
+- [Topic: Security](_tags/security/index.html.md): * [Hardware-backed disk encryption](../explanation/hardware-backed-disk-encryption.md)
+- [Topics](_tags/tagsindex/index.html.md): * [Accessibility (30)](accessibility.md)
+- [Topic: Accessibility](_tags/accessibility/index.html.md): * [Accessibility stack](../explanation/accessibility-stack.md)
+- [Topic: Windows](_tags/windows/index.html.md): * [Access a remote desktop](../how-to/access-a-remote-desktop.md)
+- [Keyboard navigation shortcuts](reference/keyboard-navigation-shortcuts/index.html.md): Reference of keyboard shortcuts for navigating user interfaces, the desktop and windows in Ubuntu Desktop without a mouse.
+- [Hardware-backed disk encryption requirements](reference/hardware-backed-disk-encryption-requirements/index.html.md): Check the system requirements for hardware-backed disk encryption on Ubuntu Desktop, including the TPM, UEFI firmware and automatic unlocking.
+- [BitLocker during Ubuntu installation](reference/bitlocker-during-ubuntu-installation/index.html.md): Understand why the Ubuntu installer asks you to deactivate BitLocker, and what you can do before installing Ubuntu alongside Windows.
+- [Reference](reference/index.html.md): These documents provide technical information such as cheat sheets, specifications, APIs and archite...
+- [Advanced disk setup features](reference/advanced-disk-setup-features/index.html.md): Reference for advanced disk setup options in the Ubuntu Desktop installer, including LVM, ZFS and passphrase encryption with ZFS.
+- [Intel RST during Ubuntu installation](reference/intel-rst-during-ubuntu-installation/index.html.md): Understand how Intel RST RAID can block disk detection in the Ubuntu installer, and how to resolve it by turning off RST or switching to AHCI.
+- [Encrypt your disk with TPM](how-to/encrypt-your-disk-with-tpm/index.html.md): Enable TPM-backed full disk encryption when you install Ubuntu Desktop to protect your data with your computer's security chip.
+- [Reconfigure Windows to use AHCI](how-to/reconfigure-windows-to-use-ahci/index.html.md): Switch Windows from Intel RST to AHCI so Ubuntu can install alongside it, and repair Windows boot problems afterward.
+- [Configure hardware-backed disk encryption](how-to/configure-hardware-backed-disk-encryption/index.html.md): Set or change a disk encryption PIN or passphrase, replace the recovery key and manage recovery keys with snap-tpmctl on TPM/FDE systems.
+- [Share your desktop remotely](how-to/share-your-desktop-remotely/index.html.md): Share your desktop over RDP with Desktop Sharing or Remote Login, find the connection details and open the firewall ports.
+- [Access a remote desktop](how-to/access-a-remote-desktop/index.html.md): View or control another computer's desktop from Ubuntu Desktop using the Remmina app over the RDP or VNC protocol.
+- [How-to guides](how-to/index.html.md): These guides accompany you through the complete Ubuntu Desktop operations lifecycle.
+- [Record the screen](how-to/record-the-screen/index.html.md): Record a video of your whole screen or a selected region on Ubuntu Desktop, and enable hardware acceleration for better performance.
+- [Turn off BitLocker in Windows](how-to/turn-off-bitlocker-in-windows/index.html.md): Turn off Windows BitLocker disk encryption so that Ubuntu can access your data and be installed alongside Windows.
+- [Start an application at login](how-to/start-an-application-at-login/index.html.md): Set an application to start automatically when you log in to Ubuntu Desktop.
+- [Upgrade Ubuntu Desktop](how-to/upgrade-ubuntu-desktop/index.html.md): Upgrade your Ubuntu installation to the next release, including supported upgrade paths from LTS and interim versions.
+- [Recover data from hardware-backed disk encryption](how-to/recover-data-from-hardware-backed-disk-encryption/index.html.md): Unlock and access the data on a disk protected by hardware-backed encryption using your recovery key.
+- [Log in using a smart card](how-to/log-in-using-a-smart-card/index.html.md): Configure smart card login on Ubuntu Desktop with SSSD, GDM and GNOME Settings Daemon, map certificates to users and troubleshoot.
+- [Switch between an LTS and interim release](how-to/switch-between-an-lts-and-interim-release/index.html.md): Reconfigure Ubuntu Desktop to follow the LTS or interim release upgrade path, and learn how the two release types differ.
+- [Enable smart cards in snapped browsers](how-to/enable-smart-cards-in-snapped-browsers/index.html.md): Configure Firefox or Chromium installed from a snap to use your smart card for authentication and signing content.
+- [Create a bootable USB stick](how-to/create-a-bootable-usb-stick/index.html.md): Turn a USB stick into Ubuntu installation media from Ubuntu, Windows or macOS so you can try or install Ubuntu.
+- [Change the default terminal](how-to/change-the-default-terminal/index.html.md): Change the default terminal emulator that opens when you press Ctrl+Alt+T on Ubuntu Desktop 25.04 and later.
+- [Hardware-backed disk encryption](explanation/hardware-backed-disk-encryption/index.html.md): Learn how TPM-backed disk encryption protects your data on Ubuntu Desktop, and how the recovery key, PIN and passphrase work.
+- [About Ubuntu Desktop](explanation/about-ubuntu-desktop/index.html.md): Learn what Ubuntu Desktop is, what it can do, how it differs from other operating systems and whether it's the right choice for you.
+- [Accessibility stack](explanation/accessibility-stack/index.html.md): Understand the software and hardware layers behind Ubuntu Desktop accessibility, including AT-SPI, GTK, Orca, BRLTTY, USB and Bluetooth.
+- [Explanation](explanation/index.html.md): Our explanatory and conceptual guides are written to provide a better understanding of how Ubuntu De...
+- [Why we use the terminal on Linux](explanation/why-we-use-the-terminal-on-linux/index.html.md): Learn why the terminal is still central to Linux, from its Unix origins and low resource use to shell scripting and remote administration.
+- [Hardware stack](explanation/hardware-stack/index.html.md): Learn how the Ubuntu Desktop Bluetooth stack works, including kernel modules, firmware, HCI and Bluetooth profiles, and how they fit together.
+- [Snap and deb packages](explanation/snap-and-deb-packages/index.html.md): Compare snap and deb packages on Ubuntu Desktop, how each is built, installed and updated, and when you might prefer one over the other.
+- [What is the Menu key?](explanation/what-is-the-menu-key/index.html.md): Learn what the Menu key on your keyboard does in Ubuntu Desktop, how it opens context menus, and what to use if your keyboard lacks one.
+- [Graphics](how-to/graphics/index.html.md): Install NVIDIA GPU drivers, use DKMS packages when standard drivers are unavailable, and monitor and troubleshoot your GPU.
+- [Troubleshoot your NVIDIA GPU and drivers](how-to/graphics/troubleshoot-nvidia/index.html.md): Monitor the state and utilization of your NVIDIA drivers on Ubuntu and resolve common driver issues.
+- [Install NVIDIA drivers](how-to/graphics/install-nvidia-drivers/index.html.md): Install NVIDIA drivers on Ubuntu using the ubuntu-drivers tool for UDA desktop drivers or ERD server drivers with Fabric Manager.
+- [Build your own NVIDIA modules using the DKMS package](how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package/index.html.md): Install NVIDIA drivers on Ubuntu using the DKMS packages when you're using a custom kernel or when the standard NVIDIA packages are missing.
+- [Common problems](how-to/troubleshoot/index.html.md): These documents provide practical guides on troubleshooting and fixing common problems with Ubuntu D...
+- [Improve screen reader usability](how-to/troubleshoot/improve-screen-reader-usability/index.html.md): Fix common Orca screen reader issues on Ubuntu Desktop, such as keyboard layout mismatches and applications that start before Orca.
+- [Bluetooth](how-to/troubleshoot/bluetooth/index.html.md): Troubleshoot Bluetooth problems on Ubuntu Desktop, such as missing proprietary firmware for your Bluetooth adapter.
+- [Install or remove software](how-to/software/index.html.md): Install, remove and add software on Ubuntu Desktop, including applications, language support and third-party repositories.
+- [Install an application](how-to/software/install-an-application/index.html.md): Install a graphical application on Ubuntu Desktop using App Center, as a snap or deb package.
+- [Install languages](how-to/software/install-languages/index.html.md): Add further languages to Ubuntu Desktop, including translations, dictionaries and other language support components.
+- [Remove an application](how-to/software/remove-an-application/index.html.md): Remove applications you no longer use from Ubuntu Desktop with App Center, and learn what happens to dependent applications.
+- [Add a software repository](how-to/software/add-a-software-repository/index.html.md): Add a PPA or other third-party software repository to Ubuntu Desktop, and understand the security risks of untrusted sources.
+- [Make the keyboard cursor blink](how-to/accessibility/make-the-keyboard-cursor-blink/index.html.md): Make the keyboard cursor blink in text fields on Ubuntu Desktop so that it's easier to locate.
+- [Find the accessibility menu](how-to/accessibility/find-the-accessibility-menu/index.html.md): Find the accessibility menu on the top bar of Ubuntu Desktop, enable it in Settings, and reach it using the keyboard.
+- [Adjust the speed of the mouse and touchpad](how-to/accessibility/adjust-the-speed-of-the-mouse-and-touchpad/index.html.md): Change the pointer speed of your mouse or touchpad in Ubuntu Desktop if the pointer moves too fast or too slowly.
+- [Adjust the contrast](how-to/accessibility/adjust-the-contrast/index.html.md): Turn on high contrast in Ubuntu Desktop to make windows and buttons easier to see without changing the screen brightness.
+- [Turn on sticky keys](how-to/accessibility/turn-on-sticky-keys/index.html.md): Turn on sticky keys to enter keyboard shortcuts one key at a time instead of holding several keys at once.
+- [Flash the screen for alert sounds](how-to/accessibility/flash-the-screen-for-alert-sounds/index.html.md): Turn on visual alerts so the screen or window flashes instead of playing an alert sound if you can't hear it or need silence.
+- [Turn on bounce keys](how-to/accessibility/turn-on-bounce-keys/index.html.md): Turn on bounce keys to ignore rapidly repeated key presses, for example if hand tremors cause you to press a key twice.
+- [Magnify a screen area](how-to/accessibility/magnify-a-screen-area/index.html.md): Turn on the zoom feature to magnify part of the screen in Ubuntu Desktop, and adjust magnification, mouse tracking, crosshairs and colors.
+- [Turn on slow keys](how-to/accessibility/turn-on-slow-keys/index.html.md): Turn on slow keys to add a delay between pressing a key and the letter appearing, and set the acceptance delay and sounds.
+- [Accessibility](how-to/accessibility/index.html.md): Set up Ubuntu Desktop accessibility features for visual, hearing and mobility impairments, including the Orca screen reader and keyboard options.
+- [Use an on-screen keyboard](how-to/accessibility/use-an-on-screen-keyboard/index.html.md): Turn on the on-screen keyboard in Ubuntu Desktop to type without a physical keyboard, and enter symbols or change input sources.
+- [Adjust the double-click speed](how-to/accessibility/adjust-the-double-click-speed/index.html.md): Change how quickly you must press the mouse button twice to double-click on Ubuntu Desktop, and check for a faulty mouse.
+- [Simulate clicking by hovering](how-to/accessibility/simulate-clicking-by-hovering/index.html.md): Turn on Hover Click to click or drag by holding the pointer over a control, and adjust the delay and motion threshold.
+- [Change text size on the screen](how-to/accessibility/change-text-size-on-the-screen/index.html.md): Make text larger in Ubuntu Desktop using Large Text, Tweaks or application shortcuts if you have difficulty reading the screen.
+- [Simulate a right mouse click](how-to/accessibility/simulate-a-right-mouse-click/index.html.md): Turn on simulated secondary click to right-click by holding down the left mouse button, and set how long you must hold it.
+- [Click and move the mouse pointer using the keypad](how-to/accessibility/click-and-move-the-mouse-pointer-using-the-keypad/index.html.md): Turn on Mouse Keys to move the pointer and click using the numeric keypad if you can't use a mouse or other pointing device.
+- [Manage repeated key presses](how-to/accessibility/manage-repeated-key-presses/index.html.md): Control how a key repeats when you hold it down on Ubuntu Desktop by turning repeat keys off or changing the delay and speed.
+- [Navigate the interface using the keyboard](how-to/accessibility/navigate-the-interface-using-the-keyboard/index.html.md): Use only the keyboard to launch and switch applications, navigate menus and move around the Ubuntu Desktop interface without a mouse.
+- [Read the screen in Braille](how-to/accessibility/orca/read-screen-in-braille/index.html.md): Set up Orca with a Braille display through BRLTTY, use display commands, change the language table and fix detection problems.
+- [Add, edit, or remove dictionary entries](how-to/accessibility/orca/add-dictionary-entries/index.html.md): Add, edit or remove entries in the Orca pronunciation dictionary to fix words that your speech synthesizer mispronounces.
+- [Read documents and web pages using the screen reader](how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader/index.html.md): Use Orca commands to browse web pages, read in caret mode, check formatting, fill forms, read tables and follow live regions.
+- [Read the screen aloud](how-to/accessibility/orca/read-screen-aloud/index.html.md): Turn on the Orca screen reader in Ubuntu Desktop so it speaks the user interface, and find out how to install and control it.
+- [Screen reader](how-to/accessibility/orca/index.html.md): Topics: [Accessibility](../../../_tags/accessibility.md)
+- [Navigate the screen using the screen reader](how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader/index.html.md): Use Orca commands to identify windows, review text with Flat Review, find objects, set bookmarks and read the time or chat messages.
+- [Accessibility](reference/accessibility/index.html.md): Review the configuration options and controls of the Orca screen reader. Browse the accessibility de...
+- [Orca Structural Navigation commands](reference/accessibility/orca-structural-navigation-commands/index.html.md): Reference for the Orca Structural Navigation commands that move through headings, links, forms, lists and tables on web pages and documents.
+- [Table navigation preferences](reference/accessibility/orca-preferences/orca-preferences-table-navigation/index.html.md): Configure how Orca announces cell coordinates, spans and headers and skips blank cells when you navigate tables.
+- [Braille preferences](reference/accessibility/orca-preferences/orca-preferences-braille/index.html.md): Configure Orca Braille preferences, including BRLTTY support, word wrap, contracted Braille with liblouis and abbreviated role names.
+- [Spellcheck preferences](reference/accessibility/orca-preferences/orca-preferences-spellcheck/index.html.md): Configure how Orca presents spell checker information, such as spelling misspelled words and suggestions and speaking error context.
+- [Speech preferences](reference/accessibility/orca-preferences/orca-preferences-speech/index.html.md): Configure Orca speech preferences, including enabling speech, verbosity, punctuation level and spoken context.
+- [Screen reader preferences](reference/accessibility/orca-preferences/index.html.md): Reference for Orca preferences that customize screen reader behavior in all applications, such as key echo, speech, Braille and voices.
+- [Profiles](reference/accessibility/orca-preferences/orca-preferences-profile/index.html.md): Manage multiple Orca configurations with profiles, and choose how progress bar updates are spoken, shown in Braille or beeped.
+- [Voice preferences](reference/accessibility/orca-preferences/orca-preferences-voice/index.html.md): Configure Orca voice preferences, including voice types, the speech system and synthesizer, plus person, rate, pitch and volume.
+- [Chat preferences](reference/accessibility/orca-preferences/orca-preferences-chat/index.html.md): Configure how Orca behaves in instant messaging and IRC chat clients, such as announcing chatroom names and typing status.
+- [Text attributes preferences](reference/accessibility/orca-preferences/orca-preferences-text-attributes/index.html.md): Configure which text attributes Orca speaks or shows in Braille, such as font, style and alignment, and reorder or reset them.
+- [Key bindings preferences](reference/accessibility/orca-preferences/orca-preferences-key-binding/index.html.md): Configure Orca key bindings, including the Orca Modifier keys, the key bindings table and unbound commands.
+- [General preferences](reference/accessibility/orca-preferences/orca-preferences-general/index.html.md): Configure Orca general preferences, including the keyboard layout that sets the Orca Modifier and how tooltips are presented.
+- [Key echo preferences](reference/accessibility/orca-preferences/orca-preferences-key-echo/index.html.md): Configure Orca key echo to choose whether keys, characters, words or sentences are spoken as you type.
+- [org.a11y.atspi.Hyperlink](reference/accessibility/dbus/org.a11y.atspi.Hyperlink/index.html.md): NAnchors readable n
+- [org.a11y.atspi.Image](reference/accessibility/dbus/org.a11y.atspi.Image/index.html.md): ImageDescription readable s
+- [org.a11y.atspi.Selection](reference/accessibility/dbus/org.a11y.atspi.Selection/index.html.md): NSelectedChildren readable i
+- [org.a11y.atspi.TableCell](reference/accessibility/dbus/org.a11y.atspi.TableCell/index.html.md): ColumnSpan readable i
+- [org.a11y.atspi.Event.Object](reference/accessibility/dbus/org.a11y.atspi.Event.Object/index.html.md): PropertyChange (
+- [org.a11y.atspi.Hypertext](reference/accessibility/dbus/org.a11y.atspi.Hypertext/index.html.md): GetNLinks (
+- [org.a11y.atspi.DeviceEventController](reference/accessibility/dbus/org.a11y.atspi.DeviceEventController/index.html.md): Legacy interface for keystroke listeners and generation of
+- [org.a11y.atspi.Action](reference/accessibility/dbus/org.a11y.atspi.Action/index.html.md): Allows exploring and invoking the actions of a user-actionable UI
+- [org.a11y.atspi.Table](reference/accessibility/dbus/org.a11y.atspi.Table/index.html.md): NRows readable i
+- [org.a11y.atspi.Event.Mouse](reference/accessibility/dbus/org.a11y.atspi.Event.Mouse/index.html.md): unnamed_arg0 s,
+- [org.a11y.atspi.EditableText](reference/accessibility/dbus/org.a11y.atspi.EditableText/index.html.md): SetTextContents (
+- [org.a11y.atspi.Event.Terminal](reference/accessibility/dbus/org.a11y.atspi.Event.Terminal/index.html.md): LineChanged (
+- [AT-SPI DBus XML interfaces](reference/accessibility/dbus/index.html.md): Reference for the AT-SPI D-Bus XML interfaces that assistive technologies use to inspect and control UI elements on Ubuntu Desktop.
+- [org.a11y.atspi.Value](reference/accessibility/dbus/org.a11y.atspi.Value/index.html.md): MinimumValue readable d
+- [org.a11y.atspi.Cache](reference/accessibility/dbus/org.a11y.atspi.Cache/index.html.md): Interface to access objects in bulk. It provides local access to previously fetched objects and help...
+- [org.a11y.atspi.Event.Window](reference/accessibility/dbus/org.a11y.atspi.Event.Window/index.html.md): PropertyChange (
+- [org.a11y.atspi.Accessible](reference/accessibility/dbus/org.a11y.atspi.Accessible/index.html.md): Base interface that defines basic information about the object, where in the object hierarchy it is ...
+- [org.a11y.atspi.Event.Keyboard](reference/accessibility/dbus/org.a11y.atspi.Event.Keyboard/index.html.md): Modifiers (
+- [org.a11y.atspi.Registry](reference/accessibility/dbus/org.a11y.atspi.Registry/index.html.md): RegisterEvent (
+- [org.a11y.atspi.Document](reference/accessibility/dbus/org.a11y.atspi.Document/index.html.md): CurrentPageNumber readable i
+- [org.a11y.atspi.Text](reference/accessibility/dbus/org.a11y.atspi.Text/index.html.md): CharacterCount readable i
+- [org.a11y.atspi.Component](reference/accessibility/dbus/org.a11y.atspi.Component/index.html.md): Interface that provides spatial and graphical information about the GUI component.
+- [org.a11y.atspi.Event.Document](reference/accessibility/dbus/org.a11y.atspi.Event.Document/index.html.md): LoadComplete (
+- [org.a11y.atspi.Application](reference/accessibility/dbus/org.a11y.atspi.Application/index.html.md): Interface that must be implemented by the root object of an application.
+- [org.a11y.atspi.Event.Focus](reference/accessibility/dbus/org.a11y.atspi.Event.Focus/index.html.md): unnamed_arg0 s,
+- [org.a11y.atspi.Collection](reference/accessibility/dbus/org.a11y.atspi.Collection/index.html.md): An ordered list of accessible objects, used to avoid iteration or client-side search of the object t...
+- [org.a11y.atspi.DeviceEventListener](reference/accessibility/dbus/org.a11y.atspi.DeviceEventListener/index.html.md): NotifyEvent (
+- [org.a11y.atspi.Socket](reference/accessibility/dbus/org.a11y.atspi.Socket/index.html.md): Interface to register an application on the registry.
+
+---
+
+For more comprehensive documentation, see [llms-full.txt](llms-full.txt)

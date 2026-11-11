@@ -1,0 +1,103 @@
+Topics: [Installation](../_tags/installation.md) [Security](../_tags/security.md)
+
+<a id="hardware-backed-disk-encryption"></a>
+
+# Hardware-backed disk encryption
+
+Hardware-backed disk encryption is a convenient way to keep your data secure. It automatically decrypts the data on your disk at startup, while keeping your data encrypted at rest. This eliminates the need to enter a passphrase every time you start up your machine: you just need to enter your user password to log in. Optionally, you can set a disk encryption PIN or passphrase for additional security.
+
+## How hardware-backed disk encryption works
+
+When you enable hardware-backed disk encryption, the encryption keys for your disk are automatically generated and stored safely in your computer’s Trusted Platform Module (TPM).
+
+At every startup, the TPM verifies that your computer’s hardware and critical boot software have not been altered. If the TPM detects any unauthorized changes, it refuses to unlock the disk, unless the user reverts the changes or provides a recovery key. This means that your data is protected even if your device is stolen: the attacker can’t unlock your disk if they remove the disk and install it in another computer.
+
+In other words, anyone who wants to access your data must know your user password. This provides more security than an unencrypted Ubuntu installation, where the attacker can just remove your disk and read your data, or start another system on your computer. This feature is also more convenient than traditional disk encryption, such as LUKS: you only have to remember your user password and there’s no additional disk password.
+
+For technical details, see [Full disk encryption (FDE)](https://documentation.ubuntu.com/security/security-features/storage/encryption-full-disk/) in the Ubuntu security documentation.
+
+<a id="tpm-fde-recovery-key"></a>
+
+## Recovery key
+
+A recovery key is a long string of numbers that you can use to recover the data on your encrypted disk. You receive the recovery key at the end of the Ubuntu installation.
+
+You should store it somewhere safe outside of your computer, such as in a cloud-based password manager.
+
+The recovery key is stored securely. You can’t retrieve it but you can reset it in the Security Center to get a new one. However, you must be able to log into your Ubuntu session before you can reset the recovery key.
+
+#### IMPORTANT
+If you lose your recovery key, you might lose access to your data in certain scenarios. While you’re logged in, replace the existing recovery key as soon as possible. See [Get a new recovery key](../how-to/configure-hardware-backed-disk-encryption.md#tpm-fde-get-a-new-recovery-key).
+
+<a id="tpm-fde-when-ubuntu-asks-for-your-recovery-key"></a>
+
+### When Ubuntu asks for your recovery key
+
+You need the recovery key in several different situations:
+
+* If you **move your disk** to a new computer, you need to enter your recovery key before your new computer can access the data.
+* If you **forget your disk PIN or passphrase**, Ubuntu asks for your recovery key to unlock the disk.
+* If you **change the hardware, firmware** or other components of your computer, you need to enter your recovery key to confirm that you trust the new configuration. This includes the following changes:
+  * Changes to hardware components in your computer
+  * Updates to BIOS, UEFI and firmware
+  * Changes to boot settings, such as boot order or Secure Boot
+  * Errors with authentication, such as entering a wrong password too many times
+  * Changes to certain settings, such as organization security policies
+  * Resetting or clearing of the TPM module
+
+If you’re planning to do any of these changes on your computer, make sure that you know your recovery key first.
+
+#### WARNING
+If the system asks you for your recovery key even when no hardware or software on your computer has changed, it might be an attack that tries to gain access to your data.
+
+## Ubuntu alongside another encrypted system
+
+If you have additional encrypted drives or another encrypted operating system on your computer, make sure to safely store the recovery keys to all your drives.
+
+For example, if you install Ubuntu with hardware-backed disk encryption alongside Microsoft Windows with BitLocker enabled, you need to store both recovery keys for Ubuntu and Windows.
+
+You might need a recovery key per each drive in case of the events listed in [When Ubuntu asks for your recovery key](#tpm-fde-when-ubuntu-asks-for-your-recovery-key). Updating firmware with the Firmware Updater in Ubuntu might require you to provide recovery keys for non-Ubuntu drives, too.
+
+### Windows BitLocker
+
+If you use BitLocker on Windows or have an encrypted Windows installation in your machine, see the Microsoft documentation on how to [back up](https://support.microsoft.com/en-us/windows/back-up-your-bitlocker-recovery-key-e63607b4-77fb-4ad3-8022-d6dc428fbd0d) and [find](https://support.microsoft.com/en-us/windows/find-your-bitlocker-recovery-key-6b71ad27-0b89-ea08-f143-056f5ab347d6) recovery keys.
+
+If you need to apply changes to your system, you can also disable BitLocker temporarily and re-enable BitLocker after the changes have been made. See [Turn off BitLocker in Windows](../how-to/turn-off-bitlocker-in-windows.md#turn-off-bitlocker-in-windows) and [BitLocker during Ubuntu installation](../reference/bitlocker-during-ubuntu-installation.md#bitlocker-during-ubuntu-installation).
+
+### Other platforms
+
+When using recovery keys for other platforms, see the relevant vendor’s documentation.
+
+<a id="tpm-fde-encryption-passphrase"></a>
+
+## Encryption PIN and passphrase
+
+Optionally, you can set a PIN or passphrase. You enter them every time your computer starts. The PIN is a numeric code while the passphrase is an alphanumerical password.
+
+You can enable, change and disable the PIN or passphrase in the Security Center app.
+
+If your system doesn’t provide a hardware root of trust, the Ubuntu installer requires that you set a PIN or passphrase to ensure a level of security. You can disable it after installation.
+
+### PIN and passphrase protection
+
+Both the PIN and passphrase can provide additional security, depending on your use case:
+
+* In a **server** environment, it’s more likely that somebody steals your disk rather than the whole computer. Therefore, you might prefer encryption without a PIN or passphrase, which ensures disk security and doesn’t require physical access to reboot the server.
+* With a **laptop**, it’s more likely that somebody steals your whole computer, for example when traveling. Therefore, you might want to add the disk encryption PIN or passphrase so that your data is protected even before the attacker can break through your login screen.
+* With a **desktop** computer, consider which of the risk factors is more likely.
+
+### Additional passphrase protection
+
+Compared to the PIN, the passphrase adds protection against attacks targeting your TPM chip.
+
+With the passphrase, your disk is encrypted both by the automatically-generated encryption keys, stored in your TPM, and by your passphrase. As a result, your passphrase is still needed to decrypt your disk even if the TPM gets compromised. For instance, the passphrase protects you against a malicious firmware update from the TPM manufacturer.
+
+Enabling the passphrase is particularly useful in the following cases:
+
+* In security-conscious contexts
+* For users that handle sensitive data
+* For users that might be subject to targeted attacks
+
+## Enable hardware-backed disk encryption
+
+To protect your Ubuntu installation with hardware-backed disk encryption, see [Encrypt your disk with TPM](../how-to/encrypt-your-disk-with-tpm.md#encrypt-your-disk-with-tpm).

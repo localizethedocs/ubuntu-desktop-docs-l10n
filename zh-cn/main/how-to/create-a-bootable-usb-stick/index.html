@@ -1,0 +1,1033 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN" data-content_root="../../">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content="Turn a USB stick into Ubuntu installation media from Ubuntu, Windows or macOS so you can try or install Ubuntu." name="description" />
+<meta property="og:title" content="Create a bootable USB stick" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ubuntu.com/desktop/docs/en/latest/how-to/create-a-bootable-usb-stick/" />
+<meta property="og:site_name" content="Ubuntu Desktop" />
+<meta property="og:description" content="Topics: Installation Windows macOS You can convert your USB stick (USB flash drive) into Ubuntu installation media. This is different from copying a file to the USB stick. Instead, use a specialize..." />
+<meta property="og:image" content="https://assets.ubuntu.com/v1/cc828679-docs_illustration.svg" />
+<meta property="og:image:alt" content="Ubuntu Desktop" />
+
+    <meta property="article:modified_time" content="2026-10-13T10:48:22+00:00" /><link rel="index" title="索引" href="../../genindex/"><link rel="search" title="搜索" href="../../search/"><link rel="next" title="Reconfigure Windows to use AHCI" href="../reconfigure-windows-to-use-ahci/"><link rel="prev" title="How-to guides" href="../">
+        <link rel="canonical" href="https://projects.localizethedocs.org/ubuntu-desktop-docs-l10nhow-to/create-a-bootable-usb-stick/">
+
+    <link rel="shortcut icon" href="../../_static/favicon.png"><!-- Generated with Sphinx 7.4.7 and Furo 2025.12.19 -->
+        <title>Create a bootable USB stick - Ubuntu Desktop documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=7bdb33bb" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/config-options.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/contributors.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/related-links.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/terminal.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/youtube.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/cookie-banner.css?v=3810d303" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=022106c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/header.css?v=a8078839" />
+    <link rel="stylesheet" type="text/css" href="../../_static/github_issue_links.css?v=3d761185" />
+    <link rel="stylesheet" type="text/css" href="../../_static/furo_colors.css?v=4cd1adcf" />
+    
+
+
+<script type="text/javascript" src="../../ltd-provenance.js"></script>
+<script type="text/javascript" src="../../ltd-current.js"></script>
+<script type="text/javascript" src="../../../../ltd-config.js"></script>
+<script type="text/javascript" src="../../../../ltd-flyout.js"></script>
+</head>
+  <body>
+    <header id="header" class="p-navigation">
+
+  <div class="p-navigation__nav" role="menubar">
+
+    <ul class="p-navigation__links" role="menu">
+
+      <li>
+        
+        <a class="p-logo" href="https://ubuntu.com/desktop" aria-current="page">
+          <img src="../../_static/tag.png" alt="Logo" class="p-logo-image">
+          <div class="p-logo-text p-heading--4">Ubuntu Desktop
+          </div>
+        </a>
+        
+      </li>
+
+      <li class="nav-ubuntu-com">
+        
+        <a href="https://ubuntu.com/desktop" class="p-navigation__link">ubuntu.com/desktop</a>
+        
+      </li>
+
+      <li class="nav-dropdown">
+        <a href="#" class="p-navigation__link nav-more-links"
+           id="more-resources-toggle"
+           aria-haspopup="true"
+           aria-expanded="false">
+          More resources
+        </a>
+        <ul class="more-links-dropdown" aria-labelledby="more-resources-toggle">
+          
+          <li>
+            <a href="https://discourse.ubuntu.com/c/project/desktop/" class="p-navigation__sub-link p-dropdown__link">Discourse</a>
+          </li>
+          
+      
+          
+          <li>
+            <a href="https://chat.canonical.com/canonical/channels/desktop" class="p-navigation__sub-link p-dropdown__link">Mattermost</a>
+          </li>
+          
+      
+          
+          <li>
+            <a href="https://matrix.to/#/#desktop-dev:ubuntu.com" class="p-navigation__sub-link p-dropdown__link">Matrix</a>
+          </li>
+          
+      
+          
+          <li>
+            <a href="https://github.com/ubuntu/ubuntu-desktop-documentation" class="p-navigation__sub-link p-dropdown__link">GitHub</a>
+          </li>
+          
+
+        </ul>
+      </li>
+
+    </ul>
+  </div>
+</header>
+   
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../"><div class="brand">Ubuntu Desktop documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../">
+  
+  <span class="sidebar-brand-text">Ubuntu Desktop documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search/" role="search">
+    <input class="sidebar-search" placeholder="搜索" name="q" aria-label="搜索">
+    <input type="submit" value="Go">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+  <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../tutorial/">Tutorials</a><input aria-label="Toggle navigation of Tutorials" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorial/try-ubuntu-desktop/">Try Ubuntu Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorial/install-ubuntu-desktop/">Install Ubuntu Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorial/get-started-with-the-screen-reader/">Get started with the screen reader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorial/the-linux-command-line-for-beginners/">The Linux command line for beginners</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../">How-to guides</a><input aria-label="Toggle navigation of How-to guides" checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Create a bootable USB stick</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reconfigure-windows-to-use-ahci/">Reconfigure Windows to use AHCI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../turn-off-bitlocker-in-windows/">Turn off BitLocker in Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../encrypt-your-disk-with-tpm/">Encrypt your disk with TPM</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../accessibility/">Accessibility</a><input aria-label="Toggle navigation of Accessibility" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/find-the-accessibility-menu/">Find the accessibility menu</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../accessibility/orca/">Screen reader</a><input aria-label="Toggle navigation of Screen reader" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../accessibility/orca/read-screen-aloud/">Read the screen aloud</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../accessibility/orca/read-screen-in-braille/">Read the screen in Braille</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../accessibility/orca/navigate-the-screen-using-the-screen-reader/">Navigate the screen using the screen reader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../accessibility/orca/read-documents-and-web-pages-using-the-screen-reader/">Read documents and web pages using the screen reader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../accessibility/orca/add-dictionary-entries/">Add, edit, or remove dictionary entries</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/adjust-the-contrast/">Adjust the contrast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/change-text-size-on-the-screen/">Change text size on the screen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/magnify-a-screen-area/">Magnify a screen area</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/make-the-keyboard-cursor-blink/">Make the keyboard cursor blink</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/flash-the-screen-for-alert-sounds/">Flash the screen for alert sounds</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/adjust-the-speed-of-the-mouse-and-touchpad/">Adjust the speed of the mouse and touchpad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/click-and-move-the-mouse-pointer-using-the-keypad/">Click and move the mouse pointer using the keypad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/adjust-the-double-click-speed/">Adjust the double-click speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/simulate-a-right-mouse-click/">Simulate a right mouse click</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/simulate-clicking-by-hovering/">Simulate clicking by hovering</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/navigate-the-interface-using-the-keyboard/">Navigate the interface using the keyboard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/manage-repeated-key-presses/">Manage repeated key presses</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/turn-on-bounce-keys/">Turn on bounce keys</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/turn-on-slow-keys/">Turn on slow keys</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/turn-on-sticky-keys/">Turn on sticky keys</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/use-an-on-screen-keyboard/">Use an on-screen keyboard</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../software/">Install or remove software</a><input aria-label="Toggle navigation of Install or remove software" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../software/install-an-application/">Install an application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../software/remove-an-application/">Remove an application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../software/install-languages/">Install languages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../software/add-a-software-repository/">Add a software repository</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../graphics/">Graphics</a><input aria-label="Toggle navigation of Graphics" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../graphics/install-nvidia-drivers/">Install NVIDIA drivers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../graphics/build-your-own-nvidia-modules-using-the-dkms-package/">Build your own NVIDIA modules using the DKMS package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../graphics/troubleshoot-nvidia/">Troubleshoot your NVIDIA GPU and drivers</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../record-the-screen/">Record the screen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../log-in-using-a-smart-card/">Log in using a smart card</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../enable-smart-cards-in-snapped-browsers/">Enable smart cards in snapped browsers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configure-hardware-backed-disk-encryption/">Configure hardware-backed disk encryption</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../recover-data-from-hardware-backed-disk-encryption/">Recover data from hardware-backed disk encryption</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../share-your-desktop-remotely/">Share your desktop remotely</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../access-a-remote-desktop/">Access a remote desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change-the-default-terminal/">Change the default terminal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../start-an-application-at-login/">Start an application at login</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../upgrade-ubuntu-desktop/">Upgrade Ubuntu Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../switch-between-an-lts-and-interim-release/">Switch between an LTS and interim release</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../troubleshoot/">Common problems</a><input aria-label="Toggle navigation of Common problems" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../troubleshoot/bluetooth/">Bluetooth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../troubleshoot/improve-screen-reader-usability/">Improve screen reader usability</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../reference/">Reference</a><input aria-label="Toggle navigation of Reference" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/advanced-disk-setup-features/">Advanced disk setup features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/hardware-backed-disk-encryption-requirements/">Hardware-backed disk encryption requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/intel-rst-during-ubuntu-installation/">Intel RST during Ubuntu installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/bitlocker-during-ubuntu-installation/">BitLocker during Ubuntu installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/keyboard-navigation-shortcuts/">Keyboard navigation shortcuts</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../reference/accessibility/">Accessibility</a><input aria-label="Toggle navigation of Accessibility" class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../reference/accessibility/orca-preferences/">Screen reader preferences</a><input aria-label="Toggle navigation of Screen reader preferences" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-general/">General preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-profile/">Profiles</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-key-binding/">Key bindings preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-voice/">Voice preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-speech/">Speech preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-key-echo/">Key echo preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-braille/">Braille preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-text-attributes/">Text attributes preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-table-navigation/">Table navigation preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-spellcheck/">Spellcheck preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-chat/">Chat preferences</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../reference/accessibility/orca-structural-navigation-commands/">Orca Structural Navigation commands</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../reference/accessibility/dbus/">AT-SPI DBus XML interfaces</a><input aria-label="Toggle navigation of AT-SPI DBus XML interfaces" class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Accessible/">org.a11y.atspi.Accessible</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Action/">org.a11y.atspi.Action</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Application/">org.a11y.atspi.Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Cache/">org.a11y.atspi.Cache</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Collection/">org.a11y.atspi.Collection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Component/">org.a11y.atspi.Component</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.DeviceEventController/">org.a11y.atspi.DeviceEventController</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.DeviceEventListener/">org.a11y.atspi.DeviceEventListener</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Document/">org.a11y.atspi.Document</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.EditableText/">org.a11y.atspi.EditableText</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Document/">org.a11y.atspi.Event.Document</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Focus/">org.a11y.atspi.Event.Focus</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Keyboard/">org.a11y.atspi.Event.Keyboard</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Mouse/">org.a11y.atspi.Event.Mouse</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Object/">org.a11y.atspi.Event.Object</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Terminal/">org.a11y.atspi.Event.Terminal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Window/">org.a11y.atspi.Event.Window</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Hyperlink/">org.a11y.atspi.Hyperlink</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Hypertext/">org.a11y.atspi.Hypertext</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Image/">org.a11y.atspi.Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Registry/">org.a11y.atspi.Registry</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Selection/">org.a11y.atspi.Selection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Socket/">org.a11y.atspi.Socket</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Table/">org.a11y.atspi.Table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.TableCell/">org.a11y.atspi.TableCell</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Text/">org.a11y.atspi.Text</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Value/">org.a11y.atspi.Value</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../explanation/">Explanation</a><input aria-label="Toggle navigation of Explanation" class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/about-ubuntu-desktop/">About Ubuntu Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/why-we-use-the-terminal-on-linux/">Why we use the terminal on Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/what-is-the-menu-key/">What is the Menu key?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/accessibility-stack/">Accessibility stack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/snap-and-deb-packages/">Snap and deb packages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/hardware-backed-disk-encryption/">Hardware-backed disk encryption</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/hardware-stack/">Hardware stack</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="edit-this-page">
+  <a class="muted-link" href="https://github.com/ubuntu/ubuntu-desktop-documentation/edit/main/docs/how-to/create-a-bootable-usb-stick.md" title="Contribute to this page">
+    <svg><use href="#svg-pencil"></use></svg>
+    <span class="visually-hidden">Contribute to this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <p class="tags"><span>Topics: </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../_tags/installation/"><span class="doc">Installation</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../_tags/windows/"><span class="doc">Windows</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../_tags/macos/"><span class="doc">macOS</span></a></p>
+<section id="create-a-bootable-usb-stick">
+<span id="id1"></span><h1>Create a bootable USB stick<a class="headerlink" href="#create-a-bootable-usb-stick" title="Link to this heading">¶</a></h1>
+<p>You can convert your USB stick (USB flash drive) into Ubuntu installation media. This is different from copying a file to the USB stick. Instead, use a specialized application to rewrite your USB stick with Ubuntu. Select an application depending on the system that you’re currently using.</p>
+<p>With a bootable Ubuntu USB stick, you can:</p>
+<ul class="simple">
+<li><p>Install or upgrade Ubuntu.</p></li>
+<li><p>Test out the Ubuntu Desktop experience without touching your PC configuration.</p></li>
+<li><p>Boot into Ubuntu on a borrowed machine.</p></li>
+<li><p>Use tools from the USB stick to repair or fix a broken configuration.</p></li>
+</ul>
+<p>You need:</p>
+<ul>
+<li><p>An 8GB USB stick or larger.</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>Back up your files on the USB stick. This process will overwrite and destroy all data stored there.</p>
+</div>
+</li>
+<li><p>An Ubuntu image file. See <a class="reference external" href="https://ubuntu.com/download/desktop">Download Ubuntu Desktop</a>.</p>
+<p>Take note of where your browser saves the downloaded file. This is normally a directory called <em>Downloads</em>. Don’t download the ISO image directly to the USB stick.</p>
+<p>Proceed only when the download has successfully finished.</p>
+</li>
+</ul>
+<section id="on-ubuntu-and-other-linux-distributions">
+<h2>On Ubuntu and other Linux distributions<a class="headerlink" href="#on-ubuntu-and-other-linux-distributions" title="Link to this heading">¶</a></h2>
+<p>Ubuntu Desktop comes with the Disks application by default, which you can use to write the image. Other Linux distributions provide a wide range of different image writer applications. Choose the first one that’s available on your system.</p>
+<section id="using-disks">
+<h3>Using Disks<a class="headerlink" href="#using-disks" title="Link to this heading">¶</a></h3>
+<p>The Disks application is installed by default on Ubuntu Desktop and on most Linux distributions that use the GNOME desktop environment. We recommend choosing it if it’s available on your system.</p>
+<p>Disks can also write images of any other operating system, including Linux distributions or Microsoft Windows.</p>
+<!--
+The docs/reuse/usb-using-gnome-disks.txt file is reused between the live system tutorial, the installation tutorial and the bootable USB how-to guide.
+-->
+<ol class="arabic">
+<li><p>Open the Disks application. You can find it in the applications menu or by searching for “Disks”.</p></li>
+<li><p>Insert your USB stick. It appears in the sidebar. Select it there.</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>Make sure to select the USB stick and <strong>not</strong> the disk with your running system. Both are listed.</p>
+</div>
+<p><img alt="A USB stick selected in Disks" src="../../_images/usb-in-gnome-disks.png" /></p>
+</li>
+<li><p>Close all applications that access files or folders on the USB stick, including the file browser.</p></li>
+<li><p>In the Disks window header, click <span class="guilabel">Drive Options</span> (<span class="guilabel">⋮</span>) and select <span class="guilabel">Restore Disk Image…</span></p>
+<p><img alt="Restore Disk Image in the menu" src="../../_images/restore-disk-image-menu.png" /></p>
+</li>
+<li><p>Next to <span class="guilabel">Image to Restore</span>, select the downloaded Ubuntu image file.</p></li>
+<li><p>Click <span class="guilabel">Start Restoring…</span> and confirm. The application asks for your password.</p>
+<p><img alt="The Restore Disk Image dialog" src="../../_images/restore-disk-image-dialog.png" /></p>
+</li>
+<li><p>A progress bar appears while Disks is writing the image.</p>
+<p><img alt="Disks writing the image to USB" src="../../_images/gnome-disks-restoring-image.png" /></p>
+</li>
+<li><p>When the progress bar finishes, click <span class="guilabel">Eject this disk</span> (<span class="guilabel">⏏</span>).</p>
+<p><img alt="Writing finished. Partitions are listed on the USB" src="../../_images/gnome-disks-finished-writing.png" /></p>
+</li>
+</ol>
+</section>
+<section id="using-startup-disk-creator">
+<h3>Using Startup Disk Creator<a class="headerlink" href="#using-startup-disk-creator" title="Link to this heading">¶</a></h3>
+<!--
+Originally a Tutorial: https://discourse.ubuntu.com/t/create-a-bootable-usb-stick-on-ubuntu/14011/
+| Summary | Use your Ubuntu desktop to create a bootable USB stick that can be used to run and install Ubuntu on any USB-equipped PC. |
+| Author | Canonical Web Team <webteam@canonical.com> |
+-->
+<p>The Startup Disk Creator application is part of the extended Ubuntu Desktop installation. You can use it to write an Ubuntu image to a USB stick.</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>Startup Disk Creator is intended for Ubuntu images and images of other distributions based on Ubuntu, such as flavors like Kubuntu or Xubuntu, or derived distributions. It might not work correctly with other Linux distributions and different operating systems.</p>
+</div>
+<ol class="arabic">
+<li><p>Insert your USB stick.</p>
+ <!--
+ If Ubuntu asks you what to do with it, select {guilabel}`Do nothing`.
+ -->
+</li>
+<li><p>Close all applications that access files or folders on the USB stick, including the file browser.</p></li>
+<li><p>Search your applications for <em>Startup Disk Creator</em>.</p>
+<p><img alt="Launch Startup Disk Creator" src="../../_images/launch-startup-disk-creator.png" /></p>
+</li>
+<li><p>If the application isn’t available, install it in the App Center.</p>
+<p>Alternatively, you can install it on the command line:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">usb-creator-gtk</span></code></span></div>
+</div>
+</li>
+<li><p>Open Startup Disk Creator.</p></li>
+<li><p>Check the <span class="guilabel">Source disc image</span> and <span class="guilabel">Disk to use</span> fields.</p>
+<p>It’s likely that your Ubuntu image and the correct USB device have been detected. If not, use the <span class="guilabel">Other</span> button to locate your image file and select the USB device that you want to use from the list of devices.</p>
+<p><img alt="The Make Startup Disk window with Ubuntu 24.04 and a USB drive" src="../../_images/startup-disk-creator.png" /></p>
+</li>
+<li><p>Click <span class="guilabel">Make Startup Disk</span> and confirm that this is the correct USB device.</p>
+<p>Any data currently stored on this device will be <strong>destroyed</strong>.</p>
+</li>
+<li><p>The write process starts and a progress bar appears.</p>
+<p>When finished, the application announces “Installation Complete”.</p>
+</li>
+</ol>
+</section>
+<section id="using-kde-iso-image-writer">
+<h3>Using KDE ISO Image Writer<a class="headerlink" href="#using-kde-iso-image-writer" title="Link to this heading">¶</a></h3>
+<p>KDE ISO Image Writer is part of the KDE Plasma desktop environment. You can use it on distributions like Kubuntu. It’s available for Ubuntu and Kubuntu 26.04 LTS and later.</p>
+<ol class="arabic">
+<li><p>Go to the <a class="reference external" href="https://releases.ubuntu.com/">releases.ubuntu.com</a> website and find the Ubuntu release that you’re writing on your USB stick, such as <a class="reference external" href="https://releases.ubuntu.com/resolute/">Ubuntu 26.04 LTS (Resolute Raccoon)</a>.</p></li>
+<li><p>Download the <code class="docutils literal notranslate"><span class="pre">SHA256SUMS</span></code> and <code class="docutils literal notranslate"><span class="pre">SHA256SUMS.gpg</span></code> checksum files. In the file selector, make sure not to attach the <code class="docutils literal notranslate"><span class="pre">.txt</span></code> suffix to the <code class="docutils literal notranslate"><span class="pre">SHA256SUMS</span></code> file. Place the files in the same directory as the Ubuntu image.</p>
+<p>KDE ISO Image Writer uses these files to verify the Ubuntu image.</p>
+</li>
+<li><p>Insert the USB stick.</p></li>
+<li><p>Close all applications that access files or folders on the USB stick, including the file browser.</p></li>
+<li><p>Install KDE ISO Image Writer in the Discover app store or on the command line:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">install</span> <span class="pre">isoimagewriter</span></code></span></div>
+</div>
+</li>
+<li><p>Open KDE ISO Image Writer.</p></li>
+<li><p>In the <span class="guilabel">ISO image</span> field, select the downloaded Ubuntu image. KDE ISO Image Writer starts verifying the image according to the checksum files.</p></li>
+<li><p>In the <span class="guilabel">USB drive</span> field, make sure that the correct USB stick is selected.</p>
+<p><img alt="KDE ISO Image Writer with a selected USB drive and a verified ISO image. It says &quot;The ISO image is valid&quot;" src="../../_images/kde-iso-image-writer.png" /></p>
+</li>
+<li><p>Click <span class="guilabel">Create</span> to start writing the Ubuntu image to USB. Confirm with your password.</p></li>
+<li><p>When KDE ISO Image Writer finishes writing, click <span class="guilabel">Close</span>.</p></li>
+</ol>
+</section>
+<section id="using-the-linux-command-line">
+<h3>Using the Linux command line<a class="headerlink" href="#using-the-linux-command-line" title="Link to this heading">¶</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">dd</span></code> image writer is available on all Linux systems. You can use it even on minimal systems without any graphical environment.</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">dd</span></code> tool is designed for advanced users. If you specify the wrong options, disk or file names, you might destroy your running system.</p>
+</div>
+<ol class="arabic">
+<li><p>Insert your USB stick.</p></li>
+<li><p>Make sure that the USB stick is large enough for the Ubuntu image. If it’s too small, the image writer might silently fail.</p></li>
+<li><p>List storage devices on your system:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">lsblk</span> <span class="pre">--scsi</span></code></span></div>
+<div class="terminal-code highlight-text notranslate"><div class="highlight"><pre><span></span>NAME
+    HCTL       TYPE VENDOR   MODEL          REV SERIAL               TRAN
+sda 0:0:0:0    disk SanDisk  Ultra USB 3.0 1.00 4C530000010118116183 usb
+</pre></div>
+</div>
+</div>
+<p>In this example, one USB stick is connected. Note down its device name at the start of the line, such as <code class="docutils literal notranslate"><span class="pre">sda</span></code> here.</p>
+</li>
+<li><p>Unmount all file systems on the USB stick:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">umount</span> <span class="pre">/dev/sda*</span></code></span></div>
+</div>
+<p>Replace <code class="docutils literal notranslate"><span class="pre">sda</span></code> with the USB device name.</p>
+</li>
+<li><p>Write the Ubuntu image to the USB stick:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">dd</span> <span class="pre">if=Downloads/ubuntu-26.04-desktop-amd64.iso</span> <span class="pre">of=/dev/sda</span> <span class="pre">bs=4M</span> <span class="pre">conv=fsync</span> <span class="pre">status=progress</span></code></span></div>
+</div>
+<p>Double-check the file paths in this command:</p>
+<ul class="simple">
+<li><p>The <code class="docutils literal notranslate"><span class="pre">if</span></code> argument specifies the “input file”, or the path to the <strong>Ubuntu image</strong>.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">of</span></code> argument specifies the “output file”, or the path to the <strong>USB device</strong>. Make sure that this is the correct device.</p></li>
+</ul>
+<p>The remaining arguments are optional: <code class="docutils literal notranslate"><span class="pre">bs=4M</span></code> increases the write performance, <code class="docutils literal notranslate"><span class="pre">conv=fsync</span></code> ensures that all data is written when the command finishes, and <code class="docutils literal notranslate"><span class="pre">status=progress</span></code> shows progress information.</p>
+</li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">dd</span></code> tool reports when the writing is finished:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">dd</span> <span class="pre">if=Downloads/ubuntu-26.04-desktop-amd64.iso</span> <span class="pre">of=/dev/sda</span> <span class="pre">bs=4M</span> <span class="pre">conv=fsync</span> <span class="pre">status=progress</span></code></span></div>
+<div class="terminal-code highlight-text notranslate"><div class="highlight"><pre><span></span>6337593344 bytes (6.3 GB, 5.9 GiB) copied, 143 s, 44.3 MB/s6345887744 bytes (6.3 GB, 5.9 GiB) copied, 143.302 s, 44.3 MB/s
+
+1512+1 records in
+1512+1 records out
+6345887744 bytes (6.3 GB, 5.9 GiB) copied, 286.923 s, 22.1 MB/s
+</pre></div>
+</div>
+</div>
+</li>
+<li><p>Inform your running system of the changes on the USB stick if you want to examine the Ubuntu media:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">partprobe</span> <span class="pre">/dev/sda</span></code></span></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="on-windows">
+<h2>On Windows<a class="headerlink" href="#on-windows" title="Link to this heading">¶</a></h2>
+<p>On Microsoft Windows, you have to install a third-party application for writing images to USB sticks.</p>
+<!--
+Note: The built-in Disc Image Burner tool can only burn images to optical discs. It can't write to USB sticks.
+-->
+<section id="using-rufus">
+<h3>Using Rufus<a class="headerlink" href="#using-rufus" title="Link to this heading">¶</a></h3>
+<p>You can create a bootable USB stick using <a class="reference external" href="https://rufus.ie/">Rufus</a>, a free and open source USB stick writing tool.</p>
+<!--
+The docs/reuse/usb-using-rufus.txt file is reused between the live system tutorial, the installation tutorial and the bootable USB how-to guide.
+-->
+<!--
+Originally a Tutorial: https://discourse.ubuntu.com/t/create-a-bootable-usb-stick-with-rufus-on-windows/14020
+| Summary | How to write a USB stick with Windows. |
+| Author |  <oliversmith@canonical.com> |
+-->
+<ol class="arabic">
+<li><p>Download and install the latest version of Rufus from the <a class="reference external" href="https://rufus.ie/">rufus.ie</a> website.</p>
+<p>If you’re using Windows 7, install <a class="reference external" href="https://github.com/pbatard/rufus/releases/download/v3.22/rufus-3.22.exe">version 3.22</a> of Rufus. On Windows XP or Vista, install <a class="reference external" href="https://github.com/pbatard/rufus/releases/download/v2.18/rufus-2.18.exe">version 2.18</a>.</p>
+</li>
+<li><p>Launch Rufus. If prompted, allow online updates.</p>
+<div class="admonition note">
+<p class="admonition-title">备注</p>
+<p>Rufus presents many options in its interface. It’s safe to leave most of them with their default values.</p>
+</div>
+</li>
+<li><p>Insert your USB stick. It appears in the <span class="guilabel">Device</span> field.</p>
+<p>If <span class="guilabel">Device</span> shows the wrong USB device, select the correct one from the drop-down menu.</p>
+<p><img alt="Selected a USB drive in Rufus" src="../../_images/rufus-detects-usb.png" /></p>
+</li>
+<li><p>Click <span class="guilabel">SELECT</span> next to <span class="guilabel">Boot selection</span>. Choose the Ubuntu image file that you’ve downloaded and confirm by clicking <span class="guilabel">Open</span>.</p>
+<p>If the button reads <span class="guilabel">DOWNLOAD</span> instead, click the dropdown and change it to <span class="guilabel">SELECT</span> first.</p>
+<p><img alt="Selected the ISO file in Rufus" src="../../_images/rufus-iso-selected.png" /></p>
+</li>
+<li><p>If you’ve already tried Rufus and the USB stick failed to boot on your system, change <span class="guilabel">Partitioning scheme</span> to <span class="guilabel">GPT</span> and check that <span class="guilabel">Target system</span> is set to <span class="guilabel">UEFI (non CSM)</span>. This works on modern systems that disable legacy compatibility.</p></li>
+<li><p>Click <span class="guilabel">START</span> to write the image to USB.</p></li>
+<li><p>Rufus tells you that the Ubuntu image is an <em>ISOHybrid image</em>. This means that the same image file can be used as the source for both a USB stick and a DVD.</p>
+<p>Confirm the <em>Write in ISO Image mode</em> option.</p>
+<p><img alt="&quot;ISOHybrid image detected&quot; dialog" src="../../_images/rufus-isohybrid-image.png" /></p>
+</li>
+<li><p>If Rufus asks to download additional files to complete writing the image, select <span class="guilabel">Yes</span> to continue.</p></li>
+<li><p>Rufus warns you that all data on the USB device is about to be destroyed. Double-check that you’ve selected the correct device and confirm by clicking <span class="guilabel">OK</span>.</p>
+<p><img alt="Rufus warning you about data loss" src="../../_images/rufus-data-warning.png" /></p>
+</li>
+<li><p>Rufus is now writing the image to USB. This usually takes around 10 minutes.</p>
+<p><img alt="Rufus copying ISO files" src="../../_images/rufus-copying-iso-files.png" /></p>
+</li>
+<li><p>When Rufus has finished writing to the USB device, the Status bar says <span class="guilabel">READY</span>.</p>
+<p>Click <span class="guilabel">CLOSE</span> to complete the write process.</p>
+<p><img alt="Rufus finished writing the ISO" src="../../_images/rufus-finished-writing.png" /></p>
+</li>
+</ol>
+</section>
+</section>
+<section id="on-macos">
+<h2>On macOS<a class="headerlink" href="#on-macos" title="Link to this heading">¶</a></h2>
+<p>On macOS, you have to install a third-party application for writing images to USB sticks. Alternatively, you can use the built-in <code class="docutils literal notranslate"><span class="pre">dd</span></code> tool on the command line.</p>
+<p>The USB stick will work on <strong>PC (Windows) hardware</strong> and older Apple hardware based on <strong>Intel CPUs</strong>.</p>
+<p>If you want to run Ubuntu on <strong>Apple Silicon</strong> hardware, such as recent Macs using M1 CPUs or later, refer instead to the <a class="reference external" href="https://ubuntuasahi.org/">Ubuntu Asahi</a> community project, which isn’t supported by Canonical. The hardware support might be limited and depends on your specific machine. For example, Ubuntu Asahi 25.10 only runs on systems with M1 and M2 CPUs.</p>
+<p>You can also install Ubuntu in a virtual machine on top of your current system using <a class="reference external" href="https://documentation.ubuntu.com/multipass/">Multipass</a>.</p>
+<!--
+Unfortunately, Disk Utility doesn't seem to be able to write arbitrary images, only macOS disk images. Saving for future reference and reevaluation.
+
+### Using the Disk Utility
+
+The Disk Utility is preinstalled on macOS and you can use it to write any image to your USB stick.
+
+1. Launch the *Disk Utility* app from {menuselection}`Applications -> Utilities` or from the Spotlight search.
+
+1. Insert your USB stick. It appears in the sidebar. Select it there.
+
+    You might need to enable the {menuselection}`View -> Show All Devices` option.
+
+    :::{warning}
+    Make sure to select the USB stick and **not** your internal macOS disk. Both are listed.
+    :::
+
+1. To ensure compatibility with Apple hardware, reformat the USB stick with the GUID partition table:
+
+    Select {guilabel}`Erase` from the toolbar.
+
+    Set the format to *MS-DOS (FAT)* and the scheme to *GUID Partition Map*.
+
+    Check that you've chosen the correct device and click {guilabel}`Erase`.
+
+1. Click {guilabel}`Restore` ({guilabel}`↺`) in the toolbar.
+
+1. Click {guilabel}`Image…` and select the Ubuntu image file.
+
+1. Click {guilabel}`Restore`.
+
+1. Wait for the writing to finish.
+
+1. After the write process has completed, macOS might inform you that "The disk you inserted was not readable by this computer".
+
+    Select {guilabel}`Eject` and remove the USB device. Don't select {guilabel}`Initialize`.
+-->
+<section id="using-balenaetcher">
+<h3>Using balenaEtcher<a class="headerlink" href="#using-balenaetcher" title="Link to this heading">¶</a></h3>
+<p>You can create a bootable USB stick using <a class="reference external" href="https://etcher.balena.io/">balenaEtcher</a>, a free and open source USB stick writing tool.</p>
+<!--
+The docs/reuse/usb-using-balena-etcher-on-macos.txt file is reused between the live system tutorial, the installation tutorial and the bootable USB how-to guide.
+-->
+<!--
+Originally a Tutorial: https://discourse.ubuntu.com/t/create-a-bootable-usb-stick-on-macos/14016
+| Summary | How to write a USB stick with macOS. |
+| Author | Canonical Web Team <webteam@canonical.com> |
+-->
+<!--
+This part no longer applies because the Scheme option no longer exists in recent macOS (since 2020).
+
+To ensure compatibility with Apple hardware, reformat the USB stick with the GUID partition table. You can skip this part if you intend to use the USB stick only with PC hardware:
+
+1. Launch the *Disk Utility* app from {menuselection}`Applications -> Utilities` or from the Spotlight search.
+
+1. Insert your USB stick. It appears in the sidebar. Select it there.
+
+    You might need to enable the {menuselection}`View -> Show All Devices` option.
+
+    :::{warning}
+    Make sure to select the USB stick and **not** your internal macOS disk. Both are listed.
+    :::
+
+1. Select {guilabel}`Erase` from the toolbar.
+
+1. Set the format to *MS-DOS (FAT)* and the scheme to *GUID Partition Map*.
+
+1. Check that you've chosen the correct device and click {guilabel}`Erase`.
+
+1. Close the Disk Utility.
+
+Write the Ubuntu image to the USB stick:
+-->
+<ol class="arabic">
+<li><p>Insert the USB stick.</p></li>
+<li><p>At the <a class="reference external" href="https://etcher.balena.io/">balenaEtcher website</a>, download <strong>Etcher for macOS (arm64)</strong> if you’re using an Apple Silicon machine, or download <strong>Etcher for macOS</strong> if you’re using an Intel Mac.</p>
+<p><img alt="The Download Etcher page" src="../../_images/download-etcher.png" /></p>
+</li>
+<li><p>Install and open balenaEtcher.</p></li>
+<li><p>Click <span class="guilabel">Flash from file</span> and select the downloaded Ubuntu image.</p>
+<p>By default, the image file will be in your Downloads folder.</p>
+</li>
+<li><p>Click <span class="guilabel">Select target</span> and choose your USB stick.</p>
+<p><img alt="The Select target step in Etcher" src="../../_images/macos-usb-etcher-config.jpg" /></p>
+</li>
+<li><p>Click <span class="guilabel">Flash!</span> to write the image to USB.</p></li>
+</ol>
+</section>
+<section id="using-the-macos-command-line">
+<span id="macos-dd"></span><h3>Using the macOS command line<a class="headerlink" href="#using-the-macos-command-line" title="Link to this heading">¶</a></h3>
+<p>If you feel confident using the macOS command line, you can follow a more manual approach using the <code class="docutils literal notranslate"><span class="pre">dd</span></code> tool.</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">dd</span></code> tool is designed for advanced users. If you specify the wrong options, disk or file names, you might destroy your running system.</p>
+</div>
+<!--
+Migrated from a page in the Community Help Wiki:
+https://help.ubuntu.com/community/How%20to%20install%20Ubuntu%20on%20MacBook%20using%20USB%20Stick
+-->
+<ol class="arabic simple">
+<li><p>Open the Terminal app.</p></li>
+</ol>
+<!--
+This is no longer necessary, and in fact it produces an unusable image:
+
+1. Convert the downloaded ISO image file to the UDRW format:
+
+    ```{terminal}
+    :copy:
+    :user:
+    :host:
+    :dir:
+    hdiutil convert Downloads/ubuntu-26.04-desktop-amd64.iso -format UDRW -o ubuntu.dmg
+    ```
+-->
+<ol class="arabic">
+<li><p>List the current devices:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">diskutil</span> <span class="pre">list</span></code></span></div>
+</div>
+</li>
+<li><p>Insert your USB stick.</p></li>
+<li><p>List the current devices again. Determine the device name assigned to your USB stick, such as <code class="docutils literal notranslate"><span class="pre">/dev/disk2</span></code>:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">diskutil</span> <span class="pre">list</span></code></span></div>
+<div class="terminal-code highlight-text notranslate"><div class="highlight"><pre><span></span>  /dev/disk0 (internal, physical):
+   […]
+  /dev/disk2
+   #: TYPE NAME SIZE IDENTIFY
+   0: FDisk_partition_scheme *4.0 GB disk2
+   1: DOS_FAT_32 USB CLE 4.0 GB disk2s1
+</pre></div>
+</div>
+</div>
+</li>
+<li><p>Make sure that the USB stick is large enough for the Ubuntu image. If it’s too small, the image writer might silently fail.</p></li>
+<li><p>Unmount the USB stick:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">diskutil</span> <span class="pre">unmountDisk</span> <span class="pre">/dev/disk&lt;N&gt;</span></code></span></div>
+</div>
+<p>Replace <code class="docutils literal notranslate"><span class="pre">&lt;N&gt;</span></code> with the disk number from the last command, such as <code class="docutils literal notranslate"><span class="pre">2</span></code>.</p>
+<p>You might see this error: “Unmount of disk<N> failed: at least one volume could not be unmounted”. Open the Disk Utility and unmount the volume (don’t eject).</p>
+</li>
+<li><p>Write the Ubuntu image to the USB stick:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">dd</span> <span class="pre">if=Downloads/ubuntu-26.04-desktop-amd64.iso</span> <span class="pre">of=/dev/rdisk&lt;N&gt;</span> <span class="pre">bs=4m</span></code></span></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">小技巧</p>
+<p>Drag and drop the image file from Finder to Terminal to paste the full path. This way, you prevent potential errors when typing the path.</p>
+</div>
+<p>Double-check the file paths in this command:</p>
+<ul>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">if</span></code> argument specifies the “input file”, or the path to the <strong>Ubuntu image</strong>.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">of</span></code> argument specifies the “output file”, or the path to the <strong>USB device</strong>. Make sure that this is the correct device.</p>
+<p>We’re using the <code class="docutils literal notranslate"><span class="pre">/dev/rdisk&lt;N&gt;</span></code> device here rather than <code class="docutils literal notranslate"><span class="pre">/dev/disk&lt;N&gt;</span></code>. This refers to a “raw device” interface to the same disk, which is faster.</p>
+</li>
+</ul>
+<p>The <code class="docutils literal notranslate"><span class="pre">bs=4m</span></code> option increases the write performance and it’s optional.</p>
+<p>You might encounter these errors:</p>
+<dl class="simple myst">
+<dt><code class="docutils literal notranslate"><span class="pre">dd:</span> <span class="pre">Invalid</span> <span class="pre">number</span> <span class="pre">'4m'</span></code></dt><dd><p>You’re using GNU <code class="docutils literal notranslate"><span class="pre">dd</span></code>. Use the same command but replace <code class="docutils literal notranslate"><span class="pre">bs=4m</span></code> with <code class="docutils literal notranslate"><span class="pre">bs=4M</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">dd:</span> <span class="pre">/dev/disk&lt;N&gt;:</span> <span class="pre">Resource</span> <span class="pre">busy</span></code></dt><dd><p>Make sure that the disk is not in use. Open the Disk Utility and unmount the volume (don’t eject).</p>
+</dd>
+</dl>
+</li>
+<li><p>Unmount the USB stick:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">diskutil</span> <span class="pre">eject</span> <span class="pre">/dev/disk&lt;N&gt;</span></code></span></div>
+</div>
+</li>
+<li><p>Remove the USB stick when the previous command completes.</p></li>
+</ol>
+</section>
+</section>
+<section id="on-multiple-platforms">
+<h2>On multiple platforms<a class="headerlink" href="#on-multiple-platforms" title="Link to this heading">¶</a></h2>
+<p>If the previous applications didn’t work or you have a special use case, we also suggest the following multi-platform image writers.</p>
+<section id="ventoy">
+<span id="image-writers-ventoy"></span><h3>Ventoy<a class="headerlink" href="#ventoy" title="Link to this heading">¶</a></h3>
+<p><a class="reference external" href="https://www.ventoy.net/">Ventoy</a> is an open-source tool that you install on your USB. You can then copy image files to the USB storage using your normal file browser. When you boot the system with the USB stick inserted, Ventoy lets you choose among all the image files stored on the USB.</p>
+<p>For instructions, see the Ventoy documentation: <a class="reference external" href="https://www.ventoy.net/en/doc_start.html">Start to use Ventoy</a>.</p>
+<p>Ventoy is available for Linux and Microsoft Windows.</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>Ventoy 1.1.11 (released Apr 2026) has a <a class="reference external" href="https://github.com/ventoy/Ventoy/issues/3567">known issue</a> that prevents Ubuntu from installing correctly. We recommend using a different Ventoy release or another USB creation tool.</p>
+</div>
+</section>
+<section id="balenaetcher">
+<span id="image-writers-etcher"></span><h3>balenaEtcher<a class="headerlink" href="#balenaetcher" title="Link to this heading">¶</a></h3>
+<p><a class="reference external" href="https://etcher.balena.io/">balenaEtcher</a> is a simple open-source USB stick writing tool. It’s available for Windows, macOS and Linux.</p>
+<p>See the documentation at <a class="reference external" href="https://etcher-docs.balena.io/">etcher-docs.balena.io</a>.</p>
+</section>
+<section id="wonderiso">
+<span id="image-writers-wonderiso"></span><h3>WonderISO<a class="headerlink" href="#wonderiso" title="Link to this heading">¶</a></h3>
+<p><a class="reference external" href="https://www.sysgeeker.com/iso-burner.html">WonderISO</a> is a versatile and easy-to-use tool that can write images to USB. WonderISO is available for Microsoft Windows and macOS as a proprietary (closed-source) application.</p>
+<p>For instructions, see the <a class="reference external" href="https://www.sysgeeker.com/online-help/wonderiso.html">WonderISO product manual</a>.</p>
+</section>
+</section>
+<section id="next-steps">
+<h2>Next steps<a class="headerlink" href="#next-steps" title="Link to this heading">¶</a></h2>
+<p>Congratulations! You now have Ubuntu on a USB stick, bootable and ready to go.</p>
+<p>To use it you need to insert the stick into your target PC or laptop and reboot the device. It should recognize the installation media automatically during startup but you may need to hold down a specific key (usually <kbd class="kbd docutils literal notranslate">F12</kbd>) to bring up the boot menu and choose to boot from USB.</p>
+<p>For a full walkthrough of installing Ubuntu, take a look at our <a class="reference internal" href="../../tutorial/install-ubuntu-desktop/#install-ubuntu-desktop"><span class="std std-ref">Install Ubuntu Desktop</span></a> tutorial.</p>
+</section>
+<section id="finding-help">
+<h2>Finding help<a class="headerlink" href="#finding-help" title="Link to this heading">¶</a></h2>
+<p>If you get stuck, help is always at hand:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://ubuntu.com/support/community-support">Get support</a></p></li>
+<li><p><a class="reference external" href="https://discourse.ubuntu.com/c/project/desktop/">Join our Discourse forum</a></p></li>
+<li><p><a class="reference external" href="https://matrix.to/#/#desktop-dev:ubuntu.com">Join our online chat on Matrix</a></p></li>
+</ul>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+   
+
+<div class="related-pages">
+  
+  
+    
+  
+  
+  
+</div>
+<div class="bottom-of-page">
+  <div class="left-details">
+    <div class="copyright">
+        &copy; 2026 Canonical Ltd.
+    </div><div class="license">
+        This page is licensed under CC-BY-SA-4.0
+      </div><div class="last-updated">
+      Last updated on 2026 年 10 月 13 日</div>
+  </div>
+  <div>
+   
+  </div>
+  <div class="right-details">
+  </div>
+</div>
+
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+<div class="toc-sticky toc-scroll">
+   
+    <div class="toc-title-container">
+      <span class="toc-title">
+       目录
+      </span>
+    </div>
+    <div class="toc-tree-container">
+      <div class="toc-tree">
+        <ul>
+<li><a class="reference internal" href="#">Create a bootable USB stick</a><ul>
+<li><a class="reference internal" href="#on-ubuntu-and-other-linux-distributions">On Ubuntu and other Linux distributions</a><ul>
+<li><a class="reference internal" href="#using-disks">Using Disks</a></li>
+<li><a class="reference internal" href="#using-startup-disk-creator">Using Startup Disk Creator</a></li>
+<li><a class="reference internal" href="#using-kde-iso-image-writer">Using KDE ISO Image Writer</a></li>
+<li><a class="reference internal" href="#using-the-linux-command-line">Using the Linux command line</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#on-windows">On Windows</a><ul>
+<li><a class="reference internal" href="#using-rufus">Using Rufus</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#on-macos">On macOS</a><ul>
+<li><a class="reference internal" href="#using-balenaetcher">Using balenaEtcher</a></li>
+<li><a class="reference internal" href="#using-the-macos-command-line">Using the macOS command line</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#on-multiple-platforms">On multiple platforms</a><ul>
+<li><a class="reference internal" href="#ventoy">Ventoy</a></li>
+<li><a class="reference internal" href="#balenaetcher">balenaEtcher</a></li>
+<li><a class="reference internal" href="#wonderiso">WonderISO</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#next-steps">Next steps</a></li>
+<li><a class="reference internal" href="#finding-help">Finding help</a></li>
+</ul>
+</li>
+</ul>
+
+      </div>
+    </div>
+   
+    
+  </div>
+
+    </aside>
+  </div>
+</div><script src="../../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../../_static/documentation_options.js?v=7da643a4"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=46bd48cc"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=25066c07"></script>
+    <script src="../../_static/config-options.js"></script>
+    <script src="../../_static/contributors.js"></script>
+    <script src="../../_static/translations.js?v=beaddf03"></script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../../_static/js/bundle.js?v=4baf66b4"></script>
+    <script src="../../_static/js/overwrite_links.js?v=d74d9203"></script>
+    <script src="../../_static/header-nav.js?v=e117ad08"></script>
+    <script src="../../_static/github_issue_links.js?v=355d2de4"></script>
+    
+<script>
+  const github_url = "https://github.com/ubuntu/ubuntu-desktop-documentation";
+  const feedback_link = "";
+</script>
+</body>
+</html>

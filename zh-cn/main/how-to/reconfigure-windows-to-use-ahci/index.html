@@ -1,0 +1,744 @@
+<!doctype html>
+<html class="no-js" lang="zh-CN" data-content_root="../../">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content="Switch Windows from Intel RST to AHCI so Ubuntu can install alongside it, and repair Windows boot problems afterward." name="description" />
+<meta property="og:title" content="Reconfigure Windows to use AHCI" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ubuntu.com/desktop/docs/en/latest/how-to/reconfigure-windows-to-use-ahci/" />
+<meta property="og:site_name" content="Ubuntu Desktop" />
+<meta property="og:description" content="Topics: Installation Windows If the Ubuntu installer detects RST, and Windows is installed on your system, these steps enable Ubuntu to install side by side with Windows, without any loss of data a..." />
+<meta property="og:image" content="https://assets.ubuntu.com/v1/cc828679-docs_illustration.svg" />
+<meta property="og:image:alt" content="Ubuntu Desktop" />
+
+    <meta property="article:modified_time" content="2026-10-13T10:48:22+00:00" /><link rel="index" title="索引" href="../../genindex/"><link rel="search" title="搜索" href="../../search/"><link rel="next" title="Turn off BitLocker in Windows" href="../turn-off-bitlocker-in-windows/"><link rel="prev" title="Create a bootable USB stick" href="../create-a-bootable-usb-stick/">
+        <link rel="canonical" href="https://projects.localizethedocs.org/ubuntu-desktop-docs-l10nhow-to/reconfigure-windows-to-use-ahci/">
+
+    <link rel="shortcut icon" href="../../_static/favicon.png"><!-- Generated with Sphinx 7.4.7 and Furo 2025.12.19 -->
+        <title>Reconfigure Windows to use AHCI - Ubuntu Desktop documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=7bdb33bb" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/config-options.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/contributors.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/related-links.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/terminal.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/youtube.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/cookie-banner.css?v=3810d303" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=022106c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/header.css?v=a8078839" />
+    <link rel="stylesheet" type="text/css" href="../../_static/github_issue_links.css?v=3d761185" />
+    <link rel="stylesheet" type="text/css" href="../../_static/furo_colors.css?v=4cd1adcf" />
+    
+
+
+<script type="text/javascript" src="../../ltd-provenance.js"></script>
+<script type="text/javascript" src="../../ltd-current.js"></script>
+<script type="text/javascript" src="../../../../ltd-config.js"></script>
+<script type="text/javascript" src="../../../../ltd-flyout.js"></script>
+</head>
+  <body>
+    <header id="header" class="p-navigation">
+
+  <div class="p-navigation__nav" role="menubar">
+
+    <ul class="p-navigation__links" role="menu">
+
+      <li>
+        
+        <a class="p-logo" href="https://ubuntu.com/desktop" aria-current="page">
+          <img src="../../_static/tag.png" alt="Logo" class="p-logo-image">
+          <div class="p-logo-text p-heading--4">Ubuntu Desktop
+          </div>
+        </a>
+        
+      </li>
+
+      <li class="nav-ubuntu-com">
+        
+        <a href="https://ubuntu.com/desktop" class="p-navigation__link">ubuntu.com/desktop</a>
+        
+      </li>
+
+      <li class="nav-dropdown">
+        <a href="#" class="p-navigation__link nav-more-links"
+           id="more-resources-toggle"
+           aria-haspopup="true"
+           aria-expanded="false">
+          More resources
+        </a>
+        <ul class="more-links-dropdown" aria-labelledby="more-resources-toggle">
+          
+          <li>
+            <a href="https://discourse.ubuntu.com/c/project/desktop/" class="p-navigation__sub-link p-dropdown__link">Discourse</a>
+          </li>
+          
+      
+          
+          <li>
+            <a href="https://chat.canonical.com/canonical/channels/desktop" class="p-navigation__sub-link p-dropdown__link">Mattermost</a>
+          </li>
+          
+      
+          
+          <li>
+            <a href="https://matrix.to/#/#desktop-dev:ubuntu.com" class="p-navigation__sub-link p-dropdown__link">Matrix</a>
+          </li>
+          
+      
+          
+          <li>
+            <a href="https://github.com/ubuntu/ubuntu-desktop-documentation" class="p-navigation__sub-link p-dropdown__link">GitHub</a>
+          </li>
+          
+
+        </ul>
+      </li>
+
+    </ul>
+  </div>
+</header>
+   
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../"><div class="brand">Ubuntu Desktop documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../">
+  
+  <span class="sidebar-brand-text">Ubuntu Desktop documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search/" role="search">
+    <input class="sidebar-search" placeholder="搜索" name="q" aria-label="搜索">
+    <input type="submit" value="Go">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+  <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../tutorial/">Tutorials</a><input aria-label="Toggle navigation of Tutorials" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorial/try-ubuntu-desktop/">Try Ubuntu Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorial/install-ubuntu-desktop/">Install Ubuntu Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorial/get-started-with-the-screen-reader/">Get started with the screen reader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../tutorial/the-linux-command-line-for-beginners/">The Linux command line for beginners</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../">How-to guides</a><input aria-label="Toggle navigation of How-to guides" checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../create-a-bootable-usb-stick/">Create a bootable USB stick</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Reconfigure Windows to use AHCI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../turn-off-bitlocker-in-windows/">Turn off BitLocker in Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../encrypt-your-disk-with-tpm/">Encrypt your disk with TPM</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../accessibility/">Accessibility</a><input aria-label="Toggle navigation of Accessibility" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/find-the-accessibility-menu/">Find the accessibility menu</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../accessibility/orca/">Screen reader</a><input aria-label="Toggle navigation of Screen reader" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../accessibility/orca/read-screen-aloud/">Read the screen aloud</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../accessibility/orca/read-screen-in-braille/">Read the screen in Braille</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../accessibility/orca/navigate-the-screen-using-the-screen-reader/">Navigate the screen using the screen reader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../accessibility/orca/read-documents-and-web-pages-using-the-screen-reader/">Read documents and web pages using the screen reader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../accessibility/orca/add-dictionary-entries/">Add, edit, or remove dictionary entries</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/adjust-the-contrast/">Adjust the contrast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/change-text-size-on-the-screen/">Change text size on the screen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/magnify-a-screen-area/">Magnify a screen area</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/make-the-keyboard-cursor-blink/">Make the keyboard cursor blink</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/flash-the-screen-for-alert-sounds/">Flash the screen for alert sounds</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/adjust-the-speed-of-the-mouse-and-touchpad/">Adjust the speed of the mouse and touchpad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/click-and-move-the-mouse-pointer-using-the-keypad/">Click and move the mouse pointer using the keypad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/adjust-the-double-click-speed/">Adjust the double-click speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/simulate-a-right-mouse-click/">Simulate a right mouse click</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/simulate-clicking-by-hovering/">Simulate clicking by hovering</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/navigate-the-interface-using-the-keyboard/">Navigate the interface using the keyboard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/manage-repeated-key-presses/">Manage repeated key presses</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/turn-on-bounce-keys/">Turn on bounce keys</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/turn-on-slow-keys/">Turn on slow keys</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/turn-on-sticky-keys/">Turn on sticky keys</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../accessibility/use-an-on-screen-keyboard/">Use an on-screen keyboard</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../software/">Install or remove software</a><input aria-label="Toggle navigation of Install or remove software" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../software/install-an-application/">Install an application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../software/remove-an-application/">Remove an application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../software/install-languages/">Install languages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../software/add-a-software-repository/">Add a software repository</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../graphics/">Graphics</a><input aria-label="Toggle navigation of Graphics" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../graphics/install-nvidia-drivers/">Install NVIDIA drivers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../graphics/build-your-own-nvidia-modules-using-the-dkms-package/">Build your own NVIDIA modules using the DKMS package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../graphics/troubleshoot-nvidia/">Troubleshoot your NVIDIA GPU and drivers</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../record-the-screen/">Record the screen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../log-in-using-a-smart-card/">Log in using a smart card</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../enable-smart-cards-in-snapped-browsers/">Enable smart cards in snapped browsers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../configure-hardware-backed-disk-encryption/">Configure hardware-backed disk encryption</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../recover-data-from-hardware-backed-disk-encryption/">Recover data from hardware-backed disk encryption</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../share-your-desktop-remotely/">Share your desktop remotely</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../access-a-remote-desktop/">Access a remote desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../change-the-default-terminal/">Change the default terminal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../start-an-application-at-login/">Start an application at login</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../upgrade-ubuntu-desktop/">Upgrade Ubuntu Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../switch-between-an-lts-and-interim-release/">Switch between an LTS and interim release</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../troubleshoot/">Common problems</a><input aria-label="Toggle navigation of Common problems" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../troubleshoot/bluetooth/">Bluetooth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../troubleshoot/improve-screen-reader-usability/">Improve screen reader usability</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../reference/">Reference</a><input aria-label="Toggle navigation of Reference" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/advanced-disk-setup-features/">Advanced disk setup features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/hardware-backed-disk-encryption-requirements/">Hardware-backed disk encryption requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/intel-rst-during-ubuntu-installation/">Intel RST during Ubuntu installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/bitlocker-during-ubuntu-installation/">BitLocker during Ubuntu installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/keyboard-navigation-shortcuts/">Keyboard navigation shortcuts</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../reference/accessibility/">Accessibility</a><input aria-label="Toggle navigation of Accessibility" class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../reference/accessibility/orca-preferences/">Screen reader preferences</a><input aria-label="Toggle navigation of Screen reader preferences" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-general/">General preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-profile/">Profiles</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-key-binding/">Key bindings preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-voice/">Voice preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-speech/">Speech preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-key-echo/">Key echo preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-braille/">Braille preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-text-attributes/">Text attributes preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-table-navigation/">Table navigation preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-spellcheck/">Spellcheck preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-chat/">Chat preferences</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../reference/accessibility/orca-structural-navigation-commands/">Orca Structural Navigation commands</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../reference/accessibility/dbus/">AT-SPI DBus XML interfaces</a><input aria-label="Toggle navigation of AT-SPI DBus XML interfaces" class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Accessible/">org.a11y.atspi.Accessible</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Action/">org.a11y.atspi.Action</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Application/">org.a11y.atspi.Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Cache/">org.a11y.atspi.Cache</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Collection/">org.a11y.atspi.Collection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Component/">org.a11y.atspi.Component</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.DeviceEventController/">org.a11y.atspi.DeviceEventController</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.DeviceEventListener/">org.a11y.atspi.DeviceEventListener</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Document/">org.a11y.atspi.Document</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.EditableText/">org.a11y.atspi.EditableText</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Document/">org.a11y.atspi.Event.Document</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Focus/">org.a11y.atspi.Event.Focus</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Keyboard/">org.a11y.atspi.Event.Keyboard</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Mouse/">org.a11y.atspi.Event.Mouse</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Object/">org.a11y.atspi.Event.Object</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Terminal/">org.a11y.atspi.Event.Terminal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Window/">org.a11y.atspi.Event.Window</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Hyperlink/">org.a11y.atspi.Hyperlink</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Hypertext/">org.a11y.atspi.Hypertext</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Image/">org.a11y.atspi.Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Registry/">org.a11y.atspi.Registry</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Selection/">org.a11y.atspi.Selection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Socket/">org.a11y.atspi.Socket</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Table/">org.a11y.atspi.Table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.TableCell/">org.a11y.atspi.TableCell</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Text/">org.a11y.atspi.Text</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Value/">org.a11y.atspi.Value</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../explanation/">Explanation</a><input aria-label="Toggle navigation of Explanation" class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/about-ubuntu-desktop/">About Ubuntu Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/why-we-use-the-terminal-on-linux/">Why we use the terminal on Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/what-is-the-menu-key/">What is the Menu key?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/accessibility-stack/">Accessibility stack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/snap-and-deb-packages/">Snap and deb packages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/hardware-backed-disk-encryption/">Hardware-backed disk encryption</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/hardware-stack/">Hardware stack</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="edit-this-page">
+  <a class="muted-link" href="https://github.com/ubuntu/ubuntu-desktop-documentation/edit/main/docs/how-to/reconfigure-windows-to-use-ahci.md" title="Contribute to this page">
+    <svg><use href="#svg-pencil"></use></svg>
+    <span class="visually-hidden">Contribute to this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <p class="tags"><span>Topics: </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../_tags/installation/"><span class="doc">Installation</span></a><span> </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../_tags/windows/"><span class="doc">Windows</span></a></p>
+<section id="reconfigure-windows-to-use-ahci">
+<span id="id1"></span><h1>Reconfigure Windows to use AHCI<a class="headerlink" href="#reconfigure-windows-to-use-ahci" title="Link to this heading">¶</a></h1>
+<p>If the Ubuntu installer detects RST, and Windows is installed on your system, these steps enable Ubuntu to install side by side with Windows, without any loss of data and functionality.</p>
+<p>To learn more about RST and its behavior with Ubuntu, see <a class="reference internal" href="../../reference/intel-rst-during-ubuntu-installation/#intel-rst-during-ubuntu-installation"><span class="std std-ref">Intel RST during Ubuntu installation</span></a>.</p>
+<section id="back-up-your-data">
+<h2>Back up your data<a class="headerlink" href="#back-up-your-data" title="Link to this heading">¶</a></h2>
+<p>Any hard drive structure or configuration change, or installation of new operating systems on a hard drive that already contains data might potentially lead to a data loss.</p>
+<p>Make sure that your personal data is safe. Even simply copying the important files to an external drive minimizes the risk of data loss.</p>
+</section>
+<section id="find-the-current-controller-mode">
+<h2>Find the current controller mode<a class="headerlink" href="#find-the-current-controller-mode" title="Link to this heading">¶</a></h2>
+<ol class="arabic">
+<li><p>Open the Device Manager.</p></li>
+<li><p>Under <span class="guilabel">IDE ATA/ATAPI controllers</span>, verify which controller mode is in use in Windows.</p>
+<p>If the controller mode is set to anything other than <span class="guilabel">Standard SATA AHCI Controller</span>, you need to make a change that allows Windows to boot safely in AHCI mode. This can be done using the Registry Editor.</p>
+</li>
+</ol>
+</section>
+<section id="change-the-controller-mode">
+<h2>Change the controller mode<a class="headerlink" href="#change-the-controller-mode" title="Link to this heading">¶</a></h2>
+<p>Use the following steps to switch your Windows storage controller to AHCI.</p>
+<section id="change-registry-keys">
+<h3>Change registry keys<a class="headerlink" href="#change-registry-keys" title="Link to this heading">¶</a></h3>
+<ol class="arabic">
+<li><p>Start Registry Editor, and navigate to the following path:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\iaStorV\
+</pre></div>
+</div>
+<p><img alt="Regedit" src="../../_images/Regedit.png" /></p>
+</li>
+<li><p>In the right column, double-click the <code class="docutils literal notranslate"><span class="pre">Start</span></code> key, and change its value to <code class="docutils literal notranslate"><span class="pre">0</span></code>.</p></li>
+<li><p>Double-click the <code class="docutils literal notranslate"><span class="pre">iaStorV</span></code> entry in the left column to expand it and select the <code class="docutils literal notranslate"><span class="pre">StartOverride</span></code> entry.</p></li>
+<li><p>In the right column, change the value of the key <code class="docutils literal notranslate"><span class="pre">0</span></code> to <code class="docutils literal notranslate"><span class="pre">0</span></code>.</p>
+<p><img alt="Regedit override" src="../../_images/Regedit-override-dword.png" /></p>
+</li>
+<li><p>Repeat these changes for the following path in the Registry Editor, if the path exists on your system:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\storahci\
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="disable-additional-storage-features">
+<h3>Disable additional storage features<a class="headerlink" href="#disable-additional-storage-features" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>If your system uses BitLocker, disable it. See <a class="reference internal" href="../turn-off-bitlocker-in-windows/#turn-off-bitlocker-in-windows"><span class="std std-ref">Turn off BitLocker in Windows</span></a>.</p></li>
+<li><p>If your system uses Intel Optane Memory, disable it. See <a class="reference external" href="https://www.intel.com/content/www/us/en/support/articles/000024626/memory-and-storage/intel-optane-memory.html">How to Disable System Acceleration with Intel® Optane™ Memory</a>.</p></li>
+</ul>
+</section>
+<section id="switch-to-safe-boot-mode">
+<h3>Switch to safe boot mode<a class="headerlink" href="#switch-to-safe-boot-mode" title="Link to this heading">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Open the System Configuration app. You can find it by entering <code class="docutils literal notranslate"><span class="pre">msconfig</span></code> in the Windows search menu.</p></li>
+<li><p>On the <span class="guilabel">Boot</span> tab, enable <span class="guilabel">Safe boot</span> in the <span class="guilabel">Boot options</span> frame. Confirm by clicking <span class="guilabel">OK</span>.</p></li>
+</ol>
+</section>
+<section id="change-firmware-settings">
+<h3>Change firmware settings<a class="headerlink" href="#change-firmware-settings" title="Link to this heading">¶</a></h3>
+<ol class="arabic">
+<li><p>Reboot the system and start your computer’s firmware (BIOS or UEFI).</p>
+<p>Usually, you can access the firmware by pressing the <kbd class="kbd docutils literal notranslate">F2</kbd> or <kbd class="kbd docutils literal notranslate">Del</kbd> key during the early boot sequence.</p>
+</li>
+<li><p>In the firmware menu, change the disk controller type to AHCI.</p>
+<p>The exact terminology and steps to manage the controller type in the firmware depend on the implementation by the platform vendor.</p>
+</li>
+</ol>
+</section>
+<section id="finish-and-verify-the-changes">
+<h3>Finish and verify the changes<a class="headerlink" href="#finish-and-verify-the-changes" title="Link to this heading">¶</a></h3>
+<ol class="arabic">
+<li><p>Exit the firmware and let the system boot.</p>
+<p>Windows enters safe mode and sets up the hardware using the temporarily enabled drivers.</p>
+</li>
+<li><p>After Windows starts, open the System Configuration app again and disable <span class="guilabel">Safe boot</span>.</p></li>
+<li><p>Check the controller mode in the Device Manager.</p>
+<p>It should read: <span class="guilabel">Standard SATA AHCI Controller</span>.</p>
+<p><img alt="Regedit override" src="../../_images/Regedit-override.png" /></p>
+</li>
+<li><p>Reboot. Windows starts normally.</p></li>
+</ol>
+</section>
+</section>
+<section id="troubleshooting-boot-problems">
+<h2>Troubleshooting boot problems<a class="headerlink" href="#troubleshooting-boot-problems" title="Link to this heading">¶</a></h2>
+<p>After making the necessary changes to enable Ubuntu to install side by side with Windows, Windows might no longer boot. For instance, this might happen if you made the firmware change without making the registry changes in Windows. In this case, you need to recover your Windows installation.</p>
+<p><img alt="The INACCESSIBLE BOOT DEVICE error screen" src="../../_images/INACCESSIBLE-BOOT-DEVICE.png" /></p>
+<p>You will most likely see a blue screen with a Stop code: <code class="docutils literal notranslate"><span class="pre">INACCESSIBLE</span> <span class="pre">BOOT</span> <span class="pre">DEVICE</span></code>.</p>
+<p>Windows attempts to restart and automatically diagnose and repair the boot-related problems, but it will probably fail to complete the task itself. You need to manually launch the command prompt from the recovery screen and fix the issue.</p>
+<section id="open-the-command-prompt">
+<h3>Open the command prompt<a class="headerlink" href="#open-the-command-prompt" title="Link to this heading">¶</a></h3>
+<ol class="arabic">
+<li><p>On the screen that gives you the result of the Automatic Repair, click <span class="guilabel">Advanced options</span>.</p>
+<p><img alt="The Automatic Repair screen" src="../../_images/Automatic-repair.png" /></p>
+</li>
+<li><p>From the <span class="guilabel">Choose an option</span> screen, go to <span class="menuselection">Troubleshoot ‣ Advanced options ‣ Command Prompt</span>.</p>
+<p><img alt="Automatic repair did not work" src="../../_images/Automatic-repair-did-not-work.png" /></p>
+</li>
+</ol>
+</section>
+<section id="diagnose-the-problem">
+<h3>Diagnose the problem<a class="headerlink" href="#diagnose-the-problem" title="Link to this heading">¶</a></h3>
+<p>The Windows command prompt opens. Here, you can run commands to diagnose and repair problems, including boot-related issues.</p>
+<p><img alt="The command prompt" src="../../_images/Windows-command-prompt.png" /></p>
+<ol class="arabic">
+<li><p>From the command prompt, run the disk partition tool to see and understand the disk layout:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>diskpart
+</pre></div>
+</div>
+</li>
+<li><p>Display the list of volumes:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>list volume
+</pre></div>
+</div>
+<p>Make sure the volume that contains Windows is correctly assigned the letter <code class="docutils literal notranslate"><span class="pre">C:</span></code>.</p>
+</li>
+<li><p>If the Windows volume isn’t <code class="docutils literal notranslate"><span class="pre">C:</span></code>, you need to change this using the following commands:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>select volume [number]
+</pre></div>
+</div>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>assign letter=[letter]
+</pre></div>
+</div>
+<p>For example, a “wrong” volume might be assigned the letter <code class="docutils literal notranslate"><span class="pre">C:</span></code>. Select it first, assign it a different letter (e.g. <code class="docutils literal notranslate"><span class="pre">F:</span></code> or <code class="docutils literal notranslate"><span class="pre">H:</span></code>), select the volume that contains Windows, and then assign it the letter <code class="docutils literal notranslate"><span class="pre">C:</span></code>.</p>
+<p><img alt="Disk partitioning example" src="../../_images/windows-10-diskpart.png" /></p>
+</li>
+<li><p>Exit the <code class="docutils literal notranslate"><span class="pre">diskpart</span></code> utility:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>exit
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="repair-the-problem">
+<h3>Repair the problem<a class="headerlink" href="#repair-the-problem" title="Link to this heading">¶</a></h3>
+<ol class="arabic">
+<li><p>Run the <code class="docutils literal notranslate"><span class="pre">bcdedit</span> <span class="pre">repair</span></code> command:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>bcdedit /deletevalue {default} safeboot
+</pre></div>
+</div>
+</li>
+<li><p>If the previous command does not work, try alternative commands:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>bcdedit /deletevalue {current} safeboot
+</pre></div>
+</div>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>bcdedit /deletevalue safeboot
+</pre></div>
+</div>
+</li>
+<li><p>If the previous command completes successfully, exit the command prompt, the Windows recovery console will restart, and Windows should load normally, with the controller mode set to AHCI.</p>
+<p>If Windows does not start correctly, you can then manually recreate the boot loader file.</p>
+</li>
+</ol>
+</section>
+<section id="recreating-the-boot-loader-file">
+<h3>Recreating the boot loader file<a class="headerlink" href="#recreating-the-boot-loader-file" title="Link to this heading">¶</a></h3>
+<p>To this end, you need to access either the System partition or the EFI partition on your computer. The Windows disk layout typically includes one of these two configurations:</p>
+<ul class="simple">
+<li><p>A volume that contains Windows (<code class="docutils literal notranslate"><span class="pre">C:</span></code>) and a small hidden partition, usually 100MB in size called System partition, formatted as NTFS. It contains the files needed to start (boot) Windows, as well as recovery tools to help you diagnose and repair your system when it does not start correctly.</p></li>
+<li><p>On UEFI-based computers, a volume that contains Windows (<code class="docutils literal notranslate"><span class="pre">C:</span></code>) and a boot partition (also called EFI), typically 256-512MB in size, formatted as FAT32. This partition contains the files needed to start (boot) Windows.</p></li>
+</ul>
+<p>You need to access the partition to make the necessary changes.</p>
+<p>If you have already run the <code class="docutils literal notranslate"><span class="pre">diskpart</span></code> utility, you do not need to do anything at this point, you only need to check the letter that is assigned to this partition (e.g. letter <code class="docutils literal notranslate"><span class="pre">F:</span></code>).</p>
+<p>Assuming letter <code class="docutils literal notranslate"><span class="pre">F:</span></code> for the boot partition, use the following commands:</p>
+<ol class="arabic">
+<li><p>Switch to the boot partition:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>F:
+</pre></div>
+</div>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>cd boot
+</pre></div>
+</div>
+</li>
+<li><p>Move the existing boot file aside:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>ren BCD BCD.bak
+</pre></div>
+</div>
+</li>
+<li><p>Create a new one:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>bcdboot c:\windows /l en-us /s f: /f ALL
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">bcdboot</span></code> command initializes the system partition by using BCD files from the <code class="docutils literal notranslate"><span class="pre">C:\Windows</span></code> folder.</p>
+<p>The options used in the command:</p>
+<dl class="simple myst">
+<dt><code class="docutils literal notranslate"><span class="pre">/l</span> <span class="pre">en-us</span></code></dt><dd><p>Use the <code class="docutils literal notranslate"><span class="pre">en-us</span></code> locale.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">/s</span> <span class="pre">f:</span></code></dt><dd><p>Target the system partition assigned letter <code class="docutils literal notranslate"><span class="pre">F:</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">/f</span> <span class="pre">ALL</span></code></dt><dd><p>Create boot files both for UEFI and BIOS.</p>
+</dd>
+</dl>
+</li>
+<li><p>Once the previous command completes, reboot. Windows should start normally.</p></li>
+<li><p>You can now re-launch the Ubuntu installer and finish the side-by-side setup of the two operating systems.</p></li>
+</ol>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+   
+
+<div class="related-pages">
+  
+  
+    
+  
+  
+  
+</div>
+<div class="bottom-of-page">
+  <div class="left-details">
+    <div class="copyright">
+        &copy; 2026 Canonical Ltd.
+    </div><div class="license">
+        This page is licensed under CC-BY-SA-4.0
+      </div><div class="last-updated">
+      Last updated on 2026 年 10 月 13 日</div>
+  </div>
+  <div>
+   
+  </div>
+  <div class="right-details">
+  </div>
+</div>
+
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+<div class="toc-sticky toc-scroll">
+   
+    <div class="toc-title-container">
+      <span class="toc-title">
+       目录
+      </span>
+    </div>
+    <div class="toc-tree-container">
+      <div class="toc-tree">
+        <ul>
+<li><a class="reference internal" href="#">Reconfigure Windows to use AHCI</a><ul>
+<li><a class="reference internal" href="#back-up-your-data">Back up your data</a></li>
+<li><a class="reference internal" href="#find-the-current-controller-mode">Find the current controller mode</a></li>
+<li><a class="reference internal" href="#change-the-controller-mode">Change the controller mode</a><ul>
+<li><a class="reference internal" href="#change-registry-keys">Change registry keys</a></li>
+<li><a class="reference internal" href="#disable-additional-storage-features">Disable additional storage features</a></li>
+<li><a class="reference internal" href="#switch-to-safe-boot-mode">Switch to safe boot mode</a></li>
+<li><a class="reference internal" href="#change-firmware-settings">Change firmware settings</a></li>
+<li><a class="reference internal" href="#finish-and-verify-the-changes">Finish and verify the changes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#troubleshooting-boot-problems">Troubleshooting boot problems</a><ul>
+<li><a class="reference internal" href="#open-the-command-prompt">Open the command prompt</a></li>
+<li><a class="reference internal" href="#diagnose-the-problem">Diagnose the problem</a></li>
+<li><a class="reference internal" href="#repair-the-problem">Repair the problem</a></li>
+<li><a class="reference internal" href="#recreating-the-boot-loader-file">Recreating the boot loader file</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      </div>
+    </div>
+   
+    
+    <div class="relatedlinks-title-container">
+      <span class="relatedlinks-title">
+       Related links
+      </span>
+    </div>
+    <div class="relatedlinks-container">
+      <div class="relatedlinks">
+        
+        
+          <ul><li><a href="https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/bcdboot-command-line-options-techref-di" target="_blank">BCDBoot&#32Command-Line&#32Options</a></li></ul>
+        
+      </div>
+    </div>
+    
+  </div>
+
+    </aside>
+  </div>
+</div><script src="../../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../../_static/documentation_options.js?v=7da643a4"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=46bd48cc"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=25066c07"></script>
+    <script src="../../_static/config-options.js"></script>
+    <script src="../../_static/contributors.js"></script>
+    <script src="../../_static/translations.js?v=beaddf03"></script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../../_static/js/bundle.js?v=4baf66b4"></script>
+    <script src="../../_static/js/overwrite_links.js?v=d74d9203"></script>
+    <script src="../../_static/header-nav.js?v=e117ad08"></script>
+    <script src="../../_static/github_issue_links.js?v=355d2de4"></script>
+    
+<script>
+  const github_url = "https://github.com/ubuntu/ubuntu-desktop-documentation";
+  const feedback_link = "";
+</script>
+</body>
+</html>

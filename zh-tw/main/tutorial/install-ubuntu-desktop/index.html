@@ -1,0 +1,971 @@
+<!doctype html>
+<html class="no-js" lang="zh-TW" data-content_root="../../">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content="Install Ubuntu Desktop 26.04 LTS on your laptop or PC from a USB stick using the graphical installer, including disk setup and encryption." name="description" />
+<meta property="og:title" content="安裝 Ubuntu Desktop" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ubuntu.com/desktop/docs/en/latest/tutorial/install-ubuntu-desktop/" />
+<meta property="og:site_name" content="Ubuntu Desktop" />
+<meta property="og:description" content="Topics: Installation In this tutorial, we’ll download and install Ubuntu Desktop 26.04 LTS on your laptop or PC. If you’ve never installed an operating system, don’t worry: Ubuntu makes the process..." />
+<meta property="og:image" content="https://assets.ubuntu.com/v1/cc828679-docs_illustration.svg" />
+<meta property="og:image:alt" content="Ubuntu Desktop" />
+
+    <meta property="article:modified_time" content="2026-10-15T16:32:32+00:00" /><link rel="index" title="索引" href="../../genindex/"><link rel="search" title="搜尋" href="../../search/"><link rel="next" title="開始使用螢幕讀取器" href="../get-started-with-the-screen-reader/"><link rel="prev" title="試用 Ubuntu Desktop" href="../try-ubuntu-desktop/">
+        <link rel="canonical" href="https://projects.localizethedocs.org/ubuntu-desktop-docs-l10ntutorial/install-ubuntu-desktop/">
+
+    <link rel="shortcut icon" href="../../_static/favicon.png"><!-- Generated with Sphinx 7.4.7 and Furo 2025.12.19 -->
+        <title>安裝 Ubuntu Desktop - Ubuntu Desktop documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=7bdb33bb" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/config-options.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/contributors.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/related-links.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/terminal.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/youtube.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/cookie-banner.css?v=3810d303" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=022106c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/header.css?v=a8078839" />
+    <link rel="stylesheet" type="text/css" href="../../_static/github_issue_links.css?v=3d761185" />
+    <link rel="stylesheet" type="text/css" href="../../_static/furo_colors.css?v=4cd1adcf" />
+    
+
+
+<script type="text/javascript" src="../../ltd-provenance.js"></script>
+<script type="text/javascript" src="../../ltd-current.js"></script>
+<script type="text/javascript" src="../../../../ltd-config.js"></script>
+<script type="text/javascript" src="../../../../ltd-flyout.js"></script>
+</head>
+  <body>
+    <header id="header" class="p-navigation">
+
+  <div class="p-navigation__nav" role="menubar">
+
+    <ul class="p-navigation__links" role="menu">
+
+      <li>
+        
+        <a class="p-logo" href="https://ubuntu.com/desktop" aria-current="page">
+          <img src="../../_static/tag.png" alt="Logo" class="p-logo-image">
+          <div class="p-logo-text p-heading--4">Ubuntu Desktop
+          </div>
+        </a>
+        
+      </li>
+
+      <li class="nav-ubuntu-com">
+        
+        <a href="https://ubuntu.com/desktop" class="p-navigation__link">ubuntu.com/desktop</a>
+        
+      </li>
+
+      <li class="nav-dropdown">
+        <a href="#" class="p-navigation__link nav-more-links"
+           id="more-resources-toggle"
+           aria-haspopup="true"
+           aria-expanded="false">
+          More resources
+        </a>
+        <ul class="more-links-dropdown" aria-labelledby="more-resources-toggle">
+          
+          <li>
+            <a href="https://discourse.ubuntu.com/c/project/desktop/" class="p-navigation__sub-link p-dropdown__link">Discourse</a>
+          </li>
+          
+      
+          
+          <li>
+            <a href="https://chat.canonical.com/canonical/channels/desktop" class="p-navigation__sub-link p-dropdown__link">Mattermost</a>
+          </li>
+          
+      
+          
+          <li>
+            <a href="https://matrix.to/#/#desktop-dev:ubuntu.com" class="p-navigation__sub-link p-dropdown__link">Matrix</a>
+          </li>
+          
+      
+          
+          <li>
+            <a href="https://github.com/ubuntu/ubuntu-desktop-documentation" class="p-navigation__sub-link p-dropdown__link">GitHub</a>
+          </li>
+          
+
+        </ul>
+      </li>
+
+    </ul>
+  </div>
+</header>
+   
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../../"><div class="brand">Ubuntu Desktop documentation</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../">
+  
+  <span class="sidebar-brand-text">Ubuntu Desktop documentation</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../../search/" role="search">
+    <input class="sidebar-search" placeholder="搜尋" name="q" aria-label="搜尋">
+    <input type="submit" value="Go">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+  <div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../">教學課程</a><input aria-label="Toggle navigation of 教學課程" checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../try-ubuntu-desktop/">試用 Ubuntu Desktop</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">安裝 Ubuntu Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../get-started-with-the-screen-reader/">開始使用螢幕讀取器</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../the-linux-command-line-for-beginners/">The Linux command line for beginners</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../how-to/">操作指南</a><input aria-label="Toggle navigation of 操作指南" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/create-a-bootable-usb-stick/">Create a bootable USB stick</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/reconfigure-windows-to-use-ahci/">Reconfigure Windows to use AHCI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/turn-off-bitlocker-in-windows/">Turn off BitLocker in Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/encrypt-your-disk-with-tpm/">Encrypt your disk with TPM</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../how-to/accessibility/">無障礙功能</a><input aria-label="Toggle navigation of 無障礙功能" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/find-the-accessibility-menu/">Find the accessibility menu</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../how-to/accessibility/orca/">Screen reader</a><input aria-label="Toggle navigation of Screen reader" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../how-to/accessibility/orca/read-screen-aloud/">Read the screen aloud</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../how-to/accessibility/orca/read-screen-in-braille/">Read the screen in Braille</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader/">Navigate the screen using the screen reader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader/">Read documents and web pages using the screen reader</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../how-to/accessibility/orca/add-dictionary-entries/">Add, edit, or remove dictionary entries</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/adjust-the-contrast/">Adjust the contrast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/change-text-size-on-the-screen/">Change text size on the screen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/magnify-a-screen-area/">放大螢幕區域</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/make-the-keyboard-cursor-blink/">Make the keyboard cursor blink</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/flash-the-screen-for-alert-sounds/">Flash the screen for alert sounds</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/adjust-the-speed-of-the-mouse-and-touchpad/">Adjust the speed of the mouse and touchpad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/click-and-move-the-mouse-pointer-using-the-keypad/">Click and move the mouse pointer using the keypad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/adjust-the-double-click-speed/">Adjust the double-click speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/simulate-a-right-mouse-click/">Simulate a right mouse click</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/simulate-clicking-by-hovering/">Simulate clicking by hovering</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/navigate-the-interface-using-the-keyboard/">Navigate the interface using the keyboard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/manage-repeated-key-presses/">Manage repeated key presses</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/turn-on-bounce-keys/">Turn on bounce keys</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/turn-on-slow-keys/">Turn on slow keys</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/turn-on-sticky-keys/">Turn on sticky keys</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/accessibility/use-an-on-screen-keyboard/">Use an on-screen keyboard</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../how-to/software/">Install or remove software</a><input aria-label="Toggle navigation of Install or remove software" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/software/install-an-application/">Install an application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/software/remove-an-application/">Remove an application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/software/install-languages/">Install languages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/software/add-a-software-repository/">Add a software repository</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../how-to/graphics/">Graphics</a><input aria-label="Toggle navigation of Graphics" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/graphics/install-nvidia-drivers/">Install NVIDIA drivers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package/">Build your own NVIDIA modules using the DKMS package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/graphics/troubleshoot-nvidia/">Troubleshoot your NVIDIA GPU and drivers</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/record-the-screen/">Record the screen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/log-in-using-a-smart-card/">Log in using a smart card</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/enable-smart-cards-in-snapped-browsers/">Enable smart cards in snapped browsers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/configure-hardware-backed-disk-encryption/">Configure hardware-backed disk encryption</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/recover-data-from-hardware-backed-disk-encryption/">Recover data from hardware-backed disk encryption</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/share-your-desktop-remotely/">Share your desktop remotely</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/access-a-remote-desktop/">Access a remote desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/change-the-default-terminal/">Change the default terminal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/start-an-application-at-login/">Start an application at login</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/upgrade-ubuntu-desktop/">Upgrade Ubuntu Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../how-to/switch-between-an-lts-and-interim-release/">Switch between an LTS and interim release</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../how-to/troubleshoot/">Common problems</a><input aria-label="Toggle navigation of Common problems" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/troubleshoot/bluetooth/">Bluetooth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../how-to/troubleshoot/improve-screen-reader-usability/">Improve screen reader usability</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../reference/">參考資料</a><input aria-label="Toggle navigation of 參考資料" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/advanced-disk-setup-features/">Advanced disk setup features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/hardware-backed-disk-encryption-requirements/">Hardware-backed disk encryption requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/intel-rst-during-ubuntu-installation/">Intel RST during Ubuntu installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/bitlocker-during-ubuntu-installation/">BitLocker during Ubuntu installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reference/keyboard-navigation-shortcuts/">Keyboard navigation shortcuts</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../reference/accessibility/">無障礙功能</a><input aria-label="Toggle navigation of 無障礙功能" class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../reference/accessibility/orca-preferences/">Screen reader preferences</a><input aria-label="Toggle navigation of Screen reader preferences" class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-general/">General preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-profile/">Profiles</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-key-binding/">Key bindings preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-voice/">Voice preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-speech/">Speech preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-key-echo/">Key echo preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-braille/">Braille preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-text-attributes/">Text attributes preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-table-navigation/">Table navigation preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-spellcheck/">Spellcheck preferences</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/orca-preferences/orca-preferences-chat/">Chat preferences</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../reference/accessibility/orca-structural-navigation-commands/">Orca Structural Navigation commands</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../../reference/accessibility/dbus/">AT-SPI DBus XML interfaces</a><input aria-label="Toggle navigation of AT-SPI DBus XML interfaces" class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Accessible/">org.a11y.atspi.Accessible</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Action/">org.a11y.atspi.Action</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Application/">org.a11y.atspi.Application</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Cache/">org.a11y.atspi.Cache</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Collection/">org.a11y.atspi.Collection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Component/">org.a11y.atspi.Component</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.DeviceEventController/">org.a11y.atspi.DeviceEventController</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.DeviceEventListener/">org.a11y.atspi.DeviceEventListener</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Document/">org.a11y.atspi.Document</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.EditableText/">org.a11y.atspi.EditableText</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Document/">org.a11y.atspi.Event.Document</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Focus/">org.a11y.atspi.Event.Focus</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Keyboard/">org.a11y.atspi.Event.Keyboard</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Mouse/">org.a11y.atspi.Event.Mouse</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Object/">org.a11y.atspi.Event.Object</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Terminal/">org.a11y.atspi.Event.Terminal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Event.Window/">org.a11y.atspi.Event.Window</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Hyperlink/">org.a11y.atspi.Hyperlink</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Hypertext/">org.a11y.atspi.Hypertext</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Image/">org.a11y.atspi.Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Registry/">org.a11y.atspi.Registry</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Selection/">org.a11y.atspi.Selection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Socket/">org.a11y.atspi.Socket</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Table/">org.a11y.atspi.Table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.TableCell/">org.a11y.atspi.TableCell</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Text/">org.a11y.atspi.Text</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../reference/accessibility/dbus/org.a11y.atspi.Value/">org.a11y.atspi.Value</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../explanation/">解釋說明</a><input aria-label="Toggle navigation of 解釋說明" class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" role="switch" type="checkbox"/><label for="toctree-checkbox-12"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/about-ubuntu-desktop/">關於 Ubuntu Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/why-we-use-the-terminal-on-linux/">Why we use the terminal on Linux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/what-is-the-menu-key/">What is the Menu key?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/accessibility-stack/">Accessibility stack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/snap-and-deb-packages/">Snap and deb packages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/hardware-backed-disk-encryption/">Hardware-backed disk encryption</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../explanation/hardware-stack/">Hardware stack</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="edit-this-page">
+  <a class="muted-link" href="https://github.com/ubuntu/ubuntu-desktop-documentation/edit/main/docs/tutorial/install-ubuntu-desktop.md" title="Contribute to this page">
+    <svg><use href="#svg-pencil"></use></svg>
+    <span class="visually-hidden">Contribute to this page</span>
+  </a>
+</div><div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <p class="tags"><span>Topics: </span><a class="sd-sphinx-override sd-badge sd-bg-primary sd-bg-text-primary reference internal" href="../../_tags/installation/"><span class="doc">Installation</span></a></p>
+<section id="install-ubuntu-desktop">
+<span id="id1"></span><h1>安裝 Ubuntu Desktop<a class="headerlink" href="#install-ubuntu-desktop" title="連結到這個標頭">¶</a></h1>
+<!--
+Original source: <https://discourse.ubuntu.com/t/install-ubuntu-desktop/25312/>
+Original author: Oliver Smith <oliversmith@canonical.com>
+-->
+<p>In this tutorial, we’ll download and install Ubuntu Desktop 26.04 LTS on your laptop or PC.</p>
+<p>If you’ve never installed an operating system, don’t worry: Ubuntu makes the process very easy. You’ll encounter a guided installer that will ask you a couple of questions. Whenever you’re not sure what to pick, you can just select the default option, which ensures that you end up with a fully usable Ubuntu installation. No deep technical knowledge is required.</p>
+<p>What you’ll need:</p>
+<ul class="simple">
+<li><p>A laptop or PC with at least 25GB of storage space.</p></li>
+<li><p>A flash drive, 8GB or above recommended.</p></li>
+</ul>
+<section id="will-ubuntu-work-on-my-computer">
+<h2>Will Ubuntu work on my computer?<a class="headerlink" href="#will-ubuntu-work-on-my-computer" title="連結到這個標頭">¶</a></h2>
+<p>While Ubuntu works on a wide range of devices, it’s best to use a device listed on the <a class="reference external" href="https://ubuntu.com/certified?q=&amp;amp;category=Laptop&amp;amp;category=Desktop&amp;amp;limit=20">Ubuntu certified hardware</a> page. These devices have been tested and confirmed to work well with Ubuntu.</p>
+<p>If you can’t see your device there, you can always just <a class="reference internal" href="../try-ubuntu-desktop/#try-ubuntu-desktop"><span class="std std-ref">試用 Ubuntu Desktop</span></a> and check if everything works as expected.</p>
+<p>If you want to run Ubuntu on <strong>Apple Silicon</strong> hardware, such as recent Macs using M1 CPUs or later, refer instead to the <a class="reference external" href="https://ubuntuasahi.org/">Ubuntu Asahi</a> community project, which isn’t supported by Canonical. The hardware support might be limited and depends on your specific machine. For example, Ubuntu Asahi 25.10 only runs on systems with M1 and M2 CPUs.</p>
+<p>You can also install Ubuntu in a virtual machine on top of your current system using <a class="reference external" href="https://documentation.ubuntu.com/multipass/">Multipass</a>.</p>
+<p>For guidance on installing Ubuntu on platforms based on architectures other than x86 (including <strong>ARM</strong> or <strong>RISC-V</strong> boards, such as <strong>Raspberry Pi</strong>), see <a class="reference external" href="https://ubuntu.com/hardware/docs/" title="(於 Ubuntu)"><span>Ubuntu hardware support documentation</span></a>.</p>
+</section>
+<section id="back-up-your-data">
+<span id="installation-back-up-your-data"></span><h2>備份您的資料<a class="headerlink" href="#back-up-your-data" title="連結到這個標頭">¶</a></h2>
+<p>If you’re installing Ubuntu on a PC or laptop that you’ve used previously, back up your data before you start the installation:</p>
+<ul class="simple">
+<li><p>Move any <strong>files</strong> that you want to keep to another storage device, such as an external disk or a USB drive.</p></li>
+<li><p>To back up your <strong>web browser</strong>, connect your browser to an online account, such as a Firefox account or a Google account. After the Ubuntu installation, your browser synchronizes your data when you log into your account. Note that the Safari browser doesn’t work on Ubuntu.</p></li>
+</ul>
+<p>Back up your files from the <strong>USB flash drive</strong>. The drive will be erased.</p>
+<!--
+The docs/reuse/boot-ubuntu-from-usb.txt file is reused between the live system tutorial and the installation tutorial.
+-->
+</section>
+<section id="download-an-ubuntu-image">
+<h2>Download an Ubuntu image<a class="headerlink" href="#download-an-ubuntu-image" title="連結到這個標頭">¶</a></h2>
+<p>Get the Ubuntu installation image from the <a class="reference external" href="https://ubuntu.com/download/desktop">Download Ubuntu Desktop</a> page. Save it to a memorable location on your PC. The downloaded file is called <code class="docutils literal notranslate"><span class="pre">ubuntu-26.04-desktop-amd64.iso</span></code> or similar.</p>
+<p><img alt="The Download Ubuntu Desktop page" src="../../_images/download-an-ubuntu-image.png" /></p>
+</section>
+<section id="create-a-bootable-usb-stick">
+<h2>Create a bootable USB stick<a class="headerlink" href="#create-a-bootable-usb-stick" title="連結到這個標頭">¶</a></h2>
+<p>Write the downloaded Ubuntu image to a USB stick to create the installation media. This is not the same as copying the downloaded image file: you have to use special software.</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>This will erase your USB stick. Back up your files first.</p>
+</div>
+<p>The application that we’ll use depends on the system that you’re currently using.</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" data-sync-group="tab" data-sync-id="on-ubuntu" for="sd-tab-item-0">
+On Ubuntu</label><div class="sd-tab-content docutils">
+<!--
+The docs/reuse/usb-using-gnome-disks.txt file is reused between the live system tutorial, the installation tutorial and the bootable USB how-to guide.
+-->
+<ol class="arabic">
+<li><p>Open the Disks application. You can find it in the applications menu or by searching for 「Disks」.</p></li>
+<li><p>Insert your USB stick. It appears in the sidebar. Select it there.</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>Make sure to select the USB stick and <strong>not</strong> the disk with your running system. Both are listed.</p>
+</div>
+<p><img alt="A USB stick selected in Disks" src="../../_images/usb-in-gnome-disks.png" /></p>
+</li>
+<li><p>Close all applications that access files or folders on the USB stick, including the file browser.</p></li>
+<li><p>In the Disks window header, click <span class="guilabel">Drive Options</span> (<span class="guilabel">⋮</span>) and select <span class="guilabel">Restore Disk Image…</span></p>
+<p><img alt="Restore Disk Image in the menu" src="../../_images/restore-disk-image-menu.png" /></p>
+</li>
+<li><p>Next to <span class="guilabel">Image to Restore</span>, select the downloaded Ubuntu image file.</p></li>
+<li><p>Click <span class="guilabel">Start Restoring…</span> and confirm. The application asks for your password.</p>
+<p><img alt="The Restore Disk Image dialog" src="../../_images/restore-disk-image-dialog.png" /></p>
+</li>
+<li><p>A progress bar appears while Disks is writing the image.</p>
+<p><img alt="Disks writing the image to USB" src="../../_images/gnome-disks-restoring-image.png" /></p>
+</li>
+<li><p>When the progress bar finishes, click <span class="guilabel">Eject this disk</span> (<span class="guilabel">⏏</span>).</p>
+<p><img alt="Writing finished. Partitions are listed on the USB" src="../../_images/gnome-disks-finished-writing.png" /></p>
+</li>
+</ol>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" data-sync-group="tab" data-sync-id="on-windows" for="sd-tab-item-1">
+On Windows</label><div class="sd-tab-content docutils">
+<!--
+The docs/reuse/usb-using-rufus.txt file is reused between the live system tutorial, the installation tutorial and the bootable USB how-to guide.
+-->
+<!--
+Originally a Tutorial: https://discourse.ubuntu.com/t/create-a-bootable-usb-stick-with-rufus-on-windows/14020
+| Summary | How to write a USB stick with Windows. |
+| Author |  <oliversmith@canonical.com> |
+-->
+<ol class="arabic">
+<li><p>Download and install the latest version of Rufus from the <a class="reference external" href="https://rufus.ie/">rufus.ie</a> website.</p>
+<p>If you’re using Windows 7, install <a class="reference external" href="https://github.com/pbatard/rufus/releases/download/v3.22/rufus-3.22.exe">version 3.22</a> of Rufus. On Windows XP or Vista, install <a class="reference external" href="https://github.com/pbatard/rufus/releases/download/v2.18/rufus-2.18.exe">version 2.18</a>.</p>
+</li>
+<li><p>Launch Rufus. If prompted, allow online updates.</p>
+<div class="admonition note">
+<p class="admonition-title">備註</p>
+<p>Rufus presents many options in its interface. It’s safe to leave most of them with their default values.</p>
+</div>
+</li>
+<li><p>Insert your USB stick. It appears in the <span class="guilabel">Device</span> field.</p>
+<p>If <span class="guilabel">Device</span> shows the wrong USB device, select the correct one from the drop-down menu.</p>
+<p><img alt="Selected a USB drive in Rufus" src="../../_images/rufus-detects-usb.png" /></p>
+</li>
+<li><p>Click <span class="guilabel">SELECT</span> next to <span class="guilabel">Boot selection</span>. Choose the Ubuntu image file that you’ve downloaded and confirm by clicking <span class="guilabel">Open</span>.</p>
+<p>If the button reads <span class="guilabel">DOWNLOAD</span> instead, click the dropdown and change it to <span class="guilabel">SELECT</span> first.</p>
+<p><img alt="Selected the ISO file in Rufus" src="../../_images/rufus-iso-selected.png" /></p>
+</li>
+<li><p>If you’ve already tried Rufus and the USB stick failed to boot on your system, change <span class="guilabel">Partitioning scheme</span> to <span class="guilabel">GPT</span> and check that <span class="guilabel">Target system</span> is set to <span class="guilabel">UEFI (non CSM)</span>. This works on modern systems that disable legacy compatibility.</p></li>
+<li><p>Click <span class="guilabel">START</span> to write the image to USB.</p></li>
+<li><p>Rufus tells you that the Ubuntu image is an <em>ISOHybrid image</em>. This means that the same image file can be used as the source for both a USB stick and a DVD.</p>
+<p>Confirm the <em>Write in ISO Image mode</em> option.</p>
+<p><img alt="&quot;ISOHybrid image detected&quot; dialog" src="../../_images/rufus-isohybrid-image.png" /></p>
+</li>
+<li><p>If Rufus asks to download additional files to complete writing the image, select <span class="guilabel">Yes</span> to continue.</p></li>
+<li><p>Rufus warns you that all data on the USB device is about to be destroyed. Double-check that you’ve selected the correct device and confirm by clicking <span class="guilabel">OK</span>.</p>
+<p><img alt="Rufus warning you about data loss" src="../../_images/rufus-data-warning.png" /></p>
+</li>
+<li><p>Rufus is now writing the image to USB. This usually takes around 10 minutes.</p>
+<p><img alt="Rufus copying ISO files" src="../../_images/rufus-copying-iso-files.png" /></p>
+</li>
+<li><p>When Rufus has finished writing to the USB device, the Status bar says <span class="guilabel">READY</span>.</p>
+<p>Click <span class="guilabel">CLOSE</span> to complete the write process.</p>
+<p><img alt="Rufus finished writing the ISO" src="../../_images/rufus-finished-writing.png" /></p>
+</li>
+</ol>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" data-sync-group="tab" data-sync-id="on-macos" for="sd-tab-item-2">
+On macOS</label><div class="sd-tab-content docutils">
+<!--
+The docs/reuse/usb-using-balena-etcher-on-macos.txt file is reused between the live system tutorial, the installation tutorial and the bootable USB how-to guide.
+-->
+<!--
+Originally a Tutorial: https://discourse.ubuntu.com/t/create-a-bootable-usb-stick-on-macos/14016
+| Summary | How to write a USB stick with macOS. |
+| Author | Canonical Web Team <webteam@canonical.com> |
+-->
+<!--
+This part no longer applies because the Scheme option no longer exists in recent macOS (since 2020).
+
+To ensure compatibility with Apple hardware, reformat the USB stick with the GUID partition table. You can skip this part if you intend to use the USB stick only with PC hardware:
+
+1. Launch the *Disk Utility* app from {menuselection}`Applications -> Utilities` or from the Spotlight search.
+
+1. Insert your USB stick. It appears in the sidebar. Select it there.
+
+    You might need to enable the {menuselection}`View -> Show All Devices` option.
+
+    :::{warning}
+    Make sure to select the USB stick and **not** your internal macOS disk. Both are listed.
+    :::
+
+1. Select {guilabel}`Erase` from the toolbar.
+
+1. Set the format to *MS-DOS (FAT)* and the scheme to *GUID Partition Map*.
+
+1. Check that you've chosen the correct device and click {guilabel}`Erase`.
+
+1. Close the Disk Utility.
+
+Write the Ubuntu image to the USB stick:
+-->
+<ol class="arabic">
+<li><p>Insert the USB stick.</p></li>
+<li><p>At the <a class="reference external" href="https://etcher.balena.io/">balenaEtcher website</a>, download <strong>Etcher for macOS (arm64)</strong> if you’re using an Apple Silicon machine, or download <strong>Etcher for macOS</strong> if you’re using an Intel Mac.</p>
+<p><img alt="The Download Etcher page" src="../../_images/download-etcher.png" /></p>
+</li>
+<li><p>Install and open balenaEtcher.</p></li>
+<li><p>Click <span class="guilabel">Flash from file</span> and select the downloaded Ubuntu image.</p>
+<p>By default, the image file will be in your Downloads folder.</p>
+</li>
+<li><p>Click <span class="guilabel">Select target</span> and choose your USB stick.</p>
+<p><img alt="The Select target step in Etcher" src="../../_images/macos-usb-etcher-config.jpg" /></p>
+</li>
+<li><p>Click <span class="guilabel">Flash!</span> to write the image to USB.</p></li>
+</ol>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" data-sync-group="tab" data-sync-id="on-other-platforms" for="sd-tab-item-3">
+Other</label><div class="sd-tab-content docutils">
+<p>See the <a class="reference internal" href="../../how-to/create-a-bootable-usb-stick/#create-a-bootable-usb-stick"><span class="std std-ref">exhaustive how-to guide</span></a> for other platforms and alternative image writers.</p>
+</div>
+</div>
+<p>Now you have a USB stick that works as Ubuntu installation media.</p>
+</section>
+<section id="boot-from-the-usb-flash-drive">
+<h2>Boot from the USB flash drive<a class="headerlink" href="#boot-from-the-usb-flash-drive" title="連結到這個標頭">¶</a></h2>
+<ol class="arabic">
+<li><p>Insert the USB stick into the laptop or PC where you want to install Ubuntu.</p></li>
+<li><p>Restart the computer.</p></li>
+<li><p>Your device should recognize the installation media and launch the Ubuntu installer.</p></li>
+<li><p>If Ubuntu doesn’t launch, restart your computer again. This time, hold a key during startup:</p>
+<ul>
+<li><p>On a <strong>PC or Windows</strong> computer, <kbd class="kbd docutils literal notranslate">F12</kbd> is the most common key for bringing up the system boot menu but <kbd class="kbd docutils literal notranslate">Escape</kbd>, <kbd class="kbd docutils literal notranslate">F2</kbd> and <kbd class="kbd docutils literal notranslate">F10</kbd> are common alternatives. If unsure, look for a brief message when your system starts: this often informs you which key to press to access the boot menu. You can also find the right key in the documentation for your laptop or PC.</p>
+<p>In the boot menu that appears, select your USB device.</p>
+</li>
+<li><p>To start Ubuntu on <strong>Apple hardware</strong>, restart or power-on the Mac with the USB stick inserted while you hold the <kbd class="kbd docutils literal notranslate">Option</kbd> or <kbd class="kbd docutils literal notranslate">Alt</kbd> (<kbd class="kbd docutils literal notranslate">⌥</kbd>) key.</p>
+<p>This launches the Startup Manager, which shows bootable devices connected to the machine. Your USB stick should appear as gold or yellow and be labeled <strong>EFI Boot</strong>. Select it to proceed to the standard Ubuntu boot menu.</p>
+<p><img alt="Boot device selection" src="../../_images/macos-usb-efi-boot.png" /></p>
+</li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="follow-the-installer">
+<h2>Follow the installer<a class="headerlink" href="#follow-the-installer" title="連結到這個標頭">¶</a></h2>
+<p>The Ubuntu Desktop installer opens.</p>
+<ol class="arabic">
+<li><p>Choose your language.</p>
+<p><img alt="The Choose your language page" src="../../_images/choose-your-language.png" /></p>
+</li>
+<li><p>Select any accessibility settings that your require.</p>
+<p><img alt="The Accessibility page" src="../../_images/accessibility.png" /></p>
+</li>
+<li><p>Select your keyboard layout.</p>
+<p><img alt="鍵盤配置頁面" src="../../_images/keyboard-layout.png" /></p>
+</li>
+<li><p>連接您的網路。</p>
+<p>This allows Ubuntu to download updates and third party drivers, such as NVIDIA graphics drivers, during installation.</p>
+<p><img alt="The Internet connection page" src="../../_images/internet-connection.png" /></p>
+<p>The network connection is optional. If you can’t connect, the Ubuntu installation will still work.</p>
+</li>
+<li><p>The installer gives you the choice to try or install Ubuntu.</p>
+<p>If you click <span class="guilabel">Try Ubuntu</span>, you can preview Ubuntu without making any changes to your PC. You can use the preview to test if your hardware works correctly with Ubuntu. You can then return to the installer menu at any time by clicking the <span class="guilabel">Install Ubuntu</span> shortcut on the desktop.</p>
+<p><img alt="試用或安裝 Ubuntu 頁面" src="../../_images/try-or-install-ubuntu.png" /></p>
+<p>To proceed, click <span class="guilabel">Install Ubuntu</span>.</p>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>Some PCs use Intel RST (Rapid Storage Technology), which is not supported by Ubuntu. If this is the case, you won’t be able to proceed with the installation unless you disable RST on your machine.</p>
+<p>If you encounter this alert, see <a class="reference internal" href="../../how-to/reconfigure-windows-to-use-ahci/#reconfigure-windows-to-use-ahci"><span class="std std-ref">Reconfigure Windows to use AHCI</span></a> to resolve the issue. To learn more, see <a class="reference internal" href="../../reference/intel-rst-during-ubuntu-installation/#intel-rst-during-ubuntu-installation"><span class="std std-ref">Intel RST during Ubuntu installation</span></a>.</p>
+</div>
+</section>
+<section id="type-of-installation">
+<h2>Type of installation<a class="headerlink" href="#type-of-installation" title="連結到這個標頭">¶</a></h2>
+<p>Here, you can select how you want to be guided through the installation and what software you want to install.</p>
+<ol class="arabic">
+<li><p>Choose between an interactive and automated installation.</p>
+<p>The <strong>interactive</strong> option is the standard route for most users.</p>
+<p>With the <strong>automated</strong> installation options, advanced users can define their installation beforehand to standardize multiple systems and add further customization. These options require you to load a configuration file from another USB stick, from a web server or from the <a class="reference external" href="https://ubuntu.com/landscape">Landscape</a> administration tool. An example tutorial for an automated installation is available at <a class="reference external" href="https://blog.local-optimum.net/getting-started-with-autoinstall-on-ubuntu-desktop-24-04-lts-147a1defb2de">Getting started with Autoinstall on Ubuntu Desktop 24.04 LTS</a>.</p>
+<p><img alt="The Type of installation page" src="../../_images/type-of-installation.png" /></p>
+<p>In this tutorial, we’ll follow the <strong>interactive</strong> installation.</p>
+</li>
+<li><p>Choose between the <span class="guilabel">Default selection</span> and <span class="guilabel">Extended selection</span> options.</p>
+<p>The default installation comes with the basic essentials to get started, which you can then expand on after install using the App Center. The extended selection contains additional office tools and utilities.</p>
+<p>You can always install all these applications later if you have an internet connection.</p>
+<p><img alt="The Applications page" src="../../_images/applications.png" /></p>
+</li>
+<li><p>Here, you can install third-party software. It can improve device support and performance (for example, NVIDIA graphics drivers) and adds support for additional media formats.</p>
+<p>We recommend that you enable both options.</p>
+<p><img alt="The Optimise your computer page" src="../../_images/optimise-your-computer.png" /></p>
+</li>
+</ol>
+</section>
+<section id="disk-setup">
+<h2>磁碟設定<a class="headerlink" href="#disk-setup" title="連結到這個標頭">¶</a></h2>
+<p>Select how Ubuntu should be installed on the disk:</p>
+<ul class="simple">
+<li><p>If you’d like Ubuntu to be the only operating system on your hard drive, select <span class="guilabel">Erase disk and install Ubuntu</span>. This is the easiest option.</p></li>
+<li><p><span class="guilabel">Manual installation</span> is intended for expert users.</p></li>
+<li><p>If your device currently has another operating system installed, you also have the options to install Ubuntu alongside that system.</p></li>
+</ul>
+<p><img alt="磁碟設定頁面" src="../../_images/disk-setup.png" /></p>
+<p>Let’s take a moment to review all of the above options in detail.</p>
+<section id="erase-disk-and-install-ubuntu">
+<h3>抹除磁碟並安裝 Ubuntu<a class="headerlink" href="#erase-disk-and-install-ubuntu" title="連結到這個標頭">¶</a></h3>
+<p>If you select this option, Ubuntu takes up the entire disk space on the selected drive.</p>
+<p>If your PC has multiple hard drives, you can select where Ubuntu is installed. This option allows you to install Ubuntu alongside an existing OS as long as they each have their own drive.</p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>Ensure that you’re selecting the right drive in this case.</p>
+</div>
+</section>
+<section id="encrypt-your-data">
+<h3>Encrypt your data<a class="headerlink" href="#encrypt-your-data" title="連結到這個標頭">¶</a></h3>
+<p>If you want to encrypt your data, you can enable disk encryption after you select the <span class="guilabel">Erase disk and install Ubuntu</span> option:</p>
+<p><img alt="The Encryption and file system page" src="../../_images/encryption-and-file-system.png" /></p>
+<p>Select a disk encryption method:</p>
+<ul>
+<li><p><span class="guilabel">Encrypt with a passphrase</span> is the recommended encryption option.</p></li>
+<li><p><span class="guilabel">Use hardware-backed encryption</span> is a more convenient encryption method that only works on recent PCs.</p>
+<p>See <a class="reference internal" href="../../explanation/hardware-backed-disk-encryption/#hardware-backed-disk-encryption"><span class="std std-ref">Hardware-backed disk encryption</span></a>.</p>
+</li>
+<li><p>Other encryption options are available when you click <span class="guilabel">Advanced options</span>.</p>
+<p>See <a class="reference internal" href="../../reference/advanced-disk-setup-features/#advanced-disk-setup-features"><span class="std std-ref">Advanced disk setup features</span></a>.</p>
+</li>
+</ul>
+<p>Depending on which encryption you’ve selected, the installer might ask you to create a passphrase that you’ll need to enter during every system startup to unlock the disk.</p>
+<p><img alt="The Disk passphrase page" src="../../_images/disk-passphrase.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">警告</p>
+<p>Keep your passphrase safe and don’t lose it. Write it down and store it in a safe place outside of your local system. <strong>You won’t be able to recover your data without the password.</strong></p>
+</div>
+</section>
+<section id="manual-partitioning">
+<h3>Manual partitioning<a class="headerlink" href="#manual-partitioning" title="連結到這個標頭">¶</a></h3>
+<p>Manual partitioning is designed for <strong>advanced users</strong> who want to create a specific configuration for their use case. If that’s you, we assume that you know what you’re doing and that you’re comfortable with the installer interface.</p>
+<p>Here, you can see all existing drives and partitions. You can create and manage new partition tables and configurations.</p>
+<p><img alt="The Manual partitioning page" src="../../_images/manual-partitioning.png" /></p>
+<p>If the interface doesn’t make sense, we recommend that you pick one of the automated disk setup options instead.</p>
+</section>
+<section id="installing-ubuntu-alongside-another-operating-system">
+<h3>Installing Ubuntu alongside another operating system<a class="headerlink" href="#installing-ubuntu-alongside-another-operating-system" title="連結到這個標頭">¶</a></h3>
+<p>If you select this option, you’ll be able to select the drive where you want to install Ubuntu and the amount of disk space that you’d like Ubuntu to use. The available space is limited by the size that the files on the disk occupy. Ubuntu will preserve all existing files.</p>
+<p>This view automatically selects the largest partition on the drive. For more control, you can switch to the <span class="guilabel">Manual partitioning</span> option.</p>
+<p><img alt="The Install Ubuntu alongside other partitions page" src="../../_images/install-ubuntu-alongside-other-partitions.png" /></p>
+</section>
+<section id="alert-windows-bitlocker-is-enabled">
+<h3>Alert: Windows BitLocker is enabled<a class="headerlink" href="#alert-windows-bitlocker-is-enabled" title="連結到這個標頭">¶</a></h3>
+<p>If your device has Windows BitLocker Drive Encryption enabled, the installer can’t access the encrypted Windows installation. Because of that, it can’t install Ubuntu safely alongside Windows.</p>
+<!--
+If the installer detects BitLocker, it points you to the help.ubuntu.com/bitlocker URL.
+
+This is a redirect to the last page of the installation tutorial, which explains BitLocker.
+
+The redirect is configured in the .htaccess file in the Help repository:
+https://code.launchpad.net/~ubuntu-core-doc/help.ubuntu.com/help.ubuntu.com
+-->
+<p><img alt="The BitLocker is enabled page" src="../../_images/bitlocker-is-enabled.png" /></p>
+<p>You can either erase Windows and replace it with Ubuntu, or you can disable BitLocker and install Ubuntu alongside Windows. To disable BitLocker, see <a class="reference internal" href="../../how-to/turn-off-bitlocker-in-windows/#turn-off-bitlocker-in-windows"><span class="std std-ref">Turn off BitLocker in Windows</span></a>. To learn more, see <a class="reference internal" href="../../reference/bitlocker-during-ubuntu-installation/#bitlocker-during-ubuntu-installation"><span class="std std-ref">BitLocker during Ubuntu installation</span></a>.</p>
+<p>Alternatively, you can install Ubuntu to a separate, unencrypted disk if it’s available on the system.</p>
+</section>
+</section>
+<section id="user-and-password">
+<h2>使用者與密碼<a class="headerlink" href="#user-and-password" title="連結到這個標頭">¶</a></h2>
+<p>On this screen, enter your name and pick a name for your computer as it will appear on the network. Enter your user name and a strong password.</p>
+<p>You can choose to log in automatically or require a password. If you use your device while traveling, it’s recommended to keep <span class="guilabel">Require my password to log in</span> enabled.</p>
+<p><img alt="創建您的帳號頁面" src="../../_images/create-your-account.png" /></p>
+</section>
+<section id="select-your-timezone">
+<h2>選取您的時區<a class="headerlink" href="#select-your-timezone" title="連結到這個標頭">¶</a></h2>
+<p>Select your location and timezone from the map screen. Ubuntu can detect your location automatically if you’re connected to the internet.</p>
+<p><img alt="The Select your timezone page" src="../../_images/select-your-timezone.png" /></p>
+</section>
+<section id="ready-to-install">
+<h2>Ready to install<a class="headerlink" href="#ready-to-install" title="連結到這個標頭">¶</a></h2>
+<p>Here, you can see a summary of your installation configuration. Review  your setup before clicking <span class="guilabel">Install</span>.</p>
+<p><img alt="The Ready to install page" src="../../_images/ready-to-install.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">備註</p>
+<p>If you choose to import an autoinstall configuration at the start of the installation process, the installer takes you directly to this screen to confirm that your configuration is correct.</p>
+</div>
+<p>Once you proceed, Ubuntu begins the installation process.</p>
+</section>
+<section id="complete-the-installation">
+<h2>Complete the installation<a class="headerlink" href="#complete-the-installation" title="連結到這個標頭">¶</a></h2>
+<p>Sit back and enjoy the slideshow as Ubuntu installs in the background.</p>
+<p><img alt="The installation slideshow" src="../../_images/slideshow.png" /></p>
+<p>Alternatively, you can watch a detailed output of the installation process by clicking the icon in the lower right corner of the window.</p>
+<p>When the installation has completed, the installer prompts you to restart your machine. Click <span class="guilabel">Restart Now</span>.</p>
+<p><img alt="The Installation complete page" src="../../_images/installation-complete.png" /></p>
+<p>When you restart, Ubuntu asks you to remove your USB flash drive from the device. Then, press <span class="guilabel">Enter</span>.</p>
+<p><img alt="The Remove the installation medium prompt" src="../../_images/remove-the-installation-medium.png" /></p>
+</section>
+<section id="your-new-system-is-starting">
+<h2>Your new system is starting<a class="headerlink" href="#your-new-system-is-starting" title="連結到這個標頭">¶</a></h2>
+<p>Enter your disk encryption passphrase if you created one.</p>
+<p><img alt="The disk passphrase prompt" src="../../_images/unlock-disk.png" /></p>
+<p>At the login screen, enter your user name and password.</p>
+<p><img alt="The Ubuntu login screen" src="../../_images/login-screen.png" /></p>
+<p>And that’s it. Welcome to your new Ubuntu Desktop!</p>
+<p><img alt="The Ubuntu 26.04 desktop" src="../../_images/ubuntu-26-04-desktop.png" /></p>
+<p>The Initial Setup app will help you with some additional setup options:</p>
+<ul>
+<li><p>Enabling location services.</p></li>
+<li><p>Opting into sending device information to Canonical to help improve Ubuntu.</p>
+<p>By default, Canonical doesn’t collect device information.</p>
+</li>
+<li><p>Customizing the color scheme.</p></li>
+<li><p>Downloading additional apps from App Center.</p></li>
+</ul>
+</section>
+<section id="don-t-forget-to-update">
+<h2>Don’t forget to update<a class="headerlink" href="#don-t-forget-to-update" title="連結到這個標頭">¶</a></h2>
+<p>It’s always good practice to ensure your system is up to date, especially after a fresh install.</p>
+<p>The easiest way to do this is via the <strong>Software Updater</strong> app. Search for Software Updater via the app menu (the Ubuntu icon in the bottom corner of your screen). It will check for updates and apply them.</p>
+<p><img alt="The Ubuntu Software Updater" src="../../_images/software-updater.png" /></p>
+<p>You can also update Ubuntu using the terminal:</p>
+<ol class="arabic">
+<li><p>Press <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Ctrl</kbd>+<kbd class="kbd docutils literal notranslate">Alt</kbd>+<kbd class="kbd docutils literal notranslate">T</kbd></kbd> to bring up a Terminal window.</p></li>
+<li><p>Type in:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">update</span></code></span></div>
+</div>
+<p>You will be prompted to enter your login password.</p>
+<p>This will check for updates and tell you if there are any that need applying.</p>
+</li>
+<li><p>To apply any updates, type:</p>
+<div class="terminal docutils container">
+<div class="input docutils container">
+<div class="prompt docutils container">
+<code class="docutils literal notranslate"><span class="pre">$</span> </code></div>
+<span class="command copybutton"><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt</span> <span class="pre">upgrade</span></code></span></div>
+</div>
+</li>
+<li><p>Type <strong>Y</strong>, then press <kbd class="kbd docutils literal notranslate">Enter</kbd> to confirm to finish the update process.</p></li>
+</ol>
+<p>For details, see <a class="reference external" href="https://documentation.ubuntu.com/server/tutorial/managing-software/#updating-the-system-with-apt">Updating the system with APT</a> in the Ubuntu Server documentation.</p>
+</section>
+<section id="you-ve-installed-ubuntu">
+<h2>You’ve installed Ubuntu<a class="headerlink" href="#you-ve-installed-ubuntu" title="連結到這個標頭">¶</a></h2>
+<p>We hope you enjoy your new desktop.</p>
+<p>If you backed up your data, you can now move them back into Ubuntu. If you backed up your web browser account, log in to synchronize your data.</p>
+<p>Keep your system safe. Consider enabling <a class="reference external" href="https://ubuntu.com/pro">Ubuntu Pro</a> in the Security Center to receive extended security updates. Ubuntu Pro is free for personal use on up to 5 machines.</p>
+<p>If you have any issues, please contact us via the <a class="reference external" href="https://discourse.ubuntu.com/">Ubuntu Discourse</a>.</p>
+<p>You can also read the latest news about Ubuntu Desktop on the <a class="reference external" href="https://ubuntu.com/blog/desktop">Ubuntu Blog</a>.</p>
+<p>If you need to run both Ubuntu and Windows, you can <a class="reference external" href="https://documentation.ubuntu.com/wsl/stable/">install Ubuntu on Windows Subsystem for Linux (WSL)</a>.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+   
+
+<div class="related-pages">
+  
+  
+    
+      
+    
+  
+  
+  <a class="next-page" href="../get-started-with-the-screen-reader/">
+        <div class="page-info">
+          <div class="context">
+            <span>Next</span>
+          </div>
+          <div class="title">開始使用螢幕讀取器</div>
+        </div>
+        <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+      </a>
+    <a class="prev-page" href="../try-ubuntu-desktop/">
+        <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+        <div class="page-info">
+          <div class="context">
+            <span>Previous</span>
+          </div>
+          
+            <div class="title">試用 Ubuntu Desktop</div>
+          
+        </div>
+      </a>
+</div>
+<div class="bottom-of-page">
+  <div class="left-details">
+    <div class="copyright">
+        &copy; 2026 Canonical Ltd.
+    </div><div class="license">
+        This page is licensed under CC-BY-SA-4.0
+      </div><div class="last-updated">
+      Last updated on 2026 年 10 月 15 日</div>
+  </div>
+  <div>
+   
+  </div>
+  <div class="right-details">
+  </div>
+</div>
+
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+<div class="toc-sticky toc-scroll">
+   
+    <div class="toc-title-container">
+      <span class="toc-title">
+       內容
+      </span>
+    </div>
+    <div class="toc-tree-container">
+      <div class="toc-tree">
+        <ul>
+<li><a class="reference internal" href="#">安裝 Ubuntu Desktop</a><ul>
+<li><a class="reference internal" href="#will-ubuntu-work-on-my-computer">Will Ubuntu work on my computer?</a></li>
+<li><a class="reference internal" href="#back-up-your-data">備份您的資料</a></li>
+<li><a class="reference internal" href="#download-an-ubuntu-image">Download an Ubuntu image</a></li>
+<li><a class="reference internal" href="#create-a-bootable-usb-stick">Create a bootable USB stick</a></li>
+<li><a class="reference internal" href="#boot-from-the-usb-flash-drive">Boot from the USB flash drive</a></li>
+<li><a class="reference internal" href="#follow-the-installer">Follow the installer</a></li>
+<li><a class="reference internal" href="#type-of-installation">Type of installation</a></li>
+<li><a class="reference internal" href="#disk-setup">磁碟設定</a><ul>
+<li><a class="reference internal" href="#erase-disk-and-install-ubuntu">抹除磁碟並安裝 Ubuntu</a></li>
+<li><a class="reference internal" href="#encrypt-your-data">Encrypt your data</a></li>
+<li><a class="reference internal" href="#manual-partitioning">Manual partitioning</a></li>
+<li><a class="reference internal" href="#installing-ubuntu-alongside-another-operating-system">Installing Ubuntu alongside another operating system</a></li>
+<li><a class="reference internal" href="#alert-windows-bitlocker-is-enabled">Alert: Windows BitLocker is enabled</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#user-and-password">使用者與密碼</a></li>
+<li><a class="reference internal" href="#select-your-timezone">選取您的時區</a></li>
+<li><a class="reference internal" href="#ready-to-install">Ready to install</a></li>
+<li><a class="reference internal" href="#complete-the-installation">Complete the installation</a></li>
+<li><a class="reference internal" href="#your-new-system-is-starting">Your new system is starting</a></li>
+<li><a class="reference internal" href="#don-t-forget-to-update">Don’t forget to update</a></li>
+<li><a class="reference internal" href="#you-ve-installed-ubuntu">You’ve installed Ubuntu</a></li>
+</ul>
+</li>
+</ul>
+
+      </div>
+    </div>
+   
+    
+  </div>
+
+    </aside>
+  </div>
+</div><script src="../../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../../_static/documentation_options.js?v=c30554f8"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/scripts/furo.js?v=46bd48cc"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=25066c07"></script>
+    <script src="../../_static/config-options.js"></script>
+    <script src="../../_static/contributors.js"></script>
+    <script src="../../_static/translations.js?v=f1e884e3"></script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../../_static/js/bundle.js?v=4baf66b4"></script>
+    <script src="../../_static/js/overwrite_links.js?v=d74d9203"></script>
+    <script src="../../_static/header-nav.js?v=e117ad08"></script>
+    <script src="../../_static/github_issue_links.js?v=355d2de4"></script>
+    
+<script>
+  const github_url = "https://github.com/ubuntu/ubuntu-desktop-documentation";
+  const feedback_link = "";
+</script>
+</body>
+</html>
