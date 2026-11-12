@@ -108,6 +108,7 @@ foreach(_LANGUAGE ${LANGUAGE_LIST})
                 -D gettext_compact=${SPHINX_GETTEXT_COMPACT}
                 -D gettext_additional_targets=${SPHINX_GETTEXT_TARGETS}
                 -D html_baseurl=${HTML_BASEURL}
+                -D llms_txt_build_parallel=0
                 -w ${WARNING_FILE_PATH}
                 -j ${SPHINX_JOB_NUMBER}
                 ${SPHINX_VERBOSE_ARGS}
