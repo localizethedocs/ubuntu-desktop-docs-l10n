@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../reference/advanced-disk-setup-features.md:11
 msgid "Advanced disk setup features"
-msgstr ""
+msgstr "進階磁碟設定功能"
 
 #: ../../../reference/advanced-disk-setup-features.md:13
 msgid ""
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../../reference/advanced-disk-setup-features.md:18
 msgid "Encrypt with a passphrase"
-msgstr ""
+msgstr "使用密語進行加密"
 
 #: ../../../reference/advanced-disk-setup-features.md:19
 msgid ""
@@ -57,21 +57,23 @@ msgstr ""
 
 #: ../../../reference/advanced-disk-setup-features.md:21
 msgid "Use hardware-backed disk encryption"
-msgstr ""
+msgstr "使用硬體支援的磁碟加密"
 
 #: ../../../reference/advanced-disk-setup-features.md:22
 msgid ""
 "This is a new encryption method that can unlock your disk automatically "
 "without a password. For details, see {ref}`hardware-backed-disk-encryption`."
 msgstr ""
+"這是一種新的加密方式，不需輸入密碼即可自動解鎖磁碟。詳情請參見{ref}`hardware-"
+"backed-disk-encryption`。"
 
 #: ../../../reference/advanced-disk-setup-features.md:24
 msgid "The following advanced features are available:"
-msgstr ""
+msgstr "您可以使用以下進階功能："
 
 #: ../../../reference/advanced-disk-setup-features.md:26
 msgid "Use LVM without encryption"
-msgstr ""
+msgstr "使用未加密的 LVM"
 
 #: ../../../reference/advanced-disk-setup-features.md:27
 msgid ""
@@ -81,7 +83,7 @@ msgstr ""
 
 #: ../../../reference/advanced-disk-setup-features.md:29
 msgid "Use ZFS without encryption"
-msgstr ""
+msgstr "使用未加密的 ZFS"
 
 #: ../../../reference/advanced-disk-setup-features.md:30
 msgid ""
@@ -92,8 +94,8 @@ msgstr ""
 
 #: ../../../reference/advanced-disk-setup-features.md:32
 msgid "Encrypt with a passphrase using ZFS"
-msgstr ""
+msgstr "使用 ZFS 以密語進行加密"
 
 #: ../../../reference/advanced-disk-setup-features.md:33
 msgid "Use ZFS and enable its data encryption feature."
-msgstr ""
+msgstr "使用 ZFS 並啟用其資料加密功能。"

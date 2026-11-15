@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../how-to/troubleshoot/index.md:1
 msgid "Common problems"
-msgstr ""
+msgstr "常見問題"
 
 #: ../../../how-to/troubleshoot/index.md:3
 msgid ""

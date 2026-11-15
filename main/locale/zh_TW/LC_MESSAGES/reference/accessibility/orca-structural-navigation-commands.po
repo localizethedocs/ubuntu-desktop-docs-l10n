@@ -70,7 +70,7 @@ msgstr ""
 #: ../../../reference/accessibility/orca-structural-navigation-commands.md:251
 #: ../../../reference/accessibility/orca-structural-navigation-commands.md:279
 msgid "Action"
-msgstr ""
+msgstr "動作"
 
 #: ../../../reference/accessibility/orca-structural-navigation-commands.md:38
 #: ../../../reference/accessibility/orca-structural-navigation-commands.md:94

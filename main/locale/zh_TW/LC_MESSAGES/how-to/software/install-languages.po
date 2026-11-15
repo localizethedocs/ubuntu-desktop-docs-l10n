@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/software/install-languages.md:11
 msgid "Install languages"
-msgstr ""
+msgstr "安裝語言"
 
 #: ../../../how-to/software/install-languages.md:13
 msgid ""
@@ -66,7 +66,7 @@ msgstr ""
 
 #: ../../../how-to/software/install-languages.md:27
 msgid "Click {guilabel}`Install / Remove Languages…`."
-msgstr ""
+msgstr "點擊 {guilabel}`安裝／移除語言…`。"
 
 #: ../../../how-to/software/install-languages.md:29
 msgid ""
@@ -78,11 +78,11 @@ msgstr ""
 msgid ""
 "Check the languages that you want to install, and uncheck those currently "
 "installed languages that you want to remove."
-msgstr ""
+msgstr "勾選您想要安裝的語言，並取消勾選您想要移除的已安裝語言。"
 
 #: ../../../how-to/software/install-languages.md:33
 msgid "Click {guilabel}`Apply`."
-msgstr ""
+msgstr "點擊 {guilabel}`套用`。"
 
 #: ../../../how-to/software/install-languages.md:35
 msgid ""

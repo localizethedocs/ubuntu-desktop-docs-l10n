@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../how-to/software/index.md:8
 msgid "Install or remove software"
-msgstr ""
+msgstr "安裝或移除軟體"
 
 #: ../../../how-to/software/index.md:10
 msgid ""

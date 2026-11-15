@@ -28,7 +28,7 @@ msgstr ""
 
 #: ../../../how-to/start-an-application-at-login.md:11
 msgid "Start an application at login"
-msgstr ""
+msgstr "在登入時啟動應用程式"
 
 #: ../../../how-to/start-an-application-at-login.md:13
 msgid "You can set any application to start automatically at login."

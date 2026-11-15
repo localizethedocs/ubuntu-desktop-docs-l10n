@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../_tags/how-to-guide.md:4
 msgid "With this topic"
-msgstr ""
+msgstr "本話題包含"
 
 #: ../../../_tags/how-to-guide.md:2
 msgid "Topic: How-to guide"

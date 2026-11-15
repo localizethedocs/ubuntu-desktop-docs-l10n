@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../_tags/software.md:4
 msgid "With this topic"
-msgstr ""
+msgstr "本話題包含"
 
 #: ../../../_tags/software.md:2
 msgid "Topic: Software"

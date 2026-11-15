@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/log-in-using-a-smart-card.md:11
 msgid "Log in using a smart card"
-msgstr ""
+msgstr "使用智慧卡登入"
 
 #: ../../../how-to/log-in-using-a-smart-card.md:13
 msgid ""
@@ -172,7 +172,7 @@ msgstr ""
 
 #: ../../../how-to/log-in-using-a-smart-card.md:83
 msgid "Smart card PKCS#11 modules"
-msgstr ""
+msgstr "智慧卡 PKCS#11 模組"
 
 #: ../../../how-to/log-in-using-a-smart-card.md:85
 msgid ""
@@ -270,7 +270,7 @@ msgstr ""
 
 #: ../../../how-to/log-in-using-a-smart-card.md:141
 msgid "List certificates:"
-msgstr ""
+msgstr "列出證書："
 
 #: ../../../how-to/log-in-using-a-smart-card.md:-1
 msgid ""
@@ -297,7 +297,7 @@ msgstr ""
 
 #: ../../../how-to/log-in-using-a-smart-card.md:189
 msgid "Disclaimer"
-msgstr ""
+msgstr "免責聲明"
 
 #: ../../../how-to/log-in-using-a-smart-card.md:191
 msgid ""

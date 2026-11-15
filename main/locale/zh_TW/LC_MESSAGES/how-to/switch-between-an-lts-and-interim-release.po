@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/switch-between-an-lts-and-interim-release.md:11
 msgid "Switch between an LTS and interim release"
-msgstr ""
+msgstr "在 LTS 與過渡發行版之間切換"
 
 #: ../../../how-to/switch-between-an-lts-and-interim-release.md:13
 msgid ""

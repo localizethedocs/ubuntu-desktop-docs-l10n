@@ -29,7 +29,7 @@ msgstr "話題：軟體"
 
 #: ../../../explanation/snap-and-deb-packages.md:12
 msgid "Snap and deb packages"
-msgstr ""
+msgstr "Snap 與 Deb 軟體包"
 
 #: ../../../explanation/snap-and-deb-packages.md:14
 msgid ""

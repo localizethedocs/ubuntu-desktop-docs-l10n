@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/upgrade-ubuntu-desktop.md:13
 msgid "Upgrade Ubuntu Desktop"
-msgstr ""
+msgstr "升級 Ubuntu Desktop"
 
 #: ../../../how-to/upgrade-ubuntu-desktop.md:15
 msgid ""

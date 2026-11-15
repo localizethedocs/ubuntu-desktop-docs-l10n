@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/change-the-default-terminal.md:11
 msgid "Change the default terminal"
-msgstr ""
+msgstr "變更默認終端機"
 
 #: ../../../how-to/change-the-default-terminal.md:13
 msgid ""
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../../how-to/change-the-default-terminal.md:26
 msgid "Terminal"
-msgstr ""
+msgstr "終端機"
 
 #: ../../../how-to/change-the-default-terminal.md:27
 msgid "Identifier"
@@ -89,23 +89,23 @@ msgstr ""
 
 #: ../../../how-to/change-the-default-terminal.md:33
 msgid "`org.gnome.Console.desktop`"
-msgstr ""
+msgstr "`org.gnome.Console.desktop`"
 
 #: ../../../how-to/change-the-default-terminal.md:34
 msgid "Alacritty"
-msgstr ""
+msgstr "Alacritty"
 
 #: ../../../how-to/change-the-default-terminal.md:35
 msgid "`Alacritty.desktop`"
-msgstr ""
+msgstr "`Alacritty.desktop`"
 
 #: ../../../how-to/change-the-default-terminal.md:36
 msgid "Kitty"
-msgstr ""
+msgstr "Kitty"
 
 #: ../../../how-to/change-the-default-terminal.md:37
 msgid "`kitty.desktop`"
-msgstr ""
+msgstr "`kitty.desktop`"
 
 #: ../../../how-to/change-the-default-terminal.md:40
 msgid "If the file lists multiple terminals, the first line takes precedence."

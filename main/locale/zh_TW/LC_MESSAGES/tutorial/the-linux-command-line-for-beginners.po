@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:9
 msgid "The Linux command line for beginners"
-msgstr ""
+msgstr "Linux 命令行入門"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:11
 msgid ""
@@ -47,6 +47,11 @@ msgid ""
 "when trying to follow instructions online, including many on this very "
 "website."
 msgstr ""
+"Linux 命令行（command line）是以文字操作電腦的介面。它常被稱為外殼（shell）、"
+"終端機（terminal）、主控台（console）、提示字元（prompt），或其他各種名稱，看"
+"起來可能複雜又難以使用。不過，您可以從網站複製並貼上命令，而命令行又兼具強大"
+"功能與彈性，因此當您嘗試按照網路上的操作指令進行操作時，使用命令行可能是不可"
+"或缺的，其中也包括本網站上的許多指令。"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:19
 msgid ""
@@ -58,7 +63,7 @@ msgstr ""
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:21
 msgid "What we'll explore"
-msgstr ""
+msgstr "我們將探索的內容"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:23
 msgid "How to access the command line from your own computer"
@@ -66,11 +71,11 @@ msgstr ""
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:24
 msgid "How to perform some basic file manipulation"
-msgstr ""
+msgstr "如何執行一些基本的檔案操縱"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:25
 msgid "A few other useful commands"
-msgstr ""
+msgstr "其他幾個實用命令"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:26
 msgid "How to chain commands together to make more powerful tools"
@@ -91,7 +96,7 @@ msgstr ""
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:33
 msgid "A computer running Ubuntu or some other version of Linux"
-msgstr ""
+msgstr "一台執行 Ubuntu 或其他 Linux 版本的電腦"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:35
 msgid ""
@@ -102,7 +107,7 @@ msgstr ""
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:38
 msgid "Opening a terminal"
-msgstr ""
+msgstr "開啟終端機"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:40
 msgid ""
@@ -444,7 +449,7 @@ msgstr ""
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:452
 msgid "Creating folders and files"
-msgstr ""
+msgstr "創建資料夾與檔案"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:454
 msgid ""
@@ -590,7 +595,7 @@ msgstr ""
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:679
 msgid "Creating files using redirection"
-msgstr ""
+msgstr "使用重新導向創建檔案"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:681
 msgid ""
@@ -643,7 +648,7 @@ msgstr ""
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:730
 msgid "Cancelling a command"
-msgstr ""
+msgstr "取消命令"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:732
 msgid ""
@@ -865,6 +870,9 @@ msgid ""
 "names above as being a single file, potentially causing data loss or other "
 "problems."
 msgstr ""
+"一般來說，應盡量避免創建名稱僅大小寫不同的檔案和資料夾。這不僅能避免混淆，也"
+"能避免在使用不同作業系統時發生問題。例如，Windows 不區分大小寫，因此會將上述"
+"三個檔名視為同一個檔案，可能導致資料遺失或其他問題。"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:965
 msgid ""
@@ -893,7 +901,7 @@ msgstr ""
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:974
 msgid "Moving and manipulating files"
-msgstr ""
+msgstr "移動與操縱檔案"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:976
 msgid ""

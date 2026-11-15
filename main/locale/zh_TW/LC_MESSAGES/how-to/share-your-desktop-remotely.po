@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/share-your-desktop-remotely.md:12
 msgid "Share your desktop remotely"
-msgstr ""
+msgstr "遠端分享您的桌面"
 
 #: ../../../how-to/share-your-desktop-remotely.md:14
 msgid ""

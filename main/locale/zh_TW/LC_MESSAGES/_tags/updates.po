@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../_tags/updates.md:4
 msgid "With this topic"
-msgstr ""
+msgstr "本話題包含"
 
 #: ../../../_tags/updates.md:2
 msgid "Topic: Updates"

@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:11
 msgid "Create a bootable USB stick"
-msgstr ""
+msgstr "製作可開機的 USB 隨身碟"
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:13
 msgid ""
@@ -41,11 +41,11 @@ msgstr ""
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:15
 msgid "With a bootable Ubuntu USB stick, you can:"
-msgstr ""
+msgstr "使用可開機的 Ubuntu USB 隨身碟，您可以："
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:17
 msgid "Install or upgrade Ubuntu."
-msgstr ""
+msgstr "安裝或升級 Ubuntu。"
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:18
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:24
 msgid "An 8GB USB stick or larger."
-msgstr ""
+msgstr "8GB 或更大的 USB 隨身碟。"
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:27
 msgid ""
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:41
 msgid "Using Disks"
-msgstr ""
+msgstr "使用磁碟"
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:43
 msgid ""
@@ -258,7 +258,7 @@ msgstr ""
 #: ../../../how-to/create-a-bootable-usb-stick.md:151
 #: ../../../how-to/create-a-bootable-usb-stick.md:344
 msgid "Insert your USB stick."
-msgstr ""
+msgstr "插入您的 USB 隨身碟。"
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:69
 msgid ""
@@ -363,7 +363,7 @@ msgstr ""
 #: ../../../how-to/create-a-bootable-usb-stick.md:117
 #: ../../../reuse/usb-using-balena-etcher-on-macos.txt:34
 msgid "Insert the USB stick."
-msgstr ""
+msgstr "插入 USB 隨身碟。"
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:121
 msgid ""
@@ -411,7 +411,7 @@ msgstr ""
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:143
 msgid "Using the Linux command line"
-msgstr ""
+msgstr "使用 Linux 命令行"
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:145
 msgid ""
@@ -529,7 +529,7 @@ msgstr ""
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:236
 msgid "Using Rufus"
-msgstr ""
+msgstr "使用 Rufus"
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:238
 msgid ""
@@ -791,7 +791,7 @@ msgstr ""
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:294
 msgid "Using balenaEtcher"
-msgstr ""
+msgstr "使用 balenaEtcher"
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:296
 msgid ""
@@ -900,7 +900,7 @@ msgstr ""
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:305
 msgid "Using the macOS command line"
-msgstr ""
+msgstr "使用 macOS 命令行"
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:307
 msgid ""
@@ -1034,7 +1034,7 @@ msgstr ""
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:429
 msgid "Ventoy"
-msgstr ""
+msgstr "Ventoy"
 
 #: ../../../how-to/create-a-bootable-usb-stick.md:431
 msgid ""
@@ -1139,3 +1139,4 @@ msgstr ""
 msgid ""
 "[Join our online chat on Matrix](https://matrix.to/#/#desktop-dev:ubuntu.com)"
 msgstr ""
+"[加入我們的 Matrix 線上聊天室](https://matrix.to/#/#desktop-dev:ubuntu.com)"

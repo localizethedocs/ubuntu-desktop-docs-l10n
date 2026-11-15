@@ -119,7 +119,7 @@ msgstr ""
 
 #: ../../../reuse/boot-ubuntu-from-usb.txt:9
 msgid "Create a bootable USB stick"
-msgstr ""
+msgstr "製作可開機的 USB 隨身碟"
 
 #: ../../../reuse/boot-ubuntu-from-usb.txt:11
 msgid ""
@@ -476,7 +476,7 @@ msgstr ""
 
 #: ../../../reuse/usb-using-balena-etcher-on-macos.txt:34
 msgid "Insert the USB stick."
-msgstr ""
+msgstr "插入 USB 隨身碟。"
 
 #: ../../../reuse/usb-using-balena-etcher-on-macos.txt:36
 msgid ""

@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/encrypt-your-disk-with-tpm.md:11
 msgid "Encrypt your disk with TPM"
-msgstr ""
+msgstr "使用 TPM 加密您的磁碟"
 
 #: ../../../how-to/encrypt-your-disk-with-tpm.md:13
 msgid ""
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../../how-to/encrypt-your-disk-with-tpm.md:19
 msgid "Enable the encryption during installation"
-msgstr ""
+msgstr "在安裝期間啟用加密"
 
 #: ../../../how-to/encrypt-your-disk-with-tpm.md:21
 msgid ""

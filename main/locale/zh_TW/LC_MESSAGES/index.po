@@ -139,7 +139,7 @@ msgstr "本文件使用 [Diátaxis 文件架構](https://diataxis.fr/)。"
 msgid ""
 "{ref}`tutorials` take you step-by-step through installing Ubuntu Desktop and "
 "exploring the user interface."
-msgstr ""
+msgstr "{ref}`tutorials`將逐步引導您安裝 Ubuntu Desktop 並探索其使用者介面。"
 
 #: ../../../index.md:48
 msgid ""
@@ -159,7 +159,7 @@ msgstr "{ref}`reference`提供 Ubuntu Desktop 架構的速查表、規格和詳�
 msgid ""
 "{ref}`explanation` includes topic overviews, background and context and "
 "detailed discussion."
-msgstr ""
+msgstr "{ref}`explanation`包含主題概覽、背景與情境，以及詳細討論。"
 
 #: ../../../index.md:54
 msgid "Project and community"
@@ -201,8 +201,7 @@ msgstr ""
 msgid ""
 "Join our [online chat on Matrix](https://matrix.to/#/#desktop-dev:ubuntu.com)"
 msgstr ""
-"加入我們[在 Matrix 上的線上聊天室](https://matrix.to/#/#desktop-"
-"dev:ubuntu.com)"
+"加入我們的[ Matrix 線上聊天室](https://matrix.to/#/#desktop-dev:ubuntu.com)"
 
 #: ../../../index.md:65
 msgid ""

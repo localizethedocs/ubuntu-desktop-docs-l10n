@@ -25,13 +25,15 @@ msgstr ""
 
 #: ../../../how-to/record-the-screen.md:8
 msgid "Record the screen"
-msgstr ""
+msgstr "錄製螢幕"
 
 #: ../../../how-to/record-the-screen.md:10
 msgid ""
 "You can record a video of your screen. The video either captures your whole "
 "screen or a selected region. It's saved as a WebM or MP4 video file."
 msgstr ""
+"您可以錄製螢幕影片。影片可以擷取整個螢幕或選定的區域，並儲存為 WebM 或 MP4 影"
+"片檔。"
 
 #: ../../../how-to/record-the-screen.md:12
 msgid "Press {kbd}`PrintScr` and switch to {guilabel}`Record Screen`."

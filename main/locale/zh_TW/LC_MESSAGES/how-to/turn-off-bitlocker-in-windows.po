@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:11
 msgid "Turn off BitLocker in Windows"
-msgstr ""
+msgstr "在 Windows 中關閉 BitLocker"
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:13
 msgid ""
@@ -37,12 +37,16 @@ msgid ""
 "can access the data. This might be necessary to install Ubuntu alongside "
 "Windows."
 msgstr ""
+"您可以停用 Windows 使用的 BitLocker 磁碟加密，以便 Ubuntu 存取資料。若要在 "
+"Windows 旁邊安裝 Ubuntu，這可能是必要的步驟。"
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:15
 msgid ""
 "To learn more about BitLocker and its implications for Ubuntu, see {ref}"
 "`bitlocker-during-ubuntu-installation`."
 msgstr ""
+"若要進一步瞭解 BitLocker 及其對 Ubuntu 的影響，請參見 {ref}`bitlocker-during-"
+"ubuntu-installation`。"
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:18
 msgid ""
@@ -58,7 +62,7 @@ msgstr ""
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:23
 msgid "Back up your data:"
-msgstr ""
+msgstr "備份您的資料："
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:25
 msgid ""
@@ -71,7 +75,7 @@ msgstr ""
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:27
 msgid "Disable encryption:"
-msgstr ""
+msgstr "停用加密："
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:0
 msgid "On Windows 11"
@@ -82,6 +86,7 @@ msgid ""
 "Open the Settings app and go to {menuselection}`Privacy & Security --> "
 "Device Encryption`."
 msgstr ""
+"開啟「設定」應用程式，前往 {menuselection}`隱私權與安全性 --> 裝置加密`。"
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:34
 msgid "Toggle it off."
@@ -120,7 +125,7 @@ msgstr ""
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:49
 msgid "Windows informs you that it is going to decrypt the data."
-msgstr ""
+msgstr "Windows 會通知您即將解密資料。"
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:51
 msgid "![The Turn off BitLocker dialog](/images/turn-off-bitlocker.png)"
@@ -155,13 +160,13 @@ msgstr ""
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:59
 msgid "Once the decryption is complete, reboot the computer."
-msgstr ""
+msgstr "解密完成後，請重新啟動電腦。"
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:61
 msgid ""
 "Log into Windows. Make sure everything works correctly and that all your "
 "data is intact."
-msgstr ""
+msgstr "登入 Windows。確保一切運作正常，且所有資料皆完好無損。"
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:63
 msgid "The Windows data is now accessible to Ubuntu."

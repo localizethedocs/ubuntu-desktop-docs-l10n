@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/access-a-remote-desktop.md:12
 msgid "Access a remote desktop"
-msgstr ""
+msgstr "存取遠端桌面"
 
 #: ../../../how-to/access-a-remote-desktop.md:14
 msgid ""

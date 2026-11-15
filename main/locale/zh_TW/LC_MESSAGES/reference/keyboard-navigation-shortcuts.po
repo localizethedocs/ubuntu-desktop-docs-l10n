@@ -58,7 +58,7 @@ msgstr ""
 #: ../../../reference/keyboard-navigation-shortcuts.md:80
 #: ../../../reference/keyboard-navigation-shortcuts.md:119
 msgid "Action"
-msgstr ""
+msgstr "動作"
 
 #: ../../../reference/keyboard-navigation-shortcuts.md:28
 msgid "{kbd}`Tab` and {kbd}`Ctrl+Tab`"
@@ -220,7 +220,7 @@ msgstr ""
 #: ../../../reference/keyboard-navigation-shortcuts.md:86
 msgid ""
 "Quickly switch between windows. Hold down {kbd}`Shift` for reverse order."
-msgstr ""
+msgstr "快速切換視窗。按住 {kbd}`Shift` 可依相反順序切換。"
 
 #: ../../../reference/keyboard-navigation-shortcuts.md:89
 msgid ":kbd:`Super+``"
