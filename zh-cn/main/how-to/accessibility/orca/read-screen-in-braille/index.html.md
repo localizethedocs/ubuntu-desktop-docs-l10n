@@ -1,0 +1,145 @@
+Topics: [Accessibility](../../../_tags/accessibility.md)
+
+<a id="read-screen-in-braille"></a>
+
+# Read the screen in Braille
+
+The Orca screen reader can display the user interface on a refreshable Braille display. It uses the BRLTTY service, which provides access to the Linux console for a blind person using a refreshable Braille display.
+
+To learn the basic control of the screen reader, go to [Get started with the screen reader](../../../tutorial/get-started-with-the-screen-reader.md#get-started-with-the-screen-reader).
+
+#### NOTE
+Ubuntu Desktop might present some challenges when using the screen reader. If you experience difficulty, refer to [Improve screen reader usability](../../troubleshoot/improve-screen-reader-usability.md#improve-screen-reader-usability).
+
+1. Start the Orca screen reader. If it’s already enabled, restart it:
+
+   ### Keyboard shortcut
+
+   `Super+Alt+S`
+
+   ### Accessibility menu
+
+   In the [accessibility menu](../find-the-accessibility-menu.md#find-the-accessibility-menu) in the top bar, select Screen Reader.
+2. Open Orca preferences:
+
+   ### Laptop layout
+
+   `CapsLock+Space`
+
+   ### Desktop layout
+
+   `Insert+Space`
+
+   ### Command
+
+   `$ ``orca --setup`
+3. Under the Braille tab, make sure that Enable Braille support is on.
+4. Click OK to confirm.
+5. Connect your Braille device to the system over USB, serial port or Bluetooth.
+6. If you use Firefox, close it and reopen it. Orca can then read the browser content.
+
+## Disable speech
+
+The screen reader speaks at the same time as it presents text on your Braille device. You can disable speech:
+
+### Laptop layout
+
+`CapsLock+S`
+
+### Desktop layout
+
+`Insert+S`
+
+## Braille display commands
+
+You can control the screen reader from your Braille device. Use the following commands:
+
+| Action                                   | Key             |
+|------------------------------------------|-----------------|
+| Pan Braille display to the left          | Line Left       |
+| Pan Braille display to the right         | Line Right      |
+| Toggle Flat Review mode                  | Freeze          |
+| Review the word above                    | Line Up         |
+| Review the word below                    | Line Down       |
+| Review bottom left                       | Bottom Right    |
+| Review the home position                 | Top Left        |
+| Contracted Braille                       | Six Dots        |
+| Mark the beginning of a text selection   | Cut Begin       |
+| Mark the end of a text selection         | Cut Line        |
+| Process a cursor routing key             | Cursor Routing  |
+| Return to the object with keyboard focus | Cursor Position |
+
+## Read a document in a different language
+
+If you’re reading a document in a language different than your system language, set the language text table in BRLTTY.
+
+1. Browse the available text tables. They’re stored in the `/etc/brltty/Text/` directory:
+   `$ ``ls /etc/brltty/Text/`
+2. Select the code of the language that you need for your document.
+
+   For example, if you want to read a document in Italian, the text table file is `/etc/brltty/Text/it.ttb` and the language code is `it`.
+3. In the `/etc/brltty.conf` file, set the language code in the `text-table` directive. For example, to set the Italian text table:
+   ```text
+   text-table	it
+   ```
+
+## Configure the Braille screen reader
+
+You can configure how Orca presents information on the Braille display.
+
+1. Open Orca preferences:
+
+   ### Laptop layout
+
+   `CapsLock+Space`
+
+   ### Desktop layout
+
+   `Insert+Space`
+
+   ### Command
+
+   `$ ``orca -s`
+2. Go to the Braille tab.
+
+For an explanation of the Orca Braille settings, see [Braille Preferences](https://help.gnome.org/users/orca/stable/preferences_braille.html.en) in the Orca documentation.
+
+## Troubleshooting
+
+Fix common issues with the Braille screen reader.
+
+### The screen reader isn’t installed
+
+Orca and Braille support are installed by default on Ubuntu Desktop. If you’re using a custom desktop or package set, they might not be installed.
+
+* Make sure that Orca is installed:
+  `$ ``sudo apt install orca`
+* Make sure that the BRLTTY service is installed:
+  `$ ``sudo apt install brltty brltty-espeak`
+
+### My Braille device isn’t detected
+
+If your Braille devices isn’t detected, make sure that the BRLTTY service is properly configured:
+
+1. Add your user to the `brlapi` group to allow access to the Braille device:
+   `$ ``sudo usermod --append -G brlapi <user-name>`
+2. Enable the BRLTTY service:
+   `$ ``sudo systemctl enable --now brltty`
+
+If that didn’t help, configure the connection to your Braille device:
+
+1. Manually set the driver for your Braille device:
+
+   In the `/etc/brltty.conf` file, find the `braille-driver` directive.
+
+   Uncomment the line that lists your Braille device driver.
+2. Manually set the connection method:
+
+   In the `/etc/brltty.conf` file, find the `braille-device` directive.
+
+   Uncomment the line that matches your connection method.
+
+   For example, to connect to the first paired Bluetooth device that matches your Braille driver, use the following line:
+   ```text
+   braille-device bluetooth:
+   ```

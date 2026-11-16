@@ -1,0 +1,36 @@
+<a id="sphx-tag-accessibility"></a>
+
+# Topic: Accessibility
+
+# With this topic
+
+* [Accessibility stack](../explanation/accessibility-stack.md)
+* [Adjust the contrast](../how-to/accessibility/adjust-the-contrast.md)
+* [Adjust the double-click speed](../how-to/accessibility/adjust-the-double-click-speed.md)
+* [Adjust the speed of the mouse and touchpad](../how-to/accessibility/adjust-the-speed-of-the-mouse-and-touchpad.md)
+* [Change text size on the screen](../how-to/accessibility/change-text-size-on-the-screen.md)
+* [Click and move the mouse pointer using the keypad](../how-to/accessibility/click-and-move-the-mouse-pointer-using-the-keypad.md)
+* [Find the accessibility menu](../how-to/accessibility/find-the-accessibility-menu.md)
+* [Flash the screen for alert sounds](../how-to/accessibility/flash-the-screen-for-alert-sounds.md)
+* [Accessibility](../how-to/accessibility/index.md)
+* [Magnify a screen area](../how-to/accessibility/magnify-a-screen-area.md)
+* [Make the keyboard cursor blink](../how-to/accessibility/make-the-keyboard-cursor-blink.md)
+* [Manage repeated key presses](../how-to/accessibility/manage-repeated-key-presses.md)
+* [Navigate the interface using the keyboard](../how-to/accessibility/navigate-the-interface-using-the-keyboard.md)
+* [Add, edit, or remove dictionary entries](../how-to/accessibility/orca/add-dictionary-entries.md)
+* [Screen reader](../how-to/accessibility/orca/index.md)
+* [Navigate the screen using the screen reader](../how-to/accessibility/orca/navigate-the-screen-using-the-screen-reader.md)
+* [Read documents and web pages using the screen reader](../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md)
+* [Read the screen aloud](../how-to/accessibility/orca/read-screen-aloud.md)
+* [Read the screen in Braille](../how-to/accessibility/orca/read-screen-in-braille.md)
+* [Simulate a right mouse click](../how-to/accessibility/simulate-a-right-mouse-click.md)
+* [Simulate clicking by hovering](../how-to/accessibility/simulate-clicking-by-hovering.md)
+* [Turn on bounce keys](../how-to/accessibility/turn-on-bounce-keys.md)
+* [Turn on slow keys](../how-to/accessibility/turn-on-slow-keys.md)
+* [Turn on sticky keys](../how-to/accessibility/turn-on-sticky-keys.md)
+* [Use an on-screen keyboard](../how-to/accessibility/use-an-on-screen-keyboard.md)
+* [Improve screen reader usability](../how-to/troubleshoot/improve-screen-reader-usability.md)
+* [AT-SPI DBus XML interfaces](../reference/accessibility/dbus/index.md)
+* [Screen reader preferences](../reference/accessibility/orca-preferences/index.md)
+* [Orca Structural Navigation commands](../reference/accessibility/orca-structural-navigation-commands.md)
+* [Get started with the screen reader](../tutorial/get-started-with-the-screen-reader.md)
