@@ -1,0 +1,394 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:0
+msgid ""
+"Upgrade your Ubuntu installation to the next release, including supported "
+"upgrade paths from LTS and interim versions."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:9
+msgid "Topics: Updates"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:13
+msgid "Upgrade Ubuntu Desktop"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:15
+msgid ""
+"<!--\n"
+"Originally, this comes from a Tutorial and a Community Help Wiki pages:\n"
+"\n"
+"https://discourse.ubuntu.com/t/upgrade-ubuntu-desktop/14012\n"
+"Author \tOliver Smith oliversmith@canonical.com\n"
+"\n"
+"https://help.ubuntu.com/community/QuestingUpgrades/\n"
+"https://help.ubuntu.com/community/UpgradeNotes\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:25
+msgid ""
+"You can upgrade your Ubuntu installation when a new version comes out. The "
+"upgrade process is interactive and takes up to an hour, depending on your "
+"internet connection speed and computer performance."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:27
+msgid ""
+"You benefit from getting the latest software, including new security "
+"patches, and all the upgraded technology that comes with a new release "
+"without having to reinstall and reconfigure your system."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:30
+msgid ""
+"If you're upgrading from a very outdated release, you might have to repeat "
+"the upgrade process several times."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:32
+msgid ""
+"Ubuntu only supports sequential upgrades: from one Long Term Support (LTS) "
+"release to the next, or from one interim release to the next."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:36
+msgid "Latest releases"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:38
+msgid "Your Ubuntu installation follows one of these upgrade paths:"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:40
+msgid ""
+"If you're using a **Long Term Support (LTS) release** like most of Ubuntu "
+"users, the latest version that you can upgrade to is [Ubuntu 26.04 LTS]"
+"(https://documentation.ubuntu.com/release-notes/26.04/)."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:42
+msgid ""
+"Upgrades to the latest LTS release become available after the first point "
+"release, such as with Ubuntu 26.04.01. This usually happens several months "
+"after the initial release."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:44
+msgid ""
+"If you're using **interim releases**, you can upgrade to [Ubuntu 26.10]"
+"(https://documentation.ubuntu.com/release-notes/26.10/)."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:46
+msgid ""
+"Upgrades to the latest interim release become available a few days after the "
+"official release date."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:48
+msgid ""
+"If you want to upgrade from an LTS release to an interim release, see {ref}"
+"`switch-between-an-lts-and-interim-release`."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:51
+msgid "Prepare for the upgrade"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:53
+msgid ""
+"If you're using a laptop or a mobile device, make sure that it's **plugged "
+"into a power source**."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:55
+msgid ""
+"Check that there is **enough free disk space**. Ubuntu needs to store "
+"several gigabytes of data during the upgrade."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:57
+msgid ""
+"**Back up** all of your user data to an external storage device. Although "
+"it's unlikely that data will be lost during the upgrade process, it's better "
+"to be safe than sorry."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:59
+msgid "Make sure that your current Ubuntu installation is fully **updated**:"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:0
+msgid "Graphical interface"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:66
+#: ../../../how-to/upgrade-ubuntu-desktop.md:114
+msgid "Open the Software Updater application."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:67
+msgid "If any updates are available, install them."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:68
+msgid "Restart your computer if prompted."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:0
+msgid "Command line"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:74
+msgid "Refresh package information:"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:84
+msgid "Install updates:"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:94
+msgid "Restart your computer if prompted:"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:105
+msgid "Start the upgrade"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:107
+msgid "Start the application that upgrades your system:"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:116
+msgid "The application informs you that a new release is available."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:118
+msgid "Click {guilabel}`Upgrade`."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:133
+msgid ""
+"If no upgrade is available, you're either on the latest version of Ubuntu or "
+"upgrades to the latest release haven't been enabled yet."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:135
+msgid ""
+"The process is interactive. Follow the application's instructions and "
+"confirm the prompts:"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:137
+msgid ""
+"The application presents an **overview** of the upgrade, including a link to "
+"the release notes."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:139
+msgid ""
+"When all upgrade requirements have been gathered, the application shows an "
+"overview of the **packages** to be installed and removed."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:141
+msgid ""
+"If you installed packages from Personal Package Archives (PPAs) or third-"
+"party repositories, the **Foreign Packages Installed** prompt opens."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:143
+msgid ""
+"You can try to proceed with the upgrade. If the upgrade fails, remove the "
+"packages manually and try the upgrade again. When you log into the upgraded "
+"system later, reinstall the third-party packages."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:145
+msgid ""
+"While the upgrade is in progress, you might see visual **glitches** on your "
+"screen, such as changing icons. This is normal. Wait until the process is "
+"complete."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:147
+msgid ""
+"When new packages have been installed, the application prompts you to remove "
+"the **obsolete packages** from the previous Ubuntu release."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:149
+msgid ""
+"Unless you have a reason to keep the packages, it's best to remove them. "
+"This usually takes a minute or two."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:151
+msgid "When the upgrade is complete, **restart** your computer."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:154
+msgid "Finalize the upgrade"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:156
+msgid ""
+"Your new, upgraded Ubuntu starts up. Log in and check that everything works "
+"as expected."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:158
+msgid ""
+"Third-party software repositories and PPAs might have been disabled during "
+"the release upgrade. Check if you need to re-enable them or find updated "
+"versions. You can do this in the Software & Updates application, on the "
+"{guilabel}`Other Software` tab. If the application is missing on your "
+"system, you can install it from the `software-properties-gtk` Deb package."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:161
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:163
+msgid "You might encounter these problems when trying to upgrade Ubuntu."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:165
+msgid "The upgrade isn't available"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:167
+msgid ""
+"LTS upgrades only become available with the first point release, such as "
+"26.04.1."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:169
+msgid ""
+"Upgrades to the latest interim release become available several days after "
+"the official release date. This is to allow time for any critical bugs to be "
+"fixed before prompting all users to upgrade. Check again in a few days. If "
+"it's been more than a couple of days, look for known issues in the release "
+"notes. Some of them might be blocking the upgrade until they're resolved. "
+"You can find updates in the attached bug trackers."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:171
+msgid ""
+"If you want to upgrade to an interim release, make sure that your system is "
+"{ref}`properly configured <switch-between-an-lts-and-interim-release>`."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:173
+msgid "You can force the upgrade manually:"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:201
+msgid ""
+"If the normal upgrade path isn't available yet and you know what you're "
+"doing, you can also add the `--devel-release` option to upgrade to the "
+"latest development release:"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:230
+msgid ""
+"Upgrading to a development release isn't supported and might break your "
+"system."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:233
+msgid "The system is slow"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:235
+msgid ""
+"Your machine might be slow to reboot right after the upgrade because it "
+"still needs to complete the initial configuration. After that, it should be "
+"back to normal speed."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:237
+msgid ""
+"If it seems that the new Ubuntu release is much slower than the previous "
+"one, check the system requirements in the release notes to make sure that "
+"your hardware is still supported."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:239
+msgid ""
+"You can also {ref}`reinstall Ubuntu <install-ubuntu-desktop>` from scratch "
+"to get a clean system."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:241
+msgid ""
+"You can return to an earlier LTS release by reinstalling Ubuntu. Downgrading "
+"the existing system isn't supported. Make sure that the release that you "
+"choose still receives security updates."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:244
+msgid ""
+"To extend the support lifetime of your Ubuntu LTS system, consider enabling "
+"[Ubuntu Pro](https://ubuntu.com/pro) in the Security Center. You also "
+"receive security updates to community-maintained packages and get access to "
+"certain enterprise features."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:246
+msgid "Ubuntu Pro is free for personal use on up to 5 machines."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:249
+msgid ""
+"Consider [Ubuntu flavors](https://ubuntu.com/desktop/flavors). These are "
+"community projects that provide alternative desktop environments and default "
+"applications. They might run better on older hardware while still being "
+"based on the latest Ubuntu release. However, flavors aren't supported by "
+"Canonical."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:251
+msgid "The system powered off during the upgrade"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:253
+msgid ""
+"If  your computer lost power during the upgrade, try to start it again. It "
+"might be able to resume the upgrade process. Log in and try to fix any "
+"broken packages."
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:255
+msgid "Configure unpacked updates:"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:265
+msgid "Fix broken dependencies:"
+msgstr ""
+
+#: ../../../how-to/upgrade-ubuntu-desktop.md:275
+msgid ""
+"If you can't log in or the these steps didn't work, it's best to ask for "
+"help on the Ubuntu support channels. See {ref}`project-and-community`."
+msgstr ""

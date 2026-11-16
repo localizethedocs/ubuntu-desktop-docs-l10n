@@ -1,0 +1,628 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:0
+msgid ""
+"Use Orca commands to browse web pages, read in caret mode, check formatting, "
+"fill forms, read tables and follow live regions."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:7
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:11
+msgid "Read documents and web pages using the screen reader"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:13
+msgid ""
+"You can use the following screen reader commands to browse web pages, read "
+"longer text documents and navigate tables."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:15
+msgid ""
+"To start the screen reader and learn its basic control, go to {ref}`get-"
+"started-with-the-screen-reader`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:19
+msgid ""
+"Ubuntu Desktop might present some challenges when using the screen reader. "
+"If you experience difficulty, refer to {ref}`improve-screen-reader-"
+"usability`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:20
+msgid "Read documents using caret mode"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:22
+msgid ""
+"In caret mode, also known as caret browsing or caret navigation, you "
+"navigate a document using the text cursor (caret). You move the cursor using "
+"the arrow keys. As you navigate within the text of the document, Orca "
+"presents your current location."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:24
+msgid "Enable caret navigation:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:26
+msgid ""
+"Applications with text input, such as text editors and word processors, "
+"enable caret navigation by default. The caret is the text cursor that you "
+"use to enter text in the window."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:27
+msgid ""
+"In many GNOME applications and in web browser such as Firefox and Chrome, "
+"you can enable caret navigation by pressing {kbd}`F7`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:28
+msgid "For other applications, consult their documentation."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:30
+msgid "Read the document using caret navigation:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:32
+msgid "Use {kbd}`Left` and {kbd}`Right` to move and read by character."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:33
+msgid "Use {kbd}`Ctrl+Left` and {kbd}`Ctrl+Right` to move and read by word."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:34
+msgid "Use {kbd}`Up` and {kbd}`Down` to move and read by line."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:35
+msgid ""
+"Use {kbd}`Shift` in combination with the previous commands to select and "
+"unselect text."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:37
+msgid ""
+"To read, spell, and obtain the Unicode value for the current text, refer to "
+"{ref}`orca-examine-a-window`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:40
+msgid "Read the entire document"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:42
+msgid "Read the whole document from your cursor position to the end:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:0
+msgid "Laptop layout"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:49
+msgid "{kbd}`CapsLock+;`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:0
+msgid "Desktop layout"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:55
+msgid "{kbd}`Insert+;`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:58
+msgid ""
+"This is similar to the Say All command described in {ref}`orca-examine-a-"
+"window`. However, Say All reads the whole window including buttons and other "
+"interface elements, and it's limited to the currently visible content with "
+"no hierarchy. In contrast, reading the entire document respects more complex "
+"structure on web pages."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:61
+msgid "Examine text formatting"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:63
+msgid ""
+"Let Orca speak the text attributes of the current object, such as the font, "
+"style, alignment, and other formatting associated with the given characters:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:70
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:96
+msgid "{kbd}`CapsLock+F`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:76
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:102
+msgid "{kbd}`Insert+F`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:79
+msgid "Preferences"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:81
+msgid ""
+"The number of text attributes is large. You can customize which text "
+"attributes Orca presents in speech, along with the order in which Orca lists "
+"them. Optionally, Orca can indicate text attributes in braille by "
+"\"underlining\" them as you navigate a document. Go to the {guilabel}`Text "
+"Attributes` page of the Orca preferences dialog to change these settings."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:83
+msgid ""
+"You can also customize text attribute presentation for each application that "
+"you use in the application-specific settings."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:85
+msgid "Identify misspelled words"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:87
+msgid "You can learn about spelling issues in several ways:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:89
+msgid ""
+"When you examine text formatting, Orca also announces spelling issues as one "
+"of the text attributes:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:105
+msgid ""
+"Orca recognizes the spelling issue by reading the underline formatting that "
+"applications use to mark errors."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:107
+msgid ""
+"Enable key echo or word echo. When you misspell a word, Orca announces "
+"\"misspelled\" so that you can immediately go back and correct the error."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:109
+msgid ""
+"When you move the caret into a word that's misspelled, Orca announces the "
+"presence of the spelling error."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:111
+msgid ""
+"Perform detailed Where Am I to learn more details about the spelling issue:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:118
+msgid "{kbd}`CapsLock` + double-press {kbd}`Enter`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:124
+msgid "{kbd}`Insert` + double-press {kbd}`Enter`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:129
+msgid "Navigate the document structure"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:131
+msgid ""
+"The Structural Navigation feature enables you to browse elements in a "
+"document. The types of elements by which you can navigate include:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:133
+msgid "Headings and other text blocks"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:134
+msgid "Form controls"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:135
+msgid "Links"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:136
+msgid "Lists and list items"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:137
+msgid "Landmarks, separators and anchors"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:138
+msgid "Tables and table cells"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:140
+msgid "Structural Navigation is available in the following environments:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:142
+msgid "On **web pages**, you can navigate the full range of elements."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:143
+msgid ""
+"In **LibreOffice Writer** and OpenOffice Writer, you can navigate table "
+"cells."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:145
+msgid "Navigate a web page"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:147
+msgid ""
+"On web pages, you usually read the content without editing it. You can use "
+"the Structural Navigation commands directly. Refer to {ref}`orca-structural-"
+"navigation-commands`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:149
+msgid "Navigate elements in a text editor"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:151
+msgid ""
+"In editable documents, such as those in **LibreOffice Writer** or an "
+"**online text editor**, pressing letters on the keyboard types text in the "
+"editor. Enable Structural Navigation to use letters as navigation shortcuts "
+"instead:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:158
+msgid "{kbd}`CapsLock+Z`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:164
+msgid "{kbd}`Insert+Z`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:167
+msgid "Browse elements using Structural Navigation commands:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:169
+msgid "On web pages, refer to {ref}`orca-structural-navigation-commands`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:170
+msgid ""
+"In Writer, you can only use the commands for {ref}`orca-structural-"
+"navigation-commands-tables`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:172
+msgid ""
+"To go back to writing, disable Structural Navigation using the same shortcut "
+"that enables it."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:175
+msgid "Read tables"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:177
+msgid ""
+"Orca provides several features to access tables on web pages and in other "
+"documents."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:179
+msgid "Read the cell or the row"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:181
+msgid ""
+"Consider the list of **messages in your Inbox**. To hear the sender, "
+"subject, date and presence of attachments, you want Orca to **speak the "
+"row**."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:183
+msgid ""
+"On the other hand, consider the **rows in a spreadsheet**. You might not "
+"want to hear the full row because of the large number of cells in each row. "
+"In that case, you want Orca to only **speak the cell with focus**. Similar "
+"situations occur in document tables."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:185
+msgid "You can switch between cell and row reading for the current table:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:192
+msgid "{kbd}`CapsLock+F11`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:198
+msgid "{kbd}`Insert+F11`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:201
+msgid ""
+"You can customize whether Orca reads the cell or the full row by default. "
+"You can also choose different table reading modes for each type of table and "
+"for specific applications. To edit the options, go to the {guilabel}`Speech` "
+"page of Orca preferences."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:203
+msgid "Structural Navigation"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:205
+msgid ""
+"With Structural Navigation commands, you can locate tables, jump to the "
+"first or last cell and move to the next cell in any direction."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:207
+msgid ""
+"As you navigate the table, Orca announces the details about your position, "
+"such as the dimensions of the table or that you have reached the edge of the "
+"table."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:209
+msgid "For details, refer to {ref}`orca-navigate-the-document-structure`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:211
+msgid "Mark a row or column as a header"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:213
+msgid ""
+"Many tables have incorrectly marked headers. A row or column often serves as "
+"a header but it only uses bold or large text instead of semantic markup. In "
+"other cases, the header might be correct but the application or the toolkit "
+"don't provide the information to the screen reader."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:215
+msgid ""
+"In those cases, you can manually mark a row or column as a header using the "
+"Dynamic Header feature."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:217
+msgid "Set a row as a header"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:219
+msgid "Tell Orca that the current row is the one with the headers:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:226
+msgid "{kbd}`CapsLock+R`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:232
+msgid "{kbd}`Insert+R`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:235
+msgid "Set a column as a header"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:237
+msgid "Tell Orca that the current column is the one with the headers:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:244
+msgid "{kbd}`CapsLock+C`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:250
+msgid "{kbd}`Insert+C`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:253
+msgid "Reset the custom header"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:255
+msgid ""
+"To clear headers, double-press the command that you used to set them. This "
+"removes all custom row headers or column headers."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:258
+msgid "Fill out forms"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:260
+msgid ""
+"In browse mode, you can read forms. In focus mode, you can fill out form "
+"fields."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:262
+msgid "Read or write"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:264
+msgid "Switch between the modes:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:271
+msgid "{kbd}`CapsLock+A`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:277
+msgid "{kbd}`Insert+A`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:280
+msgid "To enable **sticky focus mode**, double-press the shortcut."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:282
+msgid "To enable **sticky browse mode**, triple-press the shortcut."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:284
+msgid "Browse form fields"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:286
+msgid ""
+"In **browse** and **focus mode**, you can browse all focusable objects using "
+"{kbd}`Tab` and {kbd}`Shift+Tab`. After the last form field, you exit the "
+"form."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:288
+msgid "In **browse mode**, you can also use the following navigation:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:290
+msgid ""
+"To navigate to a specific form field, use Structural Navigation commands for "
+"{ref}`orca-structural-navigation-commands-forms`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:292
+msgid ""
+"To leave the form and navigate to another object, use {ref}`orca-structural-"
+"navigation-commands`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:294
+msgid ""
+"In certain forms and applications, you can use {ref}`caret mode <orca-read-"
+"documents-using-caret-mode>`."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:297
+msgid "Read live regions"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:299
+msgid ""
+"A live region is a dynamically-updated portion of a web page, such as a "
+"table of sports statistics, a list of current stock prices, a log from a "
+"chat, or an alert displayed by the page you are reading."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:301
+msgid ""
+"Live regions are common on the web. However, not many web pages with live "
+"regions are fully accessible."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:303
+msgid "Browse live regions"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:305
+msgid "Monitor live regions:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:312
+msgid "{kbd}`CapsLock+Shift+\\`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:318
+msgid "{kbd}`Insert+Shift+\\`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:321
+msgid "Go to the next live region: {kbd}`D`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:323
+msgid "Go to the previous live region: {kbd}`Shift+D`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:325
+msgid "Go to last live region that made an announcement: {kbd}`Y`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:327
+msgid "Review the last **nine** announcements:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:334
+msgid "{kbd}`CapsLock` + {kbd}`F1` through {kbd}`F9`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:340
+msgid "{kbd}`Insert` + {kbd}`F1` through {kbd}`F9`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:343
+msgid "Adjust live region politeness"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:345
+msgid ""
+"Live regions have a \"politeness\" level. It tells your screen reader how "
+"important the information is and when you should hear the updates in that "
+"region."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:347
+msgid "In increasing order of importance, the politeness levels are:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:349
+msgid "Off"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:350
+msgid "Polite"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:351
+msgid "Assertive"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:352
+msgid "Rude"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:354
+msgid ""
+"You might not agree with the politeness level that the page author "
+"specified. In that case, you can modify the politeness level of live regions "
+"on the page:"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:356
+msgid "Cycle between politeness levels: {kbd}`\\`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:358
+msgid "Set the default politeness level to _off_: {kbd}`Shift+\\`"
+msgstr ""

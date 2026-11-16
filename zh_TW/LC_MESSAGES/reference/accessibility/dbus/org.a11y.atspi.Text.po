@@ -1,0 +1,551 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:1
+msgid "org.a11y.atspi.Text"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:5
+msgid "Properties"
+msgstr "屬性"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:7
+msgid ""
+"org.a11y.atspi.Text:CharacterCount {#org.a11y.atspi.Text:CharacterCount}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:9
+msgid "CharacterCount readable i\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:11
+msgid "org.a11y.atspi.Text:CaretOffset {#org.a11y.atspi.Text:CaretOffset}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:13
+msgid "CaretOffset readable i\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:15
+msgid "Methods {#org.a11y.atspi.Text Methods}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:17
+msgid ""
+"org.a11y.atspi.Text.GetStringAtOffset "
+"{#org.a11y.atspi.Text.GetStringAtOffset}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:19
+msgid ""
+"GetStringAtOffset (\n"
+"  IN offset i,\n"
+"  IN granularity u,\n"
+"  OUT unnamed_arg2 s,\n"
+"  OUT startOffset i,\n"
+"  OUT endOffset i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:27
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:58
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:72
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:94
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:114
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:131
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:143
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:158
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:185
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:343
+msgid "offset"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:29
+msgid "granularity"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:31
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:49
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:76
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:98
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:118
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:147
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:248
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:347
+msgid "unnamed_arg2"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:33
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:45
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:78
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:100
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:120
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:162
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:232
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:244
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:272
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:290
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:349
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:370
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:389
+msgid "startOffset"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:35
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:47
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:80
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:102
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:122
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:164
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:234
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:246
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:274
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:292
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:351
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:372
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:391
+msgid "endOffset"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:37
+msgid "org.a11y.atspi.Text.GetText {#org.a11y.atspi.Text.GetText}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:39
+msgid ""
+"GetText (\n"
+"  IN startOffset i,\n"
+"  IN endOffset i,\n"
+"  OUT unnamed_arg2 s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:51
+msgid ""
+"org.a11y.atspi.Text.SetCaretOffset {#org.a11y.atspi.Text.SetCaretOffset}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:53
+msgid ""
+"SetCaretOffset (\n"
+"  IN offset i,\n"
+"  OUT unnamed_arg1 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:60
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:133
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:160
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:259
+msgid "unnamed_arg1"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:62
+msgid ""
+"org.a11y.atspi.Text.GetTextBeforeOffset "
+"{#org.a11y.atspi.Text.GetTextBeforeOffset}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:64
+msgid ""
+"GetTextBeforeOffset (\n"
+"  IN offset i,\n"
+"  IN type u,\n"
+"  OUT unnamed_arg2 s,\n"
+"  OUT startOffset i,\n"
+"  OUT endOffset i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:74
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:96
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:116
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:374
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:393
+msgid "type"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:82
+msgid ""
+"org.a11y.atspi.Text.GetTextAtOffset {#org.a11y.atspi.Text.GetTextAtOffset}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:84
+msgid ""
+"GetTextAtOffset (\n"
+"  IN offset i,\n"
+"  IN type u,\n"
+"  OUT unnamed_arg2 s,\n"
+"  OUT startOffset i,\n"
+"  OUT endOffset i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:92
+msgid ""
+"Returns the text at the given offset. Deprecated: Use GetStringAtOffset."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:104
+msgid ""
+"org.a11y.atspi.Text.GetTextAfterOffset "
+"{#org.a11y.atspi.Text.GetTextAfterOffset}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:106
+msgid ""
+"GetTextAfterOffset (\n"
+"  IN offset i,\n"
+"  IN type u,\n"
+"  OUT unnamed_arg2 s,\n"
+"  OUT startOffset i,\n"
+"  OUT endOffset i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:124
+msgid ""
+"org.a11y.atspi.Text.GetCharacterAtOffset "
+"{#org.a11y.atspi.Text.GetCharacterAtOffset}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:126
+msgid ""
+"GetCharacterAtOffset (\n"
+"  IN offset i,\n"
+"  OUT unnamed_arg1 i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:135
+msgid ""
+"org.a11y.atspi.Text.GetAttributeValue "
+"{#org.a11y.atspi.Text.GetAttributeValue}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:137
+msgid ""
+"GetAttributeValue (\n"
+"  IN offset i,\n"
+"  IN attributeName s,\n"
+"  OUT unnamed_arg2 s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:145
+msgid "attributeName"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:149
+msgid "org.a11y.atspi.Text.GetAttributes {#org.a11y.atspi.Text.GetAttributes}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:151
+msgid ""
+"GetAttributes (\n"
+"  IN offset i,\n"
+"  OUT unnamed_arg1 a{ss},\n"
+"  OUT startOffset i,\n"
+"  OUT endOffset i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:166
+msgid ""
+"org.a11y.atspi.Text.GetDefaultAttributes "
+"{#org.a11y.atspi.Text.GetDefaultAttributes}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:168
+msgid ""
+"GetDefaultAttributes (\n"
+"  OUT unnamed_arg0 a{ss}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:172
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:220
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:359
+msgid "unnamed_arg0"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:174
+msgid ""
+"org.a11y.atspi.Text.GetCharacterExtents "
+"{#org.a11y.atspi.Text.GetCharacterExtents}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:176
+msgid ""
+"GetCharacterExtents (\n"
+"  IN offset i,\n"
+"  IN coordType u,\n"
+"  OUT x i,\n"
+"  OUT y i,\n"
+"  OUT width i,\n"
+"  OUT height i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:187
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:210
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:294
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:325
+msgid "coordType"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:189
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:206
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:296
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:317
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:395
+msgid "x"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:191
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:208
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:298
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:319
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:397
+msgid "y"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:193
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:300
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:321
+msgid "width"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:195
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:302
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:323
+msgid "height"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:197
+msgid ""
+"org.a11y.atspi.Text.GetOffsetAtPoint {#org.a11y.atspi.Text.GetOffsetAtPoint}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:199
+msgid ""
+"GetOffsetAtPoint (\n"
+"  IN x i,\n"
+"  IN y i,\n"
+"  IN coordType u,\n"
+"  OUT unnamed_arg3 i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:212
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:276
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:376
+msgid "unnamed_arg3"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:214
+msgid ""
+"org.a11y.atspi.Text.GetNSelections {#org.a11y.atspi.Text.GetNSelections}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:216
+msgid ""
+"GetNSelections (\n"
+"  OUT unnamed_arg0 i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:222
+msgid "org.a11y.atspi.Text.GetSelection {#org.a11y.atspi.Text.GetSelection}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:224
+msgid ""
+"GetSelection (\n"
+"  IN selectionNum i,\n"
+"  OUT startOffset i,\n"
+"  OUT endOffset i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:230
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:257
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:270
+msgid "selectionNum"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:236
+msgid "org.a11y.atspi.Text.AddSelection {#org.a11y.atspi.Text.AddSelection}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:238
+msgid ""
+"AddSelection (\n"
+"  IN startOffset i,\n"
+"  IN endOffset i,\n"
+"  OUT unnamed_arg2 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:250
+msgid ""
+"org.a11y.atspi.Text.RemoveSelection {#org.a11y.atspi.Text.RemoveSelection}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:252
+msgid ""
+"RemoveSelection (\n"
+"  IN selectionNum i,\n"
+"  OUT unnamed_arg1 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:261
+msgid "org.a11y.atspi.Text.SetSelection {#org.a11y.atspi.Text.SetSelection}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:263
+msgid ""
+"SetSelection (\n"
+"  IN selectionNum i,\n"
+"  IN startOffset i,\n"
+"  IN endOffset i,\n"
+"  OUT unnamed_arg3 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:278
+msgid ""
+"org.a11y.atspi.Text.GetRangeExtents {#org.a11y.atspi.Text.GetRangeExtents}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:280
+msgid ""
+"GetRangeExtents (\n"
+"  IN startOffset i,\n"
+"  IN endOffset i,\n"
+"  IN coordType u,\n"
+"  OUT x i,\n"
+"  OUT y i,\n"
+"  OUT width i,\n"
+"  OUT height i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:304
+msgid ""
+"org.a11y.atspi.Text.GetBoundedRanges {#org.a11y.atspi.Text.GetBoundedRanges}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:306
+msgid ""
+"GetBoundedRanges (\n"
+"  IN x i,\n"
+"  IN y i,\n"
+"  IN width i,\n"
+"  IN height i,\n"
+"  IN coordType u,\n"
+"  IN xClipType u,\n"
+"  IN yClipType u,\n"
+"  OUT unnamed_arg7 a(iisv)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:327
+msgid "xClipType"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:329
+msgid "yClipType"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:331
+msgid "unnamed_arg7"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:333
+msgid ""
+"org.a11y.atspi.Text.GetAttributeRun {#org.a11y.atspi.Text.GetAttributeRun}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:335
+msgid ""
+"GetAttributeRun (\n"
+"  IN offset i,\n"
+"  IN includeDefaults b,\n"
+"  OUT unnamed_arg2 a{ss},\n"
+"  OUT startOffset i,\n"
+"  OUT endOffset i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:345
+msgid "includeDefaults"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:353
+msgid ""
+"org.a11y.atspi.Text.GetDefaultAttributeSet "
+"{#org.a11y.atspi.Text.GetDefaultAttributeSet}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:355
+msgid ""
+"GetDefaultAttributeSet (\n"
+"  OUT unnamed_arg0 a{ss}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:361
+msgid ""
+"org.a11y.atspi.Text.ScrollSubstringTo "
+"{#org.a11y.atspi.Text.ScrollSubstringTo}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:363
+msgid ""
+"ScrollSubstringTo (\n"
+"  IN startOffset i,\n"
+"  IN endOffset i,\n"
+"  IN type u,\n"
+"  OUT unnamed_arg3 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:378
+msgid ""
+"org.a11y.atspi.Text.ScrollSubstringToPoint "
+"{#org.a11y.atspi.Text.ScrollSubstringToPoint}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:380
+msgid ""
+"ScrollSubstringToPoint (\n"
+"  IN startOffset i,\n"
+"  IN endOffset i,\n"
+"  IN type u,\n"
+"  IN x i,\n"
+"  IN y i,\n"
+"  OUT unnamed_arg5 b\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Text.md:399
+msgid "unnamed_arg5"
+msgstr ""

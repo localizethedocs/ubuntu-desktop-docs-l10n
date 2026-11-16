@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:1
+msgid "org.a11y.atspi.Event.Document"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:5
+msgid "Signals"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:7
+msgid "org.a11y.atspi.Event.Document::LoadComplete"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:11
+msgid ""
+"LoadComplete (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:19
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:41
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:63
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:85
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:129
+msgid "unnamed_arg0"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:21
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:43
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:65
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:87
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:109
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:131
+msgid "unnamed_arg1"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:23
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:45
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:67
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:89
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:111
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:133
+msgid "unnamed_arg2"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:25
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:47
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:69
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:91
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:113
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:135
+msgid "unnamed_arg3"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:27
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:49
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:71
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:93
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:115
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:137
+msgid "properties"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:29
+msgid "org.a11y.atspi.Event.Document::Reload"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:33
+msgid ""
+"Reload (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:51
+msgid "org.a11y.atspi.Event.Document::LoadStopped"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:55
+msgid ""
+"LoadStopped (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:73
+msgid "org.a11y.atspi.Event.Document::ContentChanged"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:77
+msgid ""
+"ContentChanged (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:95
+msgid "org.a11y.atspi.Event.Document::AttributesChanged"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:99
+msgid ""
+"AttributesChanged (\n"
+"  name s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:107
+msgid "name"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:117
+msgid "org.a11y.atspi.Event.Document::PageChanged"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Event.Document.md:121
+msgid ""
+"PageChanged (\n"
+"  unnamed_arg0 s,\n"
+"  unnamed_arg1 i,\n"
+"  unnamed_arg2 i,\n"
+"  unnamed_arg3 v,\n"
+"  properties a{sv}\n"
+")\n"
+msgstr ""

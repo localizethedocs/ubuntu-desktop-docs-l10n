@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:1
+msgid "org.a11y.atspi.Registry"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:5
+msgid "Methods"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:7
+msgid "org.a11y.atspi.Registry.RegisterEvent"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:11
+msgid ""
+"RegisterEvent (\n"
+"  IN event s,\n"
+"  IN properties as,\n"
+"  IN app_bus_name s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:17
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:31
+msgid "event"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:19
+msgid "properties"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:21
+msgid "app_bus_name"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:23
+msgid "org.a11y.atspi.Registry.DeregisterEvent"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:27
+msgid ""
+"DeregisterEvent (\n"
+"  IN event s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:33
+msgid "org.a11y.atspi.Registry.GetRegisteredEvents"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:37
+msgid ""
+"GetRegisteredEvents (\n"
+"  OUT events a(ss)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:41
+msgid "events"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:43
+msgid "Signals"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:45
+msgid "org.a11y.atspi.Registry::EventListenerRegistered"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:49
+msgid ""
+"EventListenerRegistered (\n"
+"  bus s,\n"
+"  path s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:54
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:67
+msgid "bus"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:56
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:69
+msgid "path"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:58
+msgid "org.a11y.atspi.Registry::EventListenerDeregistered"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Registry.md:62
+msgid ""
+"EventListenerDeregistered (\n"
+"  bus s,\n"
+"  path s\n"
+")\n"
+msgstr ""

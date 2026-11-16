@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:1
+msgid "org.a11y.atspi.TableCell"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:5
+msgid ""
+"Properties[]{#org.a11y.atspi.TableCell Description} "
+"{#org.a11y.atspi.TableCell Properties}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:7
+msgid ""
+"org.a11y.atspi.TableCell:ColumnSpan {#org.a11y.atspi.TableCell:ColumnSpan}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:9
+msgid "ColumnSpan readable i\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:11
+msgid "org.a11y.atspi.TableCell:Position {#org.a11y.atspi.TableCell:Position}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:13
+msgid "Position readable (ii)\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:15
+msgid "org.a11y.atspi.TableCell:RowSpan {#org.a11y.atspi.TableCell:RowSpan}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:17
+msgid "RowSpan readable i\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:19
+msgid "org.a11y.atspi.TableCell:Table {#org.a11y.atspi.TableCell:Table}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:21
+msgid "Table readable (so)\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:23
+msgid "Methods {#org.a11y.atspi.TableCell Methods}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:25
+msgid ""
+"org.a11y.atspi.TableCell.GetRowColumnSpan "
+"{#org.a11y.atspi.TableCell.GetRowColumnSpan}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:27
+msgid ""
+"GetRowColumnSpan (\n"
+"  OUT unnamed_arg0 b,\n"
+"  OUT row i,\n"
+"  OUT col i,\n"
+"  OUT row_extents i,\n"
+"  OUT col_extents i\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:35
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:53
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:63
+msgid "unnamed_arg0"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:37
+msgid "row"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:39
+msgid "col"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:41
+msgid "row_extents"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:43
+msgid "col_extents"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:45
+msgid ""
+"org.a11y.atspi.TableCell.GetColumnHeaderCells "
+"{#org.a11y.atspi.TableCell.GetColumnHeaderCells}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:47
+msgid ""
+"GetColumnHeaderCells (\n"
+"  OUT unnamed_arg0 a(so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:51
+msgid "Returns a list of the table cell\\'s column header cells."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:55
+msgid ""
+"org.a11y.atspi.TableCell.GetRowHeaderCells "
+"{#org.a11y.atspi.TableCell.GetRowHeaderCells}"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:57
+msgid ""
+"GetRowHeaderCells (\n"
+"  OUT unnamed_arg0 a(so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.TableCell.md:61
+msgid "Returns a list of the table cell\\'s row header cells."
+msgstr ""

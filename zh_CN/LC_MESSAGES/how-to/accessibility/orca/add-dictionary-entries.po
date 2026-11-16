@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:0
+msgid ""
+"Add, edit or remove entries in the Orca pronunciation dictionary to fix "
+"words that your speech synthesizer mispronounces."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:7
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:11
+msgid "Add, edit, or remove dictionary entries"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:13
+msgid ""
+"Speech synthesizers may mispronounce certain strings like \"LOL\" or "
+"\"a11y\".   This page lets you configure Orca’s pronunciation dictionary "
+"with application-specific overrides."
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:7
+msgid "<br />\n"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:7
+msgid "\\\\\n"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:16
+msgid "Add a new dictionary entry"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:18
+msgid "Press the {guilabel}`New Entry` button or {kbd}`Alt+N`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:19
+msgid "Type the original string and press {kbd}`Return`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:20
+msgid ""
+"Move the original string to the {guilabel}`Replacement String` column and "
+"press {kbd}`Return`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:21
+msgid "Type the replacement and press {kbd}`Return`"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:23
+msgid "Edit an existing entry"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:25
+msgid "Select the desired entry"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:26
+msgid "Press {kbd}`Return` to edit"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:27
+msgid "Make changes and press {kbd}`Return` to save"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:29
+msgid "Delete an entry"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:31
+msgid "Select the entry"
+msgstr ""
+
+#: ../../../how-to/accessibility/orca/add-dictionary-entries.md:32
+msgid "Press the {guilabel}`Delete` button or {kbd}`Alt+D`"
+msgstr ""

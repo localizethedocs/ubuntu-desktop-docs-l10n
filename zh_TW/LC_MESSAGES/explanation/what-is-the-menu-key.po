@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../explanation/what-is-the-menu-key.md:0
+msgid ""
+"Learn what the Menu key on your keyboard does in Ubuntu Desktop, how it "
+"opens context menus, and what to use if your keyboard lacks one."
+msgstr ""
+
+#: ../../../explanation/what-is-the-menu-key.md:7
+msgid "Topics: Keyboard"
+msgstr ""
+
+#: ../../../explanation/what-is-the-menu-key.md:11
+msgid "What is the Menu key?"
+msgstr ""
+
+#: ../../../explanation/what-is-the-menu-key.md:13
+msgid ""
+"The {kbd}`Menu` key, also known as the *Application* key, is a key found on "
+"some Windows-oriented keyboards. This key is usually on the bottom-right of "
+"the keyboard, next to the {kbd}`Ctrl` key, but it can be placed in a "
+"different location by keyboard manufacturers. It is usually depicted as a "
+"cursor hovering above a menu: {kbd}`≣🡴`."
+msgstr ""
+
+#: ../../../explanation/what-is-the-menu-key.md:15
+msgid ""
+"The primary function of this key is to launch a context menu with the "
+"keyboard rather than by clicking the right mouse button: this is useful if "
+"mouse or a similar device is not available, or when the right mouse button "
+"is not present."
+msgstr ""
+
+#: ../../../explanation/what-is-the-menu-key.md:17
+msgid ""
+"The {kbd}`Menu` key is sometimes omitted in the interest of space, "
+"particularly on portable and laptop keyboards. In this case, some keyboards "
+"include a {kbd}`Menu` function key that can be activated in combination with "
+"the Function ({kbd}`Fn`) key."
+msgstr ""
+
+#: ../../../explanation/what-is-the-menu-key.md:19
+msgid ""
+"The *context menu* is a menu that pops up when you right-click. The menu "
+"that you see, if any, is dependent on the context and function of the area "
+"that you right-clicked. When you use the {kbd}`Menu` key, the context menu "
+"is shown for the area of the screen that your cursor is over at the point "
+"when the key is pressed."
+msgstr ""

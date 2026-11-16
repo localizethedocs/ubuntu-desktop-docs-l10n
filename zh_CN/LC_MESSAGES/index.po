@@ -1,0 +1,256 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../index.md:11
+msgid "Tutorials"
+msgstr ""
+
+#: ../../../index.md:11
+msgid "How-to guides"
+msgstr ""
+
+#: ../../../index.md:11
+msgid "Reference"
+msgstr ""
+
+#: ../../../index.md:11
+msgid "Explanation"
+msgstr ""
+
+#: ../../../index.md:0
+msgid ""
+"Documentation for Ubuntu Desktop, with tutorials, how-to guides, reference "
+"and explanation for installing, using and configuring it."
+msgstr ""
+
+#: ../../../index.md:7
+msgid "Ubuntu Desktop documentation"
+msgstr ""
+
+#: ../../../index.md:9
+msgid ""
+"Ubuntu Desktop is an open-source operating system that powers millions of "
+"PCs and laptops around the world. It supports daily user needs, as well as "
+"professional content creation, software development and AI/ML use cases."
+msgstr ""
+
+#: ../../../index.md:21
+msgid ""
+"<!--\n"
+":::{toctree}\n"
+":caption: Content by topics\n"
+":hidden:\n"
+":maxdepth: 2\n"
+":titlesonly:\n"
+"_tags/tagsindex\n"
+":::\n"
+"-->\n"
+msgstr ""
+
+#: ../../../index.md:32
+msgid "In this documentation"
+msgstr ""
+
+#: ../../../index.md:34
+msgid ""
+"**Introduction**: {ref}`about-ubuntu-desktop` • {ref}`try-ubuntu-desktop` • "
+"{ref}`the-linux-command-line-for-beginners`"
+msgstr ""
+
+#: ../../../index.md:35
+msgid ""
+"**Installation**: {ref}`create-a-bootable-usb-stick` • {ref}`install-ubuntu-"
+"desktop` • {ref}`bitlocker-during-ubuntu-installation` • {ref}`turn-off-"
+"bitlocker-in-windows` • {ref}`intel-rst-during-ubuntu-installation` • {ref}"
+"`reconfigure-windows-to-use-ahci`"
+msgstr ""
+
+#: ../../../index.md:36
+msgid ""
+"**Accessibility**: {ref}`Screen reader tutorial <get-started-with-the-screen-"
+"reader>` • {ref}`Enable accessibility features <how-to-accessibility>` • "
+"{ref}`keyboard-navigation-shortcuts` • {ref}`accessibility-stack` • {ref}"
+"`Reference <reference-accessibility>`"
+msgstr ""
+
+#: ../../../index.md:37
+msgid ""
+"**Security**: {ref}`hardware-backed-disk-encryption` • {ref}`Smart card "
+"login <log-in-using-a-smart-card>` • {ref}`Smart card in your web browser "
+"<enable-smart-cards-in-snapped-browsers>`"
+msgstr ""
+
+#: ../../../index.md:38
+msgid ""
+"**Software and versions**: {ref}`install-or-remove-software` • {ref}`upgrade-"
+"ubuntu-desktop` • {ref}`switch-between-an-lts-and-interim-release`"
+msgstr ""
+
+#: ../../../index.md:39
+msgid ""
+"**Remote access**: {ref}`share-your-desktop-remotely` • {ref}`access-a-"
+"remote-desktop`"
+msgstr ""
+
+#: ../../../index.md:40
+msgid ""
+"**Customization**: {ref}`change-the-default-terminal` • {ref}`start-an-"
+"application-at-login`"
+msgstr ""
+
+#: ../../../index.md:43
+msgid "How this documentation is organized"
+msgstr ""
+
+#: ../../../index.md:45
+msgid ""
+"This documentation uses the [Diátaxis documentation structure](https://"
+"diataxis.fr/)."
+msgstr ""
+
+#: ../../../index.md:47
+msgid ""
+"{ref}`tutorials` take you step-by-step through installing Ubuntu Desktop and "
+"exploring the user interface."
+msgstr ""
+
+#: ../../../index.md:48
+msgid ""
+"{ref}`how-to` assume you have basic familiarity with Ubuntu Desktop. They "
+"cover various common tasks and specialized use cases."
+msgstr ""
+
+#: ../../../index.md:49
+msgid ""
+"{ref}`reference` provides cheat sheets, specifications and details on the "
+"Ubuntu Desktop architecture."
+msgstr ""
+
+#: ../../../index.md:50
+msgid ""
+"{ref}`explanation` includes topic overviews, background and context and "
+"detailed discussion."
+msgstr ""
+
+#: ../../../index.md:54
+msgid "Project and community"
+msgstr ""
+
+#: ../../../index.md:56
+msgid ""
+"Ubuntu Desktop is one of the main versions of the Ubuntu operating system, "
+"alongside [Ubuntu Server](https://ubuntu.com/server), [Ubuntu on WSL]"
+"(https://ubuntu.com/wsl) and [Ubuntu Core](https://ubuntu.com/core)."
+msgstr ""
+
+#: ../../../index.md:58
+msgid ""
+"As an open source project, Ubuntu Desktop warmly welcomes community "
+"projects, contributions, suggestions, fixes and constructive feedback."
+msgstr ""
+
+#: ../../../index.md:60
+msgid "Get involved"
+msgstr ""
+
+#: ../../../index.md:62
+msgid "Get [community support](https://ubuntu.com/support/community-support)"
+msgstr ""
+
+#: ../../../index.md:63
+msgid ""
+"Join our [Discourse forum](https://discourse.ubuntu.com/c/project/desktop/)"
+msgstr ""
+
+#: ../../../index.md:64
+msgid ""
+"Join our [online chat on Matrix](https://matrix.to/#/#desktop-dev:ubuntu.com)"
+msgstr ""
+
+#: ../../../index.md:65
+msgid ""
+"[Contribute to this documentation](https://github.com/ubuntu/ubuntu-desktop-"
+"documentation/blob/main/CONTRIBUTING.md)"
+msgstr ""
+
+#: ../../../index.md:67
+msgid "Releases"
+msgstr ""
+
+#: ../../../index.md:69
+msgid ""
+"{external:ref}`Release notes for Ubuntu 26.10 <ubuntu-26.10-release-notes>`"
+msgstr ""
+
+#: ../../../index.md:70
+msgid ""
+"{external:ref}`Release notes for Ubuntu 26.04 LTS <ubuntu-26.04-lts-release-"
+"notes>`"
+msgstr ""
+
+#: ../../../index.md:71
+msgid ""
+"{external:ref}`Release notes for Ubuntu 24.04 LTS <ubuntu-24.04-lts-release-"
+"notes>`"
+msgstr ""
+
+#: ../../../index.md:73
+msgid "Governance and policies"
+msgstr ""
+
+#: ../../../index.md:75
+msgid "[Code of conduct](https://ubuntu.com/community/code-of-conduct)"
+msgstr ""
+
+#: ../../../index.md:77
+msgid "Commercial support"
+msgstr ""
+
+#: ../../../index.md:79
+msgid ""
+"Get a subscription for security fixes and compliance profiles with [Ubuntu "
+"Pro](https://ubuntu.com/pro)."
+msgstr ""
+
+#: ../../../index.md:82
+msgid "Credits"
+msgstr ""
+
+#: ../../../index.md:84
+msgid ""
+"Large parts of this guide are based on documentation written by open-source "
+"communities. We wish to thank them for their work:"
+msgstr ""
+
+#: ../../../index.md:86
+msgid ""
+"The [GNOME User Documentation](https://gitlab.gnome.org/GNOME/gnome-user-"
+"docs) project"
+msgstr ""
+
+#: ../../../index.md:87
+msgid ""
+"The [Orca screen reader](https://gitlab.gnome.org/GNOME/orca) documentation"
+msgstr ""
+
+#: ../../../index.md:88
+msgid ""
+"The [Ubuntu Desktop Guide](https://launchpad.net/ubuntu/+source/ubuntu-docs) "
+"project"
+msgstr ""

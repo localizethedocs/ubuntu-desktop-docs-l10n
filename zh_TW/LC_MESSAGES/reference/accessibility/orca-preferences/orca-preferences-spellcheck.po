@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:0
+msgid ""
+"Configure how Orca presents spell checker information, such as spelling "
+"misspelled words and suggestions and speaking error context."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:7
+msgid "Spellcheck preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:9
+msgid ""
+"Orca tries to provide a consistent user experience when interacting with "
+"application spell checkers. For applications where this enhanced support has "
+"been provided, you will find several options which you can adjust to get the "
+"verbosity level that works best for you. You can have both brief and verbose "
+"spell check information"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:12
+msgid ""
+"If you normally want very little verbosity when using a spell checker, but "
+"occasionally need detailed information about a given error, you can disable "
+"these options. When you need additional details, just use Orca's detailed "
+"Where Am I command to have Orca present the current error as if all of these "
+"options were enabled."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:14
+msgid "Spell error"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:16
+msgid "If checked, Orca spells out the misspelled word after speaking it."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:18
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:24
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:30
+msgid "**Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:20
+msgid "Spell suggestion"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:22
+msgid "If checked, Orca spells out the suggested correction after speaking it."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:26
+msgid "Present context of error"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-spellcheck.md:28
+msgid ""
+"If checked, Orca speaks the sentence or line from the document in which the "
+"error is found."
+msgstr ""

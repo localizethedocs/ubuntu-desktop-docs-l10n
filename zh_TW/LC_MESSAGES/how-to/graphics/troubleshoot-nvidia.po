@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:0
+msgid ""
+"Monitor the state and utilization of your NVIDIA drivers on Ubuntu and "
+"resolve common driver issues."
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:7
+msgid "Topics: How-to guide Graphics"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:11
+msgid "Troubleshoot your NVIDIA GPU and drivers"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:13
+msgid "You can monitor the state of your NVIDIA GPU and resolve common issues."
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:15
+msgid ""
+"This guide assumes that you're using the proprietary NVIDIA drivers. Refer "
+"to {ref}`install-nvidia-drivers` first."
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:17
+msgid "Install NVIDIA monitoring and troubleshooting tools"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:19
+msgid "The following tools are available:"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:21
+msgid "`nvidia-bug-report.sh`"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:22
+msgid ""
+"Collects diagnostic information into a compressed report, useful when filing "
+"bug reports with NVIDIA."
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:24
+msgid "`nvidia-debugdump`"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:25
+msgid ""
+"Extracts internal GPU debug data, mainly used by NVIDIA support for low-"
+"level driver debugging."
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:27
+msgid "`nvidia-smi`"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:28
+msgid "Monitors your GPU utilization, memory usage, fan speed and clock speed."
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:30
+msgid ""
+"For details, refer to [System Management Interface SMI](https://"
+"developer.nvidia.com/system-management-interface)."
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:32
+msgid "`nvidia-xconfig`"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:33
+msgid ""
+"Generates the X11 server configuration (`xorg.conf`) for NVIDIA driver "
+"settings. Only for legacy Desktop systems."
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:35
+msgid ""
+"Install the tools from the package matching your driver version. For "
+"example, on a Server system using the driver version 535:"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:46
+msgid "Driver/library version mismatch error"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:48
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:80
+msgid ""
+"If you encounter the following error when running the `nvidia-smi` command:"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:-1
+msgid "Failed to initialize NVML: Driver/library version mismatch"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:55
+msgid ""
+"This typically indicates that the user-space driver packages were upgraded "
+"while the kernel module is still on the older version (for example, the "
+"client reports one driver version while the kernel module reports another). "
+"This situation often occurs after a system upgrade. To verify this, check "
+"the kernel logs:"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:65
+msgid "Look for error messages similar to:"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:-1
+msgid ""
+"NVRM: API mismatch: the client has the version 570.172.08, but\n"
+"NVRM: this kernel module has the version 570.158.01.  Please\n"
+"NVRM: make sure that this kernel module and all NVIDIA driver\n"
+"NVRM: components have the same version."
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:75
+msgid ""
+"**Solution**: Rebooting the system will load the updated kernel module and "
+"bring the versions back in sync."
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:78
+msgid "No devices were found error"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:-1
+msgid "No devices were found"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:87
+msgid ""
+"This may occur if the open-source NVIDIA kernel driver [`nouveau`](https://"
+"nouveau.freedesktop.org/) is pre-installed and loaded, which conflicts with "
+"the proprietary NVIDIA driver. To check whether `nouveau` is loaded:"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:97
+msgid ""
+"**Solution**: If `nouveau` kernel module is loaded, blocklist it and rebuild "
+"the `initramfs`:"
+msgstr ""
+
+#: ../../../how-to/graphics/troubleshoot-nvidia.md:110
+msgid "Then reboot the system for the changes to take effect."
+msgstr ""

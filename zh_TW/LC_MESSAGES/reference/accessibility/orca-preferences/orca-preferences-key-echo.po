@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:0
+msgid ""
+"Configure Orca key echo to choose whether keys, characters, words or "
+"sentences are spoken as you type."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:7
+msgid "Key echo preferences"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:9
+msgid "Enable key echo"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:11
+msgid "Controls whether key presses are spoken."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:13
+msgid "**Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:15
+msgid ""
+"Enabling this shows additional checkboxes to fine-tune which keys are echoed:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:17
+msgid "**Enable alphabetic keys**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:18
+msgid "a, b, c, etc.   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:0
+msgid "<br />\n"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:0
+msgid "\\\\\n"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:21
+msgid "**Enable numeric keys**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:22
+msgid "1, 2, 3, etc.   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:25
+msgid "**Enable punctuation keys**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:26
+msgid "`%, ;, ?`   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:29
+msgid "**Enable space**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:30
+msgid "{kbd}`Spacebar`   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:33
+msgid "**Enable modifier keys**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:34
+msgid ""
+"{kbd}`Shift`, {kbd}`Ctrl`, {kbd}`Alt`, {kbd}`Meta`   **Default value:** "
+"Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:37
+msgid "**Enable function keys**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:38
+msgid "{kbd}`F1` to {kbd}`F12`   **Default value:** Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:41
+msgid "**Enable action keys**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:42
+msgid ""
+"{kbd}`Backspace`, {kbd}`Delete`, {kbd}`Return`, {kbd}`Esc`, {kbd}`Tab`, {kbd}"
+"`Page Up`, {kbd}`Page Down`, {kbd}`Home`, {kbd}`End`   **Default value:** "
+"Checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:45
+msgid "**Enable navigation keys**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:46
+msgid ""
+"{kbd}`Left`, {kbd}`Right`, {kbd}`Up`, {kbd}`Down` (Also applies when Orca "
+"Modifier is held down)   **Default value:** Not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:49
+msgid "**Enable non-spacing diacritical keys**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:50
+msgid "dead keys used for accented letters   **Default value:** Not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:53
+msgid "Enable echo by character"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:55
+msgid ""
+"Causes Orca to announce the character inserted, not just the key pressed."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:57
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:72
+msgid "**Default value:** Not checked"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:60
+msgid ""
+"Key echo announces what you pressed.   Character echo announces what was "
+"inserted."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:64
+msgid "Enable echo by word or sentence"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:66
+msgid "**Echo by word**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:67
+msgid "announces the word you just typed"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:69
+msgid "**Echo by sentence**"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-preferences/orca-preferences-key-echo.md:70
+msgid "announces the sentence you just typed"
+msgstr ""
