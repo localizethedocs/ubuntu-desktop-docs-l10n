@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../how-to/troubleshoot/bluetooth.md:8
 msgid "Bluetooth"
-msgstr ""
+msgstr "藍牙"
 
 #: ../../../how-to/troubleshoot/bluetooth.md:10
 msgid ""
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../../how-to/troubleshoot/bluetooth.md:22
 msgid "journalctl --dmesg | grep -i 'firmware load'\n"
-msgstr ""
+msgstr "journalctl --dmesg | grep -i 'firmware load'\n"
 
 #: ../../../how-to/troubleshoot/bluetooth.md:24
 msgid "The log entry might look similar to this example:"
@@ -83,7 +83,7 @@ msgstr ""
 
 #: ../../../how-to/troubleshoot/bluetooth.md:30
 msgid "See also"
-msgstr ""
+msgstr "另請參見"
 
 #: ../../../how-to/troubleshoot/bluetooth.md:32
 msgid ""

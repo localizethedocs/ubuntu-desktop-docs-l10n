@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../../explanation/hardware-backed-disk-encryption.md:29
 msgid "Recovery key"
-msgstr ""
+msgstr "復原密鑰"
 
 #: ../../../explanation/hardware-backed-disk-encryption.md:31
 msgid ""
@@ -202,7 +202,7 @@ msgstr ""
 
 #: ../../../explanation/hardware-backed-disk-encryption.md:74
 msgid "Windows BitLocker"
-msgstr ""
+msgstr "Windows BitLocker"
 
 #: ../../../explanation/hardware-backed-disk-encryption.md:76
 msgid ""
@@ -224,7 +224,7 @@ msgstr ""
 
 #: ../../../explanation/hardware-backed-disk-encryption.md:80
 msgid "Other platforms"
-msgstr ""
+msgstr "其他平台"
 
 #: ../../../explanation/hardware-backed-disk-encryption.md:82
 msgid ""

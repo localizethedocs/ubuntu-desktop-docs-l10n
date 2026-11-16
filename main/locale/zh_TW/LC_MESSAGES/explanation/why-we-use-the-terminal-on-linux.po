@@ -25,13 +25,15 @@ msgstr ""
 
 #: ../../../explanation/why-we-use-the-terminal-on-linux.md:8
 msgid "Why we use the terminal on Linux"
-msgstr ""
+msgstr "為什麼我們要在 Linux 上使用終端機"
 
 #: ../../../explanation/why-we-use-the-terminal-on-linux.md:10
 msgid ""
 "The history of the Linux command line dates back to the 1970s. We still use "
 "this interface today in a much updated form."
 msgstr ""
+"Linux 命令行的歷史可追溯至 1970 年代。時至今日，我們仍在使用這個介面，只是其"
+"形式已大幅更新。"
 
 #: ../../../explanation/why-we-use-the-terminal-on-linux.md:12
 msgid ""

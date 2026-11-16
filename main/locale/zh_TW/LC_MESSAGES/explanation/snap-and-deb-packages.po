@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../explanation/snap-and-deb-packages.md:8
 msgid "Topics: Software"
-msgstr "話題：軟體"
+msgstr ""
 
 #: ../../../explanation/snap-and-deb-packages.md:12
 msgid "Snap and deb packages"
@@ -104,7 +104,7 @@ msgstr ""
 #: ../../../explanation/snap-and-deb-packages.md:37
 #: ../../../explanation/snap-and-deb-packages.md:135
 msgid "Dependencies"
-msgstr ""
+msgstr "依賴項目"
 
 #: ../../../explanation/snap-and-deb-packages.md:39
 msgid ""

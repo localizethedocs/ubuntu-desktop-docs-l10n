@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/change-text-size-on-the-screen.md:11
 msgid "Change text size on the screen"
-msgstr ""
+msgstr "變更螢幕上的文字大小"
 
 #: ../../../how-to/accessibility/change-text-size-on-the-screen.md:13
 msgid ""

@@ -25,11 +25,11 @@ msgstr ""
 
 #: ../../../how-to/software/remove-an-application.md:7
 msgid "Topics: Software"
-msgstr "話題：軟體"
+msgstr ""
 
 #: ../../../how-to/software/remove-an-application.md:11
 msgid "Remove an application"
-msgstr ""
+msgstr "移除應用程式"
 
 #: ../../../how-to/software/remove-an-application.md:13
 msgid ""

@@ -37,11 +37,11 @@ msgstr ""
 
 #: ../../../explanation/hardware-stack.md:12
 msgid "Bluetooth"
-msgstr ""
+msgstr "藍牙"
 
 #: ../../../explanation/hardware-stack.md:14
 msgid "Kernel modules"
-msgstr ""
+msgstr "內核模組"
 
 #: ../../../explanation/hardware-stack.md:16
 msgid ""
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../../explanation/hardware-stack.md:20
 msgid "Firmware"
-msgstr ""
+msgstr "韌體"
 
 #: ../../../explanation/hardware-stack.md:22
 msgid ""
@@ -89,11 +89,11 @@ msgstr ""
 
 #: ../../../explanation/hardware-stack.md:28
 msgid "Common issues"
-msgstr ""
+msgstr "其他議題"
 
 #: ../../../explanation/hardware-stack.md:30
 msgid "{ref}`proprietary-firmware`"
-msgstr ""
+msgstr "{ref}`proprietary-firmware`"
 
 #: ../../../explanation/hardware-stack.md:32
 msgid "HCI (Host Controller Interface)"

@@ -1059,7 +1059,7 @@ msgstr ""
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:1198
 msgid "Deleting files and folders"
-msgstr ""
+msgstr "刪除檔案與資料夾"
 
 #: ../../../tutorial/the-linux-command-line-for-beginners.md:1201
 msgid ""

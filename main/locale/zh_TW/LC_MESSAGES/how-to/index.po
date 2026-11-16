@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../../how-to/index.md:49
 msgid "{ref}`remove-an-application`"
-msgstr ""
+msgstr "{ref}`remove-an-application`"
 
 #: ../../../how-to/index.md:50
 msgid "{ref}`install-languages`"

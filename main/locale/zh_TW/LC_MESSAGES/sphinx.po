@@ -3478,7 +3478,7 @@ msgstr ""
 
 #: sphinx/locale/__init__.py:231
 msgid "See also"
-msgstr ""
+msgstr "另請參見"
 
 #: sphinx/locale/__init__.py:232
 msgid "Tip"

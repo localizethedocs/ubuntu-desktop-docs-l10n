@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../../explanation/index.md:2
 msgid "Explanation"
-msgstr ""
+msgstr "解釋說明"
 
 #: ../../../explanation/index.md:4
 msgid ""

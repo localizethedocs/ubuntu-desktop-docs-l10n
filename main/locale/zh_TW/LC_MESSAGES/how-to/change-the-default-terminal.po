@@ -73,19 +73,19 @@ msgstr ""
 
 #: ../../../how-to/change-the-default-terminal.md:29
 msgid "`org.gnome.Ptyxis.desktop:new-window`"
-msgstr ""
+msgstr "`org.gnome.Ptyxis.desktop:new-window`"
 
 #: ../../../how-to/change-the-default-terminal.md:30
 msgid "GNOME Terminal"
-msgstr ""
+msgstr "GNOME 終端機"
 
 #: ../../../how-to/change-the-default-terminal.md:31
 msgid "`org.gnome.Terminal.desktop`"
-msgstr ""
+msgstr "`org.gnome.Terminal.desktop`"
 
 #: ../../../how-to/change-the-default-terminal.md:32
 msgid "GNOME Console"
-msgstr ""
+msgstr "GNOME 主控台"
 
 #: ../../../how-to/change-the-default-terminal.md:33
 msgid "`org.gnome.Console.desktop`"

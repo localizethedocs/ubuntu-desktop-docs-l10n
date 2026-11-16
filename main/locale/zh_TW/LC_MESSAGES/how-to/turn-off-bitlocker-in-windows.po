@@ -52,13 +52,15 @@ msgstr ""
 msgid ""
 "Certain versions of Windows will no longer allow you to re-enable BitLocker "
 "after disabling it."
-msgstr ""
+msgstr "某些版本的 Windows 在停用 BitLocker 後，將不再允許您重新啟用它。"
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:20
 msgid ""
 "If you wish to re-encrypt your Windows partition after installing Ubuntu "
 "alongside it, check that your version of Windows supports this."
 msgstr ""
+"如果您希望在與 Windows 並存安裝 Ubuntu 後重新加密 Windows 分割區，請檢查您的 "
+"Windows 版本是否支援此功能。"
 
 #: ../../../how-to/turn-off-bitlocker-in-windows.md:23
 msgid "Back up your data:"

@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:11
 msgid "Accessibility stack"
-msgstr ""
+msgstr "無障礙堆疊"
 
 #: ../../../explanation/accessibility-stack.md:13
 msgid "Software interfaces for assistive technologies"
@@ -135,7 +135,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:45
 msgid "GTK3 and ATK"
-msgstr ""
+msgstr "GTK3 與 ATK"
 
 #: ../../../explanation/accessibility-stack.md:47
 msgid ""
@@ -183,7 +183,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "GTK4"
-msgstr ""
+msgstr "GTK4"
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "[Gtk.Accessible](https://docs.gtk.org/gtk4/iface.Accessible.html)"
@@ -214,6 +214,8 @@ msgid ""
 "[Flutter API](https://docs.flutter.dev/ui/accessibility-and-"
 "internationalization/accessibility)"
 msgstr ""
+"[Flutter API](https://docs.flutter.dev/ui/accessibility-and-"
+"internationalization/accessibility)"
 
 #: ../../../explanation/accessibility-stack.md:7
 msgid "Software and Updates"
@@ -236,7 +238,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:70
 msgid "Orca"
-msgstr ""
+msgstr "Orca"
 
 #: ../../../explanation/accessibility-stack.md:72
 msgid "Orca is a screen reader for vision impaired and blind users."
@@ -250,7 +252,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:76
 msgid "BRLTTY"
-msgstr ""
+msgstr "BRLTTY"
 
 #: ../../../explanation/accessibility-stack.md:78
 msgid ""
@@ -267,7 +269,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:82
 msgid "eSpeak"
-msgstr ""
+msgstr "eSpeak"
 
 #: ../../../explanation/accessibility-stack.md:84
 msgid ""
@@ -314,7 +316,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:103
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: ../../../explanation/accessibility-stack.md:105
 msgid "Ubuntu Desktop supports USB out of the box."
@@ -375,7 +377,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:125
 msgid "Bluetooth"
-msgstr ""
+msgstr "藍牙"
 
 #: ../../../explanation/accessibility-stack.md:127
 msgid ""
@@ -412,7 +414,7 @@ msgstr ""
 
 #: ../../../explanation/accessibility-stack.md:137
 msgid "See also"
-msgstr ""
+msgstr "另請參見"
 
 #: ../../../explanation/accessibility-stack.md:139
 msgid "{ref}`troubleshoot-bluetooth`"
