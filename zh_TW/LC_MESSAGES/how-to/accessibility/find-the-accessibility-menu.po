@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/find-the-accessibility-menu.md:0
+msgid ""
+"Find the accessibility menu on the top bar of Ubuntu Desktop, enable it in "
+"Settings, and reach it using the keyboard."
+msgstr ""
+
+#: ../../../how-to/accessibility/find-the-accessibility-menu.md:7
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../how-to/accessibility/find-the-accessibility-menu.md:11
+msgid "Find the accessibility menu"
+msgstr ""
+
+#: ../../../how-to/accessibility/find-the-accessibility-menu.md:13
+msgid ""
+"The *accessibility menu* is where you can turn on some of the accessibility "
+"settings. You can find this menu by clicking the icon which looks like a "
+"person on the top bar."
+msgstr ""
+
+#: ../../../how-to/accessibility/find-the-accessibility-menu.md:15
+msgid ""
+"<!--\n"
+"![The accessibility menu can be found on the top bar.](person.png)\n"
+"-->\n"
+msgstr ""
+
+#: ../../../how-to/accessibility/find-the-accessibility-menu.md:19
+msgid ""
+"If you do not see the accessibility menu, you can enable it from the "
+"Accessibility settings panel:"
+msgstr ""
+
+#: ../../../how-to/accessibility/find-the-accessibility-menu.md:21
+msgid "Open the Activities overview and start typing **accessibility**."
+msgstr ""
+
+#: ../../../how-to/accessibility/find-the-accessibility-menu.md:22
+msgid "Click {guilabel}`Accessibility` to open the panel."
+msgstr ""
+
+#: ../../../how-to/accessibility/find-the-accessibility-menu.md:23
+msgid "Enable the {guilabel}`Accessibility Menu` option."
+msgstr ""
+
+#: ../../../how-to/accessibility/find-the-accessibility-menu.md:25
+msgid ""
+"To access this menu using the keyboard rather than the mouse, press {kbd}"
+"`Ctrl+Alt+Tab` to move the keyboard focus to the top bar. The Activities "
+"button in the top-left corner will get highlighted — this tells you which "
+"item on the top bar is selected. Use the arrow keys on the keyboard to move "
+"the selected item to the accessibility menu icon and then press {kbd}`Enter` "
+"to open it. You can use the up and down arrow keys to select items in the "
+"menu. Press {kbd}`Enter` to toggle the selected item."
+msgstr ""

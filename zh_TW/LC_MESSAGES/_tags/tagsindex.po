@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Accessibility (30)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Customization (5)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Graphics (3)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "How-to guide (3)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Installation (11)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Introduction (1)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Keyboard (4)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Remote access (2)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Security (9)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Software (5)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Support (1)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Updates (2)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "Windows (6)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:5
+msgid "macOS (2)"
+msgstr ""
+
+#: ../../../_tags/tagsindex.md:3 ../../../_tags/tagsindex.md:5
+msgid "Topics"
+msgstr ""

@@ -1,0 +1,595 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:0
+msgid ""
+"Reference for the Orca Structural Navigation commands that move through "
+"headings, links, forms, lists and tables on web pages and documents."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:7
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:11
+msgid "Orca Structural Navigation commands"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:13
+msgid ""
+"The following commands navigate the document by headings, links and other "
+"elements. You can use them on web pages and in certain text editors. Learn "
+"more at {ref}`orca-navigate-the-document-structure`."
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:15
+msgid "Enable or disable Structural Navigation keys:"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:0
+msgid "Laptop layout"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:22
+msgid "{kbd}`CapsLock+Z`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:0
+msgid "Desktop layout"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:28
+msgid "{kbd}`Insert+Z`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:31
+msgid "Headings"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:37
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:93
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:166
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:194
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:217
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:251
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:279
+msgid "Action"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:38
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:94
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:167
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:195
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:218
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:252
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:280
+msgid "Keys"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:40
+msgid "Next heading"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:41
+msgid "{kbd}`H`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:43
+msgid "Previous heading"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:44
+msgid "{kbd}`Shift+H`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:46
+msgid "Display a list of headings"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:47
+msgid "{kbd}`Alt+Shift+H`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:49
+msgid "Next and previous heading at level 1"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:50
+msgid "{kbd}`1` and {kbd}`Shift+1`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:52
+msgid "Display a list of headings at level 1"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:53
+msgid "{kbd}`Alt+Shift+1`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:55
+msgid "Next and previous heading at level 2"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:56
+msgid "{kbd}`2` and {kbd}`Shift+2`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:58
+msgid "Display a list of headings at level 2"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:59
+msgid "{kbd}`Alt+Shift+2`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:61
+msgid "Next and previous heading at level 3"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:62
+msgid "{kbd}`3` and {kbd}`Shift+3`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:64
+msgid "Display a list of headings at level 3"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:65
+msgid "{kbd}`Alt+Shift+3`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:67
+msgid "Next and previous heading at level 4"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:68
+msgid "{kbd}`4` and {kbd}`Shift+4`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:70
+msgid "Display a list of headings at level 4"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:71
+msgid "{kbd}`Alt+Shift+4`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:73
+msgid "Next and previous heading at level 5"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:74
+msgid "{kbd}`5` and {kbd}`Shift+5`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:76
+msgid "Display a list of headings at level 5"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:77
+msgid "{kbd}`Alt+Shift+5`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:79
+msgid "Next and previous heading at level 6"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:80
+msgid "{kbd}`6` and {kbd}`Shift+6`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:82
+msgid "Display a list of headings at level 6"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:83
+msgid "{kbd}`Alt+Shift+6`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:87
+msgid "Forms"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:96
+msgid "Next form field"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:102
+msgid "{kbd}`CapsLock+Tab`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:108
+msgid "{kbd}`Insert+Tab`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:111
+msgid "Previous form field"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:117
+msgid "{kbd}`CapsLock+Shift+Tab`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:123
+msgid "{kbd}`Insert+Shift+Tab`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:126
+msgid "Display a list of form fields"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:127
+msgid "{kbd}`Alt+Shift+F`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:129
+msgid "Next and previous button"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:130
+msgid "{kbd}`B` and {kbd}`Shift+B`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:132
+msgid "Display a list of buttons"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:133
+msgid "{kbd}`Alt+Shift+B`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:135
+msgid "Next and previous combo box"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:136
+msgid "{kbd}`C` and {kbd}`Shift+C`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:138
+msgid "Display a list of combo boxes"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:139
+msgid "{kbd}`Alt+Shift+C`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:141
+msgid "Next and previous entry"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:142
+msgid "{kbd}`E` and {kbd}`Shift+E`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:144
+msgid "Display a list of entries"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:145
+msgid "{kbd}`Alt+Shift+E`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:147
+msgid "Next and previous radio button"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:148
+msgid "{kbd}`R` and {kbd}`Shift+R`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:150
+msgid "Display a list of radio buttons"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:151
+msgid "{kbd}`Alt+Shift+R`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:153
+msgid "Next and previous checkbox"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:154
+msgid "{kbd}`X` and {kbd}`Shift+X`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:156
+msgid "Display a list of checkboxes"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:157
+msgid "{kbd}`Alt+Shift+X`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:160
+msgid "Links"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:169
+msgid "Next and previous link"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:170
+msgid "{kbd}`K` and {kbd}`Shift+K`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:172
+msgid "Display a list of links"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:173
+msgid "{kbd}`Alt+Shift+K`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:175
+msgid "Next and previous unvisited link"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:176
+msgid "{kbd}`U` and {kbd}`Shift+U`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:178
+msgid "Display a list of unvisited links"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:179
+msgid "{kbd}`Alt+Shift+U`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:181
+msgid "Next and previous visited link"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:182
+msgid "{kbd}`V` and {kbd}`Shift+V`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:184
+msgid "Display a list of visited links"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:185
+msgid "{kbd}`Alt+Shift+V`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:188
+msgid "Lists"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:197
+msgid "Next and previous list"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:198
+msgid "{kbd}`L` and {kbd}`Shift+L`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:200
+msgid "Display a list of lists"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:201
+msgid "{kbd}`Alt+Shift+L`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:203
+msgid "Next and previous list item"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:204
+msgid "{kbd}`I` and {kbd}`Shift+I`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:206
+msgid "Display a list of list items"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:207
+msgid "{kbd}`Alt+Shift+I`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:211
+msgid "Tables"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:220
+msgid "Next and previous table"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:221
+msgid "{kbd}`T` and {kbd}`Shift+T`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:223
+msgid "Display a list of tables"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:224
+msgid "{kbd}`Alt+Shift+T`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:226
+msgid "Cell on left"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:227
+msgid "{kbd}`Alt+Shift+Left`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:229
+msgid "Cell on right"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:230
+msgid "{kbd}`Alt+Shift+Right`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:232
+msgid "Cell above"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:233
+msgid "{kbd}`Alt+Shift+Up`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:235
+msgid "Cell below"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:236
+msgid "{kbd}`Alt+Shift+Down`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:238
+msgid "First cell in table"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:239
+msgid "{kbd}`Alt+Shift+Home`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:241
+msgid "Last cell in table"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:242
+msgid "{kbd}`Alt+Shift+End`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:245
+msgid "Text blocks"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:254
+msgid "Next and previous paragraph"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:255
+msgid "{kbd}`P` and {kbd}`Shift+P`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:257
+msgid "Display a list of paragraphs"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:258
+msgid "{kbd}`Alt+Shift+P`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:260
+msgid "Next and previous block quote"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:261
+msgid "{kbd}`Q` and {kbd}`Shift+Q`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:263
+msgid "Display a list of block quotes"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:264
+msgid "{kbd}`Alt+Shift+Q`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:266
+msgid "Next and previous \"large object\""
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:267
+msgid "{kbd}`O` and {kbd}`Shift+O`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:269
+msgid "Display a list of \"large objects\""
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:270
+msgid "{kbd}`Alt+Shift+O`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:273
+msgid "Other elements"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:282
+msgid "Next and previous landmark"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:283
+msgid "{kbd}`M` and {kbd}`Shift+M`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:285
+msgid "Display a list of landmarks"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:286
+msgid "{kbd}`Alt+Shift+M`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:288
+msgid "Next and previous separator"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:289
+msgid "{kbd}`S` and {kbd}`Shift+S`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:291
+msgid "Next and previous \"clickable\""
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:292
+msgid "{kbd}`A` and {kbd}`Shift+A`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:294
+msgid "Display a list of \"clickables\""
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:295
+msgid "{kbd}`Alt+Shift+A`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:297
+msgid "Next and previous image"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:298
+msgid "{kbd}`G` and {kbd}`Shift+G`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:300
+msgid "Display a list of images"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:301
+msgid "{kbd}`Alt+Shift+G`"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:303
+msgid "Start and end of current container"
+msgstr ""
+
+#: ../../../reference/accessibility/orca-structural-navigation-commands.md:304
+msgid "{kbd}`Shift+,` and {kbd}`,`"
+msgstr ""

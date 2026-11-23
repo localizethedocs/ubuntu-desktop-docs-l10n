@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:0
+msgid ""
+"Install NVIDIA drivers on Ubuntu using the DKMS packages when you're using a "
+"custom kernel or when the standard NVIDIA packages are missing."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:9
+msgid "Topics: How-to guide Graphics"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:13
+msgid "Build your own NVIDIA modules using the DKMS package"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:15
+msgid ""
+"By using the Dynamic Kernel Module Support ({term}`DKMS`) driver package, "
+"you can build the NVIDIA driver for the exact kernel that you're running. "
+"This is useful when you're using a custom kernel or when the standard NVIDIA "
+"packages are missing or lagging in release."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:18
+msgid ""
+"We don't recommend using the DKMS modules unless you are running a custom "
+"kernel for which the prebuilt drivers are not supported. This is because the "
+"DKMS drivers are not signed with Canonical's key and thus do not support "
+"Secure Boot."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:20
+msgid ""
+"For most Ubuntu users, we recommend following the more automated {ref}"
+"`install-nvidia-drivers` guide instead."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:24
+msgid "Types of NVIDIA drivers"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:26
+msgid "We package two types of NVIDIA drivers:"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:28
+msgid "Unified Driver Architecture (UDA) drivers"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:29
+msgid ""
+"These are recommended for the generic desktop use and gaming. They also "
+"support computing use cases such as AI and machine learning. You can also "
+"find them [on the NVIDIA website](https://www.nvidia.com/en-us/drivers/"
+"unix/)."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:31
+msgid "Enterprise Ready Drivers ({term}`ERD`)"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:32
+msgid ""
+"These are recommended on servers and for computing tasks. These drivers come "
+"from an NVIDIA release branch that's qualified and supported for longer on "
+"data center GPUs. They omit certain desktop-oriented features. Their "
+"packages can be recognized by the `-server` suffix. You can read more about "
+"these drivers [in the NVIDIA documentation](https://docs.nvidia.com/"
+"datacenter/tesla/index.html)."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:34
+msgid ""
+"Additionally, Ubuntu provides the **NVIDIA Fabric Manager** and the "
+"**NVSwitch Configuration and Query (NSCQ) library**, which you will only "
+"need if you have NVSwitch hardware. The Fabric Manager and NSCQ library are "
+"only available with the ERDs or `-server` driver versions."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:37
+msgid "Install the kernel modules"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:39
+msgid ""
+"The general procedure is to install the relevant NVIDIA DKMS package and "
+"`linux-headers` to build the kernel modules, and enroll your own key to sign "
+"the modules."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:41
+msgid ""
+"Install the `linux-headers` metapackage for your kernel flavor (e.g. "
+"`generic`, `lowlatency`, etc.):"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:51
+msgid ""
+"Check that the headers for your specific kernel were installed by the "
+"metapackage:"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:61
+msgid ""
+"If the headers for your current running kernel were not installed, install "
+"them by specifying the running kernel version:"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:71
+msgid "Install the NVIDIA DKMS package for your desired driver series:"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:81
+msgid ""
+"This may automatically guide you through creating and enrolling a new key "
+"for Secure Boot."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:83
+msgid ""
+"Alternatively, you can use `ubuntu-drivers` to automatically select an "
+"appropriate DKMS driver branch:"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:94
+msgid "Install the user-space drivers and the driver libraries"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:96
+msgid ""
+"After installing the correct kernel modules, install the correct driver "
+"metapackage:"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:106
+msgid ""
+"If your system comes with NVSwitch hardware, install Fabric Manager and the "
+"NVSwitch Configuration and Query library:"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:117
+msgid "Switch between pre-compiled and DKMS modules"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:119
+msgid ""
+"You can switch from the pre-compiled NVIDIA drivers to the DKMS modules or "
+"the other way around."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:121
+msgid "Remove all existing NVIDIA packages from your system:"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:131
+msgid ""
+"If you are unsure which `${DRIVER_BRANCH}` to pick for removal, you might "
+"look at the installed nvidia packages and see the different `${DRIVER_BRANCH}"
+"` numbers that are present on your system."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:133
+msgid ""
+"Since `autoremove` will take care of all indirect dependencies, it is "
+"sufficient to list those that have been directly installed by using `apt-"
+"mark`."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:143
+msgid ""
+"Remove any additional packages that may have been installed as a dependency "
+"(e.g. the `i386` libraries on `amd64` systems) and which were not caught by "
+"the previous command:"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:153
+msgid "Install new drivers:"
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:155
+msgid ""
+"To install the pre-compiled drivers, refer to {ref}`install-nvidia-drivers`."
+msgstr ""
+
+#: ../../../how-to/graphics/build-your-own-nvidia-modules-using-the-dkms-package.md:156
+msgid ""
+"To install the DKMS modules, go back to {ref}`build-your-own-nvidia-modules-"
+"using-the-dkms-package`."
+msgstr ""

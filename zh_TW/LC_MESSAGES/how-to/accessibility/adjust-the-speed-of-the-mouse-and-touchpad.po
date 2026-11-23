@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/adjust-the-speed-of-the-mouse-and-touchpad.md:0
+msgid ""
+"Change the pointer speed of your mouse or touchpad in Ubuntu Desktop if the "
+"pointer moves too fast or too slowly."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-speed-of-the-mouse-and-touchpad.md:7
+msgid "Topics: Accessibility Customization"
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-speed-of-the-mouse-and-touchpad.md:11
+msgid "Adjust the speed of the mouse and touchpad"
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-speed-of-the-mouse-and-touchpad.md:13
+msgid ""
+"If your pointer moves too fast or slow when you move your mouse or use your "
+"touchpad, you can adjust the pointer speed for these devices."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-speed-of-the-mouse-and-touchpad.md:15
+msgid "Open the Activities overview and start typing **mouse & touchpad**."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-speed-of-the-mouse-and-touchpad.md:16
+msgid "Click {guilabel}`Mouse & Touchpad` to open the panel."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-speed-of-the-mouse-and-touchpad.md:17
+msgid ""
+"Adjust the {guilabel}`Pointer Speed` slider until the pointer motion is "
+"comfortable for you. Sometimes the most comfortable settings for one type of "
+"device are not the best for the other."
+msgstr ""
+
+#: ../../../how-to/accessibility/adjust-the-speed-of-the-mouse-and-touchpad.md:20
+msgid ""
+"The {guilabel}`Touchpad` section only appears if your system has a touchpad, "
+"while the {guilabel}`Mouse` section is only visible when a mouse is "
+"connected."
+msgstr ""

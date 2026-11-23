@@ -1,0 +1,419 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../explanation/accessibility-stack.md:0
+msgid ""
+"Understand the software and hardware layers behind Ubuntu Desktop "
+"accessibility, including AT-SPI, GTK, Orca, BRLTTY, USB and Bluetooth."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "Topics: Accessibility"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:11
+msgid "Accessibility stack"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:13
+msgid "Software interfaces for assistive technologies"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:15
+msgid ""
+"This section provides details on the components that make up Ubuntu "
+"Desktop's accessibility stack, their roles, dependencies, and how they all "
+"work together. There are also recommendations for developers and integrators "
+"who want to create applications that will work with Desktop's default "
+"assistive solutions as well as developers who want to create their own "
+"assistive solutions that would work on Desktop."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:17
+msgid "AT-SPI"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:19
+msgid ""
+"The Assistive Technology Service Provider Interface (AT-SPI) is a platform-"
+"neutral framework for communication between assistive technologies (AT) and "
+"applications."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:21
+msgid ""
+"AT-SPI defines a set of interfaces for assistive technologies which allow to "
+"get names, roles, and states of interface objects, listen for events, or "
+"perform actions."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:23
+msgid ""
+"AT-SPI uses D-Bus method calls and signals. D-Bus is an inter-process "
+"communication system in Linux, which makes AT-SPI a default accessibility "
+"framework for Linux."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:25
+msgid "AT-SPI is made of two components:"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:27
+msgid "`at-spi2-core`"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:28
+msgid "A collection of XML interfaces for accessibility"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:30
+msgid "`at-spi2-atk`"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:31
+msgid ""
+"A library that allows applications made with GTK 3 to register accessible "
+"objects with AT-SPI"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:33
+msgid ""
+"If you are building custom assistive technology tools or want to test the "
+"accessibility of custom applications that were not built with GTK on Ubuntu "
+"Desktop, you must use {ref}`at-spi-dbus-xml-interfaces`."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:35
+msgid "GTK4 and Gtk.Accessible"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:37
+msgid ""
+"GTK is a cross-platform widget toolkit for creating graphical user "
+"interfaces. It offers a set of user interface elements that allow developers "
+"to build apps quickly and in a consistent manner. The majority of "
+"applications within GNOME desktop environment are built with GTK."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:39
+msgid ""
+"GTK4 is a newer version of GTK that implements its own [Gtk.Accessible]"
+"(https://docs.gtk.org/gtk4/iface.Accessible.html) interface instead of the "
+"previously used ATK."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:41
+msgid ""
+"If you are building an application for Ubuntu Desktop and want to make it "
+"accessible for Ubuntu Desktop's default assistive technologies such as Orca, "
+"it is recommended that you use GTK. Desktop's assistive solutions are able "
+"to access information about the apps built with both GTK3 and GTK4."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:43
+msgid ""
+"If you are using a different UI toolkit, you must ensure it implements the "
+"AT-SPI D-Bus interfaces; otherwise, Desktop's assistive technologies "
+"wouldn't be able to interact with it."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:45
+msgid "GTK3 and ATK"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:47
+msgid ""
+"GTK3 version of the GTK toolkit that integrates with Accessibility Toolkit "
+"(ATK). Applications built with GTK3 expose information about UI objects "
+"using the ATK. ATK is an Application Programming Interface (API) that allows "
+"developers to avoid working with AT-SPI API directly, as it provides a set "
+"of special input methods."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+#: ../../../explanation/accessibility-stack.md:49
+msgid "Flutter"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:51
+msgid ""
+"A selection of applications on Ubuntu Desktop such as [App Center](https://"
+"github.com/ubuntu/app-center) are built with Flutter. Flutter engine has "
+"compatibility issues with AT-SPI. To learn how to make Flutter applications "
+"that would be compatible with Ubuntu Desktop's default assistive solutions, "
+"reach out to the development team at [Discourse](https://"
+"discourse.ubuntu.com/tag/flutter)."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:54
+msgid "Overview of Ubuntu Desktop applications and their interfaces"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "Application"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "Built with"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "API"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "Gnome Initial Setup"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "GTK4"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "[Gtk.Accessible](https://docs.gtk.org/gtk4/iface.Accessible.html)"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "Login and Lock screens"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "GTK3"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "[ATK](https://docs.gtk.org/atk/)"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "System Settings app"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "App Center"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid ""
+"[Flutter API](https://docs.flutter.dev/ui/accessibility-and-"
+"internationalization/accessibility)"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:7
+msgid "Software and Updates"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:65
+msgid "Screen reader and speech synthesis"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:67
+msgid ""
+"Speech synthesizers converts text to human-sounding speech. Typically, they "
+"are offered as a backend for screen readers, but they can also be used as "
+"standalone programs. Orca is the default screen reader on Ubuntu Desktop. "
+"eSpeak and Speech Dispatcher are the  speech synthesizers that Orca depends "
+"on. When Orca identifies the text, it passes it to the Speech Dispatcher for "
+"speech synthesis; the Speech Dispatcher then passes the synthesized speech "
+"to eSpeak, which plays the sound."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:70
+msgid "Orca"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:72
+msgid "Orca is a screen reader for vision impaired and blind users."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:74
+msgid ""
+"Orca is preinstalled on Ubuntu Desktop and can be used out-of-box. To learn "
+"how to configure it, go to {ref}`read-screen-aloud`."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:76
+msgid "BRLTTY"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:78
+msgid ""
+"The Orca screen reader can display the user interface on a refreshable "
+"Braille display. It uses the BRLTTY service, which provides access to the "
+"Linux console for a blind person using a refreshable Braille display."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:80
+msgid ""
+"As Orca, BRLTTY is preinstalled and can be enabled and used without any "
+"additional configurations, see {ref}`read-screen-in-braille`."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:82
+msgid "eSpeak"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:84
+msgid ""
+"eSpeak is a speech synthesizer that supports over 100 languages and accents. "
+"eSpeak can be used as a standalone tool or as a backend component for screen "
+"readers, see [eSpeak website](https://espeak.sourceforge.net/)"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:86
+msgid "Speech dispatcher"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:88
+msgid ""
+"Speech dispatcher is a device-independent high-level interface for speech "
+"synthesis. It can be used by other software and hardware speech synthesizers "
+"as a backend, see [Speech Dispatcher website](https://freebsoft.org/speechd)."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:90
+msgid ""
+"Therefore, Speech Dispatcher is the layer that allows you to switch between "
+"text-to-speech (TTS) solutions."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:92
+msgid "On-screen keyboards"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:94
+msgid "GNOME on-screen keyboard"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:96
+msgid ""
+"Ubuntu Desktop comes with a GNOME on-screen keyboard preinstalled, it is the "
+"on-screen keyboard that we recommend for Desktop. To start using it, see "
+"{ref}`use-an-on-screen-keyboard`."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:101
+msgid "Hardware interfaces for assistive technologies"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:103
+msgid "USB"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:105
+msgid "Ubuntu Desktop supports USB out of the box."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:107
+msgid ""
+"In Ubuntu, kernel USB drivers handle communications with USB devices such "
+"as, for example, `usbhid` which provides support for USB Human Interface "
+"Devices (HID) class. Kernel supports all [standard USB classes](https://"
+"www.usb.org/defined-class-codes)."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:109
+msgid ""
+"`udev` is a device manager in Ubuntu that detects, adds and removes devices. "
+"`udev` provides access to the detected USB devices in the `/dev` directory."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:111
+msgid ""
+"If your device conforms to a USB class, it will be assigned a `/dev` entry "
+"and recognized correctly."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:113
+msgid "USB device requirements"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:115
+msgid ""
+"You can use USB to connect assistive devices for input/output such as "
+"Braille displays, sip-and-puff, foot pedals."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:117
+msgid "To be able to work on Ubuntu properly, a USB device must:"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:119
+msgid "use a standard USB class"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:120
+msgid "provide a proper USB descriptor so that Ubuntu can identify it"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:121
+msgid "not require proprietary drivers"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:123
+msgid ""
+"If the device uses a custom class, it must provide a `udev` `.rules` file "
+"instead so that Ubuntu can identify it correctly. See [`udev` documentation]"
+"(https://www.man7.org/linux/man-pages/man7/udev.7.html)"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:125
+msgid "Bluetooth"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:127
+msgid ""
+"While the Ubuntu Desktop team works continuously to enhance the Bluetooth "
+"experience, the Bluetooth stack involves a complex interplay of multiple "
+"components such as firmware, kernel modules, drivers, and user-space "
+"applications. This complex set of dependencies makes it difficult to "
+"guarantee consistent compatibility with all Bluetooth devices. For an in-"
+"depth explanation of Ubuntu's hardware architecture, see {ref}`hardware-"
+"stack`."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:129
+msgid "Ubuntu uses BlueZ as its core Bluetooth stack."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:131
+msgid "To be able to work on Desktop, a device must:"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:133
+msgid "be HCI-compliant"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:134
+msgid ""
+"have a corresponding firmware provided by the manufacturer as part of the "
+"`linux-firmware` package"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:135
+msgid "use the [profiles supported by BlueZ](https://www.bluez.org/profiles/)."
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:137
+msgid "See also"
+msgstr ""
+
+#: ../../../explanation/accessibility-stack.md:139
+msgid "{ref}`troubleshoot-bluetooth`"
+msgstr ""

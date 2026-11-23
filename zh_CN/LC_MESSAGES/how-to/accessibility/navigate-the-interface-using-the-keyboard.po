@@ -1,0 +1,310 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:0
+msgid ""
+"Use only the keyboard to launch and switch applications, navigate menus and "
+"move around the Ubuntu Desktop interface without a mouse."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:7
+msgid "Topics: Accessibility Keyboard"
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:11
+msgid "Navigate the interface using the keyboard"
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:13
+msgid ""
+"You can navigate the Ubuntu Desktop interface without a mouse, touchpad or "
+"another pointing device, using only the keyboard. This is necessary for "
+"visually impaired users who are using the screen reader, also known as Orca. "
+"However, any Desktop user can use keyboard navigation."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:15
+msgid "Launch applications using Activities"
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:17
+msgid ""
+"Press the {kbd}`Super` key on your keyboard, otherwise known as the Windows "
+"key."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:19
+msgid "The Activities overview opens, although Orca doesn't announce it."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:21
+msgid "Start typing keywords to find the application that you are looking for."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:23
+msgid ""
+"For example, terms such as *web browser* or *email* help you find "
+"applications for browsing the web such as Firefox and Thunderbird."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:25
+msgid ""
+"As you type each letter, Orca announces the first available search result."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:27
+msgid ""
+"You can use {kbd}`Tab` or the arrow keys to browse the search results and "
+"find what you are looking for."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:30
+msgid "Launch applications using the dash"
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:32
+msgid ""
+"The dash is the panel on the left side of the screen that contains "
+"application launchers, removable media and other icons. It's also known as "
+"the dock. You can control it using the keyboard."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:34
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:101
+msgid "Press {kbd}`Ctrl+Alt+Tab` to cycle through the user interface elements."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:35
+msgid "Select {guilabel}`Dash`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:36
+msgid ""
+"Orca announces the first item in the dash, which is {guilabel}`Firefox` by "
+"default."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:37
+msgid ""
+"Using the arrow keys or {kbd}`Tab`, move through the list of pinned "
+"applications, access any connected removable media, and access the Dash."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:39
+msgid ""
+"Moving through the list of items in the dash, you find commonly used "
+"applications and utilities: {guilabel}`Files` lets you access the content of "
+"your home folder, {guilabel}`Firefox` is Ubuntu's default web browser, "
+"{guilabel}`LibreOffice` is the office suite."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:41
+msgid "To start an application, select the item and press {kbd}`Enter`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:42
+msgid ""
+"If you can't find the application in the dash, select the {guilabel}`Show "
+"Apps` item. Browse the list of all installed applications using {kbd}`Tab` "
+"and the arrow keys."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:45
+msgid ""
+"If you know the position of the application in the dash, you can activate it "
+"by pressing {kbd}`Super+Number`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:49
+msgid "Switch between applications using the application switcher"
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:51
+msgid "Press {kbd}`Super+Tab`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:53
+msgid "Orca announces the currently selected application."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:55
+msgid ""
+"If only one application is open, the switcher selects it. Otherwise, it "
+"selects the next application in the list."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:57
+msgid ""
+"To move through the application, keep holding {kbd}`Super` and press {kbd}"
+"`Tab`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:59
+msgid ""
+"If multiple windows of this application are open, Orca says *collapsed*. You "
+"can then browse the windows using {kbd}`Super` + they key between {kbd}`Tab` "
+"and {kbd}`Escape`. On standard English layout, this is the **`** key."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:61
+msgid "To activate the application, release {kbd}`Super`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:64
+msgid "Switch between applications using the dash"
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:66
+msgid "Activate the dash interface using {kbd}`Ctrl+Alt+Tab`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:67
+msgid "Select an application using the arrow keys or {kbd}`Tab`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:68
+msgid "Open the menu using the {kbd}`Menu` key or {kbd}`Shift+F10`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:69
+msgid "If Orca announces *All Windows*, the application is running."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:71
+msgid ""
+"You can expand the list of open windows using {kbd}`Enter`, {kbd}`Space` or "
+"{kbd}`→`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:73
+msgid "Browse the open windows using the arrow keys."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:75
+msgid "To close the list of windows, press {kbd}`Esc` or {kbd}`←`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:77
+msgid ""
+"You can remove the application from the dash by selecting {guilabel}`Unpin`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:79
+msgid "You can quit the application by selecting {guilabel}`Quit`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:81
+msgid ""
+"If an application is running but it isn't pinned to the dash, you can add it "
+"by selecting {guilabel}`Pin to Dash`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:84
+msgid "Navigate application menus"
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:86
+msgid ""
+"Some applications such as LibreOffice have a menu bar. The menu bar enables "
+"you to access different functions of the application. You can access items "
+"in the menu bar using the following ways:"
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:88
+msgid ""
+"If you know the shortcut for the menu item, press {kbd}`Alt` + the letter "
+"for the menu item."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:90
+msgid ""
+"For example, if you want to access the {guilabel}`File` menu of an "
+"application, press {kbd}`Alt+F`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:92
+msgid ""
+"If you don't know the menu shortcut, browse the available menus and items."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:94
+msgid ""
+"Press {kbd}`Alt+F10` to open the menu bar. Use {kbd}`↑` and {kbd}`↓` to "
+"browse the current menu, and use {kbd}`←` and {kbd}`→` to move between menus."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:97
+msgid "Navigate the panel"
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:99
+msgid ""
+"The top panel contains the clock, app indicators, system settings and "
+"network configuration. You can access it using the keyboard:"
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:102
+msgid "Select {guilabel}`Top Bar`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:103
+msgid ""
+"Use {kbd}`Tab` or the arrow keys to navigate the items on the top panel."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:104
+msgid "Press {kbd}`Enter` to open a menu."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:105
+msgid "Use {kbd}`Tab` to move through the menu options."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:107
+msgid ""
+"If Orca only says \"Tab\", you need to descend into the menu first by "
+"pressing {kbd}`Down`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:110
+msgid ""
+"Depending on the menu layout, you can also browse menus using the arrow keys."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:112
+msgid ""
+"However, in certain menus such as the System Menu, the items are arranged "
+"from the top to the bottom, and also from the left to the right. You can "
+"only use the arrow keys if you can visually see the elements and know their "
+"relative positions."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:115
+msgid "To return to applications, press {kbd}`Super+Tab`."
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:118
+msgid "Additional resources"
+msgstr ""
+
+#: ../../../how-to/accessibility/navigate-the-interface-using-the-keyboard.md:120
+msgid ""
+"For a complete list of keyboard shortcuts used to navigate the desktop, see "
+"{ref}`keyboard-navigation-shortcuts`."
+msgstr ""

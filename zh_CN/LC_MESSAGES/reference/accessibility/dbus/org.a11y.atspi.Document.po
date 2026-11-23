@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:1
+msgid "org.a11y.atspi.Document"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:5
+msgid "Properties"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:7
+msgid "org.a11y.atspi.Document:CurrentPageNumber"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:11
+msgid "CurrentPageNumber readable i\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:13
+msgid "org.a11y.atspi.Document:PageCount"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:17
+msgid "PageCount readable i\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:19
+msgid "Methods"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:21
+msgid "org.a11y.atspi.Document.GetLocale"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:25
+msgid ""
+"GetLocale (\n"
+"  OUT unnamed_arg0 s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:29
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:52
+msgid "unnamed_arg0"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:31
+msgid "org.a11y.atspi.Document.GetAttributeValue"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:35
+msgid ""
+"GetAttributeValue (\n"
+"  IN attributename s,\n"
+"  OUT unnamed_arg1 s\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:40
+msgid "attributename"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:42
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:75
+msgid "unnamed_arg1"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:44
+msgid "org.a11y.atspi.Document.GetAttributes"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:48
+msgid ""
+"GetAttributes (\n"
+"  OUT unnamed_arg0 a{ss}\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:54
+msgid "org.a11y.atspi.Document.GetTextSelections"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:58
+msgid ""
+"GetTextSelections (\n"
+"  OUT selections a((so)i(so)ib)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:62
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:73
+msgid "selections"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:64
+msgid "org.a11y.atspi.Document.SetTextSelections"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Document.md:68
+msgid ""
+"SetTextSelections (\n"
+"  IN selections a((so)i(so)ib),\n"
+"  OUT unnamed_arg1 b\n"
+")\n"
+msgstr ""

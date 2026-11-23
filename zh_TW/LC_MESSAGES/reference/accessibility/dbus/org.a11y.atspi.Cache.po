@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Ubuntu Desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubuntu Desktop main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-10 04:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:1
+msgid "org.a11y.atspi.Cache"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:6
+msgid ""
+"Interface to access objects in bulk. It provides local access to previously "
+"fetched objects and helps improve performance by reducing round-trip calls."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:8
+msgid ""
+"Assistive technology should do a bulk query of all the objects in a new "
+"window with the `GetItems` method, and then update them dynamically with the "
+"`AddAccessible` and `RemoveAccessible` signals."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:10
+msgid ""
+"<!---\n"
+"Original description: \n"
+"\n"
+"\n"
+"The application should expose this interface at the\n"
+"/org/a11y/atspi/cache object path.\n"
+"\n"
+"The `org.a11y.atspi.Accessible` interface has method to transfer an "
+"object\\'s D-Bus id. The\n"
+"caller has to then query the object\\'s properties individually.\n"
+"Transferring objects one by one and then their properties produces a lot\n"
+"of traffic in the accessibility bus.\n"
+"\n"
+"So, this Cache interface can be used to query objects in bulk. Assistive\n"
+"tech should try to do a bulk query of all the objects in a new window\n"
+"with the GetItems method, and then update them dynamically from the\n"
+"AddAccessible and RemoveAccessible signals.\n"
+"\n"
+"FIXME: Does GetItems only get called if an application implements\n"
+"GetApplicationBusAddress? GTK4 doesn\\'t implement that, but it\n"
+"implements GetItems -does that ever get called?\n"
+"-->\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:32
+msgid "Methods"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:34
+msgid "org.a11y.atspi.Cache.GetItems"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:38
+msgid ""
+"GetItems (\n"
+"  OUT nodes a((so)(so)(so)iiassusau)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:42
+msgid ""
+"Returns a list of cached accessible objects as an array with one element for "
+"each available object."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:44
+msgid "Each element in the array contains the following fields:"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:46
+msgid ""
+"(so): accessible object reference - D-Bus name and object path. The rest of "
+"the fields refer to this main object."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:49
+msgid ""
+"(so): application reference - D-Bus name and object path. This is the owner "
+"of the main object; the root path of the application that registered via the "
+"Embed method of the org.a11y.atspi.Socket interface."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:54
+msgid "(so): parent object reference - D-Bus name and object path."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:56
+msgid "If the main object has no parent:"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:58
+msgid "If it is a control, or a window, return the parent application."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:60
+msgid ""
+"If the object has the application role, return a null reference. FIXME: atk-"
+"adaptor/adaptors/cache-adaptor.c:append_cache_item() returns a reference to "
+"the registry in this case (the one it obtained from the initial "
+"Socket::Embed call); GTK4 returns a null reference."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:66
+msgid ""
+"Otherwise, return a null reference (\\\"\\\" for the application name name "
+"and \\\"/org/a11y/atspi/null\\\" for the object path)."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:69
+msgid ""
+"i: index in parent, or -1 for transient widgets/menu items. Equivalent to "
+"the GetIndexInParent method of the ` org.a11y.atspi.Accessible` interface."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:73
+msgid ""
+"i: child count of main object, or -1 for defunct/menus. Equivalent to the "
+"ChildCount property of the `org.a11y.atspi.Accessible` interface."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:77
+msgid ""
+"as: array of names of the interfaces that the main object supports. "
+"Equivalent to the GetInterfaces method of the org.a11y.atspi.Accessible "
+"interface."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:81
+msgid ""
+"s: human-readable, localized, short name for the main object. Equivalent to "
+"the Name property of the `org.a11y.atspi.Accessible` interface."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:85
+msgid ""
+"u: role. Equivalent to the GetRole method of the `org.a11y.atspi.Accessible` "
+"interface."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:88
+msgid ""
+"s: human-readable, localized description of the object in more detail. "
+"Equivalent to the Description property of the `org.a11y.atspi.Accessible` "
+"interface."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:92
+msgid ""
+"au: Set of states currently held by an object. Equivalent to the GetState "
+"method of the `org.a11y.atspi.Accessible` interface."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:95
+msgid ""
+"<!---\n"
+"Part of the original description: \n"
+"\n"
+"Deprecation note: The signature for the return value of this method\n"
+"changed in 2015, in commit b2c8c4c7. It used to be\n"
+"\\\"a((so)(so)(so)a(so)assusau)\\\". The \\\"a(so)\\\" instead of \\\"ii\\\" "
+"is a\n"
+"list of references to child objects. The implementation in atspi-misc.c\n"
+"can handle either version, although the intention is to deprecate the\n"
+"code that handles the old version. Qt still uses this old signature and\n"
+"should be changed to the new scheme (see qspi_struct_marshallers.cpp in\n"
+"the Qt source code).\n"
+"-->\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:109
+msgid "Signals"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:111
+msgid "org.a11y.atspi.Cache::AddAccessible"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:115
+msgid ""
+"AddAccessible (\n"
+"  nodeAdded ((so)(so)(so)iiassusau)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:119
+msgid ""
+"Add an accessible object to the cache. See the "
+"`org.a11y.atspi.Cache.GetItems` for a description of the signature."
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:122
+msgid "org.a11y.atspi.Cache::RemoveAccessible"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:126
+msgid ""
+"RemoveAccessible (\n"
+"  nodeRemoved (so)\n"
+")\n"
+msgstr ""
+
+#: ../../../reference/accessibility/dbus/org.a11y.atspi.Cache.md:130
+msgid "Remove an accessible object from the cache."
+msgstr ""
