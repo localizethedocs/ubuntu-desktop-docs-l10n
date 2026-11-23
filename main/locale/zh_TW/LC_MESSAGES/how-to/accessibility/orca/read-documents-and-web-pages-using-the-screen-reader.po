@@ -248,11 +248,11 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:135
 msgid "Links"
-msgstr ""
+msgstr "連結"
 
 #: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:136
 msgid "Lists and list items"
-msgstr ""
+msgstr "列表與列表項目"
 
 #: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:137
 msgid "Landmarks, separators and anchors"
@@ -260,7 +260,7 @@ msgstr ""
 
 #: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:138
 msgid "Tables and table cells"
-msgstr ""
+msgstr "表格與表格儲存格"
 
 #: ../../../how-to/accessibility/orca/read-documents-and-web-pages-using-the-screen-reader.md:140
 msgid "Structural Navigation is available in the following environments:"

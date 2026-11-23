@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:12
 msgid "Intel RST during Ubuntu installation"
-msgstr ""
+msgstr "在安裝 Ubuntu 期間使用 Intel RST"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:14
 msgid ""
@@ -89,60 +89,61 @@ msgid ""
 "Broadly, you might encounter the following configurations when you try to "
 "install Ubuntu on a computer that uses RST:"
 msgstr ""
+"廣義而言，在嘗試於使用 RST 的電腦上安裝 Ubuntu 時，您可能會遇到以下組態："
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:37
 msgid "RST state"
-msgstr ""
+msgstr "RST 狀態"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:38
 msgid "Operating system state"
-msgstr ""
+msgstr "作業系統狀態"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:40
 msgid "RST enabled"
-msgstr ""
+msgstr "已啟用 RST"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:41
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:44
 msgid "No operating system installed"
-msgstr ""
+msgstr "未安裝作業系統"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:43
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:46
 msgid "RST used and enabled"
-msgstr ""
+msgstr "已使用並啟用 RST"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:47
 msgid "Windows installed"
-msgstr ""
+msgstr "已安裝 Windows"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:50
 msgid ""
 "Based on the configuration, the following installation scenarios are "
 "possible:"
-msgstr ""
+msgstr "根據組態情況，可能會有以下安裝情境："
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:52
 msgid "When Ubuntu can access the disks"
-msgstr ""
+msgstr "當 Ubuntu 可以存取磁碟時"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:54
 msgid "The Ubuntu installer **correctly detects** the disks and can use them."
-msgstr ""
+msgstr "Ubuntu 安裝程式能\\ **正確偵測**\\ 磁碟並使用它們。"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:56
 msgid "In this case, you can proceed with the Ubuntu installation as usual."
-msgstr ""
+msgstr "在這種情況下，您可以照常進行 Ubuntu 安裝。"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:58
 msgid ""
 "If Windows is installed on the system, you need to create a side-by-side "
 "configuration for Windows and Ubuntu."
-msgstr ""
+msgstr "如果系統中已安裝 Windows，您需要為 Windows 和 Ubuntu 創建並存組態。"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:60
 msgid "When Ubuntu can't access the disks"
-msgstr ""
+msgstr "當 Ubuntu 無法存取磁碟時"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:62
 msgid ""
@@ -156,7 +157,7 @@ msgstr ""
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:66
 msgid "Turn off RST completely in the firmware."
-msgstr ""
+msgstr "在韌體中完全關閉 RST。"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:68
 msgid ""
@@ -167,7 +168,7 @@ msgstr ""
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:70
 msgid ""
 "If Windows is installed, the change will affect the Windows operating system."
-msgstr ""
+msgstr "如果已安裝 Windows，此變更將會影響 Windows 作業系統。"
 
 #: ../../../reference/intel-rst-during-ubuntu-installation.md:72
 msgid ""

@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../../explanation/hardware-stack.md:8
 msgid "Hardware stack"
-msgstr ""
+msgstr "硬體堆疊"
 
 #: ../../../explanation/hardware-stack.md:10
 msgid ""

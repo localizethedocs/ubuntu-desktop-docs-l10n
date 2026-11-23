@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../../explanation/what-is-the-menu-key.md:11
 msgid "What is the Menu key?"
-msgstr ""
+msgstr "什麼是選單鍵？"
 
 #: ../../../explanation/what-is-the-menu-key.md:13
 msgid ""

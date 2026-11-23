@@ -32,10 +32,12 @@ msgid ""
 "Ubuntu Desktop is the most popular open-source operating system powering "
 "millions of PCs and laptops around the world."
 msgstr ""
+"Ubuntu Desktop 是全球最受歡迎的開源作業系統，為數百萬台個人電腦與筆記型電腦提"
+"供動力。"
 
 #: ../../../explanation/about-ubuntu-desktop.md:12
 msgid "What can it do?"
-msgstr ""
+msgstr "它能做什麼？"
 
 #: ../../../explanation/about-ubuntu-desktop.md:14
 msgid ""
@@ -44,10 +46,13 @@ msgid ""
 "including Firefox, Chrome, Discord, Steam and OBS Studio. It's a primary "
 "platform for all major IDEs, game development tools and AI/ML software."
 msgstr ""
+"Ubuntu Desktop 支援您所有的日常運算需求。它提供網頁瀏覽、即時通訊、遊戲和內容"
+"創作的應用程式，包括 Firefox、Chrome、Discord、Steam 和 OBS Studio。它是所有"
+"主要 IDE、遊戲開發工具以及 AI／ML 軟體的主要平台。"
 
 #: ../../../explanation/about-ubuntu-desktop.md:16
 msgid "How is it different?"
-msgstr ""
+msgstr "它有什麼不同？"
 
 #: ../../../explanation/about-ubuntu-desktop.md:18
 msgid ""
@@ -57,16 +62,22 @@ msgid ""
 "source software easy and pleasant to use. Thanks to regular releases and "
 "commercial support, Ubuntu Desktop is a reliable and predictable platform."
 msgstr ""
+"與其他主流作業系統相比，Ubuntu Desktop 優先考慮您的隱私與安全。它可以免費下"
+"載、使用、修改和分享。與其他基於 Linux 的系統相比，Ubuntu Desktop 旨在讓開源"
+"軟體變得簡單且易於使用。得益於定期的發行版本和商業支援，Ubuntu Desktop 是一個"
+"可靠且可預測的平台。"
 
 #: ../../../explanation/about-ubuntu-desktop.md:20
 msgid "Is it for me?"
-msgstr ""
+msgstr "它適合我嗎？"
 
 #: ../../../explanation/about-ubuntu-desktop.md:22
 msgid ""
 "Ubuntu Desktop is used by millions of users at home, for development and in "
 "enterprise. Anyone with a laptop or a PC is welcome to use Ubuntu Desktop."
 msgstr ""
+"Ubuntu Desktop 被數百萬名使用者用於居家、開發及企業環境。歡迎任何擁有筆記型電"
+"腦或個人電腦的使用者使用 Ubuntu Desktop。"
 
 #: ../../../explanation/about-ubuntu-desktop.md:24
 msgid ""
@@ -74,3 +85,5 @@ msgid ""
 "changes on your computer: {ref}`run it from a USB stick <try-ubuntu-"
 "desktop>`."
 msgstr ""
+"如果您還不確定，可以先嘗試 Ubuntu Desktop 而不對電腦進行任何永久性更改：{ref}"
+"`直接從 USB 隨身碟執行即可 <try-ubuntu-desktop>`。"

@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:14
 msgid "Links"
-msgstr ""
+msgstr "連結"
 
 #: ../../../reference/accessibility/orca-preferences/orca-preferences-voice.md:15
 msgid "On-screen vs Orca-injected text"

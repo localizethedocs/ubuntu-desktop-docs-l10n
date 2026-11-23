@@ -320,7 +320,7 @@ msgstr ""
 
 #: ../../../reference/accessibility/orca-structural-navigation-commands.md:160
 msgid "Links"
-msgstr ""
+msgstr "連結"
 
 #: ../../../reference/accessibility/orca-structural-navigation-commands.md:169
 msgid "Next and previous link"
