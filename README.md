@@ -1,4 +1,12 @@
 <div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/localizethedocs/static/logo/ubuntu-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/localizethedocs/static/logo/ubuntu-light.svg">
+  <img height="150" src="https://cdn.jsdelivr.net/gh/localizethedocs/static/logo/ubuntu-light.svg">
+</picture>
+</div>
+
+<div align="center">
 <h1 id="localization-of-the-ubuntu-desktop-documentation">Localization of The Ubuntu Desktop Documentation</h1>
 </div>
 
